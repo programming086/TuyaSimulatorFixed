@@ -1,6 +1,0 @@
-framework module ThingSmartMediaServices {
-  umbrella header "ThingSmartMediaServices.h"
-
-  export *
-  module * { export * }
-}

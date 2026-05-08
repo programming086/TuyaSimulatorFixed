@@ -1,0 +1,6 @@
+framework module ThingNCNNLibrary {
+  umbrella header "ThingNCNNLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

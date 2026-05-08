@@ -1,6 +1,0 @@
-framework module ThingCameraAPI {
-  umbrella header "ThingCameraAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

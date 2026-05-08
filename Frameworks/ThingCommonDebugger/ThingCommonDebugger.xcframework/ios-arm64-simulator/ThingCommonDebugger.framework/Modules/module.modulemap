@@ -1,6 +1,0 @@
-framework module ThingCommonDebugger {
-  umbrella header "ThingCommonDebugger-umbrella.h"
-
-  export *
-  module * { export * }
-}

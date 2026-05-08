@@ -1,6 +1,0 @@
-framework module ThingAppLifeCycleSktAPI {
-  umbrella header "ThingAppLifeCycleSktAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

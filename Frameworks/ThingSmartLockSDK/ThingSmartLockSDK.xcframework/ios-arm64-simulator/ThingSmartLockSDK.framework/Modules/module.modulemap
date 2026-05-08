@@ -1,6 +1,0 @@
-framework module ThingSmartLockSDK {
-  umbrella header "ThingSmartLockSDK.h"
-
-  export *
-  module * { export * }
-}

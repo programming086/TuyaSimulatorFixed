@@ -1,6 +1,0 @@
-framework module ThingQQMusic {
-  umbrella header "ThingQQMusic-umbrella.h"
-
-  export *
-  module * { export * }
-}

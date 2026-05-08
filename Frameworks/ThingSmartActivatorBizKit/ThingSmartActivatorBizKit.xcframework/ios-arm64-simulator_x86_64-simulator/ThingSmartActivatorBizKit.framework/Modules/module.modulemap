@@ -1,6 +1,0 @@
-framework module ThingSmartActivatorBizKit {
-  umbrella header "ThingSmartActivatorBizKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

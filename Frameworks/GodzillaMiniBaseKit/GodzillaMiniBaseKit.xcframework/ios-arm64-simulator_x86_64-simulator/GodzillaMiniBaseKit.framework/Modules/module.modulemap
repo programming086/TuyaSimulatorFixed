@@ -1,6 +1,0 @@
-framework module GodzillaMiniBaseKit {
-  umbrella header "GodzillaMiniBaseKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

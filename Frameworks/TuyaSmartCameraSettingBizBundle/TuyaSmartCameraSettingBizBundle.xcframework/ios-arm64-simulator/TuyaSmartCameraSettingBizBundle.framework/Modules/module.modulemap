@@ -1,0 +1,6 @@
+framework module TuyaSmartCameraSettingBizBundle {
+  umbrella header "TuyaSmartCameraSettingBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

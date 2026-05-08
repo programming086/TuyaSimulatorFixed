@@ -1,6 +1,0 @@
-framework module ThingSmartMarketingAPI {
-  umbrella header "ThingSmartMarketingAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

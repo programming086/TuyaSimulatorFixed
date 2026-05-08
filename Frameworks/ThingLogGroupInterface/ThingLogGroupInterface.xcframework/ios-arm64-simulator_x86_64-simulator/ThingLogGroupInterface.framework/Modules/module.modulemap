@@ -1,6 +1,0 @@
-framework module ThingLogGroupInterface {
-  umbrella header "ThingLogGroupInterface-umbrella.h"
-
-  export *
-  module * { export * }
-}

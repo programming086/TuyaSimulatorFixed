@@ -1,6 +1,0 @@
-framework module ThingMerticKit {
-  umbrella header "ThingMerticKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

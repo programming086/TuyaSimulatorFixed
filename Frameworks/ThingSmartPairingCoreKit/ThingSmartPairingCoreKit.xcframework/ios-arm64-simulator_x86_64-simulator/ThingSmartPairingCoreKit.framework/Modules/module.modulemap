@@ -1,6 +1,0 @@
-framework module ThingSmartPairingCoreKit {
-  umbrella header "ThingSmartPairingCoreKit.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module ThingSmartMediaKit {
-  umbrella header "ThingSmartMediaKit.h"
-
-  export *
-  module * { export * }
-}

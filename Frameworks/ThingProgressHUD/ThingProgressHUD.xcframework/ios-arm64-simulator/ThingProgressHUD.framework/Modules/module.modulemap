@@ -1,6 +1,0 @@
-framework module ThingProgressHUD {
-  umbrella header "ThingProgressHUD-umbrella.h"
-
-  export *
-  module * { export * }
-}

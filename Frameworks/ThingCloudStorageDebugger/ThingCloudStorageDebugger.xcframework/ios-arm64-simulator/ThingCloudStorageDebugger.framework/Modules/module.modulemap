@@ -1,6 +1,0 @@
-framework module ThingCloudStorageDebugger {
-  umbrella header "ThingCloudStorageDebugger-umbrella.h"
-
-  export *
-  module * { export * }
-}

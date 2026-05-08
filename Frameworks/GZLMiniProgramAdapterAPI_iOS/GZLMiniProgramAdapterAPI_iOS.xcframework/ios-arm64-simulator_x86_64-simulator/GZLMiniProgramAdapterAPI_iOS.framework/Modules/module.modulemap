@@ -1,6 +1,0 @@
-framework module GZLMiniProgramAdapterAPI_iOS {
-  umbrella header "GZLMiniProgramAdapterAPI_iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

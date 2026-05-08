@@ -1,0 +1,6 @@
+framework module TRCTCountrySelectManager {
+  umbrella header "TRCTCountrySelectManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

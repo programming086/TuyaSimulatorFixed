@@ -1,0 +1,6 @@
+framework module TuyaSmartLangsExtraBizBundle {
+  umbrella header "TuyaSmartLangsExtraBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

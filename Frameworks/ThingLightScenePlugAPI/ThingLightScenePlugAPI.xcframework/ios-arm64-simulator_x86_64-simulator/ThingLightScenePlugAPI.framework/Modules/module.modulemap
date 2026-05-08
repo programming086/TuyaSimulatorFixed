@@ -1,6 +1,0 @@
-framework module ThingLightScenePlugAPI {
-  umbrella header "ThingLightScenePlugAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

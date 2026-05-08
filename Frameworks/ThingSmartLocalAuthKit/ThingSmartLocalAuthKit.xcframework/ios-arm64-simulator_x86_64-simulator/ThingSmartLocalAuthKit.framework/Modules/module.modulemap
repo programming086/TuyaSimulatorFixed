@@ -1,6 +1,0 @@
-framework module ThingSmartLocalAuthKit {
-  umbrella header "ThingSmartLocalAuthKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

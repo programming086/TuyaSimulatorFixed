@@ -1,0 +1,6 @@
+framework module TUNIMiniLogManager {
+  umbrella header "TUNIMiniLogManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module TuyaSmartLogger {
-  umbrella header "TuyaSmartLogger-umbrella.h"
-
-  export *
-  module * { export * }
-}

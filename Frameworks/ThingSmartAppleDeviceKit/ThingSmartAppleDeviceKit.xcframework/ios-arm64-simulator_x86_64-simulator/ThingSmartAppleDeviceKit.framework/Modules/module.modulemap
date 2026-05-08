@@ -1,6 +1,0 @@
-framework module ThingSmartAppleDeviceKit {
-  umbrella header "ThingSmartAppleDeviceKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

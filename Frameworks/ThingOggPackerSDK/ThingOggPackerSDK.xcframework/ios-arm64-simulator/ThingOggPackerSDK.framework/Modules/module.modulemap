@@ -1,0 +1,6 @@
+framework module ThingOggPackerSDK {
+  umbrella header "ThingVideoCodecSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module ThingLoginAPI {
-  umbrella header "ThingLoginAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module ThingSmartBizKitBizBundle {
-  umbrella header "ThingSmartBizKitBizBundle-umbrella.h"
-
-  export *
-  module * { export * }
-}

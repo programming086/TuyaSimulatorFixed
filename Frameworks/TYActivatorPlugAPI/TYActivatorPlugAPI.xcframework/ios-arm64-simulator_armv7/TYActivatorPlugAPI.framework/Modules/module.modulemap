@@ -1,6 +1,0 @@
-framework module TYActivatorPlugAPI {
-  umbrella header "TYActivatorPlugAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

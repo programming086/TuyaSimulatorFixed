@@ -1,6 +1,0 @@
-framework module IotContainer {
-  umbrella header "IotContainer-umbrella.h"
-
-  export *
-  module * { export * }
-}

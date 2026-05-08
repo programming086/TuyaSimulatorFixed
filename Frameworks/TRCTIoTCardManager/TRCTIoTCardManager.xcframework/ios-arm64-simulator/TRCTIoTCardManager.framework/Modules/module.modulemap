@@ -1,0 +1,6 @@
+framework module TRCTIoTCardManager {
+  umbrella header "TRCTIoTCardManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

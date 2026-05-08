@@ -1,0 +1,6 @@
+framework module ThingLightLampHomeBizKit {
+  umbrella header "ThingLightLampHomeBizKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

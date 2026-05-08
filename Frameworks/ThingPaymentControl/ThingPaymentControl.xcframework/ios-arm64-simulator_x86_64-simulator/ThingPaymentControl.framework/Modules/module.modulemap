@@ -1,6 +1,0 @@
-framework module ThingPaymentControl {
-  umbrella header "ThingPaymentControl-umbrella.h"
-
-  export *
-  module * { export * }
-}

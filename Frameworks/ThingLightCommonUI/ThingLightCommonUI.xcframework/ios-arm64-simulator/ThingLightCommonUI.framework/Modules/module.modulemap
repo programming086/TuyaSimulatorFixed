@@ -1,0 +1,6 @@
+framework module ThingLightCommonUI {
+  umbrella header "ThingLightCommonUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

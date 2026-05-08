@@ -1,6 +1,0 @@
-framework module ThingAIModelManagerIOS {
-  umbrella header "ThingAIModelManagerIOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module ThingPanelContainer {
-  umbrella header "ThingPanelContainer-umbrella.h"
-
-  export *
-  module * { export * }
-}

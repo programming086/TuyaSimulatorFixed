@@ -1,6 +1,0 @@
-framework module ThingSmartMapKitBizBundle {
-  umbrella header "ThingSmartMapKitBizBundle-umbrella.h"
-
-  export *
-  module * { export * }
-}

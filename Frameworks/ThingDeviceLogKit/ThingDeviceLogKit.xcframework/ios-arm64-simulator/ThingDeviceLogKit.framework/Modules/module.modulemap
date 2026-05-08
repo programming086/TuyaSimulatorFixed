@@ -1,0 +1,6 @@
+framework module ThingDeviceLogKit {
+  umbrella header "ThingDeviceLogKit.h"
+
+  export *
+  module * { export * }
+}

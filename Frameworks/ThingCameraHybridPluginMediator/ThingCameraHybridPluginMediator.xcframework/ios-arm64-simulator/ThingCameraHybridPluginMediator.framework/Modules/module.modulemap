@@ -1,6 +1,0 @@
-framework module ThingCameraHybridPluginMediator {
-  umbrella header "ThingCameraHybridPluginMediator-umbrella.h"
-
-  export *
-  module * { export * }
-}

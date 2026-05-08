@@ -1,0 +1,6 @@
+framework module TRCTScenePanelManager {
+  umbrella header "TRCTScenePanelManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

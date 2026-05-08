@@ -1,6 +1,0 @@
-framework module TuyaSmartLangsPackKit {
-  umbrella header "TuyaSmartLangsPackKit.h"
-
-  export *
-  module * { export * }
-}

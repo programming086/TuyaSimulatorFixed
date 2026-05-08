@@ -1,0 +1,6 @@
+framework module ThingDeviceIotCardModule {
+  umbrella header "ThingDeviceIotCardModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

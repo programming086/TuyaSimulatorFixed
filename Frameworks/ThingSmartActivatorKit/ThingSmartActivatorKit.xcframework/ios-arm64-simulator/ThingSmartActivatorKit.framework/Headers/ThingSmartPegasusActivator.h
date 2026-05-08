@@ -1,2 +1,0 @@
-
-#import <ThingSmartActivatorCoreKit/ThingSmartPegasusActivator.h>

@@ -1,6 +1,0 @@
-framework module ThingLiveActivityInterface {
-  umbrella header "ThingLiveActivityInterface-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module ThingSceneEditPlugAPI {
-  umbrella header "ThingSceneEditPlugAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

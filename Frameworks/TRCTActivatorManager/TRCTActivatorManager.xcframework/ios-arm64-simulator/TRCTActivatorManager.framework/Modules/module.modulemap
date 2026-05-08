@@ -1,0 +1,6 @@
+framework module TRCTActivatorManager {
+  umbrella header "TRCTActivatorManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

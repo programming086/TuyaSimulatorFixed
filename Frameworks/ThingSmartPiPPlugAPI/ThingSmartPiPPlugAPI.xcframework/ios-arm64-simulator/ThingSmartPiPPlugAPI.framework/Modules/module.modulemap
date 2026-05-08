@@ -1,6 +1,0 @@
-framework module ThingSmartPiPPlugAPI {
-  umbrella header "ThingSmartPiPPlugAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

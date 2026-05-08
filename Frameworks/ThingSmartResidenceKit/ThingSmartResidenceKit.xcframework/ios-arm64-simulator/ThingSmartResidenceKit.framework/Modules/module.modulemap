@@ -1,6 +1,0 @@
-framework module TuyaSmartResidenceKit {
-  umbrella header "TuyaSmartResidenceKit.h"
-
-  export *
-  module * { export * }
-}

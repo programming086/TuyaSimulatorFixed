@@ -1,6 +1,0 @@
-framework module ThingP2PSessionKit {
-  umbrella header "ThingP2PSessionKit.h"
-
-  export *
-  module * { export * }
-}

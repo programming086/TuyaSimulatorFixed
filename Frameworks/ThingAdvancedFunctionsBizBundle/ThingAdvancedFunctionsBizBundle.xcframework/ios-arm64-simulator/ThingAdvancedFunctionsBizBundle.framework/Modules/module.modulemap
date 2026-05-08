@@ -1,6 +1,0 @@
-framework module ThingAdvancedFunctionsBizBundle {
-  umbrella header "ThingAdvancedFunctionsBizBundle-umbrella.h"
-
-  export *
-  module * { export * }
-}

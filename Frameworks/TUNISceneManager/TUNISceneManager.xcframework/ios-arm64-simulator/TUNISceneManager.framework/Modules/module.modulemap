@@ -1,0 +1,6 @@
+framework module TUNISceneManager {
+  umbrella header "TUNISceneManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

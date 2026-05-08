@@ -1,6 +1,0 @@
-framework module ThingSmartAVBaseKit {
-  umbrella header "ThingSmartAVBaseKit.h"
-
-  export *
-  module * { export * }
-}

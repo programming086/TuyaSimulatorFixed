@@ -1,0 +1,6 @@
+framework module ThingRNPanelTool {
+  umbrella header "ThingRNPanelTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

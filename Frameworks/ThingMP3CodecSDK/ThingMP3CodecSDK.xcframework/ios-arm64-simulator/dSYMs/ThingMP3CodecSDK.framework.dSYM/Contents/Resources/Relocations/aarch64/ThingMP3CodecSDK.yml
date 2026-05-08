@@ -1,0 +1,46 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path: ''
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _ThingMP3CodecSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x3CD60, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _ThingMP3CodecSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3CD90, symSize: 0x0 }
+  - { offset: 0xA3, size: 0x8, addend: 0x0, symName: '-[DecodePcmData initWithSampleRate:channelCount:packetLength:packetData:statusCode:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xB8 }
+  - { offset: 0x2CC, size: 0x8, addend: 0x0, symName: '-[DecodePcmData initWithSampleRate:channelCount:packetLength:packetData:statusCode:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xB8 }
+  - { offset: 0x34B, size: 0x8, addend: 0x0, symName: '-[DecodePcmData status_code]', symObjAddr: 0xB8, symBinAddr: 0x40B8, symSize: 0x8 }
+  - { offset: 0x37F, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setStatus_code:]', symObjAddr: 0xC0, symBinAddr: 0x40C0, symSize: 0x8 }
+  - { offset: 0x3B8, size: 0x8, addend: 0x0, symName: '-[DecodePcmData sampleRate]', symObjAddr: 0xC8, symBinAddr: 0x40C8, symSize: 0x8 }
+  - { offset: 0x3EC, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setSampleRate:]', symObjAddr: 0xD0, symBinAddr: 0x40D0, symSize: 0x8 }
+  - { offset: 0x425, size: 0x8, addend: 0x0, symName: '-[DecodePcmData channelCount]', symObjAddr: 0xD8, symBinAddr: 0x40D8, symSize: 0x8 }
+  - { offset: 0x459, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setChannelCount:]', symObjAddr: 0xE0, symBinAddr: 0x40E0, symSize: 0x8 }
+  - { offset: 0x492, size: 0x8, addend: 0x0, symName: '-[DecodePcmData packetLength]', symObjAddr: 0xE8, symBinAddr: 0x40E8, symSize: 0x8 }
+  - { offset: 0x4C6, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setPacketLength:]', symObjAddr: 0xF0, symBinAddr: 0x40F0, symSize: 0x8 }
+  - { offset: 0x4FF, size: 0x8, addend: 0x0, symName: '-[DecodePcmData packet_data]', symObjAddr: 0xF8, symBinAddr: 0x40F8, symSize: 0x8 }
+  - { offset: 0x533, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setPacket_data:]', symObjAddr: 0x100, symBinAddr: 0x4100, symSize: 0xC }
+  - { offset: 0x570, size: 0x8, addend: 0x0, symName: '-[DecodePcmData .cxx_destruct]', symObjAddr: 0x10C, symBinAddr: 0x410C, symSize: 0xC }
+  - { offset: 0x5A0, size: 0x8, addend: 0x0, symName: '-[ThingMP3Decoder init]', symObjAddr: 0x118, symBinAddr: 0x4118, symSize: 0xF4 }
+  - { offset: 0x60E, size: 0x8, addend: 0x0, symName: '-[ThingMP3Decoder decodeDataWithStream:length:]', symObjAddr: 0x20C, symBinAddr: 0x420C, symSize: 0x1FC }
+  - { offset: 0x748, size: 0x8, addend: 0x0, symName: '-[ThingMP3Decoder dealloc]', symObjAddr: 0x408, symBinAddr: 0x4408, symSize: 0xA8 }
+  - { offset: 0x45D2, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplC2Ev, symObjAddr: 0x0, symBinAddr: 0x44C0, symSize: 0x3C }
+  - { offset: 0x463E, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplC1Ev, symObjAddr: 0x3C, symBinAddr: 0x44FC, symSize: 0x3C }
+  - { offset: 0x46B1, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplD2Ev, symObjAddr: 0x78, symBinAddr: 0x4538, symSize: 0x60 }
+  - { offset: 0x46FC, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplD1Ev, symObjAddr: 0xE8, symBinAddr: 0x4598, symSize: 0x4 }
+  - { offset: 0x471E, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplD1Ev, symObjAddr: 0xE8, symBinAddr: 0x4598, symSize: 0x4 }
+  - { offset: 0x474A, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplD0Ev, symObjAddr: 0xEC, symBinAddr: 0x459C, symSize: 0x14 }
+  - { offset: 0x483D, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImpl16initializeDecodeEv, symObjAddr: 0x100, symBinAddr: 0x45B0, symSize: 0xDC }
+  - { offset: 0x493D, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImpl6decodeEPhiS0_iRiS1_, symObjAddr: 0x1DC, symBinAddr: 0x468C, symSize: 0x298 }
+  - { offset: 0x4DA2, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImpl7destroyEv, symObjAddr: 0x474, symBinAddr: 0x4924, symSize: 0xC0 }
+  - { offset: 0x69FC, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder initWithSampleRate:channels:bitRate:]', symObjAddr: 0x0, symBinAddr: 0x49E4, symSize: 0x10C }
+  - { offset: 0x7978, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder initWithSampleRate:channels:bitRate:]', symObjAddr: 0x0, symBinAddr: 0x49E4, symSize: 0x10C }
+  - { offset: 0x7A25, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder encodeWithPcm:inLength:]', symObjAddr: 0x10C, symBinAddr: 0x4AF0, symSize: 0xA8 }
+  - { offset: 0x7B14, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder dealloc]', symObjAddr: 0x1B4, symBinAddr: 0x4B98, symSize: 0x58 }
+  - { offset: 0x9734, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplC2Ev, symObjAddr: 0x0, symBinAddr: 0x4BF0, symSize: 0x34 }
+  - { offset: 0xA633, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplC2Ev, symObjAddr: 0x0, symBinAddr: 0x4BF0, symSize: 0x34 }
+  - { offset: 0xA6A9, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplC1Ev, symObjAddr: 0x34, symBinAddr: 0x4C24, symSize: 0x34 }
+  - { offset: 0xA6D5, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplC1Ev, symObjAddr: 0x34, symBinAddr: 0x4C24, symSize: 0x34 }
+  - { offset: 0xA726, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplD2Ev, symObjAddr: 0x68, symBinAddr: 0x4C58, symSize: 0x34 }
+  - { offset: 0xA761, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplD1Ev, symObjAddr: 0x9C, symBinAddr: 0x4C8C, symSize: 0x34 }
+  - { offset: 0xA7B8, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplD0Ev, symObjAddr: 0xD0, symBinAddr: 0x4CC0, symSize: 0x34 }
+  - { offset: 0xA89B, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImpl10initializeEiii, symObjAddr: 0x104, symBinAddr: 0x4CF4, symSize: 0x21C }
+  - { offset: 0xAC41, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImpl6encodeEPhiS0_i, symObjAddr: 0x320, symBinAddr: 0x4F10, symSize: 0x110 }
+  - { offset: 0xAE62, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImpl7destroyEv, symObjAddr: 0x430, symBinAddr: 0x5020, symSize: 0x78 }
+...

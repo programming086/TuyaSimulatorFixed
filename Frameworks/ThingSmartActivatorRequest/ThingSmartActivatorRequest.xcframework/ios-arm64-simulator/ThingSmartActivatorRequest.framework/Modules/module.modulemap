@@ -1,6 +1,0 @@
-framework module ThingSmartActivatorRequest {
-  umbrella header "ThingSmartActivatorRequest-umbrella.h"
-
-  export *
-  module * { export * }
-}

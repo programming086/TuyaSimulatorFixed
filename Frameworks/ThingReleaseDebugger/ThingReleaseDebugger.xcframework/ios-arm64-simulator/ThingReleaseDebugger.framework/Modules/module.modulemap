@@ -1,0 +1,6 @@
+framework module ThingReleaseDebugger {
+  umbrella header "ThingReleaseDebugger-umbrella.h"
+
+  export *
+  module * { export * }
+}

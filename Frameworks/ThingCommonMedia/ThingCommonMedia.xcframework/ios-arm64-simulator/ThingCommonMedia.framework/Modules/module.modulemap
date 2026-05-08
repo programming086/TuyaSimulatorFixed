@@ -1,6 +1,0 @@
-framework module ThingCommonMedia {
-  umbrella header "ThingCommonMedia-umbrella.h"
-
-  export *
-  module * { export * }
-}

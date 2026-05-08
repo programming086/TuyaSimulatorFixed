@@ -1,0 +1,6 @@
+framework module TRCTLifecycleManager {
+  umbrella header "TRCTLifecycleManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

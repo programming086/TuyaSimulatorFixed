@@ -1,6 +1,0 @@
-framework module ThingSmartAIAssistantBizBundle {
-  umbrella header "ThingSmartAIAssistantBizBundle-umbrella.h"
-
-  export *
-  module * { export * }
-}

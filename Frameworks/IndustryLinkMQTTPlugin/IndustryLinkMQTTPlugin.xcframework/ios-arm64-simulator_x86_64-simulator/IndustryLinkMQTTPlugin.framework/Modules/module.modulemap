@@ -1,6 +1,0 @@
-framework module IndustryLinkMQTTPlugin {
-  umbrella header "IndustryLinkMQTTPlugin-umbrella.h"
-
-  export *
-  module * { export * }
-}

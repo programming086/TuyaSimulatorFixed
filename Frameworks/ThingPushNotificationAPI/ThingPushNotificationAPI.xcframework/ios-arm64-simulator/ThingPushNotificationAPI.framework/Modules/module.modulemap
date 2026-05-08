@@ -1,6 +1,0 @@
-framework module ThingPushNotificationAPI {
-  umbrella header "ThingPushNotificationAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

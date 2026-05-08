@@ -1,0 +1,6 @@
+framework module TRCTPublicManager {
+  umbrella header "TRCTPublicManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

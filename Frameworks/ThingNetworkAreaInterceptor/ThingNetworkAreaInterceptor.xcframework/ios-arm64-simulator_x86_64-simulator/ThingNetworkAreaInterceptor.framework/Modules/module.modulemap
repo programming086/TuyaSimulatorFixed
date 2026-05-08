@@ -1,6 +1,0 @@
-framework module ThingNetworkAreaInterceptor {
-  umbrella header "ThingNetworkAreaInterceptor-umbrella.h"
-
-  export *
-  module * { export * }
-}

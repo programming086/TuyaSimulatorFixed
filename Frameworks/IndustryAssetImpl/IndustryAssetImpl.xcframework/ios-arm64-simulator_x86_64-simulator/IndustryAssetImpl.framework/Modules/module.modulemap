@@ -1,6 +1,0 @@
-framework module IndustryAssetImpl {
-  umbrella header "IndustryAssetImpl-umbrella.h"
-
-  export *
-  module * { export * }
-}

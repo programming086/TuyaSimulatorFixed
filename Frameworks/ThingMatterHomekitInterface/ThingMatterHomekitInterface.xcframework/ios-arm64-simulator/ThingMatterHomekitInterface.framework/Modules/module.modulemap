@@ -1,6 +1,0 @@
-framework module ThingMatterHomekitInterface {
-  umbrella header "ThingMatterHomekitInterface-umbrella.h"
-
-  export *
-  module * { export * }
-}

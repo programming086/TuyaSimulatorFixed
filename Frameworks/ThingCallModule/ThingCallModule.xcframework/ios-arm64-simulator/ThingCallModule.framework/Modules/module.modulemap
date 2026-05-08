@@ -1,6 +1,0 @@
-framework module ThingCallModule {
-  umbrella header "ThingCallModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

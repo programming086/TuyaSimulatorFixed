@@ -1,6 +1,0 @@
-framework module IndustryAuthImpl {
-  umbrella header "IndustryAuthImpl-umbrella.h"
-
-  export *
-  module * { export * }
-}

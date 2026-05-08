@@ -1,6 +1,0 @@
-framework module ThingAIImageClassifyAPI {
-  umbrella header "ThingAIImageClassifyAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

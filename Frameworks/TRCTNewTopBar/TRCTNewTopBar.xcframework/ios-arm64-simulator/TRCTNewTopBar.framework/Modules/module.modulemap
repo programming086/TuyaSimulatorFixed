@@ -1,0 +1,6 @@
+framework module TRCTNewTopBar {
+  umbrella header "TRCTNewTopBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

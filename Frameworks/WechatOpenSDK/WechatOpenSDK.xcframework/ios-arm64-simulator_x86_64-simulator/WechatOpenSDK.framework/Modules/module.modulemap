@@ -1,6 +1,0 @@
-framework module WechatOpenSDK {
-  umbrella header "WechatOpenSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module ThingReactNativeAPI {
-  umbrella header "ThingReactNativeAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

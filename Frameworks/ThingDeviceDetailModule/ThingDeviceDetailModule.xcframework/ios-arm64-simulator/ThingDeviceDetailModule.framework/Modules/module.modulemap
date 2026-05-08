@@ -1,0 +1,6 @@
+framework module ThingDeviceDetailModule {
+  umbrella header "ThingDeviceDetailModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TYSecurityArmAbilityModuleServices {
+  umbrella header "TYSecurityArmAbilityModuleServices-umbrella.h"
+
+  export *
+  module * { export * }
+}

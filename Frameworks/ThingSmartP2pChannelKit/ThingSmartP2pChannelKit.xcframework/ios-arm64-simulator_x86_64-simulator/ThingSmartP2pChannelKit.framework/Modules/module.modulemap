@@ -1,6 +1,0 @@
-framework module ThingSmartP2pChannelKit {
-  umbrella header "ThingSmartP2pChannelKit.h"
-
-  export *
-  module * { export * }
-}

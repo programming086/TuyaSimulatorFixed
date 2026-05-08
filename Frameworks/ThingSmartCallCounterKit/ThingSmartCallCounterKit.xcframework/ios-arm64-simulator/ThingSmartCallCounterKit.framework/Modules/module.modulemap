@@ -1,6 +1,0 @@
-framework module ThingSmartCallCounterKit {
-  umbrella header "ThingSmartCallCounterKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

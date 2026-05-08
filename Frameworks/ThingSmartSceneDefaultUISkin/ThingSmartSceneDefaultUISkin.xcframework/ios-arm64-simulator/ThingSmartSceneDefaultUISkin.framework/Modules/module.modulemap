@@ -1,0 +1,6 @@
+framework module ThingSmartSceneDefaultUISkin {
+  umbrella header "ThingSmartSceneDefaultUISkin-umbrella.h"
+
+  export *
+  module * { export * }
+}

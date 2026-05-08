@@ -1,6 +1,0 @@
-framework module ThingDeviceShareModulePlugAPI {
-  umbrella header "ThingDeviceShareModulePlugAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

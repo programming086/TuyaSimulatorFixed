@@ -1,6 +1,0 @@
-framework module ThingSettingsAPI {
-  umbrella header "ThingSettingsAPI-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

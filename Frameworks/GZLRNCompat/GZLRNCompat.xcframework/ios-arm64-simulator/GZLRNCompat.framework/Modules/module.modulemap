@@ -1,6 +1,0 @@
-framework module GZLRNCompat {
-  umbrella header "GZLRNCompat-umbrella.h"
-
-  export *
-  module * { export * }
-}

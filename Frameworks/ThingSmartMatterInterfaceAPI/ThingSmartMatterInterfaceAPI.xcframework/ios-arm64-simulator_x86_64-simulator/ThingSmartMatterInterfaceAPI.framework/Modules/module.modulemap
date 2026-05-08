@@ -1,6 +1,0 @@
-framework module ThingSmartMatterInterfaceAPI {
-  umbrella header "ThingSmartMatterInterfaceAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

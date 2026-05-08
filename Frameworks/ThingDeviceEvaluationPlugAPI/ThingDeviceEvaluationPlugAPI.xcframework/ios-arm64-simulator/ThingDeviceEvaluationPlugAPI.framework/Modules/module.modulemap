@@ -1,6 +1,0 @@
-framework module ThingDeviceEvaluationPlugAPI {
-  umbrella header "ThingDeviceEvaluationPlugAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

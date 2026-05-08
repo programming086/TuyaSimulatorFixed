@@ -1,6 +1,0 @@
-framework module ThingDmicContainerAbilities {
-  umbrella header "ThingDmicContainerAbilities-umbrella.h"
-
-  export *
-  module * { export * }
-}

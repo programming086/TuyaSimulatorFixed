@@ -1,6 +1,0 @@
-framework module ThingLoginWithAmzSDK {
-  umbrella header "ThingLoginWithAmzSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module ThingMediaPlayerSDK {
+  umbrella header "ThingMediaPlayerSDK.h"
+
+  export *
+  module * { export * }
+}

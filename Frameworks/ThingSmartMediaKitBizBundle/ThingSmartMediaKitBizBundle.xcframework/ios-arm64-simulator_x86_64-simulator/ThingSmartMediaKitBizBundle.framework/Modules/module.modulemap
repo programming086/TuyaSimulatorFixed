@@ -1,6 +1,0 @@
-framework module ThingSmartMediaKitBizBundle {
-  umbrella header "ThingSmartMediaKitBizBundle-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module TUNIBasicManager {
+  umbrella header "TUNIBasicManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

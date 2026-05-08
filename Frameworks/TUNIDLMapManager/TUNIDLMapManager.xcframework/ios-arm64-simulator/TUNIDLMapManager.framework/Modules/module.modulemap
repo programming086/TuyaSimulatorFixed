@@ -1,0 +1,6 @@
+framework module TUNIDLMapManager {
+  umbrella header "TUNIDLMapManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNIAccessibilityManager {
+  umbrella header "TUNIAccessibilityManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module ThingSocialAPI {
-  umbrella header "ThingSocialAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

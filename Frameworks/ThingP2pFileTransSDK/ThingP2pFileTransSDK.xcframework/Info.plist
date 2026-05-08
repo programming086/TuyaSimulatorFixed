@@ -41,8 +41,6 @@
 		<dict>
 			<key>BinaryPath</key>
 			<string>ThingP2pFileTransSDK.framework/ThingP2pFileTransSDK</string>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64-simulator</string>
 			<key>LibraryPath</key>

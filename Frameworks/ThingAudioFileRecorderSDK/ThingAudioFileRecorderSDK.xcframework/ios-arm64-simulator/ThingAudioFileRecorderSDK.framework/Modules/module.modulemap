@@ -1,0 +1,6 @@
+framework module ThingAudioFileRecorderSDK {
+  umbrella header "ThingAudioFileRecorderSDK.h"
+
+  export *
+  module * { export * }
+}

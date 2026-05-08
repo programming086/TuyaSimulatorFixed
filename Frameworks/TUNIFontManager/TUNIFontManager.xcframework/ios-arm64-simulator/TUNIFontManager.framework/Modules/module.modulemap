@@ -1,0 +1,6 @@
+framework module TUNIFontManager {
+  umbrella header "TUNIFontManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

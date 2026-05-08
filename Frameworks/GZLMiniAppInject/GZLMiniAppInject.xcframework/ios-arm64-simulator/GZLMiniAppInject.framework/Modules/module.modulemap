@@ -1,0 +1,6 @@
+framework module GZLMiniAppInject {
+  umbrella header "GZLMiniAppInject-umbrella.h"
+
+  export *
+  module * { export * }
+}

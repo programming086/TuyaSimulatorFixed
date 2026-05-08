@@ -41,8 +41,6 @@
 		<dict>
 			<key>BinaryPath</key>
 			<string>ThingOpenSSLSDK.framework/ThingOpenSSLSDK</string>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64-simulator</string>
 			<key>LibraryPath</key>

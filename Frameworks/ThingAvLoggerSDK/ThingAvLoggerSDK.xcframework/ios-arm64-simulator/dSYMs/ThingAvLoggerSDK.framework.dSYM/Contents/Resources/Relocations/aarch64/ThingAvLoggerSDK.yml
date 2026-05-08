@@ -1,0 +1,91 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path: ''
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _ThingAvLoggerSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x5A00, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _ThingAvLoggerSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x5A30, symSize: 0x0 }
+  - { offset: 0xBB, size: 0x8, addend: 0x0, symName: __ZL13g_InfoLogCrit, symObjAddr: 0x11F90, symBinAddr: 0x85F8, symSize: 0x0 }
+  - { offset: 0x3296, size: 0x8, addend: 0x0, symName: __ZL13g_WarnLogCrit, symObjAddr: 0x11F98, symBinAddr: 0x8600, symSize: 0x0 }
+  - { offset: 0x32AF, size: 0x8, addend: 0x0, symName: __ZL13g_DebuLogCrit, symObjAddr: 0x11FA0, symBinAddr: 0x8608, symSize: 0x0 }
+  - { offset: 0x32C8, size: 0x8, addend: 0x0, symName: __ZL13g_ErroLogCrit, symObjAddr: 0x11FA8, symBinAddr: 0x8610, symSize: 0x0 }
+  - { offset: 0x32E1, size: 0x8, addend: 0x0, symName: __ZL11g_szInfoLog, symObjAddr: 0x11FB0, symBinAddr: 0x8618, symSize: 0x0 }
+  - { offset: 0x32FF, size: 0x8, addend: 0x0, symName: __ZL11g_szWarnLog, symObjAddr: 0x11FB8, symBinAddr: 0x8620, symSize: 0x0 }
+  - { offset: 0x3318, size: 0x8, addend: 0x0, symName: __ZL11g_szDebuLog, symObjAddr: 0x11FC0, symBinAddr: 0x8628, symSize: 0x0 }
+  - { offset: 0x3331, size: 0x8, addend: 0x0, symName: __ZL11g_szErroLog, symObjAddr: 0x11FC8, symBinAddr: 0x8630, symSize: 0x0 }
+  - { offset: 0x3964, size: 0x8, addend: 0x0, symName: _LOGI, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x98 }
+  - { offset: 0x3AB6, size: 0x8, addend: 0x0, symName: _LOGD, symObjAddr: 0x98, symBinAddr: 0x4098, symSize: 0x98 }
+  - { offset: 0x3BC8, size: 0x8, addend: 0x0, symName: _LOGW, symObjAddr: 0x130, symBinAddr: 0x4130, symSize: 0x98 }
+  - { offset: 0x3CDA, size: 0x8, addend: 0x0, symName: _LOGE, symObjAddr: 0x1C8, symBinAddr: 0x41C8, symSize: 0x98 }
+  - { offset: 0x3DEC, size: 0x8, addend: 0x0, symName: _LOGAPM, symObjAddr: 0x260, symBinAddr: 0x4260, symSize: 0x24 }
+  - { offset: 0x3E34, size: 0x8, addend: 0x0, symName: _LOGLINK, symObjAddr: 0x284, symBinAddr: 0x4284, symSize: 0x3C }
+  - { offset: 0x3EA9, size: 0x8, addend: 0x0, symName: _IsDebug, symObjAddr: 0x2C0, symBinAddr: 0x42C0, symSize: 0x10 }
+  - { offset: 0x3EC6, size: 0x8, addend: 0x0, symName: _IsDebug, symObjAddr: 0x2C0, symBinAddr: 0x42C0, symSize: 0x10 }
+  - { offset: 0x3ED7, size: 0x8, addend: 0x0, symName: _IsFileDump, symObjAddr: 0x2D0, symBinAddr: 0x42D0, symSize: 0x10 }
+  - { offset: 0x3EF4, size: 0x8, addend: 0x0, symName: _IsFileDump, symObjAddr: 0x2D0, symBinAddr: 0x42D0, symSize: 0x10 }
+  - { offset: 0x3F05, size: 0x8, addend: 0x0, symName: _GetFileDumpFolder, symObjAddr: 0x2E0, symBinAddr: 0x42E0, symSize: 0x10 }
+  - { offset: 0x3F22, size: 0x8, addend: 0x0, symName: _GetFileDumpFolder, symObjAddr: 0x2E0, symBinAddr: 0x42E0, symSize: 0x10 }
+  - { offset: 0x3F33, size: 0x8, addend: 0x0, symName: _GetCacheFolder, symObjAddr: 0x2F0, symBinAddr: 0x42F0, symSize: 0x10 }
+  - { offset: 0x3F50, size: 0x8, addend: 0x0, symName: _GetCacheFolder, symObjAddr: 0x2F0, symBinAddr: 0x42F0, symSize: 0x10 }
+  - { offset: 0x3F61, size: 0x8, addend: 0x0, symName: _GetLogInterval, symObjAddr: 0x300, symBinAddr: 0x4300, symSize: 0x10 }
+  - { offset: 0x3F7E, size: 0x8, addend: 0x0, symName: _GetLogInterval, symObjAddr: 0x300, symBinAddr: 0x4300, symSize: 0x10 }
+  - { offset: 0x606A, size: 0x8, addend: 0x0, symName: '+[ThingAvLogger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4410, symSize: 0x40 }
+  - { offset: 0x6077, size: 0x8, addend: 0x0, symName: '+[ThingAvLogger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4410, symSize: 0x40 }
+  - { offset: 0x60A0, size: 0x8, addend: 0x0, symName: '__ZZ31+[ThingAvLogger sharedInstance]E9_instance', symObjAddr: 0x12290, symBinAddr: 0x8638, symSize: 0x0 }
+  - { offset: 0x60B5, size: 0x8, addend: 0x0, symName: '__ZZ31+[ThingAvLogger sharedInstance]E9onceToken', symObjAddr: 0x12298, symBinAddr: 0x8640, symSize: 0x0 }
+  - { offset: 0x6D90, size: 0x8, addend: 0x0, symName: '___31+[ThingAvLogger sharedInstance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x4450, symSize: 0x30 }
+  - { offset: 0x6DED, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger initAvLoggerWithDelegate]', symObjAddr: 0x70, symBinAddr: 0x4480, symSize: 0x58 }
+  - { offset: 0x6E31, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger deinitAvLogger]', symObjAddr: 0xC8, symBinAddr: 0x44D8, symSize: 0x10 }
+  - { offset: 0x6E60, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger deinitAvLogger]', symObjAddr: 0xC8, symBinAddr: 0x44D8, symSize: 0x10 }
+  - { offset: 0x6E71, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger enableLogReport:]', symObjAddr: 0xD8, symBinAddr: 0x44E8, symSize: 0x14 }
+  - { offset: 0x6EC4, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger enableLocalLogFileRecord:]', symObjAddr: 0xEC, symBinAddr: 0x44FC, symSize: 0x14 }
+  - { offset: 0x6F17, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger setFileDumpFolder:]', symObjAddr: 0x100, symBinAddr: 0x4510, symSize: 0x68 }
+  - { offset: 0x6F6A, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger setCacheFolder:]', symObjAddr: 0x168, symBinAddr: 0x4578, symSize: 0x68 }
+  - { offset: 0x6FBD, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger enableDebug:]', symObjAddr: 0x1D0, symBinAddr: 0x45E0, symSize: 0x14 }
+  - { offset: 0x7010, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger enableFileDump:]', symObjAddr: 0x1E4, symBinAddr: 0x45F4, symSize: 0x14 }
+  - { offset: 0x7063, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger getDumpStatus]', symObjAddr: 0x1F8, symBinAddr: 0x4608, symSize: 0x10 }
+  - { offset: 0x7096, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger getDumpStatus]', symObjAddr: 0x1F8, symBinAddr: 0x4608, symSize: 0x10 }
+  - { offset: 0x70A7, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger getVersion]', symObjAddr: 0x208, symBinAddr: 0x4618, symSize: 0x2C }
+  - { offset: 0x717A, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger setLogInterval:]', symObjAddr: 0x234, symBinAddr: 0x4644, symSize: 0x60 }
+  - { offset: 0x726A, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger delegate]', symObjAddr: 0x294, symBinAddr: 0x46A4, symSize: 0x18 }
+  - { offset: 0x729F, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger setDelegate:]', symObjAddr: 0x2AC, symBinAddr: 0x46BC, symSize: 0xC }
+  - { offset: 0x72DE, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger .cxx_destruct]', symObjAddr: 0x2B8, symBinAddr: 0x46C8, symSize: 0x28 }
+  - { offset: 0x7344, size: 0x8, addend: 0x0, symName: '-[ThingAvLogger .cxx_construct]', symObjAddr: 0x2E0, symBinAddr: 0x46F0, symSize: 0x20 }
+  - { offset: 0x9205, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl4selfE, symObjAddr: 0x15110, symBinAddr: 0x8648, symSize: 0x0 }
+  - { offset: 0xC0D7, size: 0x8, addend: 0x0, symName: __Z21avLogGetCurrentMSTimev, symObjAddr: 0x0, symBinAddr: 0x4710, symSize: 0x54 }
+  - { offset: 0xC161, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImplC1Ev, symObjAddr: 0x54, symBinAddr: 0x4764, symSize: 0x4 }
+  - { offset: 0xC184, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImplC1Ev, symObjAddr: 0x54, symBinAddr: 0x4764, symSize: 0x4 }
+  - { offset: 0xC197, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImplC2Ev, symObjAddr: 0x58, symBinAddr: 0x4768, symSize: 0x84 }
+  - { offset: 0xC45D, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImplD2Ev, symObjAddr: 0xDC, symBinAddr: 0x47EC, symSize: 0x6C }
+  - { offset: 0xC6F7, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImplD1Ev, symObjAddr: 0x148, symBinAddr: 0x4858, symSize: 0x4 }
+  - { offset: 0xC725, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImplD1Ev, symObjAddr: 0x148, symBinAddr: 0x4858, symSize: 0x4 }
+  - { offset: 0xC7B8, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl12initAvLoggerEPv, symObjAddr: 0x14C, symBinAddr: 0x485C, symSize: 0x110 }
+  - { offset: 0xC8E8, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl10WriteToLogEiPKcS1_, symObjAddr: 0x25C, symBinAddr: 0x496C, symSize: 0x1C4 }
+  - { offset: 0xCD82, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl14deInitAvLoggerEv, symObjAddr: 0x420, symBinAddr: 0x4B30, symSize: 0x44 }
+  - { offset: 0xCE26, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl15enableLogReportEb, symObjAddr: 0x464, symBinAddr: 0x4B74, symSize: 0xBC }
+  - { offset: 0xCEA1, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl18enableLocalLogFileEb, symObjAddr: 0x520, symBinAddr: 0x4C30, symSize: 0x24 }
+  - { offset: 0xCEFA, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl17setFileDumpFolderEPKc, symObjAddr: 0x544, symBinAddr: 0x4C54, symSize: 0xB8 }
+  - { offset: 0xCF9B, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl11enableDebugEb, symObjAddr: 0x5FC, symBinAddr: 0x4D0C, symSize: 0xA8 }
+  - { offset: 0xD012, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl14enableFileDumpEb, symObjAddr: 0x6A4, symBinAddr: 0x4DB4, symSize: 0xA8 }
+  - { offset: 0xD089, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl10SendApmLogEPcS0_, symObjAddr: 0x74C, symBinAddr: 0x4E5C, symSize: 0x6C }
+  - { offset: 0xD181, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl13SendNativeLogEPKc, symObjAddr: 0x7B8, symBinAddr: 0x4EC8, symSize: 0x20 }
+  - { offset: 0xD1B7, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl15SendFullLinkLogEPcS0_S0_S0_PKc, symObjAddr: 0x7D8, symBinAddr: 0x4EE8, symSize: 0x94 }
+  - { offset: 0xD2EE, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl9PrintfLogEiPKcS1_S1_, symObjAddr: 0x86C, symBinAddr: 0x4F7C, symSize: 0x40 }
+  - { offset: 0xD346, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl10GetVersionEv, symObjAddr: 0x8AC, symBinAddr: 0x4FBC, symSize: 0xC }
+  - { offset: 0xD36E, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl7isDebugEv, symObjAddr: 0x8B8, symBinAddr: 0x4FC8, symSize: 0x8 }
+  - { offset: 0xD396, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl10isFileDumpEv, symObjAddr: 0x8C0, symBinAddr: 0x4FD0, symSize: 0x8 }
+  - { offset: 0xD412, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl17getFileDumpFolderEv, symObjAddr: 0x8C8, symBinAddr: 0x4FD8, symSize: 0x1C }
+  - { offset: 0xD4C0, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl14getCacheFolderEv, symObjAddr: 0x8E4, symBinAddr: 0x4FF4, symSize: 0x1C }
+  - { offset: 0xD56E, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl14setCacheFolderEPKc, symObjAddr: 0x900, symBinAddr: 0x5010, symSize: 0xAC }
+  - { offset: 0xD60F, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl14SetLogInterValEi, symObjAddr: 0x9AC, symBinAddr: 0x50BC, symSize: 0xA4 }
+  - { offset: 0xD68A, size: 0x8, addend: 0x0, symName: __ZN17ThingAvLoggerImpl14GetLogIntervalEv, symObjAddr: 0xA50, symBinAddr: 0x5160, symSize: 0x10 }
+  - { offset: 0xF26D, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImplC2EPv, symObjAddr: 0x0, symBinAddr: 0x51B4, symSize: 0x28 }
+  - { offset: 0xFEF4, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImplC2EPv, symObjAddr: 0x0, symBinAddr: 0x51B4, symSize: 0x28 }
+  - { offset: 0xFF81, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImplC1EPv, symObjAddr: 0x28, symBinAddr: 0x51DC, symSize: 0x28 }
+  - { offset: 0xFFBB, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImplC1EPv, symObjAddr: 0x28, symBinAddr: 0x51DC, symSize: 0x28 }
+  - { offset: 0x10018, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImplD2Ev, symObjAddr: 0x50, symBinAddr: 0x5204, symSize: 0x30 }
+  - { offset: 0x10056, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImplD1Ev, symObjAddr: 0x80, symBinAddr: 0x5234, symSize: 0x30 }
+  - { offset: 0x100B0, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImplD0Ev, symObjAddr: 0xB0, symBinAddr: 0x5264, symSize: 0x30 }
+  - { offset: 0x10194, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImpl14onApmLogSenderEPKcS1_, symObjAddr: 0xE0, symBinAddr: 0x5294, symSize: 0x110 }
+  - { offset: 0x102A4, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImpl17onNativeLogSenderEPKc, symObjAddr: 0x1F0, symBinAddr: 0x53A4, symSize: 0xAC }
+  - { offset: 0x10305, size: 0x8, addend: 0x0, symName: __ZN26ThingAvLoggerInterfaceImpl19onFullLinkLogSenderEPKcS1_S1_S1_S1_, symObjAddr: 0x29C, symBinAddr: 0x5450, symSize: 0x1BC }
+...

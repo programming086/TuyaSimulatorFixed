@@ -1,6 +1,0 @@
-framework module TYAuthInterface {
-  umbrella header "TYAuthInterface.h"
-
-  export *
-  module * { export * }
-}

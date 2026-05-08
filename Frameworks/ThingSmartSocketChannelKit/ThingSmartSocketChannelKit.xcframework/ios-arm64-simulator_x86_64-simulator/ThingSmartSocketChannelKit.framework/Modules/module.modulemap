@@ -1,6 +1,0 @@
-framework module ThingSmartSocketChannelKit {
-  umbrella header "ThingSmartSocketChannelKit.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module ThingAuthorizationServices {
+  umbrella header "ThingAuthorizationServices-umbrella.h"
+
+  export *
+  module * { export * }
+}

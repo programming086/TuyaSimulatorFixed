@@ -1,6 +1,0 @@
-framework module ThingSmartPowerToolsOTABizBundle {
-  umbrella header "ThingSmartPowerToolsOTABizBundle-umbrella.h"
-
-  export *
-  module * { export * }
-}

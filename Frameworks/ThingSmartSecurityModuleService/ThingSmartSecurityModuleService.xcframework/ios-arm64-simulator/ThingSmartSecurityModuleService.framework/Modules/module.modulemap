@@ -1,0 +1,6 @@
+framework module ThingSmartSecurityModuleService {
+  umbrella header "ThingSmartSecurityModuleService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingDeviceTinyBusinessPlugAPI {
+  umbrella header "ThingDeviceTinyBusinessPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module ThingCommonAnimation {
-  umbrella header "ThingCommonAnimation-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module TRCTMusicManager {
+  umbrella header "TRCTMusicManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

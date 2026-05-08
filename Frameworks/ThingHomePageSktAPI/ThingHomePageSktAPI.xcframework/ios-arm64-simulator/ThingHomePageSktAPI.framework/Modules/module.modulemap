@@ -1,6 +1,0 @@
-framework module ThingHomePageSktAPI {
-  umbrella header "ThingHomePageSktAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

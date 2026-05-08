@@ -1,6 +1,0 @@
-framework module ThingPersonalServiceModule {
-  umbrella header "ThingPersonalServiceModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

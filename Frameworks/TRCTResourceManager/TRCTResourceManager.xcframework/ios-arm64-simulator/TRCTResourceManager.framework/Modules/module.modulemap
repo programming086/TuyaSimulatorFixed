@@ -1,0 +1,6 @@
+framework module TRCTResourceManager {
+  umbrella header "TRCTResourceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

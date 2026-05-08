@@ -1,6 +1,0 @@
-framework module ThingSbcKit {
-  umbrella header "ThingSbcKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

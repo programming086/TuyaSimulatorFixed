@@ -1,6 +1,0 @@
-framework module ThingCameraBizConfig {
-  umbrella header "ThingCameraBizConfig-umbrella.h"
-
-  export *
-  module * { export * }
-}

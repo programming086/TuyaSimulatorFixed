@@ -1,6 +1,0 @@
-framework module GZLJSEngine {
-  umbrella header "GZLJSEngine-umbrella.h"
-
-  export *
-  module * { export * }
-}

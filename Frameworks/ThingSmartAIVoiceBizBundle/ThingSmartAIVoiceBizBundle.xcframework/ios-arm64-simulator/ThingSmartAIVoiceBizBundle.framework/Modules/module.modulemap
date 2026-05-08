@@ -1,6 +1,0 @@
-framework module ThingSmartAIVoiceBizBundle {
-  umbrella header "ThingSmartAIVoiceBizBundle-umbrella.h"
-
-  export *
-  module * { export * }
-}

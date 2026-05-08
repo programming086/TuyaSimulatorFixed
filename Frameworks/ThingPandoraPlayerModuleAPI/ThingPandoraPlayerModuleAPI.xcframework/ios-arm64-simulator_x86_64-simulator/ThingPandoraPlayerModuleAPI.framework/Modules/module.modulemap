@@ -1,6 +1,0 @@
-framework module ThingPandoraPlayerModuleAPI {
-  umbrella header "ThingPandoraPlayerModuleAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

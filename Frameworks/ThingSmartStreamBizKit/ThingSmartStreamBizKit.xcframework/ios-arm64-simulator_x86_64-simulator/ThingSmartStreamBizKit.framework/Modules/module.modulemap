@@ -1,6 +1,0 @@
-framework module ThingSmartStreamBizKit {
-  umbrella header "ThingSmartStreamBizKit.h"
-
-  export *
-  module * { export * }
-}

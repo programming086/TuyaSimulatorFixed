@@ -1,6 +1,0 @@
-framework module TUNIDiffSubRegisterManager {
-  umbrella header "TUNIDiffSubRegisterManager-umbrella.h"
-
-  export *
-  module * { export * }
-}

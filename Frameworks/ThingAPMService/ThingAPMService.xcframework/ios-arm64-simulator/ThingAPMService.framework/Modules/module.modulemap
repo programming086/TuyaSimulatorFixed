@@ -1,6 +1,0 @@
-framework module ThingAPMService {
-  umbrella header "ThingAPMService.h"
-
-  export *
-  module * { export * }
-}

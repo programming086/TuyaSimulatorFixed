@@ -1,6 +1,0 @@
-framework module IndustryActivatorImpl {
-  umbrella header "IndustryActivatorImpl-umbrella.h"
-
-  export *
-  module * { export * }
-}

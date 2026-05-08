@@ -1,0 +1,6 @@
+framework module ThingSmartLocationService {
+  umbrella header "ThingSmartLocationService-umbrella.h"
+
+  export *
+  module * { export * }
+}

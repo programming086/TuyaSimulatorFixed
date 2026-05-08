@@ -1,6 +1,0 @@
-framework module ThingAudioRDXModuleInterface {
-  umbrella header "ThingAudioRDXModuleInterface-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module ThingCallIPCTactic {
-  umbrella header "ThingCallIPCTactic-umbrella.h"
-
-  export *
-  module * { export * }
-}

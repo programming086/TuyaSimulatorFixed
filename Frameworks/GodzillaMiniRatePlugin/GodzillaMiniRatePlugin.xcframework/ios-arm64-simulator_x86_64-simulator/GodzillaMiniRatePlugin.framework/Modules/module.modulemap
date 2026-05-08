@@ -1,6 +1,0 @@
-framework module GodzillaMiniRatePlugin {
-  umbrella header "GodzillaMiniRatePlugin-umbrella.h"
-
-  export *
-  module * { export * }
-}

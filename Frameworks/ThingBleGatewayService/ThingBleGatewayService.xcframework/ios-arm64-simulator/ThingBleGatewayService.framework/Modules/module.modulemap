@@ -1,0 +1,6 @@
+framework module ThingBleGatewayService {
+  umbrella header "ThingBleGatewayService-umbrella.h"
+
+  export *
+  module * { export * }
+}
