@@ -1,0 +1,6 @@
+framework module ThingEncryptImage {
+  umbrella header "ThingEncryptImage-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

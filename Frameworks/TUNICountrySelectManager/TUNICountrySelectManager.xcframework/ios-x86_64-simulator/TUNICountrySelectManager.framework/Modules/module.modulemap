@@ -1,0 +1,6 @@
+framework module TUNICountrySelectManager {
+  umbrella header "TUNICountrySelectManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "IndustrySpaceImpl",
+  "version": "2.2.2",
+  "summary": "A short description of IndustrySpaceImpl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://developer.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.2.2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "IotContainer": [],
+    "IndustrySpaceKit": [],
+    "IndustryMQTTKit": [],
+    "IndustryErrorKit": [],
+    "ThingIoTNetworkKit": [],
+    "ThingSmartMQTTChannelKit": [],
+    "YYModel": []
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/IndustrySpaceImpl/IndustrySpaceImpl.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/IndustrySpaceImpl/IndustrySpaceImpl.xcframework/**/*.h"
+  ]
+}

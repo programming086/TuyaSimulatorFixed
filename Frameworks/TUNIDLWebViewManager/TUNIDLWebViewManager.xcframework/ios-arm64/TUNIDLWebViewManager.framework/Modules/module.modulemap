@@ -1,0 +1,6 @@
+framework module TUNIDLWebViewManager {
+  umbrella header "TUNIDLWebViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

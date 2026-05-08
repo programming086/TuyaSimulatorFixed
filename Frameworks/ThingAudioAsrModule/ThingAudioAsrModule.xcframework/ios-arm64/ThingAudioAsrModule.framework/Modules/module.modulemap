@@ -1,0 +1,6 @@
+framework module ThingAudioAsrModule {
+  umbrella header "ThingAudioAsrModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

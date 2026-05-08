@@ -1,0 +1,6 @@
+framework module ThingOnAppAIBaseKit {
+  umbrella header "ThingOnAppAIBaseKit.h"
+
+  export *
+  module * { export * }
+}

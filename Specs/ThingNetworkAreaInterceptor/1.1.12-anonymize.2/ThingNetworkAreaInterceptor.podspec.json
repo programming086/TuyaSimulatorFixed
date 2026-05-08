@@ -1,0 +1,37 @@
+{
+  "name": "ThingNetworkAreaInterceptor",
+  "version": "1.1.12-anonymize.2",
+  "summary": "A short description of ThingNetworkAreaInterceptor.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.12-anonymize.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleServices": [],
+    "ThingFoundationKit": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartNetworkKit": [],
+    "ThingSmartEventPredefined_Public": [],
+    "YYModel": [],
+    "ThingUIKit": [],
+    "ThingLogMacro": [],
+    "ThingNetdbInterceptor": [],
+    "ThingStorageGroupInterface": [],
+    "ThingConfigHub": [],
+    "ThingOEMConfig": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingNetworkAreaInterceptor/ThingNetworkAreaInterceptor.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingNetworkAreaInterceptor/ThingNetworkAreaInterceptor.xcframework/**/*.h"
+  ]
+}

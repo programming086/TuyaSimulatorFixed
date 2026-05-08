@@ -1,0 +1,28 @@
+{
+  "name": "ThingHybridMediaTools",
+  "version": "0.1.0",
+  "summary": "A short description of ThingHybridMediaTools.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingUIKit": [],
+    "ThingMediaKit": [],
+    "ThingHybridMediaToolsAPI": [],
+    "ThingAnnotationFoundation": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingHybridMediaTools/ThingHybridMediaTools.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

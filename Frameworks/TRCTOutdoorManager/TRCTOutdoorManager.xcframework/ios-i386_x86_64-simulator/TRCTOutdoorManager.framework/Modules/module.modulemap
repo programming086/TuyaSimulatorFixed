@@ -1,0 +1,6 @@
+framework module TRCTOutdoorManager {
+  umbrella header "TRCTOutdoorManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

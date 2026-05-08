@@ -1,0 +1,6 @@
+framework module ThingCameraSkt {
+  umbrella header "ThingCameraSkt-umbrella.h"
+
+  export *
+  module * { export * }
+}

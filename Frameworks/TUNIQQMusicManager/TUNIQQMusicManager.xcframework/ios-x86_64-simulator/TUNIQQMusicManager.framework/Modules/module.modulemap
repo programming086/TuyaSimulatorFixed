@@ -1,0 +1,6 @@
+framework module TUNIQQMusicManager {
+  umbrella header "TUNIQQMusicManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

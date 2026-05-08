@@ -1,0 +1,6 @@
+framework module ThingMapKit {
+  umbrella header "ThingMapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

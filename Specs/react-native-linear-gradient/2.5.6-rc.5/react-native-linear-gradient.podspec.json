@@ -1,0 +1,32 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "React": []
+  },
+  "frameworks": [
+    "UIKit",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "homepage": "https://developer.tuya.com/",
+  "license": "MIT",
+  "name": "react-native-linear-gradient",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.5.6-rc.5"
+  },
+  "source_files": [
+    "Frameworks/react-native-linear-gradient/react_native_linear_gradient.xcframework/**/*.h"
+  ],
+  "summary": "A <LinearGradient /> component for react-native",
+  "vendored_frameworks": [
+    "Frameworks/react-native-linear-gradient/react_native_linear_gradient.xcframework"
+  ],
+  "version": "2.5.6-rc.5"
+}

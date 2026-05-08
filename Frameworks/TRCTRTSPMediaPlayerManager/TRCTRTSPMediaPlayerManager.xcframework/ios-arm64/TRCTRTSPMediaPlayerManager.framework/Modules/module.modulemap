@@ -1,0 +1,6 @@
+framework module TRCTRTSPMediaPlayerManager {
+  umbrella header "TRCTRTSPMediaPlayerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

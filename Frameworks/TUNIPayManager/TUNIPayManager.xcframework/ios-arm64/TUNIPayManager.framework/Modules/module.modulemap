@@ -1,0 +1,6 @@
+framework module TUNIPayManager {
+  umbrella header "TUNIPayManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

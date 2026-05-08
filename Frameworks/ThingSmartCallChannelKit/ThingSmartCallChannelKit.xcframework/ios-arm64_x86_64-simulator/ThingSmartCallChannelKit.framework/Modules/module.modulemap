@@ -1,0 +1,6 @@
+framework module ThingSmartCallChannelKit {
+  umbrella header "ThingSmartCallChannelKit.h"
+
+  export *
+  module * { export * }
+}

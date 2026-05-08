@@ -1,0 +1,45 @@
+framework module ThingSmartOutdoorKit {
+    umbrella header "ThingSmartOutdoorKit.h"
+    
+    module Base {
+        header "ThingSmartDevice+ThingSmartOutdoor.h"
+        header "ThingSmartDeviceModel+ThingSmartOutdoor.h"
+        header "ThingSmartOutdoorError.h"
+        header "ThingSmartOutdoorDeviceListService.h"
+        header "ThingODDPObserver.h"
+        header "ThingSmartOutdoorService.h"
+        header "ThingODRemindService.h"
+        header "ThingODUnlockService.h"
+    }
+    
+    module InductiveUnlock {
+        header "ThingODInduction3Tool.h"
+        header "ThingSmartODInductiveUnlock.h"
+        header "ThingODHidInductiveUnlock.h"
+        header "ThingODBTInductiveUnlock.h"
+        header "ThingODUnlockDPConstants.h"
+        header "ThingSmartDeviceModel+InductiveUnlock.h"
+        export Base
+    }
+    
+    module ValueAddedServices {
+        header "TSODValueAddedServicesService.h"
+        header "TSODValueAddedServicesModel.h"
+        export Base
+    }
+    
+    module TripTrack {
+        header "ThingSmartOutdoorCyclingService.h"
+        export Base
+    }
+    
+    module Geofence {
+        header "TSODGeofenceService.h"
+        export Base
+    }
+    
+    module Store {
+        header "ThingSmartOutdoorStoreService.h"
+        export Base
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ThingSpaceInfomationModule",
+  "version": "1.11.1",
+  "summary": "\u5168\u5c4b\u6570\u636e",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.11.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSpaceInfomationModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingAnnotationFoundation": [],
+    "YYModel": [],
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "ThingModuleServices": [],
+    "ThingModuleManager": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartDeviceKit": [],
+    "ThingConfigHub": [],
+    "ThingBluetoothInterface": [],
+    "ThingBusinessService": [],
+    "ThingFamilyAPI": [],
+    "ThingSpaceInfoSktAPI": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingSpaceInfomationModule/ThingSpaceInfomationModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

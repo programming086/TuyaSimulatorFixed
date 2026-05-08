@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingDomainQueryAPI",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.0"
+  },
+  "summary": "A short description of ThingDomainQueryAPI.",
+  "vendored_frameworks": [
+    "Frameworks/ThingDomainQueryAPI/ThingDomainQueryAPI.xcframework"
+  ],
+  "version": "1.0.0"
+}

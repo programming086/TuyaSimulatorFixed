@@ -1,0 +1,6 @@
+framework module ThingLightSceneBizKit {
+  umbrella header "ThingLightSceneBizKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

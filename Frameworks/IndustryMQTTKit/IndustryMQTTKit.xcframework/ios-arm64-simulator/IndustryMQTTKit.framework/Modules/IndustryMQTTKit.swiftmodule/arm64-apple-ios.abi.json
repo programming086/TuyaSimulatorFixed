@@ -1,0 +1,3475 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryMQTTKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MQTTConnectState",
+        "printedName": "MQTTConnectState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "created",
+            "printedName": "created",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTConnectState.Type) -> IndustryMQTTKit.MQTTConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTConnectState",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTConnectState",
+                        "printedName": "IndustryMQTTKit.MQTTConnectState",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState@MQTTConnectStateCreated",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO7createdyA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "connecting",
+            "printedName": "connecting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTConnectState.Type) -> IndustryMQTTKit.MQTTConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTConnectState",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTConnectState",
+                        "printedName": "IndustryMQTTKit.MQTTConnectState",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState@MQTTConnectStateConnecting",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO10connectingyA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "connected",
+            "printedName": "connected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTConnectState.Type) -> IndustryMQTTKit.MQTTConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTConnectState",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTConnectState",
+                        "printedName": "IndustryMQTTKit.MQTTConnectState",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState@MQTTConnectStateConnected",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO9connectedyA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "disconnecting",
+            "printedName": "disconnecting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTConnectState.Type) -> IndustryMQTTKit.MQTTConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTConnectState",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTConnectState",
+                        "printedName": "IndustryMQTTKit.MQTTConnectState",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState@MQTTConnectStateDisconnecting",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO13disconnectingyA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "close",
+            "printedName": "close",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTConnectState.Type) -> IndustryMQTTKit.MQTTConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTConnectState",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTConnectState",
+                        "printedName": "IndustryMQTTKit.MQTTConnectState",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState@MQTTConnectStateClose",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO5closeyA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTConnectState.Type) -> IndustryMQTTKit.MQTTConnectState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTConnectState",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTConnectState",
+                        "printedName": "IndustryMQTTKit.MQTTConnectState",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState@MQTTConnectStateError",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO5erroryA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IndustryMQTTKit.MQTTConnectState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTConnectState",
+                    "printedName": "IndustryMQTTKit.MQTTConnectState",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15IndustryMQTTKit16MQTTConnectStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO8rawValueACSgSi_tcfc",
+            "moduleName": "IndustryMQTTKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15IndustryMQTTKit16MQTTConnectStateO8rawValueSivp",
+            "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO8rawValueSivp",
+            "moduleName": "IndustryMQTTKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryMQTTKit16MQTTConnectStateO8rawValueSivg",
+                "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO8rawValueSivg",
+                "moduleName": "IndustryMQTTKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState",
+        "mangledName": "$s15IndustryMQTTKit16MQTTConnectStateO",
+        "moduleName": "IndustryMQTTKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMQTTMessage",
+        "printedName": "IMQTTMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "devId",
+            "printedName": "devId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(py)devId",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP5devIdSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)devId",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP5devIdSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)setDevId:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP5devIdSSvs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(py)message",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP7messageyXlvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)message",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP7messageyXlvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)setMessage:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP7messageyXlvs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(py)number",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP6numberSivp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)number",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP6numberSivg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)setNumber:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP6numberSivs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(py)type",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP4typeSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)type",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP4typeSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)setType:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP4typeSSvs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseS",
+            "printedName": "responseS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(py)responseS",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP9responseSSivp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)responseS",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP9responseSSivg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)setResponseS:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP9responseSSivs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseR",
+            "printedName": "responseR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(py)responseR",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP9responseRSivp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)responseR",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP9responseRSivg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)setResponseR:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP9responseRSivs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(py)time",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP4timeSdvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)time",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP4timeSdvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage(im)setTime:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP4timeSdvs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTMessage>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTMessage>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage",
+        "mangledName": "$s15IndustryMQTTKit12IMQTTMessageP",
+        "moduleName": "IndustryMQTTKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMQTTListener",
+        "printedName": "IMQTTListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mqttService",
+            "printedName": "mqttService(_:didChange:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IMQTTService",
+                "printedName": "IndustryMQTTKit.IMQTTService",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MQTTConnectState",
+                "printedName": "IndustryMQTTKit.MQTTConnectState",
+                "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTListener(im)mqttService:didChange:error:",
+            "mangledName": "$s15IndustryMQTTKit13IMQTTListenerP11mqttService_9didChange5erroryAA12IMQTTService_p_AA16MQTTConnectStateOs5Error_pSgtF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTListener>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mqttService",
+            "printedName": "mqttService(_:didReceive:protocol:topic:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IMQTTService",
+                "printedName": "IndustryMQTTKit.IMQTTService",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IMQTTMessage",
+                "printedName": "IndustryMQTTKit.IMQTTMessage",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTMessage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTListener(im)mqttService:didReceive:protocol:topic:",
+            "mangledName": "$s15IndustryMQTTKit13IMQTTListenerP11mqttService_10didReceive8protocol5topicyAA12IMQTTService_p_AA12IMQTTMessage_pSiSStF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTListener>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTListener",
+        "mangledName": "$s15IndustryMQTTKit13IMQTTListenerP",
+        "moduleName": "IndustryMQTTKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMQTTConfig",
+        "printedName": "IMQTTConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "udid",
+            "printedName": "udid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)udid",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP4udidSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)udid",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP4udidSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)clientId",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP8clientIdSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)clientId",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP8clientIdSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientSecret",
+            "printedName": "clientSecret",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)clientSecret",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP12clientSecretSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)clientSecret",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP12clientSecretSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uid",
+            "printedName": "uid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)uid",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP3uidSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)uid",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP3uidSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)token",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP5tokenSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)token",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP5tokenSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "domain",
+            "printedName": "domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)domain",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP6domainSSvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)domain",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP6domainSSvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "port",
+            "printedName": "port",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)port",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP4portSivp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)port",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP4portSivg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(py)timestamp",
+            "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP9timestampSivp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig(im)timestamp",
+                "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP9timestampSivg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTConfig>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTConfig>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig",
+        "mangledName": "$s15IndustryMQTTKit11IMQTTConfigP",
+        "moduleName": "IndustryMQTTKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMQTTService",
+        "printedName": "IMQTTService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configProvider",
+            "printedName": "configProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> IndustryMQTTKit.IMQTTConfig?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> IndustryMQTTKit.IMQTTConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "IndustryMQTTKit.IMQTTConfig?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IMQTTConfig",
+                            "printedName": "IndustryMQTTKit.IMQTTConfig",
+                            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(py)configProvider",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP14configProviderAA11IMQTTConfig_pSgycSgvp",
+            "moduleName": "IndustryMQTTKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> IndustryMQTTKit.IMQTTConfig?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> IndustryMQTTKit.IMQTTConfig?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "IndustryMQTTKit.IMQTTConfig?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "IMQTTConfig",
+                                "printedName": "IndustryMQTTKit.IMQTTConfig",
+                                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)configProvider",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP14configProviderAA11IMQTTConfig_pSgycSgvg",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> IndustryMQTTKit.IMQTTConfig?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> IndustryMQTTKit.IMQTTConfig?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "IndustryMQTTKit.IMQTTConfig?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "IMQTTConfig",
+                                "printedName": "IndustryMQTTKit.IMQTTConfig",
+                                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)setConfigProvider:",
+                "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP14configProviderAA11IMQTTConfig_pSgycSgvs",
+                "moduleName": "IndustryMQTTKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+                "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)connect",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP7connectyyF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnet",
+            "printedName": "disconnet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)disconnet",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP9disconnetyyF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "state",
+            "printedName": "state()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MQTTConnectState",
+                "printedName": "IndustryMQTTKit.MQTTConnectState",
+                "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)state",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP5stateAA16MQTTConnectStateOyF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(_:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)subscribe:success:failure:",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP9subscribe_7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(_:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)unsubscribe:success:failure:",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP11unsubscribe_7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(_:data:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)publish:data:success:failure:",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP7publish_4data7success7failures6UInt16VSS_10Foundation4DataVyycSgys5Error_pcSgtF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IMQTTListener",
+                "printedName": "IndustryMQTTKit.IMQTTListener",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)register:",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP8registeryyAA13IMQTTListener_pF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IMQTTListener",
+                "printedName": "IndustryMQTTKit.IMQTTListener",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService(im)unregister:",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP10unregisteryyAA13IMQTTListener_pF",
+            "moduleName": "IndustryMQTTKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryMQTTKit.IMQTTService>",
+            "sugared_genericSig": "<Self where Self : IndustryMQTTKit.IMQTTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService",
+        "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP",
+        "moduleName": "IndustryMQTTKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryMQTTKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IndustryErrorKit",
+        "printedName": "IndustryErrorKit",
+        "declKind": "Import",
+        "moduleName": "IndustryMQTTKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MQTTError",
+        "printedName": "MQTTError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "publishError",
+            "printedName": "publishError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTError.Type) -> IndustryMQTTKit.MQTTError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTError",
+                    "printedName": "IndustryMQTTKit.MQTTError",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTError",
+                        "printedName": "IndustryMQTTKit.MQTTError",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTError@MQTTErrorPublishError",
+            "mangledName": "$s15IndustryMQTTKit9MQTTErrorO12publishErroryA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "subscribeError",
+            "printedName": "subscribeError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTError.Type) -> IndustryMQTTKit.MQTTError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTError",
+                    "printedName": "IndustryMQTTKit.MQTTError",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTError",
+                        "printedName": "IndustryMQTTKit.MQTTError",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTError@MQTTErrorSubscribeError",
+            "mangledName": "$s15IndustryMQTTKit9MQTTErrorO14subscribeErroryA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "unsubscribeError",
+            "printedName": "unsubscribeError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryMQTTKit.MQTTError.Type) -> IndustryMQTTKit.MQTTError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTError",
+                    "printedName": "IndustryMQTTKit.MQTTError",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryMQTTKit.MQTTError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MQTTError",
+                        "printedName": "IndustryMQTTKit.MQTTError",
+                        "usr": "c:@M@IndustryMQTTKit@E@MQTTError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryMQTTKit@E@MQTTError@MQTTErrorUnsubscribeError",
+            "mangledName": "$s15IndustryMQTTKit9MQTTErrorO16unsubscribeErroryA2CmF",
+            "moduleName": "IndustryMQTTKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IndustryMQTTKit.MQTTError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTError",
+                    "printedName": "IndustryMQTTKit.MQTTError",
+                    "usr": "c:@M@IndustryMQTTKit@E@MQTTError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15IndustryMQTTKit9MQTTErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s15IndustryMQTTKit9MQTTErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "IndustryMQTTKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15IndustryMQTTKit9MQTTErrorO8rawValueSivp",
+            "mangledName": "$s15IndustryMQTTKit9MQTTErrorO8rawValueSivp",
+            "moduleName": "IndustryMQTTKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryMQTTKit9MQTTErrorO8rawValueSivg",
+                "mangledName": "$s15IndustryMQTTKit9MQTTErrorO8rawValueSivg",
+                "moduleName": "IndustryMQTTKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@IndustryMQTTKit@E@MQTTError",
+        "mangledName": "$s15IndustryMQTTKit9MQTTErrorO",
+        "moduleName": "IndustryMQTTKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryMQTTKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IotContainer",
+        "printedName": "IotContainer",
+        "declKind": "Import",
+        "moduleName": "IndustryMQTTKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MQTTService",
+        "printedName": "MQTTService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MQTTService",
+                "printedName": "IndustryMQTTKit.MQTTService",
+                "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService(cpy)shared",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC6sharedACvpZ",
+            "moduleName": "IndustryMQTTKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTService",
+                    "printedName": "IndustryMQTTKit.MQTTService",
+                    "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService(cm)shared",
+                "mangledName": "$s15IndustryMQTTKit11MQTTServiceC6sharedACvgZ",
+                "moduleName": "IndustryMQTTKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MQTTService",
+                    "printedName": "IndustryMQTTKit.MQTTService",
+                    "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService(cm)setShared:",
+                "mangledName": "$s15IndustryMQTTKit11MQTTServiceC6sharedACvsZ",
+                "moduleName": "IndustryMQTTKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryMQTTKit11MQTTServiceC6sharedACvMZ",
+                "mangledName": "$s15IndustryMQTTKit11MQTTServiceC6sharedACvMZ",
+                "moduleName": "IndustryMQTTKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MQTTService",
+                "printedName": "IndustryMQTTKit.MQTTService",
+                "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService(im)init",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceCACycfc",
+            "moduleName": "IndustryMQTTKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "configProvider",
+            "printedName": "configProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> IndustryMQTTKit.IMQTTConfig?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> IndustryMQTTKit.IMQTTConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "IndustryMQTTKit.IMQTTConfig?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IMQTTConfig",
+                            "printedName": "IndustryMQTTKit.IMQTTConfig",
+                            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(py)configProvider",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC14configProviderAA11IMQTTConfig_pSgycSgvp",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "configProvider",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> IndustryMQTTKit.IMQTTConfig?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> IndustryMQTTKit.IMQTTConfig?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "IndustryMQTTKit.IMQTTConfig?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "IMQTTConfig",
+                                "printedName": "IndustryMQTTKit.IMQTTConfig",
+                                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)configProvider",
+                "mangledName": "$s15IndustryMQTTKit11MQTTServiceC14configProviderAA11IMQTTConfig_pSgycSgvg",
+                "moduleName": "IndustryMQTTKit",
+                "objc_name": "configProvider",
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> IndustryMQTTKit.IMQTTConfig?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> IndustryMQTTKit.IMQTTConfig?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "IndustryMQTTKit.IMQTTConfig?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "IMQTTConfig",
+                                "printedName": "IndustryMQTTKit.IMQTTConfig",
+                                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTConfig"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)setConfigProvider:",
+                "mangledName": "$s15IndustryMQTTKit11MQTTServiceC14configProviderAA11IMQTTConfig_pSgycSgvs",
+                "moduleName": "IndustryMQTTKit",
+                "objc_name": "setConfigProvider:",
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryMQTTKit11MQTTServiceC14configProviderAA11IMQTTConfig_pSgycSgvM",
+                "mangledName": "$s15IndustryMQTTKit11MQTTServiceC14configProviderAA11IMQTTConfig_pSgycSgvM",
+                "moduleName": "IndustryMQTTKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)connect",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC7connectyyF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "connect",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnet",
+            "printedName": "disconnet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)disconnet",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC9disconnetyyF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "disconnet",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "state",
+            "printedName": "state()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MQTTConnectState",
+                "printedName": "IndustryMQTTKit.MQTTConnectState",
+                "usr": "c:@M@IndustryMQTTKit@E@MQTTConnectState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)state",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC5stateAA16MQTTConnectStateOyF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "state",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(_:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)subscribe:success:failure:",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC9subscribe_7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "subscribe:success:failure:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(_:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)unsubscribe:success:failure:",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC11unsubscribe_7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "unsubscribe:success:failure:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(_:data:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)publish:data:success:failure:",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC7publish_4data7success7failures6UInt16VSS_10Foundation4DataVyycSgys5Error_pcSgtF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "publish:data:success:failure:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IMQTTListener",
+                "printedName": "IndustryMQTTKit.IMQTTListener",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)register:",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC8registeryyAA13IMQTTListener_pF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "register:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IMQTTListener",
+                "printedName": "IndustryMQTTKit.IMQTTListener",
+                "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@objc(cs)MQTTService(im)unregister:",
+            "mangledName": "$s15IndustryMQTTKit11MQTTServiceC10unregisteryyAA13IMQTTListener_pF",
+            "moduleName": "IndustryMQTTKit",
+            "objc_name": "unregister:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IndustryMQTTKit@objc(cs)MQTTService",
+        "mangledName": "$s15IndustryMQTTKit11MQTTServiceC",
+        "moduleName": "IndustryMQTTKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IMQTTService",
+            "printedName": "IMQTTService",
+            "usr": "c:@M@IndustryMQTTKit@objc(pl)IMQTTService",
+            "mangledName": "$s15IndustryMQTTKit12IMQTTServiceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSError",
+        "printedName": "NSError",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "publishError",
+            "printedName": "publishError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@@objc(cs)NSError(cm)publishError:",
+            "mangledName": "$sSo7NSErrorC15IndustryMQTTKitE12publishErroryABSSSgFZ",
+            "moduleName": "IndustryMQTTKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribeError",
+            "printedName": "subscribeError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@@objc(cs)NSError(cm)subscribeError:",
+            "mangledName": "$sSo7NSErrorC15IndustryMQTTKitE14subscribeErroryABSSSgFZ",
+            "moduleName": "IndustryMQTTKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribeError",
+            "printedName": "unsubscribeError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryMQTTKit@@objc(cs)NSError(cm)unsubscribeError:",
+            "mangledName": "$sSo7NSErrorC15IndustryMQTTKitE16unsubscribeErroryABSSSgFZ",
+            "moduleName": "IndustryMQTTKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSError",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSError",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 181,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 181,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/IMQTTService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "14001"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "14002"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 5,
+      "value": "14003"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "14001"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "14002"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 5,
+      "value": "14003"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTError.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6384_IndustryMQTTKit_iOS\/src\/IndustryMQTTKit\/Classes\/MQTTService.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 47,
+      "value": "\"IMQTTService do not register via IotContainer\""
+    }
+  ]
+}

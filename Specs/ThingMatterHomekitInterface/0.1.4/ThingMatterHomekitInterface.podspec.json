@@ -1,0 +1,27 @@
+{
+  "name": "ThingMatterHomekitInterface",
+  "version": "0.1.4",
+  "summary": "A short description of ThingMatterHomekitInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": []
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "Frameworks/ThingMatterHomekitInterface/ThingMatterHomekitInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,6 @@
+framework module TUNILocalDebugManager {
+  umbrella header "TUNILocalDebugManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

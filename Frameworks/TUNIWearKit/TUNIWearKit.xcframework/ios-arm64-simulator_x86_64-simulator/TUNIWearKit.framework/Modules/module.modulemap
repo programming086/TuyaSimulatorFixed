@@ -1,0 +1,6 @@
+framework module TUNIWearKit {
+  umbrella header "TUNIWearKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

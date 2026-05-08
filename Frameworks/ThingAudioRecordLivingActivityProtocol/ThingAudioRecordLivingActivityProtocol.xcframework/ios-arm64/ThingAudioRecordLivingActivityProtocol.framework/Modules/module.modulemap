@@ -1,0 +1,6 @@
+framework module ThingAudioRecordLivingActivityProtocol {
+  umbrella header "ThingAudioRecordLivingActivityProtocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

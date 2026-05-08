@@ -1,0 +1,39 @@
+{
+  "name": "ThingSmartSweeperKit",
+  "version": "5.3.0",
+  "summary": "A short description of ThingSmartSweeperKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.3.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "ThingSmartUtil": [],
+    "ThingSmartMQTTChannelKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingP2pFileTransSDK": [],
+    "ThingSmartP2pChannelKit": [],
+    "YYModel": [],
+    "ThingCloudStorageSignatureTools": [],
+    "ThingP2PSessionKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartSweeperKit/ThingSmartSweeperKit.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartSweeperKit/ThingSmartSweeperKit.xcframework/**/*.h"
+  ]
+}

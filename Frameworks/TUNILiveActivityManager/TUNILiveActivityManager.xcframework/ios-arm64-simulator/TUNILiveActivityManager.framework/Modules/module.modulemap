@@ -1,0 +1,6 @@
+framework module TUNILiveActivityManager {
+  umbrella header "TUNILiveActivityManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

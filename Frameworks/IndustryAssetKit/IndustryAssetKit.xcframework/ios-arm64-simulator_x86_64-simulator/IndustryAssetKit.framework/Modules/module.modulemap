@@ -1,0 +1,11 @@
+framework module IndustryAssetKit {
+  umbrella header "IndustryAssetKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module IndustryAssetKit.Swift {
+  header "IndustryAssetKit-Swift.h"
+  requires objc
+}

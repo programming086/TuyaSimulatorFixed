@@ -1,0 +1,35 @@
+{
+  "name": "TRCTSensorsDBManager",
+  "version": "6.7.1",
+  "summary": "A short description of TRCTSensorsDBManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "6.7.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [],
+    "ThingStorageLibrary": [],
+    "YYModel": [],
+    "ThingLogMacro": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TRCTSensorsDBManager/TRCTSensorsDBManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,107 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IndustryAssetKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import IndustryAssetKit
+import IndustryDeviceKit
+import IotContainer
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class AssetService : ObjectiveC.NSObject {
+  @objc public static var shared: IndustryAssetKit.AssetService
+  @objc deinit
+}
+extension IndustryAssetKit.AssetService : IndustryAssetKit.IAssetService {
+  @objc dynamic public func create(name: Swift.String, parentAssetId: Swift.String? = nil, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func update(assetId: Swift.String, name: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func remove(assetId: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func asset(assetId: Swift.String, success: ((any IndustryAssetKit.IAsset) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func subAssets(assetId: Swift.String? = nil, success: (([any IndustryAssetKit.IAsset]) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func devices(assetId: Swift.String, lastRowKey: Swift.String? = nil, success: ((any IndustryAssetKit.IAssetDeviceListResult) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func devices(assetId: Swift.String, statisticsType: Swift.String?, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc dynamic public func statistics(assetId: Swift.String?, success: (([any IndustryAssetKit.IAssetDeviceStatistics]) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc dynamic public func search(assetId: Swift.String, deviceName: Swift.String, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc dynamic public func associatedModel(assetId: Swift.String, success: ((any IndustryAssetKit.IAssociatedModel) -> (Swift.Void))?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc dynamic public func assetMessageService(_ assetId: Swift.String) -> any IndustryAssetKit.IAssetMessageService
+  @objc dynamic public func assetManager() -> any IndustryAssetKit.IAssetManager
+}
+@objc public protocol IAssociatedModel : ObjectiveC.NSObjectProtocol {
+  @objc var deviceGroupId: Swift.String { get }
+  @objc var homeId: Swift.String { get }
+  @objc var assetId: Swift.String { get }
+}
+@objc public protocol IAsset : ObjectiveC.NSObjectProtocol {
+  @objc var assetId: Swift.String { get }
+  @objc var assetName: Swift.String { get set }
+  @objc var parentAssetId: Swift.String? { get }
+  @objc var permission: Swift.String { get set }
+  @objc var currentSubAssetNum: Swift.Int { get set }
+  @objc var currentAssetDeviceNum: Swift.Int { get set }
+  @objc var userDefinedPath: Swift.String { get set }
+}
+@objc public protocol IAssetDevice : ObjectiveC.NSObjectProtocol {
+  @objc var deviceId: Swift.String { get }
+  @objc var deviceName: Swift.String { get set }
+  @objc var online: Swift.Bool { get set }
+  @objc var icon: Swift.String { get set }
+  @objc var absoluteIconUrl: Swift.String { get set }
+  @objc var homeId: Swift.String { get }
+  @objc var permission: Swift.String { get }
+}
+@objc public protocol IAssetDeviceStatistics : ObjectiveC.NSObjectProtocol {
+  @objc var typeValue: Swift.String { get set }
+  @objc var statisticType: Swift.String { get set }
+  @objc var total: Swift.Int { get set }
+}
+@objc public enum AssetEvent : Swift.Int {
+  case auth
+  case unAuth
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IAssetManagerListener : ObjectiveC.NSObjectProtocol {
+  @objc func asset(_ assetId: Swift.String, didReceived event: IndustryAssetKit.AssetEvent)
+}
+@objc public protocol IAssetManager : ObjectiveC.NSObjectProtocol {
+  @objc func register(listener: any IndustryAssetKit.IAssetManagerListener)
+  @objc func unregister(listener: any IndustryAssetKit.IAssetManagerListener)
+}
+@objc public protocol IAssetListener : ObjectiveC.NSObjectProtocol {
+  @objc func asset(_ assetId: Swift.String, didAddDevice device: any IndustryDeviceKit.IDevice)
+  @objc func asset(_ assetId: Swift.String, didRemoveDevice deviceId: Swift.String)
+  @objc func asset(_ assetId: Swift.String, deviceInfoUpdate device: any IndustryDeviceKit.IDevice)
+  @objc func asset(_ assetId: Swift.String, device: any IndustryDeviceKit.IDevice, dpsUpdate: [Swift.String : Swift.AnyObject])
+}
+@objc public protocol IAssetMessageService : ObjectiveC.NSObjectProtocol {
+  @objc var assetId: Swift.String { get }
+  @objc func register(listener: any IndustryAssetKit.IAssetListener)
+  @objc func unregister(listener: any IndustryAssetKit.IAssetListener)
+}
+@objc public protocol IAssetDeviceListResult : ObjectiveC.NSObjectProtocol {
+  @objc var devices: Swift.Array<any IndustryAssetKit.IAssetDevice> { get set }
+  @objc var hasMore: Swift.Bool { get set }
+  @objc var lastRowKey: Swift.String { get set }
+}
+@objc public protocol IAssetService : ObjectiveC.NSObjectProtocol {
+  @objc func create(name: Swift.String, parentAssetId: Swift.String?, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func update(assetId: Swift.String, name: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func remove(assetId: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func asset(assetId: Swift.String, success: ((any IndustryAssetKit.IAsset) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func subAssets(assetId: Swift.String?, success: (([any IndustryAssetKit.IAsset]) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func devices(assetId: Swift.String, lastRowKey: Swift.String?, success: ((any IndustryAssetKit.IAssetDeviceListResult) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func devices(assetId: Swift.String, statisticsType: Swift.String?, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func search(assetId: Swift.String, deviceName: Swift.String, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func statistics(assetId: Swift.String?, success: (([any IndustryAssetKit.IAssetDeviceStatistics]) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func associatedModel(assetId: Swift.String, success: ((any IndustryAssetKit.IAssociatedModel) -> (Swift.Void))?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func assetMessageService(_ assetId: Swift.String) -> any IndustryAssetKit.IAssetMessageService
+  @objc func assetManager() -> any IndustryAssetKit.IAssetManager
+}
+extension IndustryAssetKit.AssetEvent : Swift.Equatable {}
+extension IndustryAssetKit.AssetEvent : Swift.Hashable {}
+extension IndustryAssetKit.AssetEvent : Swift.RawRepresentable {}

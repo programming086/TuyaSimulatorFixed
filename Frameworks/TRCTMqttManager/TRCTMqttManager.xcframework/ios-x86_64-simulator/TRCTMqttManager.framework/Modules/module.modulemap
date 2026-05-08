@@ -1,0 +1,6 @@
+framework module TRCTMqttManager {
+  umbrella header "TRCTMqttManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

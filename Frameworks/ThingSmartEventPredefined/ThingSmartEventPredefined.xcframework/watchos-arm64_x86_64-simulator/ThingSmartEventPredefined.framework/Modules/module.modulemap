@@ -1,0 +1,6 @@
+framework module ThingSmartEventPredefined {
+  umbrella header "ThingSmartEventPredefined-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

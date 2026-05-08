@@ -1,0 +1,6 @@
+framework module ThingPopupViewController {
+  umbrella header "ThingPopupViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingAnimationKit {
+  umbrella header "ThingAnimationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

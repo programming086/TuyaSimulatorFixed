@@ -1,0 +1,6 @@
+framework module TUNIAppInfoManager {
+  umbrella header "TUNIAppInfoManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

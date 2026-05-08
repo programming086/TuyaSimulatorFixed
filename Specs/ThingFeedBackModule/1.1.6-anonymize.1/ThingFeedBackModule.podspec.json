@@ -1,0 +1,43 @@
+{
+  "name": "ThingFeedBackModule",
+  "version": "1.1.6-anonymize.1",
+  "summary": "\u53cd\u9988\u6a21\u5757",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.6-anonymize.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resources": [
+    "ThingFeedBackModule/Assets/Resource/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "prefix_header_file": "ThingFeedBackModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartFeedbackKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "YYModel": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingFeedBackModule/ThingFeedBackModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

@@ -1,0 +1,6 @@
+framework module TRCTCameraAudioManager {
+  umbrella header "TRCTCameraAudioManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

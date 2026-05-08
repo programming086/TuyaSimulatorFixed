@@ -1,0 +1,6 @@
+framework module ThingBusinessTrackAPI {
+  umbrella header "ThingBusinessTrackAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

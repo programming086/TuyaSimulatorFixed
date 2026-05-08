@@ -1,0 +1,6 @@
+framework module TUNIWebSocketManager {
+  umbrella header "TUNIWebSocketManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

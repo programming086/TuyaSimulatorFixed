@@ -1,0 +1,6 @@
+framework module TUNIMatterDeviceManager {
+  umbrella header "TUNIMatterDeviceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

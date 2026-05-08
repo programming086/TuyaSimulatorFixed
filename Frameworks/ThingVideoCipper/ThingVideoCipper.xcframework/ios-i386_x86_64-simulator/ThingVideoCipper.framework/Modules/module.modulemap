@@ -1,0 +1,6 @@
+framework module ThingVideoCipper {
+  umbrella header "ThingVideoCipper-umbrella.h"
+
+  export *
+  module * { export * }
+}

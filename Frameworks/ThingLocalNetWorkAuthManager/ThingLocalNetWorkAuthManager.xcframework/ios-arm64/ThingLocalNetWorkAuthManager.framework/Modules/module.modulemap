@@ -1,0 +1,6 @@
+framework module ThingLocalNetWorkAuthManager {
+  umbrella header "ThingLocalNetWorkAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

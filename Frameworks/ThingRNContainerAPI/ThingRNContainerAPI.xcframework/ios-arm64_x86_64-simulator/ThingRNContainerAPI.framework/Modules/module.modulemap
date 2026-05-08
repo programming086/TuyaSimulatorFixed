@@ -1,0 +1,6 @@
+framework module ThingRNContainerAPI {
+  umbrella header "ThingRNContainerAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

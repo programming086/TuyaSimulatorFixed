@@ -1,0 +1,22 @@
+{
+  "name": "ThingSceneEditPlugAPI",
+  "version": "0.1.1",
+  "summary": "A short description of ThingSceneEditPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSceneEditPlugAPI/ThingSceneEditPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

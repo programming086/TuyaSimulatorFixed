@@ -1,0 +1,6 @@
+framework module ThingSmartOTABizBundle {
+  umbrella header "ThingSmartOTABizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

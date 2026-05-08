@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYPanelContext": [],
+    "TYUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYRCTNewTopBar",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.10"
+  },
+  "summary": "A short description of TYRCTNewTopBar.",
+  "vendored_frameworks": [
+    "Frameworks/TYRCTNewTopBar/TYRCTNewTopBar.xcframework"
+  ],
+  "version": "1.0.10"
+}

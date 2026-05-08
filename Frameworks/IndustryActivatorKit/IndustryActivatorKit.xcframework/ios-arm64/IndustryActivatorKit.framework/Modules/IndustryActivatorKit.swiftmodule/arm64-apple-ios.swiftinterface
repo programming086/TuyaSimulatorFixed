@@ -1,0 +1,229 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IndustryActivatorKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import IndustryActivatorKit
+import IndustryErrorKit
+import IotContainer
+import Swift
+import ThingSmartBLECoreKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum ActivatorError : Swift.Int {
+  case pairFailure = 13001
+  case qrCodeError = 13002
+  case timeOutError = 13003
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc extension Foundation.NSError {
+  @objc public static func pairFailure(_ des: Swift.String? = nil) -> Foundation.NSError
+  @objc public static func qrCodeError(_ des: Swift.String? = nil) -> Foundation.NSError
+  @objc public static func timeOutError(_ des: Swift.String? = nil) -> Foundation.NSError
+}
+@objc public enum ActivatorMode : Swift.Int {
+  case EZ
+  case AP
+  case WiredGateway
+  case QRCode
+  case zigbeeSubDevice
+  case QRScan
+  case BLE
+  case BLEWIFI
+  case BLEWIFICloud
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ActivatorParams : ObjectiveC.NSObject {
+  @objc public var timeOut: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @objcMembers public class EZActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var ssid: Swift.String
+  @objc public var password: Swift.String
+  @objc public var pairToken: Swift.String
+  @objc public init(ssid: Swift.String, password: Swift.String, token: Swift.String, timeOut: Foundation.TimeInterval)
+  @objc public init(ssid: Swift.String, password: Swift.String, token: Swift.String)
+  @objc deinit
+}
+@objc @objcMembers public class APActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var ssid: Swift.String
+  @objc public var password: Swift.String
+  @objc public var pairToken: Swift.String
+  @objc public init(ssid: Swift.String, password: Swift.String, token: Swift.String, timeOut: Foundation.TimeInterval)
+  @objc public init(ssid: Swift.String, password: Swift.String, token: Swift.String)
+  @objc deinit
+}
+@objc @objcMembers public class WiredGatewayActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var pairToken: Swift.String
+  @objc public var gwId: Swift.String
+  @objc public var pid: Swift.String
+  @objc public init(gwId: Swift.String, productId: Swift.String, token: Swift.String, timeOut: Foundation.TimeInterval)
+  @objc public init(gwId: Swift.String, productId: Swift.String, token: Swift.String)
+  @objc deinit
+}
+@objc @objcMembers public class QRCodeActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var ssid: Swift.String
+  @objc public var password: Swift.String
+  @objc public var pairToken: Swift.String
+  @objc public init(ssid: Swift.String, password: Swift.String, token: Swift.String, timeOut: Foundation.TimeInterval)
+  @objc public init(ssid: Swift.String, password: Swift.String, token: Swift.String)
+  @objc deinit
+}
+@objc @objcMembers public class ZigbeeSubDeviceActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var gwId: Swift.String
+  @objc public var localKey: Swift.String
+  @objc public var pv: Swift.Double
+  @objc public init(gwId: Swift.String, localKey: Swift.String, pv: Swift.Double)
+  @objc public init(gwId: Swift.String, localKey: Swift.String, pv: Swift.Double, timeOut: Foundation.TimeInterval)
+  @objc deinit
+}
+@objc @objcMembers public class QRScanActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var code: Swift.String
+  @objc public var assetId: Swift.String
+  @objc public var ssid: Swift.String
+  @objc public var password: Swift.String
+  @objc public init(code: Swift.String, assetId: Swift.String, ssid: Swift.String?, password: Swift.String?, timeOut: Foundation.TimeInterval)
+  @objc public init(code: Swift.String, assetId: Swift.String, ssid: Swift.String?, password: Swift.String?)
+  @objc deinit
+}
+@objc @objcMembers public class BLEActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var deviceInfo: any IndustryActivatorKit.ISmartBLEAdv
+  @objc public var assetId: Swift.String
+  @objc public init(deviceInfo: any IndustryActivatorKit.ISmartBLEAdv, assetId: Swift.String)
+  @objc public init(deviceInfo: any IndustryActivatorKit.ISmartBLEAdv, assetId: Swift.String, timeOut: Foundation.TimeInterval)
+  @objc deinit
+}
+@objc @objcMembers public class BLEWIFIActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var deviceInfo: any IndustryActivatorKit.ISmartBLEAdv
+  @objc public var assetId: Swift.String
+  @objc public var pairToken: Swift.String
+  @objc public var ssid: Swift.String
+  @objc public var password: Swift.String
+  @objc public var onlyConnectBle: Swift.Bool
+  @objc public init(deviceInfo: any IndustryActivatorKit.ISmartBLEAdv, assetId: Swift.String, pairToken: Swift.String, ssid: Swift.String, password: Swift.String, onlyConnectBle: Swift.Bool)
+  @objc public init(deviceInfo: any IndustryActivatorKit.ISmartBLEAdv, assetId: Swift.String, pairToken: Swift.String, ssid: Swift.String, password: Swift.String, onlyConnectBle: Swift.Bool, timeOut: Foundation.TimeInterval)
+  @objc deinit
+}
+@objc @objcMembers public class BLEWIFICloudActivatorParams : IndustryActivatorKit.ActivatorParams {
+  @objc public var devId: Swift.String
+  @objc public var ssid: Swift.String
+  @objc public var password: Swift.String
+  @objc public init(devId: Swift.String, ssid: Swift.String, password: Swift.String)
+  @objc public init(devId: Swift.String, ssid: Swift.String, password: Swift.String, timeOut: Foundation.TimeInterval)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class ActivatorService : ObjectiveC.NSObject {
+  @objc public static var shared: IndustryActivatorKit.ActivatorService
+  @objc deinit
+}
+extension IndustryActivatorKit.ActivatorService : IndustryActivatorKit.IActivatorService {
+  @objc dynamic public func activatorToken(assetId: Swift.String, longitude: Swift.String?, latitude: Swift.String?, success: ((Swift.String) -> (Swift.Void))? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func activator(_ mode: IndustryActivatorKit.ActivatorMode) -> any IndustryActivatorKit.IActivator
+  @objc dynamic public func QRCodeDataForQRCodeActivatorMode(ssid: Swift.String, password: Swift.String, pairToken: Swift.String) -> Foundation.Data?
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DiscoveryService : ObjectiveC.NSObject {
+  @objc public static var shared: IndustryActivatorKit.DiscoveryService
+  @objc deinit
+}
+extension IndustryActivatorKit.DiscoveryService : IndustryActivatorKit.IDiscoveryService {
+  @objc dynamic public func discovery(_ mode: IndustryActivatorKit.DiscoveryMode) -> any IndustryActivatorKit.IDiscovery
+}
+@objc public protocol IActivatedDevice : ObjectiveC.NSObjectProtocol {
+  @objc var uuid: Swift.String { get set }
+  @objc var deviceId: Swift.String { get set }
+  @objc var name: Swift.String { get set }
+  @objc var productID: Swift.String { get set }
+  @objc var longitude: Swift.String { get set }
+  @objc var latitude: Swift.String { get set }
+  @objc var ipAddress: Swift.String { get set }
+  @objc var isOnline: Swift.Bool { get set }
+  @objc var meshId: Swift.String { get set }
+}
+@objc public protocol IActivatorListener : ObjectiveC.NSObjectProtocol {
+  @objc func onSuccess(deviceModel: (any IndustryActivatorKit.IActivatedDevice)?)
+  @objc func onError(error: any Swift.Error)
+}
+@objc public protocol IActivator : ObjectiveC.NSObjectProtocol {
+  @objc weak var listener: (any IndustryActivatorKit.IActivatorListener)? { get set }
+  @objc func startPair(_ params: IndustryActivatorKit.ActivatorParams)
+  @objc func stopPair()
+}
+@objc public protocol IActivatorService : ObjectiveC.NSObjectProtocol {
+  @objc func activatorToken(assetId: Swift.String, longitude: Swift.String?, latitude: Swift.String?, success: ((Swift.String) -> (Swift.Void))?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func activator(_ mode: IndustryActivatorKit.ActivatorMode) -> any IndustryActivatorKit.IActivator
+  @objc func QRCodeDataForQRCodeActivatorMode(ssid: Swift.String, password: Swift.String, pairToken: Swift.String) -> Foundation.Data?
+}
+@objc public enum SmartBLEType : Swift.Int {
+  case unknow = 1
+  case ble
+  case blePlus
+  case bleWifi
+  case bleSecurity
+  case bleWifiSecurity
+  case bleWifiPlugPlay
+  case bleZigbee
+  case bleLTESecurity
+  case bleBeacon
+  case bleWifiPriorBLE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol ISmartBLEAdv : ObjectiveC.NSObjectProtocol {
+  @objc var uuid: Swift.String? { get set }
+  @objc var productId: Swift.String? { get set }
+  @objc var mac: Swift.String? { get set }
+  @objc var isActive: Swift.Bool { get set }
+  @objc var bleType: IndustryActivatorKit.SmartBLEType { get set }
+  @objc var isSupport5G: Swift.Bool { get set }
+  @objc var isProuductKey: Swift.Bool { get set }
+  @objc var bleProtocolV: Swift.Int { get set }
+  @objc var isQRCodeDevice: Swift.Bool { get set }
+  @objc var isSupportMultiUserShare: Swift.Bool { get set }
+}
+@objc public protocol IDiscoveryListener : ObjectiveC.NSObjectProtocol {
+  @objc optional func didDiscover(device: (any IndustryActivatorKit.ISmartBLEAdv)?)
+  @objc optional func didDiscover(deviceId: Swift.String, productId: Swift.String)
+}
+@objc public protocol IDiscovery : ObjectiveC.NSObjectProtocol {
+  @objc weak var listener: (any IndustryActivatorKit.IDiscoveryListener)? { get set }
+  @objc func startDiscovery()
+  @objc func stopDiscovery()
+}
+@objc public enum DiscoveryMode : Swift.Int {
+  case BLE = 1
+  case BLEWIFI = 2
+  case WIRED = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IDiscoveryService : ObjectiveC.NSObjectProtocol {
+  @objc func discovery(_ mode: IndustryActivatorKit.DiscoveryMode) -> any IndustryActivatorKit.IDiscovery
+}
+extension IndustryActivatorKit.ActivatorError : Swift.Equatable {}
+extension IndustryActivatorKit.ActivatorError : Swift.Hashable {}
+extension IndustryActivatorKit.ActivatorError : Swift.RawRepresentable {}
+extension IndustryActivatorKit.ActivatorMode : Swift.Equatable {}
+extension IndustryActivatorKit.ActivatorMode : Swift.Hashable {}
+extension IndustryActivatorKit.ActivatorMode : Swift.RawRepresentable {}
+extension IndustryActivatorKit.SmartBLEType : Swift.Equatable {}
+extension IndustryActivatorKit.SmartBLEType : Swift.Hashable {}
+extension IndustryActivatorKit.SmartBLEType : Swift.RawRepresentable {}
+extension IndustryActivatorKit.DiscoveryMode : Swift.Equatable {}
+extension IndustryActivatorKit.DiscoveryMode : Swift.Hashable {}
+extension IndustryActivatorKit.DiscoveryMode : Swift.RawRepresentable {}

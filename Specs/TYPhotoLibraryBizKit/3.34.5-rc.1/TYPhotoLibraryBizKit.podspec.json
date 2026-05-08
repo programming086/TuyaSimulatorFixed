@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYLogMacro": [],
+    "TuyaSmartDeviceCoreKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYPhotoLibraryBizKit",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "3.34.5-rc.1"
+  },
+  "summary": "A short description of TYPhotoLibraryBizKit.",
+  "vendored_frameworks": [
+    "Frameworks/TYPhotoLibraryBizKit/TYPhotoLibraryBizKit.xcframework"
+  ],
+  "version": "3.34.5-rc.1"
+}

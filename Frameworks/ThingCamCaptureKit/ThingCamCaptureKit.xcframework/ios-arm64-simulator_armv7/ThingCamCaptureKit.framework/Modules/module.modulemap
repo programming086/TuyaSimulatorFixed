@@ -1,0 +1,6 @@
+framework module ThingCamCaptureKit {
+  umbrella header "ThingCamCaptureKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

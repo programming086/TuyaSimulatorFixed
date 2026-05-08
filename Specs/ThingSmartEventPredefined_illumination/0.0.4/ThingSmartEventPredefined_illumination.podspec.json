@@ -1,0 +1,31 @@
+{
+  "name": "ThingSmartEventPredefined_illumination",
+  "version": "0.0.4",
+  "summary": "A short description of ThingSmartEventPredefined_illumination.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.0.4"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartEventPredefined_illumination/ThingSmartEventPredefined_illumination.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

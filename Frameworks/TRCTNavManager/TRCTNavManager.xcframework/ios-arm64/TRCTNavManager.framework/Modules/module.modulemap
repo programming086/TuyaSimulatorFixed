@@ -1,0 +1,6 @@
+framework module TRCTNavManager {
+  umbrella header "TRCTNavManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

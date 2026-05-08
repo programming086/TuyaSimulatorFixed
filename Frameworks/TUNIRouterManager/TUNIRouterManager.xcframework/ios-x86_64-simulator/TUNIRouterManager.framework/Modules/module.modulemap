@@ -1,0 +1,6 @@
+framework module TUNIRouterManager {
+  umbrella header "TUNIRouterManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

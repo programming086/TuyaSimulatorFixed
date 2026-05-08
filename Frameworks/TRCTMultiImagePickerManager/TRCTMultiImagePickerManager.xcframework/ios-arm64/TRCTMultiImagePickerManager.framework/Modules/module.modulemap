@@ -1,0 +1,6 @@
+framework module TRCTMultiImagePickerManager {
+  umbrella header "TRCTMultiImagePickerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

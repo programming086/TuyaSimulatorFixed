@@ -1,0 +1,29 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ThingSmartOutdoorPlugAPI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import ThingSmartOutdoorKit
+@_exported import ThingSmartOutdoorPlugAPI
+import ThingSmartOutdoorKit.ValueAddedServices
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc(TSODBLEXProtocol) public protocol BLEXProtocol : ObjectiveC.NSObjectProtocol {
+  @objc func isBLEXDevice(deviceID: Swift.String) -> Swift.Bool
+  @objc func isBLEXActivedDevice(deviceID: Swift.String) -> Swift.Bool
+  @objc func getExtendedModuleExtConfig(deviceID: Swift.String, callback: @escaping (_ extConfig: ThingSmartOutdoorPlugAPI.ExtendedModuleExtConfig?, _ error: Foundation.NSError?) -> Swift.Void)
+}
+@objc(TSODDeviceManagerProtocol) public protocol DeviceManagerProtocol : ObjectiveC.NSObjectProtocol {
+  @objc func currentDeviceID() -> Swift.String?
+  @objc @discardableResult
+  func getDeviceList(_ callback: ((_ devIDList: Swift.Array<Swift.String>) -> Swift.Void)?) -> Swift.Array<Swift.String>
+  @objc @discardableResult
+  func getSharedDeviceList(_ callback: ((_ devIDList: Swift.Array<Swift.String>) -> Swift.Void)?) -> Swift.Array<Swift.String>
+  @objc func specifyDevice(_ devID: Swift.String, success: ((_ result: Swift.Bool) -> Swift.Void)?, failure: ((_ error: Foundation.NSError) -> Swift.Void)?)
+}
+@objc(TSODValueAddedServicesProtocol) public protocol ValueAddedServicesProtocol : ObjectiveC.NSObjectProtocol {
+  @objc func getValueAddedServicesAbility(deviceID: Swift.String, callback: @escaping (_ vasModel: ThingSmartOutdoorKit.ValueAddedServicesModel?, _ error: Foundation.NSError?) -> Swift.Void)
+  @objc func setValueAddedServicesPop(deviceID: Swift.String, hadPopup: Swift.Bool, callback: @escaping (_ result: Swift.Bool, _ error: Foundation.NSError?) -> Swift.Void)
+}

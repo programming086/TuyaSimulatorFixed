@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYEncryptImage": [],
+    "TYPanelContext": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYRCTAnimatedImageManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.5"
+  },
+  "summary": "A short description of TYRCTAnimatedImageManager.",
+  "vendored_frameworks": [
+    "Frameworks/TYRCTAnimatedImageManager/TYRCTAnimatedImageManager.xcframework"
+  ],
+  "version": "1.0.5"
+}

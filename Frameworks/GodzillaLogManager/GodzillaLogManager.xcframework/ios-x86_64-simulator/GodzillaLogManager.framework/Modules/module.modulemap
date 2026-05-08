@@ -1,0 +1,6 @@
+framework module GodzillaLogManager {
+  umbrella header "GodzillaLogManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

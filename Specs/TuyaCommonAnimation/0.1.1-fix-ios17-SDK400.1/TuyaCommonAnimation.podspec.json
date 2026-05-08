@@ -1,0 +1,24 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "dependencies": {
+    "TYUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TuyaCommonAnimation",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.1-fix-ios17-SDK400.1"
+  },
+  "summary": "A short description of TuyaCommonAnimation.",
+  "vendored_frameworks": [
+    "Frameworks/TuyaCommonAnimation/TuyaCommonAnimation.xcframework"
+  ],
+  "version": "0.1.1-fix-ios17-SDK400.1"
+}

@@ -1,0 +1,6 @@
+framework module TYAnnotationFoundation {
+  umbrella header "TYAnnotationFoundation-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingDomainQueryAPI {
+  umbrella header "ThingDomainQueryAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

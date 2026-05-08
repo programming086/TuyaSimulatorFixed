@@ -1,0 +1,6 @@
+framework module ThingSmartBusinessExtensionKitMatterExtra {
+  umbrella header "ThingSmartBusinessExtensionKitMatterExtra-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTHomeDevManager {
+  umbrella header "TRCTHomeDevManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

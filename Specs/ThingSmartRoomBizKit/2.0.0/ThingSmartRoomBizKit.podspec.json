@@ -1,0 +1,45 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingOEMConfig": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartDeviceKit": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartEventPredefined_Public": [],
+    "ThingUIKit": []
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartRoomBizKit",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_file": "ThingSmartRoomBizKit/Classes/PrefixHeader.pch",
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.0.0"
+  },
+  "summary": "\u623f\u95f4\u903b\u8f91\u6a21\u5757",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartRoomBizKit/ThingSmartRoomBizKit.xcframework"
+  ],
+  "version": "2.0.0"
+}

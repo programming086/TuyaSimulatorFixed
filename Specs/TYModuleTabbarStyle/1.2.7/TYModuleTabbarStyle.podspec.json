@@ -1,0 +1,40 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYEncryptImage": [],
+    "TYFoundationKit": [],
+    "TYModuleManager": [],
+    "TYRealClass": [],
+    "TYUIKit": []
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYModuleTabbarStyle",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.2.7"
+  },
+  "summary": "TYModuleTabbar\u81ea\u5b9a\u4e49\u6837\u5f0f",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYModuleTabbarStyle/TYModuleTabbarStyle.xcframework"
+  ],
+  "version": "1.2.7"
+}

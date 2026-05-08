@@ -1,0 +1,58 @@
+{
+  "name": "ThingAlertPickerComponent",
+  "version": "0.3.3-anonymize.1",
+  "summary": "A short description of ThingAlertPickerComponent.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.3.3-anonymize.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartBusinessLibrary": [],
+    "ThingAnimationKit": []
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "JavaScriptCore",
+    "MapKit",
+    "CoreGraphics",
+    "CoreLocation",
+    "AVFoundation",
+    "QuartzCore",
+    "CFNetwork",
+    "Security",
+    "AddressBook",
+    "CoreTelephony",
+    "ImageIO",
+    "MobileCoreServices",
+    "Accelerate",
+    "AudioToolbox",
+    "UserNotifications",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Photos",
+    "AssetsLibrary",
+    "MediaPlayer"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingAlertPickerComponent/ThingAlertPickerComponent.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

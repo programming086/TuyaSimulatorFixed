@@ -1,0 +1,6 @@
+framework module TUNIAIAssistantManager {
+  umbrella header "TUNIAIAssistantManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

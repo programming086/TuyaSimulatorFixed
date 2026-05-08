@@ -1,0 +1,6 @@
+framework module ThingServerSwitchApi {
+  umbrella header "ThingServerSwitchApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

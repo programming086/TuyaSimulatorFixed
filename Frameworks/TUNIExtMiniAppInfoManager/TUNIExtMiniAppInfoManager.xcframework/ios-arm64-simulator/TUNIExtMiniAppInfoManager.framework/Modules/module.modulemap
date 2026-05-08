@@ -1,0 +1,6 @@
+framework module TUNIExtMiniAppInfoManager {
+  umbrella header "TUNIExtMiniAppInfoManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

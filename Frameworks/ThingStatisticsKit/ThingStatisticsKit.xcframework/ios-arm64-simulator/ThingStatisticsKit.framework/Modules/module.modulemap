@@ -1,0 +1,6 @@
+framework module ThingStatisticsKit {
+  umbrella header "ThingStatisticsKit.h"
+
+  export *
+  module * { export * }
+}

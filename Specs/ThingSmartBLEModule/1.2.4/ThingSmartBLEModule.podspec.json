@@ -1,0 +1,38 @@
+{
+  "name": "ThingSmartBLEModule",
+  "version": "1.2.4",
+  "summary": "A short description of ThingSmartBLEModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.2.4"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [],
+    "ThingBluetoothInterface": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingTacticsManager": [],
+    "ThingConfigHub": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartBLEModule/ThingSmartBLEModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

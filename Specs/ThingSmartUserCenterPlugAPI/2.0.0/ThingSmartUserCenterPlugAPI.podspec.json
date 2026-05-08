@@ -1,0 +1,36 @@
+{
+  "name": "ThingSmartUserCenterPlugAPI",
+  "version": "2.0.0",
+  "summary": "A short description of ThingSmartUserCenterPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingInterfaceConfig": [],
+    "ThingNavigationController": [],
+    "ThingFallLayout": [],
+    "ThingMachRegister": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartUserCenterPlugAPI/ThingSmartUserCenterPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

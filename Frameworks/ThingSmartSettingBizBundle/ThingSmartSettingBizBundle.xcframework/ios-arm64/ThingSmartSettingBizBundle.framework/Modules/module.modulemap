@@ -1,0 +1,6 @@
+framework module ThingSmartSettingBizBundle {
+  umbrella header "ThingSmartSettingBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

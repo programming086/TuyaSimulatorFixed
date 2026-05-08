@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingDeviceNetworkSettingPlugAPI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.1-anonymize.1"
+  },
+  "summary": "A short description of ThingDeviceNetworkSettingPlugAPI.",
+  "vendored_frameworks": [
+    "Frameworks/ThingDeviceNetworkSettingPlugAPI/ThingDeviceNetworkSettingPlugAPI.xcframework"
+  ],
+  "version": "1.0.1-anonymize.1"
+}

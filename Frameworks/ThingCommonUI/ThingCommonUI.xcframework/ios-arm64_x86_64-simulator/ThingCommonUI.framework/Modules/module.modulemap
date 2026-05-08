@@ -1,0 +1,11 @@
+framework module ThingCommonUI {
+  umbrella header "ThingCommonUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ThingCommonUI.Swift {
+  header "ThingCommonUI-Swift.h"
+  requires objc
+}

@@ -1,0 +1,56 @@
+{
+  "name": "ThingSmartPanoramaSDK",
+  "version": "1.1.5-rc.5",
+  "summary": "A short description of ThingSmartPanoramaSDK.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.5-rc.5"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingSmartPanoramaSDK/**/Android/*.*",
+    "ThingSmartPanoramaSDK/CAPI/*.*"
+  ],
+  "ios": {
+    "vendored_libraries": [
+      "Build/ios/VendorsLibrary/libturbojpeg.a",
+      "Build/ios/VendorsLibrary/libbase_img_proc.a"
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "OTHER_LDFLAGS": "-read_only_relocs suppress",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX __STDC_CONSTANT_MACROS $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/inc $(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/jpeg $(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/jpeg/include",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartPanoramaSDK/ThingSmartPanoramaSDK.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartPanoramaSDK/ThingSmartPanoramaSDK.xcframework/**/*.h"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ThingSceneEditSktAPI",
+  "version": "0.1.2",
+  "summary": "A short description of ThingSceneEditSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSceneEditSktAPI/ThingSceneEditSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

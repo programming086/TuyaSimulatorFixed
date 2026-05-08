@@ -1,0 +1,47 @@
+{
+  "name": "ThingMapKit",
+  "version": "1.4.16",
+  "summary": "A short description of ThingMapKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.4.16"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingMapKit": [
+      "ThingMapKit/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [],
+    "Masonry": [],
+    "ThingUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingCommonUI": [],
+    "ThingProgressHUD": [],
+    "ThingOEMConfig": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingLocationAuthManager": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingAlertView": [],
+    "ThingEncryptImage": [],
+    "ThingMachRegister": [],
+    "ThingAuthorizationServices": []
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingMapKit/ThingMapKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

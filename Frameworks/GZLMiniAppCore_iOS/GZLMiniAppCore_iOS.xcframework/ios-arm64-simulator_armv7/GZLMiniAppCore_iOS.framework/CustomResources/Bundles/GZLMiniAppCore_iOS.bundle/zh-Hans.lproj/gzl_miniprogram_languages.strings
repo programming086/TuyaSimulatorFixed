@@ -1,0 +1,22 @@
+/* 
+  gzl_miniprogram_languages.strings
+  Pods
+
+  Created by qingxu on 2022/4/11.
+  
+*/
+
+"Trial" = "体验版";
+"Develop" = "开发版";
+"Local BasicLib" = "本地基础库";
+"Review" = "审核版";
+"JSSdk Trial" = "基础库体验";
+"Miniprogram&JSSdk" = "小程序&基础库";
+
+"Retry" = "点击重试";
+"error code" = "错误码";
+"Unable to open the Mini-Program, please try again later" = "无法打开小程序, 请稍后重试";
+"gzl_alert_error_device_id" = "deviceId有误，请确认是否在当前家庭或者重新配置";
+"gzl_alert_miss_paramter" = "请配置 %@";
+"Running out of memory makes the miniProgram unusable" = "运行内存不足导致该小程序无法使用";
+"Sure" = "确定";

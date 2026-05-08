@@ -1,0 +1,6 @@
+framework module ThingLanguageManager {
+  umbrella header "ThingLanguageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

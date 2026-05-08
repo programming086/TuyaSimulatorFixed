@@ -1,0 +1,6 @@
+framework module ThingMachRegister {
+  umbrella header "ThingMachRegister-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingSpaceInfoSktAPI {
+  umbrella header "ThingSpaceInfoSktAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

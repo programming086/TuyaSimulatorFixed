@@ -1,0 +1,6 @@
+framework module ThingLanguageGroupInterface {
+  umbrella header "ThingLanguageGroupInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}

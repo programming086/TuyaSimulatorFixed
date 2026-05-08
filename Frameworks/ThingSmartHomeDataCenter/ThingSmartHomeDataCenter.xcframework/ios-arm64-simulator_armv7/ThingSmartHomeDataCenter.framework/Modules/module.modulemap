@@ -1,0 +1,6 @@
+framework module ThingSmartHomeDataCenter {
+  umbrella header "ThingSmartHomeDataCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

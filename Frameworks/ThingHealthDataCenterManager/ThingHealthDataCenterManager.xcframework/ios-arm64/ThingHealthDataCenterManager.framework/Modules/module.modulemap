@@ -1,0 +1,6 @@
+framework module ThingHealthDataCenterManager {
+  umbrella header "ThingHealthDataCenterManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

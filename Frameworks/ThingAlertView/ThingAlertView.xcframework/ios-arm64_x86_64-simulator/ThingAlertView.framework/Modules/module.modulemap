@@ -1,0 +1,6 @@
+framework module ThingAlertView {
+  umbrella header "ThingAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

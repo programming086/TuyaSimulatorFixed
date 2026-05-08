@@ -1,0 +1,6 @@
+framework module ThingSmartDoorLockModuleService {
+  umbrella header "ThingSmartDoorLockModuleService-umbrella.h"
+
+  export *
+  module * { export * }
+}

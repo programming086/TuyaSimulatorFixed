@@ -1,0 +1,6 @@
+framework module TRCTVisionManager {
+  umbrella header "TRCTVisionManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTPublicBLEBeaconManager {
+  umbrella header "TRCTPublicBLEBeaconManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "react-native-video",
+  "version": "3.2.5",
+  "summary": "A <Video /> element for react-native",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "3.2.5"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AVKit",
+    "MediaAccessibility",
+    "CoreMedia"
+  ],
+  "dependencies": {
+    "React": [],
+    "ThingAudioSpectrum": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/react-native-video/react_native_video.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

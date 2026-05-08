@@ -1,0 +1,6 @@
+framework module TUNIAuthorizeManager {
+  umbrella header "TUNIAuthorizeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

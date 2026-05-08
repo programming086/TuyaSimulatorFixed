@@ -1,0 +1,37 @@
+{
+  "name": "ThingLightingEnergyConsumptionKit",
+  "version": "2.7.10",
+  "summary": "A short description of ThingLightingEnergyConsumptionKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://registry.code.thing-inc.top/thingIOS/Modules/Lamp/ThingLightingEnergyConsumptionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.7.10"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [],
+    "YYModel": []
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingLightingEnergyConsumptionKit/ThingLightingEnergyConsumptionKit.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingLightingEnergyConsumptionKit/ThingLightingEnergyConsumptionKit.xcframework/**/*.h"
+  ]
+}

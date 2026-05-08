@@ -1,0 +1,23 @@
+{
+  "name": "ThingHealthBCMAPI",
+  "version": "1.0.2",
+  "summary": "A short description of ThingHealthBCMAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingHealthBCMAPI/ThingHealthBCMAPI.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingHealthBCMAPI/ThingHealthBCMAPI.xcframework/**/*.h"
+  ]
+}

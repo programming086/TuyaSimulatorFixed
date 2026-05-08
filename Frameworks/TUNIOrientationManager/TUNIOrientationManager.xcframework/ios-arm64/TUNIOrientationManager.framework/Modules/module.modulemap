@@ -1,0 +1,6 @@
+framework module TUNIOrientationManager {
+  umbrella header "TUNIOrientationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingModuleManager": [],
+    "ThingSpaceInfoSktAPI": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSpaceInterface",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.7"
+  },
+  "summary": "A short description of ThingSpaceInterface.",
+  "vendored_frameworks": [
+    "Frameworks/ThingSpaceInterface/ThingSpaceInterface.xcframework"
+  ],
+  "version": "0.1.7"
+}

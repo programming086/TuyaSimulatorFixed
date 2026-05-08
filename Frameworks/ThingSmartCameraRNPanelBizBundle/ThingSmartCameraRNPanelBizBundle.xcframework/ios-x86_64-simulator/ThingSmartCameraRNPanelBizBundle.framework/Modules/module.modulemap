@@ -1,0 +1,6 @@
+framework module ThingSmartCameraRNPanelBizBundle {
+  umbrella header "ThingSmartCameraRNPanelBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

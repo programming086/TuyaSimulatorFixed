@@ -1,0 +1,43 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYEncryptImage": [],
+    "TYFoundationKit": [],
+    "TuyaSmartBaseKit": [],
+    "YYModel": [],
+    "libextobjc": []
+  },
+  "homepage": "https://github.com/tuya",
+  "ios": {
+    "dependencies": {
+      "TYKVStorageLibrary": []
+    }
+  },
+  "license": "none",
+  "name": "TYOEMConfig",
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.26.27"
+  },
+  "summary": "OEM\u6253\u5305\u914d\u7f6e\u9879",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYOEMConfig/TYOEMConfig.xcframework"
+  ],
+  "version": "1.26.27",
+  "watchos": {}
+}

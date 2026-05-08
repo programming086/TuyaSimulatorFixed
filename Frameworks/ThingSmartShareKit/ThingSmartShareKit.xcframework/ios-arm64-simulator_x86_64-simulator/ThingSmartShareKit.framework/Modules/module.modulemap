@@ -1,0 +1,6 @@
+framework module ThingSmartShareKit {
+  umbrella header "ThingSmartShareKit.h"
+
+  export *
+  module * { export * }
+}

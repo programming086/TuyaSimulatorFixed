@@ -1,0 +1,6 @@
+framework module TUNICompassManager {
+  umbrella header "TUNICompassManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

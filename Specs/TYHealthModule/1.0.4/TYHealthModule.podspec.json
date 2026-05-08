@@ -1,0 +1,30 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "HealthKit"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYHealthModule",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.healthkit com.apple.developer.healthkit.access ",
+    "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSHealthShareUsageDescription NSHealthUpdateUsageDescription "
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.4"
+  },
+  "summary": "\u6d82\u9e26\u5065\u5eb7\u6570\u636e\u540c\u6b65",
+  "vendored_frameworks": [
+    "Frameworks/TYHealthModule/TYHealthModule.xcframework"
+  ],
+  "version": "1.0.4"
+}

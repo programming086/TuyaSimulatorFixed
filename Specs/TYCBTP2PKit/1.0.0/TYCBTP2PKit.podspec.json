@@ -1,0 +1,32 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYUniP2pFileManager": [
+      "1.0.0"
+    ]
+  },
+  "description": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYCBTP2PKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TYCBTP2PKit": [
+      "ios/TYCBTP2PKit/Assets/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.0"
+  },
+  "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "vendored_frameworks": [
+    "Frameworks/TYCBTP2PKit/TYCBTP2PKit.xcframework"
+  ],
+  "version": "1.0.0"
+}

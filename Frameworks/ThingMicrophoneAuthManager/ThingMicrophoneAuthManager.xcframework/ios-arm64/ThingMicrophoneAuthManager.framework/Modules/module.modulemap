@@ -1,0 +1,6 @@
+framework module ThingMicrophoneAuthManager {
+  umbrella header "ThingMicrophoneAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

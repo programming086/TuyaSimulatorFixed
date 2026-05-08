@@ -1,0 +1,6 @@
+framework module TUNIMiniHighwayManager {
+  umbrella header "TUNIMiniHighwayManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

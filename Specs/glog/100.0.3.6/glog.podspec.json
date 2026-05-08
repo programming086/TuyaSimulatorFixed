@@ -1,0 +1,33 @@
+{
+  "name": "glog",
+  "version": "100.0.3.6",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "summary": "Google logging module",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "100.0.3.6"
+  },
+  "module_name": "glog",
+  "header_dir": "glog",
+  "preserve_paths": [
+    "src/*.h",
+    "src/base/*.h"
+  ],
+  "exclude_files": "src/windows/**/*",
+  "libraries": "stdc++",
+  "pod_target_xcconfig": {
+    "USE_HEADERMAP": "NO",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/src"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Frameworks/glog/glog.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

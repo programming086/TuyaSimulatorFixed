@@ -1,0 +1,6 @@
+framework module TRCTPointMap {
+  umbrella header "TRCTPointMap-umbrella.h"
+
+  export *
+  module * { export * }
+}

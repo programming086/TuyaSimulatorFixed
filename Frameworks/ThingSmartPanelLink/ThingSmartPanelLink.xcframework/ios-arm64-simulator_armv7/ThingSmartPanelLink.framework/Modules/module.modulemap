@@ -1,0 +1,6 @@
+framework module ThingSmartPanelLink {
+  umbrella header "ThingSmartPanelLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

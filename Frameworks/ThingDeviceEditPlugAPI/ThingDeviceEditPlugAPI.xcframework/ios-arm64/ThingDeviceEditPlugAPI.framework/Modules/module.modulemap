@@ -1,0 +1,6 @@
+framework module ThingDeviceEditPlugAPI {
+  umbrella header "ThingDeviceEditPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

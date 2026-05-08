@@ -1,0 +1,42 @@
+{
+  "name": "TUNILogManager",
+  "version": "1.0.0-rc.5",
+  "summary": "A short description of TUNILogManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.0-rc.5"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNILogManager": [
+      "ios/TUNILogManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingLogGroupInterface": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TUNILogManager/TUNILogManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

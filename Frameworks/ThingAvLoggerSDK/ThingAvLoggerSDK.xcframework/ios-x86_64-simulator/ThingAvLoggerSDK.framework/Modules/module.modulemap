@@ -1,0 +1,6 @@
+framework module ThingAvLoggerSDK {
+  umbrella header "ThingAvLoggerSDK.h"
+
+  export *
+  module * { export * }
+}

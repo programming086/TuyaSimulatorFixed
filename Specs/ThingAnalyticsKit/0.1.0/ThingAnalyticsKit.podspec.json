@@ -1,0 +1,24 @@
+{
+  "name": "ThingAnalyticsKit",
+  "version": "0.1.0",
+  "summary": "A short description of ThingAnalyticsKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingAPMLibrary": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingAnalyticsKit/ThingAnalyticsKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,6 @@
+framework module ThingLoginSktAPI {
+  umbrella header "ThingLoginSktAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

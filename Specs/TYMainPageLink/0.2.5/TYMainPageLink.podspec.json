@@ -1,0 +1,34 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYAppLifeCycleSktAPI": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYSecurityArmAbilityModuleServices": [],
+    "TYSettingsPlugAPI": [],
+    "TYSmartSecurityModuleService": [],
+    "TYSpaceInfoSktAPI": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYMainPageLink",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.5"
+  },
+  "summary": "A short description of TYMainPageLink.",
+  "vendored_frameworks": [
+    "Frameworks/TYMainPageLink/TYMainPageLink.xcframework"
+  ],
+  "version": "0.2.5"
+}

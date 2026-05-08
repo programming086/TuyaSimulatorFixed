@@ -1,0 +1,29 @@
+{
+  "name": "ThingSmartClientConfigModule",
+  "version": "0.2.0",
+  "summary": "A short description of ThingSmartClientConfigModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingFoundationKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartClientConfigModule/ThingSmartClientConfigModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

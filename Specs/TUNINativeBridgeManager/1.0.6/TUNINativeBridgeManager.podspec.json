@@ -1,0 +1,29 @@
+{
+  "name": "TUNINativeBridgeManager",
+  "version": "1.0.6",
+  "summary": "A short description of TUNINativeBridgeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.6"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingRealClass": [],
+    "TUNIAPIManagerKit": [],
+    "ThingLogMacro": [],
+    "ThingUIKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/TUNINativeBridgeManager/TUNINativeBridgeManager.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/TUNINativeBridgeManager/TUNINativeBridgeManager.xcframework/**/*.h"
+  ]
+}

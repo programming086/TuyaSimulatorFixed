@@ -1,0 +1,6 @@
+framework module TUNIIPCKit {
+  umbrella header "TUNIIPCKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

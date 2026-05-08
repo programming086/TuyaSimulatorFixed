@@ -1,0 +1,52 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingAlertPickerComponent": [],
+    "ThingBluetoothInterface": [],
+    "ThingDeviceBusinessDataKit": [],
+    "ThingDeviceTimerPlugAPI": [],
+    "ThingFoundationKit": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingNavigationController": [],
+    "ThingOEMConfig": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartTimerKit": [],
+    "ThingUIKit": [],
+    "ThingUrlPredefined": []
+  },
+  "description": "\u6d82\u9e26\u8bbe\u5907\u5b9a\u65f6\u6a21\u5757",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingTimerModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingTimerModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingTimerModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingTimerModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingTimerModule\", ##__VA_ARGS__)",
+  "prefix_header_file": "ThingTimerModule/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingTimerModule/Assets/**/*.{png,bundle}"
+  ],
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.10.1"
+  },
+  "summary": "A short description of ThingTimerModule.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingTimerModule/ThingTimerModule.xcframework"
+  ],
+  "version": "2.10.1"
+}

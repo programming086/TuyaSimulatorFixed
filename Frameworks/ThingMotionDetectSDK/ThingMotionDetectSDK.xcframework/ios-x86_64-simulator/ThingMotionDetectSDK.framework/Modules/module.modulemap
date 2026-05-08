@@ -1,0 +1,6 @@
+framework module ThingMotionDetectSDK {
+  umbrella header "ThingMotionDetectSDK.h"
+
+  export *
+  module * { export * }
+}

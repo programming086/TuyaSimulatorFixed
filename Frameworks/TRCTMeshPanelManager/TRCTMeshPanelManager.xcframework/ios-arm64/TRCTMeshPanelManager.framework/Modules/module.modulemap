@@ -1,0 +1,6 @@
+framework module TRCTMeshPanelManager {
+  umbrella header "TRCTMeshPanelManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

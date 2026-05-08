@@ -1,0 +1,6 @@
+framework module TuyaSmartHelpCenterBizBundle {
+  umbrella header "TuyaSmartHelpCenterBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

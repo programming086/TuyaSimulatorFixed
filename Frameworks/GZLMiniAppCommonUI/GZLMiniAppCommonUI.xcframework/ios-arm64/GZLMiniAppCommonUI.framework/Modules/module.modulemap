@@ -1,0 +1,6 @@
+framework module GZLMiniAppCommonUI {
+  umbrella header "GZLMiniAppCommonUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

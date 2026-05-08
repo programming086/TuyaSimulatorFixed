@@ -1,0 +1,6 @@
+framework module TRCTDoorBellManager {
+  umbrella header "TRCTDoorBellManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

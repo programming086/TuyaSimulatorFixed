@@ -1,0 +1,6 @@
+framework module TUNIStorageManager {
+  umbrella header "TUNIStorageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

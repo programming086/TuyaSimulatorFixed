@@ -1,0 +1,11 @@
+framework module ThingSmartMatterExtensionKit {
+  umbrella header "ThingSmartMatterExtensionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ThingSmartMatterExtensionKit.Swift {
+  header "ThingSmartMatterExtensionKit-Swift.h"
+  requires objc
+}

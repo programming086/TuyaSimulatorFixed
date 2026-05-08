@@ -1,0 +1,6 @@
+framework module ThingSmartMessageKit {
+  umbrella header "ThingSmartMessageKit-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

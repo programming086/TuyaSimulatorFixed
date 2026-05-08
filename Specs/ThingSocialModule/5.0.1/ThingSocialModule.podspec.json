@@ -1,0 +1,53 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingModuleManager": [],
+    "ThingNavigationController": [],
+    "ThingOEMConfig": [],
+    "ThingPopupViewController": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSocialAPI": [],
+    "ThingUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "MessageUI",
+    "Social"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSocialModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSocialModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSocialModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSocialModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSocialModule\", ##__VA_ARGS__)",
+  "resource_bundles": {
+    "ThingSocialModule": [
+      "ThingSocialModule/Assets/**/*.{png,strings}"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.0.1"
+  },
+  "summary": "\u96c6\u6210\u7b2c\u4e09\u65b9\u767b\u5f55\u3001\u5206\u4eab\u7ec4\u4ef6\u7684\u7edf\u4e00\u7ba1\u7406\u4e2d\u5fc3",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSocialModule/ThingSocialModule.xcframework"
+  ],
+  "version": "5.0.1"
+}

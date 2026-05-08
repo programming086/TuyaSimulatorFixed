@@ -1,0 +1,49 @@
+{
+  "name": "ThingCallIPCTactic",
+  "version": "1.2.3",
+  "summary": "A short description of ThingCallIPCTactic.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.2.3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCallIPCTactic": [
+      "ThingCallIPCTactic/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingCallModule": [],
+    "ThingUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "ThingOEMConfig": [],
+    "YYModel": [],
+    "Masonry": [],
+    "ThingEncryptImage": [],
+    "ThingMicrophoneAuthManager": [],
+    "ThingAlertView": [],
+    "ThingProgressHUD": [],
+    "ThingSmartCameraBizKit": [],
+    "ThingCameraUIKit": [],
+    "ThingSmartMQTTChannelKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartNetworkKit": [],
+    "ThingSmartCallChannelKit": [],
+    "ThingCameraUtil": [],
+    "ThingCameraUIComponents": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingCallIPCTactic/ThingCallIPCTactic.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

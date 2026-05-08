@@ -1,0 +1,6 @@
+framework module TUNIRequestCacheManager {
+  umbrella header "TUNIRequestCacheManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

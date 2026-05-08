@@ -1,0 +1,4753 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IotContainer",
+        "printedName": "IotContainer",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetService",
+        "printedName": "AssetService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetService",
+                "printedName": "IndustryAssetKit.AssetService",
+                "usr": "c:@M@IndustryAssetKit@objc(cs)AssetService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(cs)AssetService(cpy)shared",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC6sharedACvpZ",
+            "moduleName": "IndustryAssetKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetService",
+                    "printedName": "IndustryAssetKit.AssetService",
+                    "usr": "c:@M@IndustryAssetKit@objc(cs)AssetService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(cs)AssetService(cm)shared",
+                "mangledName": "$s16IndustryAssetKit0B7ServiceC6sharedACvgZ",
+                "moduleName": "IndustryAssetKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetService",
+                    "printedName": "IndustryAssetKit.AssetService",
+                    "usr": "c:@M@IndustryAssetKit@objc(cs)AssetService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(cs)AssetService(cm)setShared:",
+                "mangledName": "$s16IndustryAssetKit0B7ServiceC6sharedACvsZ",
+                "moduleName": "IndustryAssetKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16IndustryAssetKit0B7ServiceC6sharedACvMZ",
+                "mangledName": "$s16IndustryAssetKit0B7ServiceC6sharedACvMZ",
+                "moduleName": "IndustryAssetKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(name:parentAssetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)createWithName:parentAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC6create4name06parentB2Id7success7failureySS_SSSgyycSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "createWithName:parentAssetId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(assetId:name:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)updateWithAssetId:name:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC6update7assetId4name7success7failureySS_SSyycSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "updateWithAssetId:name:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)removeWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC6remove7assetId7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "removeWithAssetId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asset",
+            "printedName": "asset(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAsset) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAsset) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAsset",
+                        "printedName": "IndustryAssetKit.IAsset",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)assetWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC5asset0E2Id7success7failureySS_yAA6IAsset_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "assetWithAssetId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subAssets",
+            "printedName": "subAssets(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustryAssetKit.IAsset]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustryAssetKit.IAsset]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustryAssetKit.IAsset]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAsset",
+                            "printedName": "IndustryAssetKit.IAsset",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)subAssetsWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC9subAssets7assetId7success7failureySSSg_ySayAA6IAsset_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "subAssetsWithAssetId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(assetId:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssetDeviceListResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssetDeviceListResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAssetDeviceListResult",
+                        "printedName": "IndustryAssetKit.IAssetDeviceListResult",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)devicesWithAssetId:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC7devices7assetId10lastRowKey7success7failureySS_SSSgyAA22IAssetDeviceListResult_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "devicesWithAssetId:lastRowKey:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(assetId:statisticsType:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAssetDeviceListResult",
+                            "printedName": "IndustryAssetKit.IAssetDeviceListResult",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)devicesWithAssetId:statisticsType:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC7devices7assetId14statisticsType8pageSize10lastRowKey7success7failureySS_SSSgSiAKyAA22IAssetDeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "devicesWithAssetId:statisticsType:pageSize:lastRowKey:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "statistics",
+            "printedName": "statistics(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustryAssetKit.IAssetDeviceStatistics]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustryAssetKit.IAssetDeviceStatistics]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustryAssetKit.IAssetDeviceStatistics]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAssetDeviceStatistics",
+                            "printedName": "IndustryAssetKit.IAssetDeviceStatistics",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)statisticsWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC10statistics7assetId7success7failureySSSg_ySayAA22IAssetDeviceStatistics_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "statisticsWithAssetId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(assetId:deviceName:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAssetDeviceListResult",
+                            "printedName": "IndustryAssetKit.IAssetDeviceListResult",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)searchWithAssetId:deviceName:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC6search7assetId10deviceName8pageSize10lastRowKey7success7failureySS_SSSiSSSgyAA22IAssetDeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "searchWithAssetId:deviceName:pageSize:lastRowKey:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "associatedModel",
+            "printedName": "associatedModel(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssociatedModel) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssociatedModel) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAssociatedModel",
+                        "printedName": "IndustryAssetKit.IAssociatedModel",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)associatedModelWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC15associatedModel7assetId7success7failureySS_yAA011IAssociatedF0_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "associatedModelWithAssetId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "assetMessageService",
+            "printedName": "assetMessageService(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetMessageService",
+                "printedName": "IndustryAssetKit.IAssetMessageService",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetMessageService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)assetMessageService:",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC012assetMessageD0yAA06IAssetfD0_pSSF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "assetMessageService:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "assetManager",
+            "printedName": "assetManager()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetManager",
+                "printedName": "IndustryAssetKit.IAssetManager",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustryAssetKit@objc(cs)AssetService(im)assetManager",
+            "mangledName": "$s16IndustryAssetKit0B7ServiceC12assetManagerAA06IAssetF0_pyF",
+            "moduleName": "IndustryAssetKit",
+            "objc_name": "assetManager",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IndustryAssetKit@objc(cs)AssetService",
+        "mangledName": "$s16IndustryAssetKit0B7ServiceC",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IAssetService",
+            "printedName": "IAssetService",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssociatedModel",
+        "printedName": "IAssociatedModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceGroupId",
+            "printedName": "deviceGroupId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel(py)deviceGroupId",
+            "mangledName": "$s16IndustryAssetKit16IAssociatedModelP13deviceGroupIdSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel(im)deviceGroupId",
+                "mangledName": "$s16IndustryAssetKit16IAssociatedModelP13deviceGroupIdSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssociatedModel>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssociatedModel>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "homeId",
+            "printedName": "homeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel(py)homeId",
+            "mangledName": "$s16IndustryAssetKit16IAssociatedModelP6homeIdSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel(im)homeId",
+                "mangledName": "$s16IndustryAssetKit16IAssociatedModelP6homeIdSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssociatedModel>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssociatedModel>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetId",
+            "printedName": "assetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel(py)assetId",
+            "mangledName": "$s16IndustryAssetKit16IAssociatedModelP7assetIdSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel(im)assetId",
+                "mangledName": "$s16IndustryAssetKit16IAssociatedModelP7assetIdSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssociatedModel>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssociatedModel>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel",
+        "mangledName": "$s16IndustryAssetKit16IAssociatedModelP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAsset",
+        "printedName": "IAsset",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "assetId",
+            "printedName": "assetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(py)assetId",
+            "mangledName": "$s16IndustryAssetKit6IAssetP7assetIdSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)assetId",
+                "mangledName": "$s16IndustryAssetKit6IAssetP7assetIdSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetName",
+            "printedName": "assetName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(py)assetName",
+            "mangledName": "$s16IndustryAssetKit6IAssetP9assetNameSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)assetName",
+                "mangledName": "$s16IndustryAssetKit6IAssetP9assetNameSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)setAssetName:",
+                "mangledName": "$s16IndustryAssetKit6IAssetP9assetNameSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parentAssetId",
+            "printedName": "parentAssetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(py)parentAssetId",
+            "mangledName": "$s16IndustryAssetKit6IAssetP06parentB2IdSSSgvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)parentAssetId",
+                "mangledName": "$s16IndustryAssetKit6IAssetP06parentB2IdSSSgvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permission",
+            "printedName": "permission",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(py)permission",
+            "mangledName": "$s16IndustryAssetKit6IAssetP10permissionSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)permission",
+                "mangledName": "$s16IndustryAssetKit6IAssetP10permissionSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)setPermission:",
+                "mangledName": "$s16IndustryAssetKit6IAssetP10permissionSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentSubAssetNum",
+            "printedName": "currentSubAssetNum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(py)currentSubAssetNum",
+            "mangledName": "$s16IndustryAssetKit6IAssetP010currentSubB3NumSivp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)currentSubAssetNum",
+                "mangledName": "$s16IndustryAssetKit6IAssetP010currentSubB3NumSivg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)setCurrentSubAssetNum:",
+                "mangledName": "$s16IndustryAssetKit6IAssetP010currentSubB3NumSivs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentAssetDeviceNum",
+            "printedName": "currentAssetDeviceNum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(py)currentAssetDeviceNum",
+            "mangledName": "$s16IndustryAssetKit6IAssetP07currentB9DeviceNumSivp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)currentAssetDeviceNum",
+                "mangledName": "$s16IndustryAssetKit6IAssetP07currentB9DeviceNumSivg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)setCurrentAssetDeviceNum:",
+                "mangledName": "$s16IndustryAssetKit6IAssetP07currentB9DeviceNumSivs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userDefinedPath",
+            "printedName": "userDefinedPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(py)userDefinedPath",
+            "mangledName": "$s16IndustryAssetKit6IAssetP15userDefinedPathSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)userDefinedPath",
+                "mangledName": "$s16IndustryAssetKit6IAssetP15userDefinedPathSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset(im)setUserDefinedPath:",
+                "mangledName": "$s16IndustryAssetKit6IAssetP15userDefinedPathSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAsset>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAsset>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset",
+        "mangledName": "$s16IndustryAssetKit6IAssetP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetDevice",
+        "printedName": "IAssetDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(py)deviceId",
+            "mangledName": "$s16IndustryAssetKit12IAssetDeviceP8deviceIdSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)deviceId",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP8deviceIdSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(py)deviceName",
+            "mangledName": "$s16IndustryAssetKit12IAssetDeviceP10deviceNameSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)deviceName",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP10deviceNameSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)setDeviceName:",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP10deviceNameSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "online",
+            "printedName": "online",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(py)online",
+            "mangledName": "$s16IndustryAssetKit12IAssetDeviceP6onlineSbvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)online",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP6onlineSbvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)setOnline:",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP6onlineSbvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(py)icon",
+            "mangledName": "$s16IndustryAssetKit12IAssetDeviceP4iconSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)icon",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP4iconSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)setIcon:",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP4iconSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "absoluteIconUrl",
+            "printedName": "absoluteIconUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(py)absoluteIconUrl",
+            "mangledName": "$s16IndustryAssetKit12IAssetDeviceP15absoluteIconUrlSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)absoluteIconUrl",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP15absoluteIconUrlSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)setAbsoluteIconUrl:",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP15absoluteIconUrlSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "homeId",
+            "printedName": "homeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(py)homeId",
+            "mangledName": "$s16IndustryAssetKit12IAssetDeviceP6homeIdSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)homeId",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP6homeIdSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permission",
+            "printedName": "permission",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(py)permission",
+            "mangledName": "$s16IndustryAssetKit12IAssetDeviceP10permissionSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice(im)permission",
+                "mangledName": "$s16IndustryAssetKit12IAssetDeviceP10permissionSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDevice>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice",
+        "mangledName": "$s16IndustryAssetKit12IAssetDeviceP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetDeviceStatistics",
+        "printedName": "IAssetDeviceStatistics",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "typeValue",
+            "printedName": "typeValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(py)typeValue",
+            "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP9typeValueSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(im)typeValue",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP9typeValueSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(im)setTypeValue:",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP9typeValueSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statisticType",
+            "printedName": "statisticType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(py)statisticType",
+            "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP13statisticTypeSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(im)statisticType",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP13statisticTypeSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(im)setStatisticType:",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP13statisticTypeSSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "total",
+            "printedName": "total",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(py)total",
+            "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP5totalSivp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(im)total",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP5totalSivg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics(im)setTotal:",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP5totalSivs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics",
+        "mangledName": "$s16IndustryAssetKit22IAssetDeviceStatisticsP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetEvent",
+        "printedName": "AssetEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "auth",
+            "printedName": "auth",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryAssetKit.AssetEvent.Type) -> IndustryAssetKit.AssetEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetEvent",
+                    "printedName": "IndustryAssetKit.AssetEvent",
+                    "usr": "c:@M@IndustryAssetKit@E@AssetEvent"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryAssetKit.AssetEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssetEvent",
+                        "printedName": "IndustryAssetKit.AssetEvent",
+                        "usr": "c:@M@IndustryAssetKit@E@AssetEvent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryAssetKit@E@AssetEvent@AssetEventAuth",
+            "mangledName": "$s16IndustryAssetKit0B5EventO4authyA2CmF",
+            "moduleName": "IndustryAssetKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "unAuth",
+            "printedName": "unAuth",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IndustryAssetKit.AssetEvent.Type) -> IndustryAssetKit.AssetEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetEvent",
+                    "printedName": "IndustryAssetKit.AssetEvent",
+                    "usr": "c:@M@IndustryAssetKit@E@AssetEvent"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IndustryAssetKit.AssetEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssetEvent",
+                        "printedName": "IndustryAssetKit.AssetEvent",
+                        "usr": "c:@M@IndustryAssetKit@E@AssetEvent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IndustryAssetKit@E@AssetEvent@AssetEventUnAuth",
+            "mangledName": "$s16IndustryAssetKit0B5EventO6unAuthyA2CmF",
+            "moduleName": "IndustryAssetKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IndustryAssetKit.AssetEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetEvent",
+                    "printedName": "IndustryAssetKit.AssetEvent",
+                    "usr": "c:@M@IndustryAssetKit@E@AssetEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16IndustryAssetKit0B5EventO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16IndustryAssetKit0B5EventO8rawValueACSgSi_tcfc",
+            "moduleName": "IndustryAssetKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16IndustryAssetKit0B5EventO8rawValueSivp",
+            "mangledName": "$s16IndustryAssetKit0B5EventO8rawValueSivp",
+            "moduleName": "IndustryAssetKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16IndustryAssetKit0B5EventO8rawValueSivg",
+                "mangledName": "$s16IndustryAssetKit0B5EventO8rawValueSivg",
+                "moduleName": "IndustryAssetKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@IndustryAssetKit@E@AssetEvent",
+        "mangledName": "$s16IndustryAssetKit0B5EventO",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetManagerListener",
+        "printedName": "IAssetManagerListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "asset",
+            "printedName": "asset(_:didReceived:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssetEvent",
+                "printedName": "IndustryAssetKit.AssetEvent",
+                "usr": "c:@M@IndustryAssetKit@E@AssetEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManagerListener(im)asset:didReceived:",
+            "mangledName": "$s16IndustryAssetKit21IAssetManagerListenerP5asset_11didReceivedySS_AA0B5EventOtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetManagerListener>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetManagerListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManagerListener",
+        "mangledName": "$s16IndustryAssetKit21IAssetManagerListenerP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetManager",
+        "printedName": "IAssetManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetManagerListener",
+                "printedName": "IndustryAssetKit.IAssetManagerListener",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManagerListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManager(im)registerWithListener:",
+            "mangledName": "$s16IndustryAssetKit13IAssetManagerP8register8listeneryAA0dE8Listener_p_tF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetManager>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetManager>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetManagerListener",
+                "printedName": "IndustryAssetKit.IAssetManagerListener",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManagerListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManager(im)unregisterWithListener:",
+            "mangledName": "$s16IndustryAssetKit13IAssetManagerP10unregister8listeneryAA0dE8Listener_p_tF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetManager>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetManager>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManager",
+        "mangledName": "$s16IndustryAssetKit13IAssetManagerP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IndustryDeviceKit",
+        "printedName": "IndustryDeviceKit",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetListener",
+        "printedName": "IAssetListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "asset",
+            "printedName": "asset(_:didAddDevice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDevice",
+                "printedName": "IndustryDeviceKit.IDevice",
+                "usr": "c:@M@IndustryDeviceKit@objc(pl)IDevice"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetListener(im)asset:didAddDevice:",
+            "mangledName": "$s16IndustryAssetKit14IAssetListenerP5asset_12didAddDeviceySS_0aiC07IDevice_ptF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetListener>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asset",
+            "printedName": "asset(_:didRemoveDevice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetListener(im)asset:didRemoveDevice:",
+            "mangledName": "$s16IndustryAssetKit14IAssetListenerP5asset_15didRemoveDeviceySS_SStF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetListener>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asset",
+            "printedName": "asset(_:deviceInfoUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDevice",
+                "printedName": "IndustryDeviceKit.IDevice",
+                "usr": "c:@M@IndustryDeviceKit@objc(pl)IDevice"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetListener(im)asset:deviceInfoUpdate:",
+            "mangledName": "$s16IndustryAssetKit14IAssetListenerP5asset_16deviceInfoUpdateySS_0a6DeviceC07IDevice_ptF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetListener>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asset",
+            "printedName": "asset(_:device:dpsUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDevice",
+                "printedName": "IndustryDeviceKit.IDevice",
+                "usr": "c:@M@IndustryDeviceKit@objc(pl)IDevice"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : AnyObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetListener(im)asset:device:dpsUpdate:",
+            "mangledName": "$s16IndustryAssetKit14IAssetListenerP5asset_6device9dpsUpdateySS_0a6DeviceC07IDevice_pSDySSyXlGtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetListener>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetListener",
+        "mangledName": "$s16IndustryAssetKit14IAssetListenerP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetMessageService",
+        "printedName": "IAssetMessageService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "assetId",
+            "printedName": "assetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetMessageService(py)assetId",
+            "mangledName": "$s16IndustryAssetKit20IAssetMessageServiceP7assetIdSSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetMessageService(im)assetId",
+                "mangledName": "$s16IndustryAssetKit20IAssetMessageServiceP7assetIdSSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetMessageService>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetMessageService>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetListener",
+                "printedName": "IndustryAssetKit.IAssetListener",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetMessageService(im)registerWithListener:",
+            "mangledName": "$s16IndustryAssetKit20IAssetMessageServiceP8register8listeneryAA0D8Listener_p_tF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetMessageService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetMessageService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetListener",
+                "printedName": "IndustryAssetKit.IAssetListener",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetMessageService(im)unregisterWithListener:",
+            "mangledName": "$s16IndustryAssetKit20IAssetMessageServiceP10unregister8listeneryAA0D8Listener_p_tF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetMessageService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetMessageService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetMessageService",
+        "mangledName": "$s16IndustryAssetKit20IAssetMessageServiceP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAssetKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetDeviceListResult",
+        "printedName": "IAssetDeviceListResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "devices",
+            "printedName": "devices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[IndustryAssetKit.IAssetDevice]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IAssetDevice",
+                    "printedName": "IndustryAssetKit.IAssetDevice",
+                    "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(py)devices",
+            "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP7devicesSayAA0dE0_pGvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IndustryAssetKit.IAssetDevice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAssetDevice",
+                        "printedName": "IndustryAssetKit.IAssetDevice",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(im)devices",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP7devicesSayAA0dE0_pGvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IndustryAssetKit.IAssetDevice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAssetDevice",
+                        "printedName": "IndustryAssetKit.IAssetDevice",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDevice"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(im)setDevices:",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP7devicesSayAA0dE0_pGvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasMore",
+            "printedName": "hasMore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(py)hasMore",
+            "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP7hasMoreSbvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(im)hasMore",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP7hasMoreSbvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(im)setHasMore:",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP7hasMoreSbvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastRowKey",
+            "printedName": "lastRowKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(py)lastRowKey",
+            "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP10lastRowKeySSvp",
+            "moduleName": "IndustryAssetKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(im)lastRowKey",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP10lastRowKeySSvg",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult(im)setLastRowKey:",
+                "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP10lastRowKeySSvs",
+                "moduleName": "IndustryAssetKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult",
+        "mangledName": "$s16IndustryAssetKit22IAssetDeviceListResultP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAssetService",
+        "printedName": "IAssetService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(name:parentAssetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)createWithName:parentAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP6create4name06parentB2Id7success7failureySS_SSSgyycSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(assetId:name:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)updateWithAssetId:name:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP6update7assetId4name7success7failureySS_SSyycSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)removeWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP6remove7assetId7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asset",
+            "printedName": "asset(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAsset) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAsset) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAsset",
+                        "printedName": "IndustryAssetKit.IAsset",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)assetWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP5asset0F2Id7success7failureySS_yAA0D0_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subAssets",
+            "printedName": "subAssets(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustryAssetKit.IAsset]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustryAssetKit.IAsset]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustryAssetKit.IAsset]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAsset",
+                            "printedName": "IndustryAssetKit.IAsset",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAsset"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)subAssetsWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP9subAssets7assetId7success7failureySSSg_ySayAA0D0_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(assetId:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssetDeviceListResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssetDeviceListResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAssetDeviceListResult",
+                        "printedName": "IndustryAssetKit.IAssetDeviceListResult",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)devicesWithAssetId:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP7devices7assetId10lastRowKey7success7failureySS_SSSgyAA0D16DeviceListResult_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(assetId:statisticsType:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAssetDeviceListResult",
+                            "printedName": "IndustryAssetKit.IAssetDeviceListResult",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)devicesWithAssetId:statisticsType:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP7devices7assetId14statisticsType8pageSize10lastRowKey7success7failureySS_SSSgSiAKyAA0D16DeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(assetId:deviceName:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustryAssetKit.IAssetDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAssetDeviceListResult",
+                            "printedName": "IndustryAssetKit.IAssetDeviceListResult",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)searchWithAssetId:deviceName:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP6search7assetId10deviceName8pageSize10lastRowKey7success7failureySS_SSSiSSSgyAA0D16DeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "statistics",
+            "printedName": "statistics(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustryAssetKit.IAssetDeviceStatistics]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustryAssetKit.IAssetDeviceStatistics]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustryAssetKit.IAssetDeviceStatistics]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IAssetDeviceStatistics",
+                            "printedName": "IndustryAssetKit.IAssetDeviceStatistics",
+                            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetDeviceStatistics"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)statisticsWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP10statistics7assetId7success7failureySSSg_ySayAA0D16DeviceStatistics_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "associatedModel",
+            "printedName": "associatedModel(assetId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustryAssetKit.IAssociatedModel) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustryAssetKit.IAssociatedModel) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAssociatedModel",
+                        "printedName": "IndustryAssetKit.IAssociatedModel",
+                        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssociatedModel"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)associatedModelWithAssetId:success:failure:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP15associatedModel7assetId7success7failureySS_yAA011IAssociatedG0_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "assetMessageService",
+            "printedName": "assetMessageService(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetMessageService",
+                "printedName": "IndustryAssetKit.IAssetMessageService",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetMessageService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)assetMessageService:",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP012assetMessageE0yAA0dgE0_pSSF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "assetManager",
+            "printedName": "assetManager()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAssetManager",
+                "printedName": "IndustryAssetKit.IAssetManager",
+                "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService(im)assetManager",
+            "mangledName": "$s16IndustryAssetKit13IAssetServiceP12assetManagerAA0dG0_pyF",
+            "moduleName": "IndustryAssetKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAssetKit.IAssetService>",
+            "sugared_genericSig": "<Self where Self : IndustryAssetKit.IAssetService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAssetKit@objc(pl)IAssetService",
+        "mangledName": "$s16IndustryAssetKit13IAssetServiceP",
+        "moduleName": "IndustryAssetKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6381_IndustryAssetKit_iOS\/src\/IndustryAssetKit\/Classes\/AssetService.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 47,
+      "value": "\"IAssetService don't register via IotContainer\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6381_IndustryAssetKit_iOS\/src\/IndustryAssetKit\/Classes\/IAssetManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6381_IndustryAssetKit_iOS\/src\/IndustryAssetKit\/Classes\/IAssetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 6,
+      "value": "\"AUTH\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6381_IndustryAssetKit_iOS\/src\/IndustryAssetKit\/Classes\/IAssetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 9,
+      "value": "\"UN_AUTH\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6381_IndustryAssetKit_iOS\/src\/IndustryAssetKit\/Classes\/IAssetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 6,
+      "value": "\"AUTH\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6381_IndustryAssetKit_iOS\/src\/IndustryAssetKit\/Classes\/IAssetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 9,
+      "value": "\"UN_AUTH\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6381_IndustryAssetKit_iOS\/src\/IndustryAssetKit\/Classes\/IAssetManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 6,
+      "value": "1"
+    }
+  ]
+}

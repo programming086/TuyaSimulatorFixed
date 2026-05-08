@@ -1,0 +1,6 @@
+framework module ThingSmartUserCenterBizKit {
+  umbrella header "ThingSmartUserCenterBizKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

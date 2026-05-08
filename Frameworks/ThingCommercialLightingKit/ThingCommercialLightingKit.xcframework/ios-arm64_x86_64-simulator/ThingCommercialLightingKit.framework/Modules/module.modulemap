@@ -1,0 +1,6 @@
+framework module ThingCommercialLightingKit {
+  umbrella header "ThingCommercialLightingKit.h"
+
+  export *
+  module * { export * }
+}

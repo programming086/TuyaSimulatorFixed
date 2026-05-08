@@ -1,0 +1,6 @@
+framework module ThingSmartUserCenterPlugAPI {
+  umbrella header "ThingSmartUserCenterPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

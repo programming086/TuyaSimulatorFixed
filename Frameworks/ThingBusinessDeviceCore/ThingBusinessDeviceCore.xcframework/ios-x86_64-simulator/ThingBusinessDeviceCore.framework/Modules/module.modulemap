@@ -1,0 +1,6 @@
+framework module ThingBusinessDeviceCore {
+  umbrella header "ThingBusinessDeviceCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

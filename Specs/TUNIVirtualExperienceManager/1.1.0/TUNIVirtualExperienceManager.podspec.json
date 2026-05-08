@@ -1,0 +1,41 @@
+{
+  "name": "TUNIVirtualExperienceManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIVirtualExperienceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIVirtualExperienceManager": [
+      "ios/TUNIVirtualExperienceManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartNetworkKit": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TUNIVirtualExperienceManager/TUNIVirtualExperienceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

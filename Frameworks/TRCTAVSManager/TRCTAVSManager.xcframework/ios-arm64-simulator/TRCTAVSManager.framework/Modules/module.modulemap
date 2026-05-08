@@ -1,0 +1,6 @@
+framework module TRCTAVSManager {
+  umbrella header "TRCTAVSManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

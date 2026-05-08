@@ -1,0 +1,32 @@
+{
+  "name": "ThingStatisticsKit",
+  "version": "0.3.0",
+  "summary": "A short description of ThingStatisticsKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.3.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingLogMacro": [],
+    "ThingAPMService": [],
+    "ThingModuleManager": [],
+    "ThingFoundationKit": [],
+    "ThingModuleServices": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartEventPredefined_Public": []
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingStatisticsKit\", ##__VA_ARGS__)",
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingStatisticsKit/ThingStatisticsKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

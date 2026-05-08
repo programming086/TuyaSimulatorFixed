@@ -1,0 +1,6 @@
+framework module TUNIAudioManager {
+  umbrella header "TUNIAudioManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

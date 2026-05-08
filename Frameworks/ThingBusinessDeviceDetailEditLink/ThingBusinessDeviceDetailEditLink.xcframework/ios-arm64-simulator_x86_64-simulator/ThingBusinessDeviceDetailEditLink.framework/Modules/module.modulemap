@@ -1,0 +1,6 @@
+framework module ThingBusinessDeviceDetailEditLink {
+  umbrella header "ThingBusinessDeviceDetailEditLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

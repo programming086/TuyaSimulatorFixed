@@ -1,0 +1,37 @@
+{
+  "name": "TRCTOutdoorManager",
+  "version": "1.0.6-anonymize.1",
+  "summary": "A short description of TRCTOutdoorManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.6-anonymize.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [],
+    "ThingModuleServices": [],
+    "ThingUIKit": [],
+    "ThingModuleManager": [],
+    "ThingOEMConfig": [],
+    "ThingLogMacro": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TRCTOutdoorManager/TRCTOutdoorManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

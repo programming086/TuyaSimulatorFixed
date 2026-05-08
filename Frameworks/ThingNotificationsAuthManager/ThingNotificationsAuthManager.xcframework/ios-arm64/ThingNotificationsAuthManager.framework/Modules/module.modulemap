@@ -1,0 +1,6 @@
+framework module ThingNotificationsAuthManager {
+  umbrella header "ThingNotificationsAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

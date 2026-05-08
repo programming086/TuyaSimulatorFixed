@@ -1,0 +1,6 @@
+framework module ThingHelpCenterModule {
+  umbrella header "ThingHelpCenterModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

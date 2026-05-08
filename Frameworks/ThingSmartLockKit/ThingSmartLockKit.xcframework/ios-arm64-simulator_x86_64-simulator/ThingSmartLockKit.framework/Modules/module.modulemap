@@ -1,0 +1,6 @@
+framework module ThingSmartLockKit {
+  umbrella header "ThingSmartLockKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingUrlPredefinedExternal {
+  umbrella header "ThingUrlPredefinedExternal-umbrella.h"
+
+  export *
+  module * { export * }
+}

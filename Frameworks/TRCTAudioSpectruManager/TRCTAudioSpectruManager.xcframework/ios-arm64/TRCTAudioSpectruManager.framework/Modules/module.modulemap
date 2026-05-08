@@ -1,0 +1,6 @@
+framework module TRCTAudioSpectruManager {
+  umbrella header "TRCTAudioSpectruManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

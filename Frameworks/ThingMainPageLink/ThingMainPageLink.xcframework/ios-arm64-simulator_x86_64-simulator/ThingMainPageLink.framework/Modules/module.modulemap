@@ -1,0 +1,6 @@
+framework module ThingMainPageLink {
+  umbrella header "ThingMainPageLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

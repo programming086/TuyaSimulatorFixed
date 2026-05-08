@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "Masonry": [],
+    "TYAuthorizationServices": [],
+    "TYCameraAuthManager": [],
+    "TYFoundationKit": [],
+    "TYImagePickerController": [],
+    "TYMicrophoneAuthManager": [],
+    "TYNavigationController": [],
+    "TYPhotosAuthManager": [],
+    "TYSmartBusinessLibrary": [],
+    "TYUIKit": []
+  },
+  "description": "\u89c6\u9891\u548c\u56fe\u7247\u5de5\u5177",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYMediaKit",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+    "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription NSMicrophoneUsageDescription NSPhotoLibraryUsageDescription"
+  },
+  "resource_bundles": {
+    "TYMediaKit": [
+      "TYMediaKit/Assets/**/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.3.7"
+  },
+  "summary": "\u89c6\u9891\u548c\u56fe\u7247\u5de5\u5177",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYMediaKit/TYMediaKit.xcframework"
+  ],
+  "version": "1.3.7"
+}

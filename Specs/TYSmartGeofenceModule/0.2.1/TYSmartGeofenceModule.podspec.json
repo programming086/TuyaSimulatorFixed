@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "IQKeyboardManager": [],
+    "Masonry": [],
+    "TYBlockKit": [],
+    "TYFoundationKit": [],
+    "TYLocationAuthManager": [],
+    "TYMapKit": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYNavigationController": [],
+    "TYOEMConfig": [],
+    "TYSmartBusinessLibrary": [],
+    "TYUIKit": []
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYSmartGeofenceModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+    "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription"
+  },
+  "prefix_header_file": "TYSmartGeofenceModule/TYSmartGeofenceModule.pch",
+  "resources": [
+    "TYSmartGeofenceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.1"
+  },
+  "summary": "\u5904\u7406\u573a\u666f\u5730\u7406\u56f4\u680f\u76f8\u5173\u7684\u4e1a\u52a1\uff0c\u4e3a\u4e86\u505a\u88c1\u526a\u6240\u4ee5\u72ec\u7acb\u6210\u7ec4\u4ef6",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYSmartGeofenceModule/TYSmartGeofenceModule.xcframework"
+  ],
+  "version": "0.2.1"
+}

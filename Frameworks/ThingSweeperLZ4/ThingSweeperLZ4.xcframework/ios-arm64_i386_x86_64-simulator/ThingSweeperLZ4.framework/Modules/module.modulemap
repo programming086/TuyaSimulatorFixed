@@ -1,0 +1,6 @@
+framework module ThingSweeperLZ4 {
+  umbrella header "ThingSweeperLZ4-umbrella.h"
+
+  export *
+  module * { export * }
+}

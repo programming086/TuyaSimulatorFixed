@@ -1,0 +1,11 @@
+framework module ThingAudioRecordInterface {
+  umbrella header "ThingAudioRecordInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ThingAudioRecordInterface.Swift {
+  header "ThingAudioRecordInterface-Swift.h"
+  requires objc
+}

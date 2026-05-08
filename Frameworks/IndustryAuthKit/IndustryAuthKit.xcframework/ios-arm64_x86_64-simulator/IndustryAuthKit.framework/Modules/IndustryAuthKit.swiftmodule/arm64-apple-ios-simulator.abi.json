@@ -1,0 +1,2835 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAuthKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IotContainer",
+        "printedName": "IotContainer",
+        "declKind": "Import",
+        "moduleName": "IndustryAuthKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthService",
+        "printedName": "AuthService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthService",
+                "printedName": "IndustryAuthKit.AuthService",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService(cpy)shared",
+            "mangledName": "$s15IndustryAuthKit0B7ServiceC6sharedACvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthService",
+                    "printedName": "IndustryAuthKit.AuthService",
+                    "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService(cm)shared",
+                "mangledName": "$s15IndustryAuthKit0B7ServiceC6sharedACvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthService",
+                    "printedName": "IndustryAuthKit.AuthService",
+                    "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService(cm)setShared:",
+                "mangledName": "$s15IndustryAuthKit0B7ServiceC6sharedACvsZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit0B7ServiceC6sharedACvMZ",
+                "mangledName": "$s15IndustryAuthKit0B7ServiceC6sharedACvMZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(highWayConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IndustryAuthKit.HighWayConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HighWayConfig",
+                    "printedName": "IndustryAuthKit.HighWayConfig",
+                    "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService(im)setWithHighWayConfig:",
+            "mangledName": "$s15IndustryAuthKit0B7ServiceC3set13highWayConfigyAA04HighgH0CSg_tF",
+            "moduleName": "IndustryAuthKit",
+            "objc_name": "setWithHighWayConfig:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(atopConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IndustryAuthKit.AtopConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtopConfig",
+                    "printedName": "IndustryAuthKit.AtopConfig",
+                    "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService(im)setWithAtopConfig:",
+            "mangledName": "$s15IndustryAuthKit0B7ServiceC3set10atopConfigyAA04AtopG0CSg_tF",
+            "moduleName": "IndustryAuthKit",
+            "objc_name": "setWithAtopConfig:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "auth",
+            "printedName": "auth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService(im)auth",
+            "mangledName": "$s15IndustryAuthKit0B7ServiceC4authyyF",
+            "moduleName": "IndustryAuthKit",
+            "objc_name": "auth",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unauth",
+            "printedName": "unauth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService(im)unauth",
+            "mangledName": "$s15IndustryAuthKit0B7ServiceC6unauthyyF",
+            "moduleName": "IndustryAuthKit",
+            "objc_name": "unauth",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IndustryAuthKit@objc(cs)AuthService",
+        "mangledName": "$s15IndustryAuthKit0B7ServiceC",
+        "moduleName": "IndustryAuthKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IAuthService",
+            "printedName": "IAuthService",
+            "usr": "c:@M@IndustryAuthKit@objc(pl)IAuthService",
+            "mangledName": "$s15IndustryAuthKit12IAuthServiceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustryAuthKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HighWayConfig",
+        "printedName": "HighWayConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(py)accessToken",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigC11accessTokenSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)accessToken",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC11accessTokenSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)setAccessToken:",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC11accessTokenSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit13HighWayConfigC11accessTokenSSvM",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC11accessTokenSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(py)refreshToken",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigC12refreshTokenSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)refreshToken",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC12refreshTokenSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)setRefreshToken:",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC12refreshTokenSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit13HighWayConfigC12refreshTokenSSvM",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC12refreshTokenSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expireTime",
+            "printedName": "expireTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(py)expireTime",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigC10expireTimeSdvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)expireTime",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC10expireTimeSdvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)setExpireTime:",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC10expireTimeSdvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit13HighWayConfigC10expireTimeSdvM",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC10expireTimeSdvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uid",
+            "printedName": "uid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(py)uid",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigC3uidSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)uid",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC3uidSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)setUid:",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC3uidSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit13HighWayConfigC3uidSSvM",
+                "mangledName": "$s15IndustryAuthKit13HighWayConfigC3uidSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accessToken:refreshToken:expireTime:uid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HighWayConfig",
+                "printedName": "IndustryAuthKit.HighWayConfig",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)initWithAccessToken:refreshToken:expireTime:uid:",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigC11accessToken07refreshH010expireTime3uidACSS_SSSdSStcfc",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dictionary:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HighWayConfig",
+                "printedName": "IndustryAuthKit.HighWayConfig",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)initWithDictionary:",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigC10dictionaryACSDySSypG_tcfc",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "AccessControl",
+              "Convenience",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)toJson",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigC6toJsonSDySSypGyF",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HighWayConfig",
+                "printedName": "IndustryAuthKit.HighWayConfig",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig(im)init",
+            "mangledName": "$s15IndustryAuthKit13HighWayConfigCACycfc",
+            "moduleName": "IndustryAuthKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig",
+        "mangledName": "$s15IndustryAuthKit13HighWayConfigC",
+        "moduleName": "IndustryAuthKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtopConfig",
+        "printedName": "AtopConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uid",
+            "printedName": "uid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(py)uid",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC3uidSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)uid",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC3uidSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)setUid:",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC3uidSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit10AtopConfigC3uidSSvM",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC3uidSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sid",
+            "printedName": "sid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(py)sid",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC3sidSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)sid",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC3sidSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)setSid:",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC3sidSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit10AtopConfigC3sidSSvM",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC3sidSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ecode",
+            "printedName": "ecode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(py)ecode",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC5ecodeSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)ecode",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC5ecodeSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)setEcode:",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC5ecodeSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit10AtopConfigC5ecodeSSvM",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC5ecodeSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "regionCode",
+            "printedName": "regionCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(py)regionCode",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC10regionCodeSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)regionCode",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC10regionCodeSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)setRegionCode:",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC10regionCodeSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit10AtopConfigC10regionCodeSSvM",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC10regionCodeSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "atopHost",
+            "printedName": "atopHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(py)atopHost",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC8atopHostSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)atopHost",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8atopHostSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)setAtopHost:",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8atopHostSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit10AtopConfigC8atopHostSSvM",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8atopHostSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mqttHost",
+            "printedName": "mqttHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(py)mqttHost",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttHostSSvp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)mqttHost",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttHostSSvg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)setMqttHost:",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttHostSSvs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit10AtopConfigC8mqttHostSSvM",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttHostSSvM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mqttPort",
+            "printedName": "mqttPort",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(py)mqttPort",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttPortSivp",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)mqttPort",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttPortSivg",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)setMqttPort:",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttPortSivs",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IndustryAuthKit10AtopConfigC8mqttPortSivM",
+                "mangledName": "$s15IndustryAuthKit10AtopConfigC8mqttPortSivM",
+                "moduleName": "IndustryAuthKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(uid:sid:ecode:regionCode:atopHost:mqttHost:mqttPort:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtopConfig",
+                "printedName": "IndustryAuthKit.AtopConfig",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)initWithUid:sid:ecode:regionCode:atopHost:mqttHost:mqttPort:",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC3uid3sid5ecode10regionCode8atopHost04mqttL00M4PortACSS_S5SSitcfc",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dictionary:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtopConfig",
+                "printedName": "IndustryAuthKit.AtopConfig",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)initWithDictionary:",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC10dictionaryACSDySSypG_tcfc",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "AccessControl",
+              "Convenience",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)toJson",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigC6toJsonSDySSypGyF",
+            "moduleName": "IndustryAuthKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtopConfig",
+                "printedName": "IndustryAuthKit.AtopConfig",
+                "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig(im)init",
+            "mangledName": "$s15IndustryAuthKit10AtopConfigCACycfc",
+            "moduleName": "IndustryAuthKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig",
+        "mangledName": "$s15IndustryAuthKit10AtopConfigC",
+        "moduleName": "IndustryAuthKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAuthService",
+        "printedName": "IAuthService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(highWayConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IndustryAuthKit.HighWayConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HighWayConfig",
+                    "printedName": "IndustryAuthKit.HighWayConfig",
+                    "usr": "c:@M@IndustryAuthKit@objc(cs)HighWayConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(pl)IAuthService(im)setWithHighWayConfig:",
+            "mangledName": "$s15IndustryAuthKit12IAuthServiceP3set13highWayConfigyAA04HighhI0CSg_tF",
+            "moduleName": "IndustryAuthKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAuthKit.IAuthService>",
+            "sugared_genericSig": "<Self where Self : IndustryAuthKit.IAuthService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(atopConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IndustryAuthKit.AtopConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtopConfig",
+                    "printedName": "IndustryAuthKit.AtopConfig",
+                    "usr": "c:@M@IndustryAuthKit@objc(cs)AtopConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(pl)IAuthService(im)setWithAtopConfig:",
+            "mangledName": "$s15IndustryAuthKit12IAuthServiceP3set10atopConfigyAA04AtopH0CSg_tF",
+            "moduleName": "IndustryAuthKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAuthKit.IAuthService>",
+            "sugared_genericSig": "<Self where Self : IndustryAuthKit.IAuthService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "auth",
+            "printedName": "auth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(pl)IAuthService(im)auth",
+            "mangledName": "$s15IndustryAuthKit12IAuthServiceP4authyyF",
+            "moduleName": "IndustryAuthKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAuthKit.IAuthService>",
+            "sugared_genericSig": "<Self where Self : IndustryAuthKit.IAuthService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unauth",
+            "printedName": "unauth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustryAuthKit@objc(pl)IAuthService(im)unauth",
+            "mangledName": "$s15IndustryAuthKit12IAuthServiceP6unauthyyF",
+            "moduleName": "IndustryAuthKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustryAuthKit.IAuthService>",
+            "sugared_genericSig": "<Self where Self : IndustryAuthKit.IAuthService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustryAuthKit@objc(pl)IAuthService",
+        "mangledName": "$s15IndustryAuthKit12IAuthServiceP",
+        "moduleName": "IndustryAuthKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "industryAuthKitDidAuth",
+            "printedName": "industryAuthKitDidAuth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industryde3DidD0ABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industryde3DidD0ABvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industryde3DidD0ABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industryde3DidD0ABvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "industryAuthKitAuthDidInvalid",
+            "printedName": "industryAuthKitAuthDidInvalid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industrydeD10DidInvalidABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industrydeD10DidInvalidABvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industrydeD10DidInvalidABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industrydeD10DidInvalidABvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "industryAuthKitWillUnauth",
+            "printedName": "industryAuthKitWillUnauth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industrydE10WillUnauthABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industrydE10WillUnauthABvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industrydE10WillUnauthABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industrydE10WillUnauthABvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "industryAuthKitDidUnauth",
+            "printedName": "industryAuthKitDidUnauth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industrydE9DidUnauthABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industrydE9DidUnauthABvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea15IndustryAuthKitE08industrydE9DidUnauthABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea15IndustryAuthKitE08industrydE9DidUnauthABvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSNotification",
+        "printedName": "NSNotification",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "industryAuthKitDidAuth",
+            "printedName": "industryAuthKitDidAuth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cpy)industryAuthKitDidAuth",
+            "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycd3DidC0SSvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cm)industryAuthKitDidAuth",
+                "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycd3DidC0SSvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "industryAuthKitAuthDidInvalid",
+            "printedName": "industryAuthKitAuthDidInvalid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cpy)industryAuthKitAuthDidInvalid",
+            "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycdC10DidInvalidSSvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cm)industryAuthKitAuthDidInvalid",
+                "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycdC10DidInvalidSSvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "industryAuthKitWillUnauth",
+            "printedName": "industryAuthKitWillUnauth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cpy)industryAuthKitWillUnauth",
+            "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycD10WillUnauthSSvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cm)industryAuthKitWillUnauth",
+                "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycD10WillUnauthSSvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "industryAuthKitDidUnauth",
+            "printedName": "industryAuthKitDidUnauth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cpy)industryAuthKitDidUnauth",
+            "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycD9DidUnauthSSvpZ",
+            "moduleName": "IndustryAuthKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@IndustryAuthKit@@objc(cs)NSNotification(cm)industryAuthKitDidUnauth",
+                "mangledName": "$sSo14NSNotificationC15IndustryAuthKitE08industrycD9DidUnauthSSvgZ",
+                "moduleName": "IndustryAuthKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSNotification",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSNotification",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 46,
+      "value": "\"IAuthService don't register via IotContainer\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 24,
+      "value": "\"industryAuthKitDidAuth\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 31,
+      "value": "\"industryAuthKitAuthDidInvalid\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 27,
+      "value": "\"industryAuthKitWillUnauth\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 611,
+      "length": 26,
+      "value": "\"industryAuthKitDidUnauth\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 13,
+      "value": "\"accessToken\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 1890,
+      "length": 14,
+      "value": "\"refreshToken\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 1961,
+      "length": 13,
+      "value": "\"accessToken\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1991,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2023,
+      "length": 5,
+      "value": "\"uid\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2045,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2238,
+      "length": 13,
+      "value": "\"accessToken\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2278,
+      "length": 14,
+      "value": "\"refreshToken\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2320,
+      "length": 12,
+      "value": "\"expireTime\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 5,
+      "value": "\"uid\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 13,
+      "value": "\"IndustryAuthKit.HighWayConfig\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3330,
+      "length": 5,
+      "value": "\"uid\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3385,
+      "length": 5,
+      "value": "\"sid\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3407,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3442,
+      "length": 7,
+      "value": "\"ecode\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3466,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3506,
+      "length": 12,
+      "value": "\"regionCode\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3535,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3573,
+      "length": 10,
+      "value": "\"atopHost\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3600,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 10,
+      "value": "\"mqttHost\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3703,
+      "length": 10,
+      "value": "\"mqttPort\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3727,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3949,
+      "length": 5,
+      "value": "\"uid\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3973,
+      "length": 5,
+      "value": "\"sid\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 3997,
+      "length": 7,
+      "value": "\"ecode\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 4025,
+      "length": 12,
+      "value": "\"regionCode\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 4063,
+      "length": 10,
+      "value": "\"atopHost\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 4097,
+      "length": 10,
+      "value": "\"mqttHost\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 4131,
+      "length": 10,
+      "value": "\"mqttPort\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C6382_IndustryAuthKit_iOS\/src\/IndustryAuthKit\/Classes\/IAuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2414,
+      "length": 10,
+      "value": "\"IndustryAuthKit.AtopConfig\""
+    }
+  ]
+}

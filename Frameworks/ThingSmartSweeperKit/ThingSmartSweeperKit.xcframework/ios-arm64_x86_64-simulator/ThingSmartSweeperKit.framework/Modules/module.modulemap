@@ -1,0 +1,6 @@
+framework module ThingSmartSweeperKit {
+  umbrella header "ThingSmartSweeperKit.h"
+
+  export *
+  module * { export * }
+}

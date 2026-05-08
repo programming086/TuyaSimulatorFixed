@@ -1,0 +1,6 @@
+framework module ThingDeviceMigrateSktAPI {
+  umbrella header "ThingDeviceMigrateSktAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

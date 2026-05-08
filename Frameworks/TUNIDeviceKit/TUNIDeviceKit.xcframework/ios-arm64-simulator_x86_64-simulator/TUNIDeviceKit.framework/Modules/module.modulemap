@@ -1,0 +1,6 @@
+framework module TUNIDeviceKit {
+  umbrella header "TUNIDeviceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

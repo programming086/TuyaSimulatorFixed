@@ -1,0 +1,6 @@
+framework module TRCTFileManager {
+  umbrella header "TRCTFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

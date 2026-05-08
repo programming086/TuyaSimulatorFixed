@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TuyaSmartCameraBase": [],
+    "TuyaSmartDeviceCoreKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYCameraSktAPI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.0"
+  },
+  "summary": "A short description of TYCameraSktAPI.",
+  "vendored_frameworks": [
+    "Frameworks/TYCameraSktAPI/TYCameraSktAPI.xcframework"
+  ],
+  "version": "1.1.0"
+}

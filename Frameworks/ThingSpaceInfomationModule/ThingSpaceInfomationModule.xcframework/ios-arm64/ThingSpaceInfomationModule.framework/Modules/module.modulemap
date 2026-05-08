@@ -1,0 +1,6 @@
+framework module ThingSpaceInfomationModule {
+  umbrella header "ThingSpaceInfomationModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "ThingSmartBusinessMaskModule",
+  "version": "2.1.2",
+  "summary": "A short description of ThingSmartBusinessMaskModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.1.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartBusinessMask": [
+      "ThingSmartBusinessMaskModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingKVStorageLibrary": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingOEMConfig": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingEncryptImage": [],
+    "ThingCameraSktAPI": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartBusinessMaskModule/ThingSmartBusinessMaskModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

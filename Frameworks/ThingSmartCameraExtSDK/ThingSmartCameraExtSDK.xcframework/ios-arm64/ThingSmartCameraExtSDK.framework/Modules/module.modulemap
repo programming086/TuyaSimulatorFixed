@@ -1,0 +1,6 @@
+framework module ThingSmartCameraExtSDK {
+  umbrella header "ThingSmartCameraExtSDK.h"
+
+  export *
+  module * { export * }
+}

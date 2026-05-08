@@ -1,0 +1,2 @@
+
+#import <ThingSmartActivatorCoreKit/ThingSmartHomeKitActivator.h>

@@ -1,0 +1,14 @@
+{
+    "miniContent-1":{
+        "feature":{
+            "contentStyle":"1",
+            "miniWidgetStyle":"0"
+        }
+    },
+    "miniContent-2":{
+        "feature":{
+            "contentStyle":"2",
+            "miniWidgetStyle":"0.37"
+        }
+    }
+}

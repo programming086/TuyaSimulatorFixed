@@ -1,0 +1,6 @@
+framework module ThingCameraAbilityCommonModule {
+  umbrella header "ThingCameraAbilityCommonModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

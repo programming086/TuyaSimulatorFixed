@@ -1,0 +1,11 @@
+framework module ThingSmartOutdoorPlugAPI {
+  umbrella header "ThingSmartOutdoorPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ThingSmartOutdoorPlugAPI.Swift {
+  header "ThingSmartOutdoorPlugAPI-Swift.h"
+  requires objc
+}

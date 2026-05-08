@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYUrlPredefinedExternal",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.54"
+  },
+  "summary": "\u6d82\u9e26\u516c\u5f00\u77ed\u94fe\u7ec4\u4ef6",
+  "vendored_frameworks": [
+    "Frameworks/TYUrlPredefinedExternal/TYUrlPredefinedExternal.xcframework"
+  ],
+  "version": "0.2.54"
+}

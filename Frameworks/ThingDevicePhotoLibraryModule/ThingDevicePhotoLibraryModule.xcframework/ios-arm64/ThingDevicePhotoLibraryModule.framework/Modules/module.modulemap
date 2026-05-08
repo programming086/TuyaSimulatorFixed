@@ -1,0 +1,6 @@
+framework module ThingDevicePhotoLibraryModule {
+  umbrella header "ThingDevicePhotoLibraryModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingCallCenterControlTactic {
+  umbrella header "ThingCallCenterControlTactic-umbrella.h"
+
+  export *
+  module * { export * }
+}

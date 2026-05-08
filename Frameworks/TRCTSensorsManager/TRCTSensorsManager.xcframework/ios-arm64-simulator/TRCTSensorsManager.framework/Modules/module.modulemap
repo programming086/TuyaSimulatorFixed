@@ -1,0 +1,6 @@
+framework module TRCTSensorsManager {
+  umbrella header "TRCTSensorsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

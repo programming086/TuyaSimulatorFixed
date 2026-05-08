@@ -1,0 +1,6 @@
+framework module ThingSmartTimerKit {
+  umbrella header "ThingSmartTimerKit-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

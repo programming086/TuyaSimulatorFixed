@@ -1,0 +1,39 @@
+{
+  "name": "TRCTImageEncryptUploadManager",
+  "version": "2.1.4",
+  "summary": "A short description of TRCTImageEncryptUploadManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.1.4"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [],
+    "ThingPanelContext": [],
+    "ThingEncryptImage": [],
+    "YYModel": [],
+    "ThingFoundationKit": [],
+    "ThingP2PAlbumBizKit": [],
+    "ThingKVStorageLibrary": []
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TRCTImageEncryptUploadManager/TRCTImageEncryptUploadManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

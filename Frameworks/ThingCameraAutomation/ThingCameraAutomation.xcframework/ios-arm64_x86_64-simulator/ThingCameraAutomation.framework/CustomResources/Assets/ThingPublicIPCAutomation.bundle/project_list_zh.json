@@ -1,0 +1,3222 @@
+{
+    "projList" : [
+    {
+        "caseCount" : 7,
+        "id" : 6001,
+        "caseList" : [
+          {
+            "id" : 13003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 13003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 17005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 16008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 17006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 16009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 4,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 17007,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "预览视频流"
+              }
+            ],
+            "name" : "预览视频流",
+            "description" : "主流程-预览视频流"
+          },
+          {
+            "id" : 14001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 14001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 17007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 16010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "设置低清晰度",
+                    "id" : 17008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SET_VIDEO_CLARITY_LOW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7003,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "设置低清晰度"
+                  },
+                  {
+                    "description" : "设置高清晰度",
+                    "id" : 16011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SET_VIDEO_CLARITY_HIGH",
+                    "orderNo" : 4,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6004,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "设置高清晰度"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 17009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 16012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 17008,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "切换清晰度"
+              }
+            ],
+            "name" : "切换清晰度",
+            "description" : "主流程-预览视频流切换清晰度"
+          },
+          {
+            "id" : 15001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 15001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 18001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 19001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "关闭扬声器",
+                    "id" : 19002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_MUTE_OFF",
+                    "orderNo" : 3,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2003,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "扬声器关"
+                  },
+                  {
+                    "description" : "打开扬声器",
+                    "id" : 18002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_MUTE_ON",
+                    "orderNo" : 4,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3003,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "扬声器开"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 19003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 19004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 18001,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "扬声器"
+              }
+            ],
+            "name" : "预览扬声器",
+            "description" : "主流程-预览设置扬声器开关"
+          },
+          {
+            "id" : 16001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 16001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 18003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 18004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "截图",
+                    "id" : 19005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SNAPSHOT",
+                    "orderNo" : 3,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7004,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "截图"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 18005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 4,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 19006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 5,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 18002,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "截图"
+              }
+            ],
+            "name" : "预览截图",
+            "description" : "主流程-预览截图"
+          },
+          {
+            "id" : 15002,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 15002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 18006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 19007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "开始录制",
+                    "id" : 18007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_START_RECORD",
+                    "orderNo" : 3,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7006,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "开始录制"
+                  },
+                  {
+                    "description" : "停止录制",
+                    "id" : 18008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_RECORD",
+                    "orderNo" : 4,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6005,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "停止录制"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 18009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 18010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 19001,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "录制"
+              }
+            ],
+            "name" : "预览录制",
+            "description" : "主流程-预览录制"
+          },
+          {
+            "id" : 15003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 15003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 19008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 18011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "开启对讲",
+                    "id" : 18012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_TALK_START",
+                    "orderNo" : 3,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3004,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "开始对讲"
+                  },
+                  {
+                    "description" : "停止对讲",
+                    "id" : 18013,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_TALK_STOP",
+                    "orderNo" : 4,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3005,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "停止对讲"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 18014,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 18015,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 19002,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "对讲"
+              }
+            ],
+            "name" : "对讲",
+            "description" : "主流程-预览对讲"
+          },
+          {
+            "id" : 16002,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 16002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 18016,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+    
+                    "orderNo" : 1,
+                    "taskLinkId" : 18003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 19011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "开始预览"
+                  }
+                ],
+                "id" : 18003,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "预览"
+              },
+              {
+                "caseId" : 16002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "开启对讲",
+                    "id" : 18017,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 10
+                    },
+                    "type" : "P2P_TALK_START",
+                    "orderNo" : 1,
+                    "taskLinkId" : 18004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3004,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "开始对讲"
+                  },
+                  {
+                    "description" : "停止对讲",
+                    "id" : 19012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 10
+                    },
+                    "type" : "P2P_TALK_STOP",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3005,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "停止对讲"
+                  }
+                ],
+                "id" : 18004,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "反复对讲"
+              },
+              {
+                "caseId" : 16002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "停止预览",
+                    "id" : 19013,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 1,
+                    "taskLinkId" : 18005,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 19014,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18005,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 18005,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "结束预览"
+              }
+            ],
+            "name" : "反复对讲",
+            "description" : "主流程-预览反复对讲"
+          }
+        ],
+        "repeatCount" : 1,
+        "repeatLinkCount" : 2,
+        "description" : "ipc基本功能验证",
+        "name" : "ipc主流程回归"
+    },
+    {
+        "caseCount" : 2,
+        "id" : 8001,
+        "caseList" : [
+          {
+            "id" : 19001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 19001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 25008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 24004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 19001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 24007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 2,
+                    "taskLinkId" : 24004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 19001,
+                    "name" : "开始回放"
+                  },
+                  {
+                    "description" : "暂停回放",
+                    "id" : 24008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_PAUSE_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 24004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6002,
+                    "command" : "",
+                    "caseId" : 19001,
+                    "name" : "暂停回放"
+                  },
+                  {
+                    "description" : "恢复回放",
+                    "id" : 25009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_RESUME_PLAYBACK",
+                    "orderNo" : 4,
+                    "taskLinkId" : 24004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6003,
+                    "command" : "",
+                    "caseId" : 19001,
+                    "name" : "恢复回放"
+                  },
+                  {
+                    "description" : "停止回放",
+                    "id" : 25010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 2
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 5,
+                    "taskLinkId" : 24004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 19001,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 24009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 24004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 19001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 24004,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "回放"
+              }
+            ],
+            "name" : "测试回放",
+            "description" : "测试用例"
+          },
+          {
+            "id" : 18001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 18001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 22001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 22001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 23001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 22001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "截图",
+                    "id" : 25007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SNAPSHOT",
+                    "orderNo" : 3,
+                    "taskLinkId" : 22001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7004,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "截图"
+                  }
+                ],
+                "id" : 22001,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "连接+预览"
+              },
+              {
+                "caseId" : 18001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "开启对讲",
+                    "id" : 22002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_TALK_START",
+                    "orderNo" : 1,
+                    "taskLinkId" : 23001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3004,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "开始对讲"
+                  },
+                  {
+                    "description" : "停止对讲",
+                    "id" : 23002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_TALK_STOP",
+                    "orderNo" : 2,
+                    "taskLinkId" : 23001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3005,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "停止对讲"
+                  }
+                ],
+                "id" : 23001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "对讲"
+              },
+              {
+                "caseId" : 18001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "开始录制",
+                    "id" : 24001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 8
+                    },
+                    "type" : "P2P_START_RECORD",
+                    "orderNo" : 1,
+                    "taskLinkId" : 24001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7006,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "开始录制"
+                  },
+                  {
+                    "description" : "停止录制",
+                    "id" : 25001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_RECORD",
+                    "orderNo" : 2,
+                    "taskLinkId" : 24001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6005,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "停止录制"
+                  }
+                ],
+                "id" : 24001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "录制"
+              },
+              {
+                "caseId" : 18001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "打开扬声器",
+                    "id" : 24004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_MUTE_ON",
+                    "orderNo" : 1,
+                    "taskLinkId" : 25001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3003,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "扬声器开"
+                  },
+                  {
+                    "description" : "关闭扬声器",
+                    "id" : 24003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_MUTE_OFF",
+                    "orderNo" : 2,
+                    "taskLinkId" : 25001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2003,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "扬声器关"
+                  }
+                ],
+                "id" : 25001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "扬声器"
+              },
+              {
+                "caseId" : 18001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "获取清晰度",
+                    "id" : 24005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_GET_VIDEO_CLARITY",
+                    "orderNo" : 1,
+                    "taskLinkId" : 24002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6001,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "获取清晰度"
+                  },
+                  {
+                    "description" : "设置低清晰度",
+                    "id" : 25003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_SET_VIDEO_CLARITY_LOW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 24002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7003,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "设置低清晰度"
+                  },
+                  {
+                    "description" : "设置高清晰度",
+                    "id" : 25005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_SET_VIDEO_CLARITY_HIGH",
+                    "orderNo" : 3,
+                    "taskLinkId" : 24002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6004,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "设置高清晰度"
+                  }
+                ],
+                "id" : 24002,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "清晰度"
+              },
+              {
+                "caseId" : 18001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "停止预览",
+                    "id" : 24006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 1,
+                    "taskLinkId" : 24003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 25006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 24003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 18001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 24003,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "结束"
+              }
+            ],
+            "name" : "测试用例",
+            "description" : "测试用例"
+          }
+        ],
+        "repeatCount" : 3,
+        "repeatLinkCount" : 4,
+        "description" : "测试循环",
+        "name" : "测试循环"
+    },
+    {
+        "caseCount" : 2,
+        "id" : 10001,
+        "caseList" : [
+          {
+            "id" : 10001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 10001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 26001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 2
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "查询具体日期的回放片段{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id" : 26002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo" : 2,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : true,
+                    "taskConfigId" : 7002,
+                    "command" : "{\n  \"year\": 2021,\n  \"month\": 1,\n  \"day\": 28\n}",
+                    "caseId" : 10001,
+                    "name" : "查询回放片段"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 27001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "开始回放"
+                  },
+                  {
+                    "description" : "停止回放",
+                    "id" : 27002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 4,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 27003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 5,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 26001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "回放"
+              }
+            ],
+            "name" : "回放",
+            "description" : "主流程-回放"
+          },
+          {
+            "id" : 17001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 17001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 20001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 1,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 20002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 21001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 21002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 1
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 4,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 21001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "预览视频流"
+              }
+            ],
+            "name" : "反复预览",
+            "description" : "执行反复预览操作"
+          }
+        ],
+        "repeatCount" : 100,
+        "repeatLinkCount" : 2,
+        "description" : "回放100次",
+        "name" : "反复回放123"
+    },
+    {
+        "caseCount" : 12,
+        "id" : 10002,
+        "caseList" : [
+          {
+            "id" : 11003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 11003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 12015,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13009,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 11003,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "查询具体日期的回放片段{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id" : 27006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13009,
+                    "commandEnable" : true,
+                    "taskConfigId" : 7002,
+                    "command" : "{}",
+                    "caseId" : 11003,
+                    "name" : "查询回放片段"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 27007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 13009,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 11003,
+                    "name" : "开始回放"
+                  }
+                ],
+                "id" : 13009,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "建立回放"
+              },
+              {
+                "caseId" : 11003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "暂停回放",
+                    "id" : 13014,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_PAUSE_PLAYBACK",
+                    "orderNo" : 1,
+                    "taskLinkId" : 12010,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6002,
+                    "command" : "",
+                    "caseId" : 11003,
+                    "name" : "暂停回放"
+                  },
+                  {
+    
+                    "description" : "恢复回放",
+                    "id" : 12016,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_RESUME_PLAYBACK",
+                    "orderNo" : 2,
+                    "taskLinkId" : 12010,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6003,
+                    "command" : "",
+                    "caseId" : 11003,
+                    "name" : "恢复回放"
+                  }
+                ],
+                "id" : 12010,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "暂停恢复回放"
+              },
+              {
+                "caseId" : 11003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "停止回放",
+                    "id" : 12017,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13010,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 11003,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 13015,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13010,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 11003,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 13010,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "断开回放"
+              }
+            ],
+            "name" : "回放播放暂停",
+            "description" : "主流程-回放播放暂停"
+          },
+          {
+            "id" : 10003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 10003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 12012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 10003,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 12013,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 10003,
+                    "name" : "开始回放"
+                  }
+                ],
+                "id" : 13008,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "建立回放"
+              },
+              {
+                "caseId" : 10003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "传入年月查询有回放的日期{\"year\": 2020, \"month\": 12}",
+                    "id" : 13011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_MONTH",
+                    "orderNo" : 1,
+                    "taskLinkId" : 12008,
+                    "commandEnable" : true,
+                    "taskConfigId" : 2004,
+                    "command" : "{}",
+                    "caseId" : 10003,
+                    "name" : "查询回放日期"
+                  }
+                ],
+                "id" : 12008,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "查询回放"
+              },
+              {
+                "caseId" : 10003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "停止回放",
+                    "id" : 12014,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 1,
+                    "taskLinkId" : 12009,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 10003,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 13012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 12009,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 10003,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 12009,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "断开回放"
+              }
+            ],
+            "name" : "回放查询录像",
+            "description" : "主流程-回放查询录像"
+          },
+          {
+            "id" : 11002,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 11002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 12010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 11002,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "查询具体日期的回放片段{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id" : 12011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13004,
+                    "commandEnable" : true,
+                    "taskConfigId" : 7002,
+                    "command" : "{}",
+                    "caseId" : 11002,
+                    "name" : "查询回放片段"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 26006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 13004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 11002,
+                    "name" : "开始回放"
+                  }
+                ],
+                "id" : 13004,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "建立回放"
+              },
+              {
+                "caseId" : 11002,
+                "deviceId" : "",
+                "tasks" : [
+    
+                ],
+                "id" : 13005,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+                  {
+                    "caseId" : 11002,
+                    "deviceId" : "",
+                    "tasks" : [
+                      {
+                        "description" : "开始录制",
+                        "id" : 13007,
+                        "retryCount" : 5,
+                        "time" : {
+                          "prepare" : 0,
+                          "await" : 10
+                        },
+                        "type" : "P2P_START_RECORD",
+                        "orderNo" : 1,
+                        "taskLinkId" : 13006,
+                        "commandEnable" : false,
+                        "taskConfigId" : 7006,
+                        "command" : "",
+                        "caseId" : 11002,
+                        "name" : "开始录制"
+                      }
+                    ],
+                    "id" : 13006,
+                    "parentId" : 13005,
+                    "repeatCount" : 0,
+                    "childrenLinks" : [
+    
+                    ],
+                    "name" : "开始录制"
+                  },
+                  {
+                    "caseId" : 11002,
+                    "deviceId" : "",
+                    "tasks" : [
+                      {
+                        "description" : "停止录制",
+                        "id" : 13008,
+                        "retryCount" : 5,
+                        "time" : {
+                          "prepare" : 5,
+                          "await" : 5
+                        },
+                        "type" : "P2P_STOP_RECORD",
+                        "orderNo" : 1,
+                        "taskLinkId" : 12007,
+                        "commandEnable" : false,
+                        "taskConfigId" : 6005,
+                        "command" : "",
+                        "caseId" : 11002,
+                        "name" : "停止录制"
+                      }
+                    ],
+                    "id" : 12007,
+                    "parentId" : 13005,
+                    "repeatCount" : 0,
+                    "childrenLinks" : [
+    
+                    ],
+                    "name" : "结束录制"
+                  }
+                ],
+                "name" : "录制"
+              },
+              {
+                "caseId" : 11002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "停止回放",
+                    "id" : 13009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 11002,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 13010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 11002,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 13007,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "断开回放"
+              }
+            ],
+            "name" : "回放录制",
+            "description" : "主流程-回放录制"
+          },
+          {
+            "id" : 11001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 11001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 12006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "查询具体日期的回放片段{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id" : 12007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13002,
+                    "commandEnable" : true,
+                    "taskConfigId" : 7002,
+                    "command" : "{}",
+                    "caseId" : 11001,
+                    "name" : "查询回放片段"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 26007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 13002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "开始回放"
+                  }
+                ],
+                "id" : 13002,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "建立回放"
+              },
+              {
+                "caseId" : 11001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "截图",
+                    "id" : 13006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_SNAPSHOT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7004,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "截图"
+                  }
+                ],
+                "id" : 13003,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "截图"
+              },
+              {
+                "caseId" : 11001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "停止回放",
+                    "id" : 12008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 1,
+                    "taskLinkId" : 12005,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 12009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 12005,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 12005,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "断开回放"
+              }
+            ],
+            "name" : "回放截图",
+            "description" : "主流程-回放截图"
+          },
+          {
+            "id" : 10002,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 10002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 13005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 12002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 10002,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "查询具体日期的回放片段{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id" : 12005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo" : 2,
+                    "taskLinkId" : 12002,
+                    "commandEnable" : true,
+                    "taskConfigId" : 7002,
+                    "command" : "{}",
+                    "caseId" : 10002,
+                    "name" : "查询回放片段"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 27008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 12002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 10002,
+                    "name" : "开始回放"
+                  }
+                ],
+                "id" : 12002,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "建立回放"
+              },
+              {
+                "caseId" : 10002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "打开扬声器",
+                    "id" : 13002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_MUTE_ON",
+                    "orderNo" : 1,
+                    "taskLinkId" : 12003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3003,
+                    "command" : "",
+                    "caseId" : 10002,
+                    "name" : "扬声器开"
+                  },
+                  {
+                    "description" : "关闭扬声器",
+                    "id" : 12004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_MUTE_OFF",
+                    "orderNo" : 2,
+                    "taskLinkId" : 12003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2003,
+                    "command" : "",
+                    "caseId" : 10002,
+                    "name" : "扬声器关"
+                  }
+                ],
+                "id" : 12003,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "开关扬声器"
+              },
+              {
+                "caseId" : 10002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "停止回放",
+                    "id" : 13003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 1,
+                    "taskLinkId" : 12004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 10002,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 13004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 12004,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 10002,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 12004,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "断开回放"
+              }
+            ],
+            "name" : "回放开关扬声器",
+            "description" : "主流程-回放开关扬声器"
+          },
+          {
+            "id" : 15003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 15003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 19008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 18011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "开启对讲",
+                    "id" : 18012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_TALK_START",
+                    "orderNo" : 3,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3004,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "开始对讲"
+                  },
+                  {
+                    "description" : "停止对讲",
+                    "id" : 18013,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_TALK_STOP",
+                    "orderNo" : 4,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3005,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "停止对讲"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 18014,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 18015,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 19002,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "对讲"
+              }
+            ],
+            "name" : "对讲",
+            "description" : "主流程-预览对讲"
+          },
+          {
+            "id" : 15002,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 15002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 18006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 19007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "开始录制",
+                    "id" : 18007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+    
+                    },
+                    "type" : "P2P_START_RECORD",
+                    "orderNo" : 3,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7006,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "开始录制"
+                  },
+                  {
+                    "description" : "停止录制",
+                    "id" : 18008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_RECORD",
+                    "orderNo" : 4,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6005,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "停止录制"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 18009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 18010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 19001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15002,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 19001,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "录制"
+              }
+            ],
+            "name" : "预览录制",
+            "description" : "主流程-预览录制"
+          },
+          {
+            "id" : 16001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 16001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 18003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 18004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "截图",
+                    "id" : 19005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SNAPSHOT",
+                    "orderNo" : 3,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7004,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "截图"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 18005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 4,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 19006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 5,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 18002,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "截图"
+              }
+            ],
+            "name" : "预览截图",
+            "description" : "主流程-预览截图"
+          },
+          {
+            "id" : 15001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 15001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 18001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 19001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "关闭扬声器",
+                    "id" : 19002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_MUTE_OFF",
+                    "orderNo" : 3,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2003,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "扬声器关"
+                  },
+                  {
+                    "description" : "打开扬声器",
+                    "id" : 18002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_MUTE_ON",
+                    "orderNo" : 4,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3003,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "扬声器开"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 19003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 19004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 18001,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "扬声器"
+              }
+            ],
+            "name" : "预览扬声器",
+            "description" : "主流程-预览设置扬声器开关"
+          },
+          {
+            "id" : 14001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 14001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 17007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 16010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "设置低清晰度",
+                    "id" : 17008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SET_VIDEO_CLARITY_LOW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7003,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "设置低清晰度"
+                  },
+                  {
+                    "description" : "设置高清晰度",
+                    "id" : 16011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SET_VIDEO_CLARITY_HIGH",
+                    "orderNo" : 4,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6004,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "设置高清晰度"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 17009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 16012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 17008,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "切换清晰度"
+              }
+            ],
+            "name" : "切换清晰度",
+            "description" : "主流程-预览视频流切换清晰度"
+          },
+          {
+            "id" : 13003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 13003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 17005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 16008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 17006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 16009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 4,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 17007,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "预览视频流"
+              }
+            ],
+            "name" : "预览视频流",
+            "description" : "主流程-预览视频流"
+          },
+          {
+            "id" : 10001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 10001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 26001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 2
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "查询具体日期的回放片段{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id" : 26002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo" : 2,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : true,
+                    "taskConfigId" : 7002,
+                    "command" : "{\n  \"year\": 2021,\n  \"month\": 1,\n  \"day\": 28\n}",
+                    "caseId" : 10001,
+                    "name" : "查询回放片段"
+                  },
+                  {
+                    "description" : "开始回放",
+                    "id" : 27001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "开始回放"
+                  },
+                  {
+                    "description" : "停止回放",
+                    "id" : 27002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 4,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "停止回放"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 27003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 5,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 26001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "回放"
+              }
+            ],
+            "name" : "回放",
+            "description" : "主流程-回放"
+          }
+        ],
+        "repeatCount" : 1,
+        "repeatLinkCount" : 9,
+        "description" : "主流程-预览回放",
+        "name" : "主流程-预览回放"
+      },
+      {
+        "caseCount" : 1,
+        "id" : 7001,
+        "caseList" : [
+          {
+            "id" : 13003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 13003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P连接通道",
+                    "id" : 17005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "连接通道"
+                  },
+                  {
+                    "description" : "开始预览",
+                    "id" : 16008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "开始预览"
+                  },
+                  {
+                    "description" : "停止预览",
+                    "id" : 17006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "停止预览"
+                  },
+                  {
+                    "description" : "P2P断开连接",
+                    "id" : 16009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 4,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "断开连接"
+                  }
+                ],
+                "id" : 17007,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "预览视频流"
+              }
+            ],
+            "name" : "预览视频流",
+            "description" : "主流程-预览视频流"
+          }
+        ],
+        "repeatCount" : 100,
+        "repeatLinkCount" : 1,
+        "description" : "预览100次",
+        "name" : "反复预览"
+      }
+    ]
+}

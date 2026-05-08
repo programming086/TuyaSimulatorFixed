@@ -1,0 +1,40 @@
+{
+  "name": "ThingTemplateSkeleton",
+  "version": "1.0.0-feature-thin.1",
+  "summary": "A short description of ThingTemplateSkeleton.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.0-feature-thin.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "libextobjc": [],
+    "ThingUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingModuleManager": [],
+    "YYModel": [],
+    "ThingOEMConfig": [],
+    "ThingEncryptImage": []
+  },
+  "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingTemplateSkeleton/ThingTemplateSkeleton.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

@@ -1,0 +1,6 @@
+framework module TRCTGestureLockViewManager {
+  umbrella header "TRCTGestureLockViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

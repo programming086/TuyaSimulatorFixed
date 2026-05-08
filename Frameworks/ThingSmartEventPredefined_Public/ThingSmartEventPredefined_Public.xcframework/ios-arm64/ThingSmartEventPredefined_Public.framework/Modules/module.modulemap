@@ -1,0 +1,6 @@
+framework module ThingSmartEventPredefined_Public {
+  umbrella header "ThingSmartEventPredefined_Public-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

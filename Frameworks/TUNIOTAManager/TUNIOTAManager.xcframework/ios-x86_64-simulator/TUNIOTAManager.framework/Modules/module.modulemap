@@ -1,0 +1,6 @@
+framework module TUNIOTAManager {
+  umbrella header "TUNIOTAManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

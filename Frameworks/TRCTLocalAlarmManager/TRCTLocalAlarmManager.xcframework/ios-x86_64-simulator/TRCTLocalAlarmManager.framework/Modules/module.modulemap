@@ -1,0 +1,6 @@
+framework module TRCTLocalAlarmManager {
+  umbrella header "TRCTLocalAlarmManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNIGyroscopeManager {
+  umbrella header "TUNIGyroscopeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

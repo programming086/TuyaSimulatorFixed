@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-4.1.50 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ThingSmartIAPKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import StoreKit
+import Swift
+import ThingModuleServices
+@_exported import ThingSmartIAPKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 15, *)
+@objc public class ThingIAPPurchaseManager : ObjectiveC.NSObject {
+  @objc public static let shared: ThingSmartIAPKit.ThingIAPPurchaseManager
+  @objc public func startObserver()
+  @objc public func clearUnfinishedTransactions() async
+  @objc public func purchase(productId: Swift.String, preFlowCode: Swift.String, offer: ThingSmartIAPKit.ThingIAPPurchaseOfferParams?) async -> (Swift.String, (any Swift.Error)?)
+  @objc deinit
+}
+@available(iOS 15, *)
+extension ThingSmartIAPKit.ThingIAPPurchaseManager {
+  @objc dynamic public func fetchProductInfos(_ productIds: [Swift.String], ignoreIneligibleOffer: Swift.Bool = false) async -> (Foundation.NSDictionary?, (any Swift.Error)?)
+}
+@_hasMissingDesignatedInitializers @objc public class ThingIAPPurchaseOfferParams : ObjectiveC.NSObject {
+  @objc final public let offerId: Swift.String
+  @objc final public let keyID: Swift.String?
+  @objc final public let nonce: Swift.String?
+  @objc final public let signature: Swift.String?
+  @objc final public let timestamp: ObjectiveC.NSInteger
+  @objc public static func winBack(offerId: Swift.String) -> ThingSmartIAPKit.ThingIAPPurchaseOfferParams
+  @objc public static func promotional(offerId: Swift.String, keyID: Swift.String, nonce: Swift.String, signature: Swift.String, timestamp: ObjectiveC.NSInteger) -> ThingSmartIAPKit.ThingIAPPurchaseOfferParams
+  @objc deinit
+}

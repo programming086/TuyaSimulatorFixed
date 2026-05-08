@@ -1,0 +1,6 @@
+framework module TUNIDLIPCManager {
+  umbrella header "TUNIDLIPCManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

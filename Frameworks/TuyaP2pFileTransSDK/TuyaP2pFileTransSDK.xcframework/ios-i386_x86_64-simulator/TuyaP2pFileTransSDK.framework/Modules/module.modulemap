@@ -1,0 +1,6 @@
+framework module TuyaP2PFileTransSDK {
+  umbrella header "tuya_p2p_file_trans_sdk.h"
+
+  export *
+  module * { export * }
+}

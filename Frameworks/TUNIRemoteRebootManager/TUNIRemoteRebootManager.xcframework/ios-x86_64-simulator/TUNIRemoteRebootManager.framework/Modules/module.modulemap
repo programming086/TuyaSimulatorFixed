@@ -1,0 +1,6 @@
+framework module TUNIRemoteRebootManager {
+  umbrella header "TUNIRemoteRebootManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

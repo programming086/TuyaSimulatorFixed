@@ -1,0 +1,24 @@
+{
+  "name": "RNCMaskedView",
+  "version": "0.1.10.1",
+  "summary": "React Native MaskedView component",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.10.1"
+  },
+  "dependencies": {
+    "React": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/RNCMaskedView/RNCMaskedView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ThingNormalUI",
+  "version": "0.4.1",
+  "summary": "A short description of ThingNormalUI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.4.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_contents": "#import \"ThingNormalUI.h\"",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingOEMConfig": [],
+    "Masonry": [],
+    "ThingUIKit": [],
+    "ThingRealClass": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingNormalUI/ThingNormalUI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

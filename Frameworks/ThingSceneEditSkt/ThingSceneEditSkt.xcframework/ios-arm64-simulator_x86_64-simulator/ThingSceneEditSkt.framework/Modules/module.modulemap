@@ -1,0 +1,6 @@
+framework module ThingSceneEditSkt {
+  umbrella header "ThingSceneEditSkt-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYBluetoothInterface": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TuyaBusinessService": []
+  },
+  "description": "\u5bf9\u84dd\u7259\u7f51\u5173\u505amqtt\u7b49\u5904\u7406",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYBleGatewayService",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.0.4"
+  },
+  "summary": "A short description of TYBleGatewayService.",
+  "vendored_frameworks": [
+    "Frameworks/TYBleGatewayService/TYBleGatewayService.xcframework"
+  ],
+  "version": "0.0.4"
+}

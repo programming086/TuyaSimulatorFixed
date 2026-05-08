@@ -1,0 +1,25 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingLogMacro": []
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingMachRegister",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.3.0"
+  },
+  "summary": "Hot registration.",
+  "vendored_frameworks": [
+    "Frameworks/ThingMachRegister/ThingMachRegister.xcframework"
+  ],
+  "version": "0.3.0"
+}

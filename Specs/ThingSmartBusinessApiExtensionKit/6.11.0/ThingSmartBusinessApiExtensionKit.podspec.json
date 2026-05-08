@@ -1,0 +1,26 @@
+{
+  "name": "ThingSmartBusinessApiExtensionKit",
+  "version": "6.11.0",
+  "summary": "A short description of ThingSmartBusinessApiExtensionKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "6.11.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartBusinessApiExtensionKit/ThingSmartBusinessApiExtensionKit.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartBusinessApiExtensionKit/ThingSmartBusinessApiExtensionKit.xcframework/**/*.h"
+  ]
+}

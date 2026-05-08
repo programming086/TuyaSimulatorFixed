@@ -1,0 +1,6 @@
+framework module ThingDeviceBusinessDataKit {
+  umbrella header "ThingDeviceBusinessDataKit.h"
+
+  export *
+  module * { export * }
+}

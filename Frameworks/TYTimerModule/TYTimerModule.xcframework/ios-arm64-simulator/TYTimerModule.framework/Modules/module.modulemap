@@ -1,0 +1,6 @@
+framework module TYTimerModule {
+  umbrella header "TYTimerModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

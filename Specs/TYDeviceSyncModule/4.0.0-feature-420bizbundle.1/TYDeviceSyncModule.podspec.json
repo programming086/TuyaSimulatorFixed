@@ -1,0 +1,56 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "Masonry": [],
+    "TYBluetoothInterface": [],
+    "TYDeviceSyncControlModule": [],
+    "TYDeviceSyncPlugAPI": [],
+    "TYEncryptImage": [],
+    "TYFoundationKit": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYNavigationController": [],
+    "TYOEMConfig": [],
+    "TYSmartBusinessLibrary": [],
+    "TYSmartDeviceDetailLink": [],
+    "TYTabPagingView": [],
+    "TYUIKit": [],
+    "TYUrlPredefined": [],
+    "TuyaBusinessService": [],
+    "TuyaCommonUI": [],
+    "TuyaSmartBaseKit": [],
+    "TuyaSmartDeviceCoreKit": []
+  },
+  "description": "TODO: \u516c\u7248 3.7.0 \u65b0\u589e\u9700\u6c42\uff0c\u5728\u8bbe\u5907\u8be6\u60c5\u754c\u9762\u65b0\u589e\u5165\u53e3",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYDeviceSyncModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYDeviceSyncModule\", ##__VA_ARGS__)",
+  "prefix_header_file": "TYDeviceSyncModule/Classes/PrefixHeader.pch",
+  "resources": [
+    "TYDeviceSyncModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "4.0.0-feature-420bizbundle.1"
+  },
+  "summary": "\u53cc\u63a7\u8bbe\u5907\u5173\u8054\u6a21\u5757",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYDeviceSyncModule/TYDeviceSyncModule.xcframework"
+  ],
+  "version": "4.0.0-feature-420bizbundle.1"
+}

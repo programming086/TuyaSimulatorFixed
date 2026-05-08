@@ -1,0 +1,6 @@
+framework module TRCTHapticsManager {
+  umbrella header "TRCTHapticsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

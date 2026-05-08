@@ -1,0 +1,6 @@
+framework module TRCTCurveChartView {
+  umbrella header "TRCTCurveChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}

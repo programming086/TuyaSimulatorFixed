@@ -1,0 +1,6 @@
+framework module TRCTAlexaWebAuthManager {
+  umbrella header "TRCTAlexaWebAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNIIPCAppVersionManager {
+  umbrella header "TUNIIPCAppVersionManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

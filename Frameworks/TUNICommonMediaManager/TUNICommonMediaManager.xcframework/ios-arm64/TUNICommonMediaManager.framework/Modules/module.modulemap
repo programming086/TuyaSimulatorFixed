@@ -1,0 +1,6 @@
+framework module TUNICommonMediaManager {
+  umbrella header "TUNICommonMediaManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

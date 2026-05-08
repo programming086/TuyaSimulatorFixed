@@ -1,0 +1,6 @@
+framework module TRCTVisionMap {
+  umbrella header "TRCTVisionMap-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTBTManager {
+  umbrella header "TRCTBTManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

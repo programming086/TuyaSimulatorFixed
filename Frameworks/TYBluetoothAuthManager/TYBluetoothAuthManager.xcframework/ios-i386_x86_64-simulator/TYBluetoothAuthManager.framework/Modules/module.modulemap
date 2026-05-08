@@ -1,0 +1,6 @@
+framework module TYBluetoothAuthManager {
+  umbrella header "TYBluetoothAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

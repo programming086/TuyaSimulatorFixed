@@ -1,0 +1,6 @@
+framework module TuyaSmartPairingCoreKit {
+  umbrella header "TuyaSmartPairingCoreKit.h"
+
+  export *
+  module * { export * }
+}

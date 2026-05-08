@@ -1,0 +1,6 @@
+framework module ThingNetdbInterceptor {
+  umbrella header "ThingNetdbInterceptor-umbrella.h"
+
+  export *
+  module * { export * }
+}

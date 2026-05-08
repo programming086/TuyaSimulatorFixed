@@ -1,0 +1,6 @@
+framework module ThingInterfaceConfig {
+  umbrella header "ThingInterfaceConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

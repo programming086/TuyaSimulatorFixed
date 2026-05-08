@@ -1,0 +1,25 @@
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@protocol ThingSmartBLECommRodManagerDelegate <NSObject>
+
+- (void)deviceDidConnected:(ThingSmartBLELocalDevice *)localDevice;
+
+- (void)deviceConnectedFailWithError:(NSError *)error;
+
+- (void)deviceUploadSchema:(NSDictionary *)schema;
+
+@end
+
+
+@interface ThingSmartBLECommRodManager : NSObject
+
+@property (nonatomic, weak) id<ThingSmartBLECommRodManagerDelegate> delegate;
+
+- (void)connectDevice:(ThingBLEAdvModel *)adv machineKey:(NSString *)machineKey schema:(NSString *)schema;
+
+@end
+
+NS_ASSUME_NONNULL_END

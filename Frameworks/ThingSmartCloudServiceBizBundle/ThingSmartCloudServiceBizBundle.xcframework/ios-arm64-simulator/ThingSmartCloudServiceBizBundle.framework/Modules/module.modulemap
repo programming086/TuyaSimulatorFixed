@@ -1,0 +1,6 @@
+framework module ThingSmartCloudServiceBizBundle {
+  umbrella header "ThingSmartCloudServiceBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

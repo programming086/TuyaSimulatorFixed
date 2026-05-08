@@ -1,0 +1,6 @@
+framework module ThingLoginModuleBizKit {
+  umbrella header "ThingLoginModuleBizKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

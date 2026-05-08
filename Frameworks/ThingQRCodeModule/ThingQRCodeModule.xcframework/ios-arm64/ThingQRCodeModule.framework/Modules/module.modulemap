@@ -1,0 +1,6 @@
+framework module ThingQRCodeModule {
+  umbrella header "ThingQRCodeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

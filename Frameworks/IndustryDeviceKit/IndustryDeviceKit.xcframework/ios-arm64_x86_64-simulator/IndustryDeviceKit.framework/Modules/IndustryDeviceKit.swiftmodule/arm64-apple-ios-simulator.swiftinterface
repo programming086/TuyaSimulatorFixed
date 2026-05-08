@@ -1,0 +1,263 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IndustryDeviceKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import IndustryDeviceKit
+import IndustryErrorKit
+import IotContainer
+import Swift
+import ThingSmartUtil
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum DeviceError : Swift.Int {
+  case deviceModelNilError = 11001
+  case deviceIdNilError = 11002
+  case dpTypeError = 11003
+  case dpError = 11004
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc extension Foundation.NSError {
+  @objc public static func deviceModelNilError(_ des: Swift.String? = nil) -> Foundation.NSError
+  @objc public static func deviceIdNilError(_ des: Swift.String? = nil) -> Foundation.NSError
+  @objc public static func dpTypeError(_ des: Swift.String? = nil) -> Foundation.NSError
+  @objc public static func dpError(_ des: Swift.String? = nil) -> Foundation.NSError
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class DeviceService : ObjectiveC.NSObject, IndustryDeviceKit.IDeviceService {
+  @objc public static var shared: IndustryDeviceKit.DeviceService
+  @objc public func device(deviceId: Swift.String) -> (any IndustryDeviceKit.IDevice)?
+  @objc public func load(_ deviceId: Swift.String, success: ((any IndustryDeviceKit.IDevice) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @objc public func rename(_ deviceId: Swift.String, newName: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @objc public func remove(_ deviceId: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @objc public func resetFactory(_ deviceId: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @objc public func subDevices(_ deviceId: Swift.String, success: (([any IndustryDeviceKit.IDevice]) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc @objcMembers public class DpCommand : ObjectiveC.NSObject {
+  @objc public var dps: [IndustryDeviceKit.Dp]
+  @objc public var publishMode: IndustryDeviceKit.DpsPublishMode
+  @objc public init(dps: [IndustryDeviceKit.Dp] = [], publishMode: IndustryDeviceKit.DpsPublishMode = .auto)
+  @objc deinit
+}
+@objc public enum DpsPublishMode : Swift.Int {
+  case local, cloud, auto
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class Dp : ObjectiveC.NSObject {
+  @objc final public let dpId: Swift.String
+  @objc final public let value: Swift.AnyObject
+  @objc convenience public init(dpId: Swift.String, stringValue: Swift.String)
+  @objc convenience public init(dpId: Swift.String, intValue: Swift.Int)
+  @objc convenience public init(dpId: Swift.String, booleanValue: Swift.Bool)
+  @objc deinit
+}
+@objc public protocol IDeviceDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func deviceInfoUpdated(device: any IndustryDeviceKit.IDevice)
+  @objc optional func deviceDpsUpdated(device: any IndustryDeviceKit.IDevice)
+  @objc optional func deviceOnlineUpdate(device: any IndustryDeviceKit.IDevice)
+  @objc optional func deviceRemoved(device: any IndustryDeviceKit.IDevice)
+  @objc optional func device(_ device: any IndustryDeviceKit.IDevice, signalStrength: Swift.String)
+  @objc optional func device(_ device: any IndustryDeviceKit.IDevice, otaStatusChanged: Swift.String)
+}
+@objc public enum DeviceType : Swift.Int {
+  case unknown = -1
+  case wifiDevice = 0
+  case bleDevice = 1
+  case gprsDevice = 2
+  case nbDevice = 3
+  case zigbeeGatewayDevice = 4
+  case zigbeeSubDevice = 5
+  case bleMeshSubDevice = 6
+  case infraredGatewayDevice = 7
+  case infraredSubDevice = 8
+  case wifiGatewayDevice = 9
+  case wifiSubDevice = 10
+  case sigMeshGatewayDevice = 11
+  case sigMeshSubDevice = 12
+  case beaconDevice = 13
+  case cat1Device = 14
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IDevice : ObjectiveC.NSObjectProtocol {
+  @objc var deviceId: Swift.String? { get }
+  @objc var uuid: Swift.String? { get }
+  @objc var name: Swift.String? { get }
+  @objc var icon: Swift.String? { get }
+  @objc var productId: Swift.String? { get }
+  @objc var category: Swift.String? { get }
+  @objc var timezoneId: Swift.String? { get }
+  @objc var isCloudOnline: Swift.Bool { get }
+  @objc var isLocalOnline: Swift.Bool { get }
+  @objc var isOnline: Swift.Bool { get }
+  @objc var latitude: Swift.String? { get }
+  @objc var longitude: Swift.String? { get }
+  @objc var dps: [Swift.String : Any]? { get }
+  @objc var schemas: [Swift.String : IndustryDeviceKit.DpSchema]? { get }
+  @objc var deviceType: IndustryDeviceKit.DeviceType { get }
+  @objc var localKey: Swift.String? { get }
+  @objc var pv: Swift.Double { get }
+  @objc var wifiBackup: any IndustryDeviceKit.IDeviceBackupNet { get }
+  @objc var ota: any IndustryDeviceKit.IDeviceOTA { get }
+  @objc var meta: [Swift.String : Any]? { get }
+  @objc weak var delegate: (any IndustryDeviceKit.IDeviceDelegate)? { get set }
+  @objc func isSupport(_ attribute: Swift.Int) -> Swift.Bool
+  @objc func publish(dps: IndustryDeviceKit.DpCommand, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func getWifiSignalStrength(success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func subDevices(success: (([any IndustryDeviceKit.IDevice]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+}
+@objc @objcMembers public class DpSchema : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String
+  @objc final public let code: Swift.String
+  @objc final public let name: Swift.String
+  @objc final public let mode: Swift.String
+  @objc final public let type: IndustryDeviceKit.DpSchemaType
+  @objc final public let property: IndustryDeviceKit.DpSchemaProperty
+  @objc public init(id: Swift.String, code: Swift.String, name: Swift.String, mode: Swift.String, type: IndustryDeviceKit.DpSchemaType, property: IndustryDeviceKit.DpSchemaProperty)
+  @objc deinit
+}
+@objc @objcMembers public class DpSchemaProperty : ObjectiveC.NSObject {
+  @objc final public let type: IndustryDeviceKit.DpSchemaType
+  @objc final public let unit: Swift.String?
+  @objc final public let min: Swift.Double
+  @objc final public let max: Swift.Double
+  @objc final public let step: Swift.Double
+  @objc final public let scale: Swift.Int
+  @objc final public let maxLen: Swift.Int
+  @objc final public let range: [Swift.String]?
+  @objc final public let label: [Swift.String]?
+  @objc public init(type: IndustryDeviceKit.DpSchemaType, unit: Swift.String?, min: Swift.Double, max: Swift.Double, step: Swift.Double, scale: Swift.Int, maxLen: Swift.Int, range: [Swift.String]?, label: [Swift.String]?)
+  @objc deinit
+}
+@objc public enum DpSchemaType : Swift.Int {
+  case enumeration, bool, string, numeric, bitmap, raw, file
+  public static func type(for text: Swift.String) -> IndustryDeviceKit.DpSchemaType
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @objcMembers public class WifiBackupModel : ObjectiveC.NSObject {
+  @objc final public let ssid: Swift.String
+  @objc final public let hValue: Swift.String
+  @objc final public let password: Swift.String
+  @objc public init(ssid: Swift.String, hValue: Swift.String, password: Swift.String)
+  @objc public static func base64HashValue(_ localKey: Swift.String, ssid: Swift.String, password: Swift.String) -> Swift.String
+  @objc deinit
+}
+@objc public protocol IDeviceBackupNet : ObjectiveC.NSObjectProtocol {
+  @objc func getCurrentWifiInfo(_ success: (([Swift.String : Swift.AnyObject]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func getBackupWifiList(_ success: (([Swift.String : Swift.AnyObject]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func setBackupWifiList(_ list: [IndustryDeviceKit.WifiBackupModel], success: (([Swift.String : Swift.AnyObject]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func switchToBackupWifiWithHash(_ hash: Swift.String, success: (([Swift.String : Swift.AnyObject]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func switchToBackupWifiWithSSID(_ ssid: Swift.String, password: Swift.String, success: (([Swift.String : Swift.AnyObject]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+}
+@objc public enum DeviceUpgradeMode : Swift.Int {
+  case normal = 0
+  case pidVersion = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DeviceUpgradeStatus : Swift.Int {
+  case normal = 0
+  case ready = 1
+  case upgrading = 2
+  case success = 3
+  case failure = 4
+  case waitingExectue = 5
+  case downloaded = 6
+  case timeout = 7
+  case localPrepare = 100
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IFirmwareUpgradeModel : ObjectiveC.NSObjectProtocol {
+  @objc var desc: Swift.String? { get set }
+  @objc var typeDesc: Swift.String? { get set }
+  @objc var upgradeStatus: IndustryDeviceKit.DeviceUpgradeStatus { get set }
+  @objc var version: Swift.String? { get set }
+  @objc var currentVersion: Swift.String? { get set }
+  @objc var timeout: Swift.Int { get set }
+  @objc var upgradeType: Swift.Int { get set }
+  @objc var type: Swift.Int { get set }
+  @objc var devType: Swift.Int { get set }
+  @objc var url: Swift.String? { get set }
+  @objc var md5: Swift.String? { get set }
+  @objc var fileSize: Swift.String? { get set }
+  @objc var sign: Swift.String? { get set }
+  @objc var lastUpgradeTime: Swift.Int64 { get set }
+  @objc var firmwareDeployTime: Swift.Int64 { get set }
+  @objc var controlType: Swift.Bool { get set }
+  @objc var waitingDesc: Swift.String? { get set }
+  @objc var upgradingDesc: Swift.String? { get set }
+  @objc var canUpgrade: Foundation.NSNumber? { get set }
+  @objc var remind: Swift.String? { get set }
+  @objc var hmac: Swift.String? { get set }
+  @objc var diffOta: Swift.Bool { get set }
+  @objc var filePath: Swift.String? { get set }
+  @objc var upgradeMode: IndustryDeviceKit.DeviceUpgradeMode { get set }
+}
+@objc public protocol IFirmwareUpgradeStatusModel : ObjectiveC.NSObjectProtocol {
+  @objc var upgradeStatus: IndustryDeviceKit.DeviceUpgradeStatus { get set }
+  @objc var type: Swift.Int { get set }
+  @objc var statusText: Swift.String? { get set }
+  @objc var statusTitle: Swift.String? { get set }
+  @objc var groupId: Swift.Int { get set }
+  @objc var progress: Swift.Int { get set }
+  @objc var upgradeMode: IndustryDeviceKit.DeviceUpgradeMode { get set }
+  @objc var error: Foundation.NSError? { get set }
+}
+@objc public protocol IDeviceOTA : ObjectiveC.NSObjectProtocol {
+  @objc func checkFirmwareUpgrade(_ success: (([any IndustryDeviceKit.IFirmwareUpgradeModel]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func checkFirmwareUpgradeWithExtraInfo(_ extraInfo: [Swift.String : Swift.String], success: (([any IndustryDeviceKit.IFirmwareUpgradeModel]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func startFirmwareUpgrade(_ firmwares: [any IndustryDeviceKit.IFirmwareUpgradeModel])
+  @objc func confirmWarningUpgradeTask(_ isContinue: Swift.Bool)
+  @objc func cancelFirmwareUpgrade(_ success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func getFirmwareUpgradingStatus(_ success: ((any IndustryDeviceKit.IFirmwareUpgradeStatusModel) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func getDeviceLocalFirmwareInfo(_ success: (([any IndustryDeviceKit.IFirmwareUpgradeModel]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+}
+@objc public protocol IDeviceService : ObjectiveC.NSObjectProtocol {
+  @objc func device(deviceId: Swift.String) -> (any IndustryDeviceKit.IDevice)?
+  @objc func load(_ deviceId: Swift.String, success: ((any IndustryDeviceKit.IDevice) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func rename(_ deviceId: Swift.String, newName: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func remove(_ deviceId: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func resetFactory(_ deviceId: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func subDevices(_ deviceId: Swift.String, success: (([any IndustryDeviceKit.IDevice]) -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+}
+extension IndustryDeviceKit.DeviceError : Swift.Equatable {}
+extension IndustryDeviceKit.DeviceError : Swift.Hashable {}
+extension IndustryDeviceKit.DeviceError : Swift.RawRepresentable {}
+extension IndustryDeviceKit.DpsPublishMode : Swift.Equatable {}
+extension IndustryDeviceKit.DpsPublishMode : Swift.Hashable {}
+extension IndustryDeviceKit.DpsPublishMode : Swift.RawRepresentable {}
+extension IndustryDeviceKit.DeviceType : Swift.Equatable {}
+extension IndustryDeviceKit.DeviceType : Swift.Hashable {}
+extension IndustryDeviceKit.DeviceType : Swift.RawRepresentable {}
+extension IndustryDeviceKit.DpSchemaType : Swift.Equatable {}
+extension IndustryDeviceKit.DpSchemaType : Swift.Hashable {}
+extension IndustryDeviceKit.DpSchemaType : Swift.RawRepresentable {}
+extension IndustryDeviceKit.DeviceUpgradeMode : Swift.Equatable {}
+extension IndustryDeviceKit.DeviceUpgradeMode : Swift.Hashable {}
+extension IndustryDeviceKit.DeviceUpgradeMode : Swift.RawRepresentable {}
+extension IndustryDeviceKit.DeviceUpgradeStatus : Swift.Equatable {}
+extension IndustryDeviceKit.DeviceUpgradeStatus : Swift.Hashable {}
+extension IndustryDeviceKit.DeviceUpgradeStatus : Swift.RawRepresentable {}

@@ -1,0 +1,6 @@
+framework module ThingStorageLibrary {
+  umbrella header "ThingStorageLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ThingSmartCameraBase",
+  "version": "5.5.3",
+  "summary": "open SDK code for thing smart camera.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://registry.code.thing-inc.top/thingIOS/ThingSmartCameraBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.5.3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "Photos"
+  ],
+  "dependencies": {
+    "ThingSmartMediaServices": [],
+    "ThingSmartAVBaseKit": []
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartCameraBase/ThingSmartCameraBase.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartCameraBase/ThingSmartCameraBase.xcframework/**/*.h"
+  ]
+}

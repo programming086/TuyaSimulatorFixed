@@ -1,0 +1,6 @@
+framework module ThingSmartUIConfigServices {
+  umbrella header "ThingSmartUIConfigServices-umbrella.h"
+
+  export *
+  module * { export * }
+}

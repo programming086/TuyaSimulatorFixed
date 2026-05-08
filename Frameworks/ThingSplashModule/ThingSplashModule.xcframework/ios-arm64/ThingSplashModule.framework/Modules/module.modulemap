@@ -1,0 +1,6 @@
+framework module ThingSplashModule {
+  umbrella header "ThingSplashModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

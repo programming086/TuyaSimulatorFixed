@@ -1,0 +1,6 @@
+framework module TuyaSmartBeaconKit {
+  umbrella header "TuyaSmartBeaconKit.h"
+
+  export *
+  module * { export * }
+}

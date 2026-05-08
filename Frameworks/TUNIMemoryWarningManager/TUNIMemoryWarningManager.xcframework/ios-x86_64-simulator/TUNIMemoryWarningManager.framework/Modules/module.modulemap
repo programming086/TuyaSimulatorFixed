@@ -1,0 +1,6 @@
+framework module TUNIMemoryWarningManager {
+  umbrella header "TUNIMemoryWarningManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

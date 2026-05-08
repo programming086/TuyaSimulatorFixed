@@ -1,0 +1,6 @@
+framework module ThingNetPoolModule {
+  umbrella header "ThingNetPoolModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

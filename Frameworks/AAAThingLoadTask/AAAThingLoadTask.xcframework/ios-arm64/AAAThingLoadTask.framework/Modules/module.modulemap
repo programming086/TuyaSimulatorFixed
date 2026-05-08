@@ -1,0 +1,6 @@
+framework module AAAThingLoadTask {
+  umbrella header "AAAThingLoadTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

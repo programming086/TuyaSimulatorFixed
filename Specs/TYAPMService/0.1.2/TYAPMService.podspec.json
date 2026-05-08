@@ -1,0 +1,25 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYAPMService",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.2"
+  },
+  "summary": "A short description of TYAPMService.",
+  "vendored_frameworks": [
+    "Frameworks/TYAPMService/TYAPMService.xcframework"
+  ],
+  "version": "0.1.2"
+}

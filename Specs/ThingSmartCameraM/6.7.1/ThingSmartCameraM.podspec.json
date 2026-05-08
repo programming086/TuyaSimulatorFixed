@@ -1,0 +1,56 @@
+{
+  "name": "ThingSmartCameraM",
+  "version": "6.7.1",
+  "summary": "open SDK code for thing smart camera.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "6.7.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "Photos",
+    "GLKit"
+  ],
+  "dependencies": {
+    "ThingCameraSDK": [],
+    "ThingSmartCameraBase": [],
+    "ThingSmartAVBaseKit": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartP2pChannelKit": [],
+    "ThingAvLoggerSDK": [],
+    "ThingSmartMediaUIKit": []
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartCameraM/ThingSmartCameraM.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartCameraM/ThingSmartCameraM.xcframework/**/*.h"
+  ]
+}

@@ -1,0 +1,6 @@
+framework module ThingBusinessService {
+  umbrella header "ThingBusinessService-umbrella.h"
+
+  export *
+  module * { export * }
+}

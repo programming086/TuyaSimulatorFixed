@@ -1,0 +1,6 @@
+framework module ThingSmartBaseKit {
+  umbrella header "ThingSmartBaseKit.h"
+
+  export *
+  module * { export * }
+}

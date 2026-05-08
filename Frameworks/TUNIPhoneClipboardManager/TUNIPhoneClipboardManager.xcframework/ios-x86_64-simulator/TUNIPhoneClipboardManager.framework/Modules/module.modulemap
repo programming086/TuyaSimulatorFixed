@@ -1,0 +1,6 @@
+framework module TUNIPhoneClipboardManager {
+  umbrella header "TUNIPhoneClipboardManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

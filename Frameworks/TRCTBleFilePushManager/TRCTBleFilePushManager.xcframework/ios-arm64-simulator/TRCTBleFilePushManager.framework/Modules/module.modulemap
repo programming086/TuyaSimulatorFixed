@@ -1,0 +1,6 @@
+framework module TRCTBleFilePushManager {
+  umbrella header "TRCTBleFilePushManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

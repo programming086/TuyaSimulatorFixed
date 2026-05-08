@@ -1,0 +1,54 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYAlertView": [],
+    "TYDeviceNetworkSettingPlugAPI": [],
+    "TYFoundationKit": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYOEMConfig": [],
+    "TYSmartBusinessLibrary": [],
+    "TYUIKit": [],
+    "TYUrlPredefined": [],
+    "TYUrlPredefinedExternal": [],
+    "TuyaSmartBaseKit": [],
+    "TuyaSmartDeviceCoreKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYNetPoolModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_file": "TYNetPoolModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "TYNetPoolModule": [
+      "TYNetPoolModule/Assets/*.png"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.2.3"
+  },
+  "summary": "A short description of TYNetPoolModule.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYNetPoolModule/TYNetPoolModule.xcframework"
+  ],
+  "version": "1.2.3"
+}

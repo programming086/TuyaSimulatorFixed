@@ -1,0 +1,6 @@
+framework module TUNILogManager {
+  umbrella header "TUNILogManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

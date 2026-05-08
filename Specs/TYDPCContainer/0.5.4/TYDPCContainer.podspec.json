@@ -1,0 +1,39 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "MJRefresh": [],
+    "TYFoundationKit": [],
+    "TYLogMacro": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYNavigationController": [],
+    "TYOEMConfig": [],
+    "TYSmartBusinessLibrary": [],
+    "TYUIKit": [],
+    "TuyaSmartNetworkKit": [],
+    "YYModel": [],
+    "lottie-ios": []
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYDPCContainer",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.5.4"
+  },
+  "summary": "DPC: DataSource + Provider + Container",
+  "vendored_frameworks": [
+    "Frameworks/TYDPCContainer/TYDPCContainer.xcframework"
+  ],
+  "version": "0.5.4"
+}

@@ -1,0 +1,6 @@
+framework module ThingBluetoothAuthManager {
+  umbrella header "ThingBluetoothAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingSmartBLEModule {
+  umbrella header "ThingSmartBLEModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

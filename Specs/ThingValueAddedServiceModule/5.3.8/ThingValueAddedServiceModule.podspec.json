@@ -1,0 +1,60 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "GodzillaMiniIService": [],
+    "GodzillaMiniOpenAPI": [],
+    "ThingBusinessService": [],
+    "ThingFoundationKit": [],
+    "ThingHybridContainer": [],
+    "ThingKVStorageLibrary": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingNavigationController": [],
+    "ThingOEMConfig": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartEventPredefined_Public": [],
+    "ThingSmartUtil": [],
+    "ThingSpaceInfoSktAPI": [],
+    "ThingUIKit": [],
+    "ThingUrlPredefined": [],
+    "ThingValueAddedServicePlugAPI": []
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingValueAddedServiceModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)",
+  "prefix_header_file": "ThingValueAddedServiceModule/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingValueAddedServiceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.3.8"
+  },
+  "summary": "\u7ec4\u4ef6\u6a21\u677f",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingValueAddedServiceModule/ThingValueAddedServiceModule.xcframework"
+  ],
+  "version": "5.3.8"
+}

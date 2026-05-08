@@ -1,0 +1,6 @@
+framework module ThingCameraCloudServiceModule {
+  umbrella header "ThingCameraCloudServiceModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

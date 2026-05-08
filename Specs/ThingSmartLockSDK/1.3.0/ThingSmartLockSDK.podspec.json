@@ -1,0 +1,42 @@
+{
+  "name": "ThingSmartLockSDK",
+  "version": "1.3.0",
+  "summary": "A short description of ThingSmartLockSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://developer.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.3.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartResidenceBasicKit": [],
+    "ThingSmartShareKit": [],
+    "ThingSmartResidenceKit": [],
+    "ThingSmartBLECoreKit": [],
+    "ThingSmartBLEKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartLockSDK/ThingSmartLockSDK.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartLockSDK/ThingSmartLockSDK.xcframework/**/*.h"
+  ]
+}

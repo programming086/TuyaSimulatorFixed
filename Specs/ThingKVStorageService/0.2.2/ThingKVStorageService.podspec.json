@@ -1,0 +1,27 @@
+{
+  "name": "ThingKVStorageService",
+  "version": "0.2.2",
+  "summary": "A short description of ThingKVStorageService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingKVStorageCoreLibrary": [],
+    "ThingStorageGroupInterface": [],
+    "ThingSmartBaseKit": [],
+    "ThingAnnotationFoundation": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingKVStorageService/ThingKVStorageService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

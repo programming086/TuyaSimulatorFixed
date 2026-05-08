@@ -1,0 +1,6 @@
+framework module ThingSecurityArmAbilityModuleServices {
+  umbrella header "ThingSecurityArmAbilityModuleServices-umbrella.h"
+
+  export *
+  module * { export * }
+}

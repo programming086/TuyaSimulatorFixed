@@ -1,0 +1,59 @@
+{
+  "name": "TheAmazingAudioEngine",
+  "version": "1.5.12",
+  "summary": "Core Audio, Cordially: A sophisticated framework for iOS audio applications, built so you don't have to.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.5.12"
+  },
+  "deprecated": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "exclude_files": "TheAmazingAudioEngine/AERealtimeWatchdog*",
+  "compiler_flags": [
+    "-DTPCircularBuffer=AECB",
+    "-D_TPCircularBufferInit=_AECBInit",
+    "-DTPCircularBufferCleanup=AECBClean",
+    "-DTPCircularBufferClear=AECBClear",
+    "-DTPCircularBufferSetAtomic=AECBSetAtomic",
+    "-DTPCircularBufferTail=AECBTail",
+    "-DTPCircularBufferConsume=AECBConsume",
+    "-DTPCircularBufferHead=AECBHead",
+    "-DTPCircularBufferProduce=AECBProduce",
+    "-DTPCircularBufferProduceBytes=AECBProduceBytes",
+    "-DTPCircularBufferPrepareEmptyAudioBufferList=AECBPrepareEmptyBL",
+    "-DTPCircularBufferPrepareEmptyAudioBufferListWithAudioFormat=AECBPrepareEmptyBLWithAF",
+    "-DTPCircularBufferProduceAudioBufferList=AECBProduceBL",
+    "-DTPCircularBufferCopyAudioBufferList=AECBCopyBL",
+    "-DTPCircularBufferNextBufferList=AECBNextBL",
+    "-DTPCircularBufferNextBufferListAfter=AECBNextBLAfter",
+    "-DTPCircularBufferConsumeNextBufferList=AECBConsumeBL",
+    "-DTPCircularBufferGetAvailableSpace=AECBGetAvailableSpace",
+    "-DTPCircularBufferConsumeNextBufferListPartial=AECBConsumeBLPartial",
+    "-DTPCircularBufferDequeueBufferListFrames=AECBDequeueBLFrames",
+    "-DTPCircularBufferPeek=AECBPeek",
+    "-DTPCircularBufferPeekContiguous=AECBPeekContiguous",
+    "-D_TPCircularBufferPeek=_AECBPeek"
+  ],
+  "frameworks": [
+    "AudioToolbox",
+    "Accelerate",
+    "AVFoundation",
+    "UIKit",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "cocoapods_version": ">= 1.10",
+  "vendored_frameworks": [
+    "Frameworks/TheAmazingAudioEngine/TheAmazingAudioEngine.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/TheAmazingAudioEngine/TheAmazingAudioEngine.xcframework/**/*.h"
+  ]
+}

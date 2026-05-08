@@ -1,0 +1,6 @@
+framework module TUNIPhoneBluetoothManager {
+  umbrella header "TUNIPhoneBluetoothManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

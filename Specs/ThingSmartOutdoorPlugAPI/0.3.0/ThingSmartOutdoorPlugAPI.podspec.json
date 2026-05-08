@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartOutdoorPlugAPI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.3.0"
+  },
+  "summary": "A short description of ThingSmartOutdoorPlugAPI.",
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartOutdoorPlugAPI/ThingSmartOutdoorPlugAPI.xcframework"
+  ],
+  "version": "0.3.0"
+}

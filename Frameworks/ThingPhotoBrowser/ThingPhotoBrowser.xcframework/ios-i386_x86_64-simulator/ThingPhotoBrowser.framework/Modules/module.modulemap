@@ -1,0 +1,6 @@
+framework module ThingPhotoBrowser {
+  umbrella header "ThingPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

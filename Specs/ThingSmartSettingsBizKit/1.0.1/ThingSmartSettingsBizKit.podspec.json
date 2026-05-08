@@ -1,0 +1,36 @@
+{
+  "name": "ThingSmartSettingsBizKit",
+  "version": "1.0.1",
+  "summary": "A short description of ThingSmartSettingsBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartUIConfigServices": [],
+    "ThingOEMConfig": [],
+    "ThingModuleServices": [],
+    "ThingModuleManager": [],
+    "ThingEncryptImage": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartUtil": [],
+    "ThingSmartBaseKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingSmartPrivateCloudPlugAPI": [],
+    "ThingSmartNetworkKit": [],
+    "ThingConfigHub": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartSettingsBizKit/ThingSmartSettingsBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

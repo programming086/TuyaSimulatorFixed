@@ -1,0 +1,2 @@
+
+#import <ThingSmartActivatorCoreKit/ThingSmartDiscovery.h>

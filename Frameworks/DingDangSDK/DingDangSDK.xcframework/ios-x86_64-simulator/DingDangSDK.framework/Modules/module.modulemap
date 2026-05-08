@@ -1,0 +1,6 @@
+framework module DingDangSDK {
+  umbrella header "DingDangSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

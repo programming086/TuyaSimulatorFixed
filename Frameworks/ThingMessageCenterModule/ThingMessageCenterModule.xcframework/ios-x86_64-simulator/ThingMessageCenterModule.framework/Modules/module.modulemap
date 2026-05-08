@@ -1,0 +1,6 @@
+framework module ThingMessageCenterModule {
+  umbrella header "ThingMessageCenterModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

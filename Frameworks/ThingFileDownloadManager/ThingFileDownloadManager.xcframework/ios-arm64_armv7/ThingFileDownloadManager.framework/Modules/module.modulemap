@@ -1,0 +1,6 @@
+framework module ThingFileDownloadManager {
+  umbrella header "ThingFileDownloadManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

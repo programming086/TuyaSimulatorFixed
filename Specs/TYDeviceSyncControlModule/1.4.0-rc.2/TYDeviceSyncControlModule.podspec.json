@@ -1,0 +1,35 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYEncryptImage": [],
+    "TYFoundationKit": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYOEMConfig": [],
+    "TYSmartBusinessLibrary": [],
+    "TYUIKit": [],
+    "TYUrlPredefined": [],
+    "TuyaBusinessService": [],
+    "TuyaSmartBaseKit": [],
+    "TuyaSmartDeviceCoreKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYDeviceSyncControlModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.4.0-rc.2"
+  },
+  "summary": "A short description of TYDeviceSyncControlModule.",
+  "vendored_frameworks": [
+    "Frameworks/TYDeviceSyncControlModule/TYDeviceSyncControlModule.xcframework"
+  ],
+  "version": "1.4.0-rc.2"
+}

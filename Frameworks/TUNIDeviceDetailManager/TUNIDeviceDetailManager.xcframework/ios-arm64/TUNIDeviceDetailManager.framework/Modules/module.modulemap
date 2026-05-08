@@ -1,0 +1,6 @@
+framework module TUNIDeviceDetailManager {
+  umbrella header "TUNIDeviceDetailManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

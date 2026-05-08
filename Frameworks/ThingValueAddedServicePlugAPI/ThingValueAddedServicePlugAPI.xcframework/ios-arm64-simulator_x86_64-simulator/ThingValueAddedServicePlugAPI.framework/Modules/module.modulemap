@@ -1,0 +1,6 @@
+framework module ThingValueAddedServicePlugAPI {
+  umbrella header "ThingValueAddedServicePlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

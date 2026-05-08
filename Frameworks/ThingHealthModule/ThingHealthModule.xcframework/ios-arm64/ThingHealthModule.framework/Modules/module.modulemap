@@ -1,0 +1,6 @@
+framework module ThingHealthModule {
+  umbrella header "ThingHealthModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

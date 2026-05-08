@@ -1,0 +1,6 @@
+framework module TRCTShareManager {
+  umbrella header "TRCTShareManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNINativeEventManager {
+  umbrella header "TUNINativeEventManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

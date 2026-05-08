@@ -1,0 +1,6 @@
+framework module TUNIScanCodeManager {
+  umbrella header "TUNIScanCodeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

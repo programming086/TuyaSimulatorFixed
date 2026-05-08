@@ -1,0 +1,6 @@
+framework module ThingSmartSceneKit {
+  umbrella header "ThingSmartSceneKit-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

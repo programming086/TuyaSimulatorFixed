@@ -1,0 +1,6 @@
+framework module MMKVCore {
+  umbrella header "MMKVCore-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingPageMenuView {
+  umbrella header "ThingPageMenuView-umbrella.h"
+
+  export *
+  module * { export * }
+}

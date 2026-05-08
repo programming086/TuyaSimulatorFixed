@@ -1,0 +1,6 @@
+framework module ThingDIYHomeInterface {
+  umbrella header "ThingDIYHomeInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}

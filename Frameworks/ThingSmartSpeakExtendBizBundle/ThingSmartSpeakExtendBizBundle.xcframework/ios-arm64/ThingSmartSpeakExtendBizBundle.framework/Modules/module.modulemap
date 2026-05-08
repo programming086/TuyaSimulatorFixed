@@ -1,0 +1,6 @@
+framework module ThingSmartSpeakExtendBizBundle {
+  umbrella header "ThingSmartSpeakExtendBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

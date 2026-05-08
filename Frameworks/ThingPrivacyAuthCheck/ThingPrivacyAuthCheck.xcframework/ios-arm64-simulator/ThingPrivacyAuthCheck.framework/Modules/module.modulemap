@@ -1,0 +1,6 @@
+framework module ThingPrivacyAuthCheck {
+  umbrella header "ThingPrivacyAuthCheck-umbrella.h"
+
+  export *
+  module * { export * }
+}

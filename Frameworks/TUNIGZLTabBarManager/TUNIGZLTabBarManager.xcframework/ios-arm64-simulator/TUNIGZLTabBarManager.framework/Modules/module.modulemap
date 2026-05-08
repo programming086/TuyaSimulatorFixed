@@ -1,0 +1,6 @@
+framework module TUNIGZLTabBarManager {
+  umbrella header "TUNIGZLTabBarManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

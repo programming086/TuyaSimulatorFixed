@@ -1,0 +1,6 @@
+framework module ThingHybridContainerApi {
+  umbrella header "ThingHybridContainerApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

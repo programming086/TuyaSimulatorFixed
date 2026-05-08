@@ -1,0 +1,22 @@
+{
+  "name": "ThingSweeperLZ4",
+  "version": "0.2.1",
+  "summary": "A short description of ThingSweeperLZ4.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSweeperLZ4/ThingSweeperLZ4.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json",
+  "license": "none"
+}

@@ -1,0 +1,6 @@
+framework module TUNICloudStorageSignatureManager {
+  umbrella header "TUNICloudStorageSignatureManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

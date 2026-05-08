@@ -1,0 +1,6 @@
+framework module ThingReactNative {
+  umbrella header "ThingReactNative-umbrella.h"
+
+  export *
+  module * { export * }
+}

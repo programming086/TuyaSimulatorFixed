@@ -1,0 +1,6 @@
+framework module TYAuthorizationServices {
+  umbrella header "TYAuthorizationServices-umbrella.h"
+
+  export *
+  module * { export * }
+}

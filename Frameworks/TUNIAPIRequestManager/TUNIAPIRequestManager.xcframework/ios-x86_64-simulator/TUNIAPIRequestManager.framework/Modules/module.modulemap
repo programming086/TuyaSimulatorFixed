@@ -1,0 +1,6 @@
+framework module TUNIAPIRequestManager {
+  umbrella header "TUNIAPIRequestManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

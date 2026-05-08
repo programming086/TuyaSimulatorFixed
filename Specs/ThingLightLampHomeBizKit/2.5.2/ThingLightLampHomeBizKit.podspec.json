@@ -1,0 +1,44 @@
+{
+  "name": "ThingLightLampHomeBizKit",
+  "version": "2.5.2",
+  "summary": "A short description of ThingLightLampHomeBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.5.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingLightSceneKit": [],
+    "ThingSmartDeviceKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingModuleManager": [],
+    "ThingUrlPredefined": [],
+    "ThingModuleServices": [],
+    "ThingSmartHouseBizKit": [],
+    "ThingTemplateSkeleton": [],
+    "ThingSpaceInfoSktAPI": [],
+    "ThingBusinessDeviceCore": [],
+    "ThingSmartBusinessLibrary": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingLightLampHomeBizKit/ThingLightLampHomeBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

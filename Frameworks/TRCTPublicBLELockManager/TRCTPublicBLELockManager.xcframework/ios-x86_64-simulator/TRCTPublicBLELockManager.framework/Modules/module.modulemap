@@ -1,0 +1,6 @@
+framework module TRCTPublicBLELockManager {
+  umbrella header "TRCTPublicBLELockManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

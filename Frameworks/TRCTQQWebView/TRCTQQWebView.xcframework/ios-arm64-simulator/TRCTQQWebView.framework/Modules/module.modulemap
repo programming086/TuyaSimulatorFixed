@@ -1,0 +1,6 @@
+framework module TRCTQQWebView {
+  umbrella header "TRCTQQWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

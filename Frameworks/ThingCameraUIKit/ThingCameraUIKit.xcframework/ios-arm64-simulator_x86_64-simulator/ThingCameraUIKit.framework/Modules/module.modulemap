@@ -1,0 +1,6 @@
+framework module ThingCameraUIKit {
+  umbrella header "ThingCameraUIKit.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNIIAPManager {
+  umbrella header "TUNIIAPManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

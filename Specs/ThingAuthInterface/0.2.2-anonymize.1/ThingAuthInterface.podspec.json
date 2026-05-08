@@ -1,0 +1,27 @@
+{
+  "name": "ThingAuthInterface",
+  "version": "0.2.2-anonymize.1",
+  "summary": "A short description of ThingAuthInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.2-anonymize.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingAuthorizationServices": [],
+    "ThingModuleManager": [],
+    "ThingBluetoothAuthManager": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingAuthInterface/ThingAuthInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

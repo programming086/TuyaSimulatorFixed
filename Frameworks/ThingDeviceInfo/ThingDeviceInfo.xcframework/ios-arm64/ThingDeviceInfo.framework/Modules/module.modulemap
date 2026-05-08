@@ -1,0 +1,6 @@
+framework module ThingDeviceInfo {
+  umbrella header "ThingDeviceInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

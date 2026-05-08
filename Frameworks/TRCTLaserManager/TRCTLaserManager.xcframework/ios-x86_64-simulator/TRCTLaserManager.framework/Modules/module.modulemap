@@ -1,0 +1,6 @@
+framework module TRCTLaserManager {
+  umbrella header "TRCTLaserManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

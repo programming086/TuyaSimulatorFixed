@@ -1,0 +1,6 @@
+framework module TRCTPBTBridgeManager {
+  umbrella header "TRCTPBTBridgeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

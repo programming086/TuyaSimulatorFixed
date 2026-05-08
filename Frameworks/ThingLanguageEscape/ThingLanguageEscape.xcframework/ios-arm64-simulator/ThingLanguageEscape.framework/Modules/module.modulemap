@@ -1,0 +1,6 @@
+framework module ThingLanguageEscape {
+  umbrella header "ThingLanguageEscape-umbrella.h"
+
+  export *
+  module * { export * }
+}

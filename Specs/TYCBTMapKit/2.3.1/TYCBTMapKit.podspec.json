@@ -1,0 +1,35 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYUniDLMapManager": [
+      "1.0.2"
+    ],
+    "TYUniLocationManager": [
+      "1.1.1"
+    ]
+  },
+  "description": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYCBTMapKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TYCBTMapKit": [
+      "ios/TYCBTMapKit/Assets/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.3.1"
+  },
+  "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "vendored_frameworks": [
+    "Frameworks/TYCBTMapKit/TYCBTMapKit.xcframework"
+  ],
+  "version": "2.3.1"
+}

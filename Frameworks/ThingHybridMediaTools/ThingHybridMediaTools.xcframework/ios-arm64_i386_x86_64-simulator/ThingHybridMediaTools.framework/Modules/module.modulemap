@@ -1,0 +1,6 @@
+framework module ThingHybridMediaTools {
+  umbrella header "ThingHybridMediaTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

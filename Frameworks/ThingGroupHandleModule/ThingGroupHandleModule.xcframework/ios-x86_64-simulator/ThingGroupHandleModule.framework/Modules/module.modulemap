@@ -1,0 +1,6 @@
+framework module ThingGroupHandleModule {
+  umbrella header "ThingGroupHandleModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

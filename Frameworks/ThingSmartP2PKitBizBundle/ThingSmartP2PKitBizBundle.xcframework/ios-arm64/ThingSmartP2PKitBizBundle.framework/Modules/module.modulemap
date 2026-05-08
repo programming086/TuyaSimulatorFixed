@@ -1,0 +1,6 @@
+framework module ThingSmartP2PKitBizBundle {
+  umbrella header "ThingSmartP2PKitBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

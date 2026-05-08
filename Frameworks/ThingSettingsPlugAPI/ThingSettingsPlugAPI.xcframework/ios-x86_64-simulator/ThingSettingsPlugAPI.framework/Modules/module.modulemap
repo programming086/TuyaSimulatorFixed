@@ -1,0 +1,6 @@
+framework module ThingSettingsPlugAPI {
+  umbrella header "ThingSettingsPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

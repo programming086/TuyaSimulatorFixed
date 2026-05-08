@@ -1,0 +1,22 @@
+{
+  "name": "ThingLightScenePlugAPI",
+  "version": "1.0.0",
+  "summary": "A short description of ThingLightScenePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingLightScenePlugAPI/ThingLightScenePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

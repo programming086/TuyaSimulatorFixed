@@ -1,0 +1,6 @@
+framework module ThingAIToysStoryKit {
+  umbrella header "ThingAIToysStoryKit.h"
+  
+  export *
+  module * { export * }
+} 

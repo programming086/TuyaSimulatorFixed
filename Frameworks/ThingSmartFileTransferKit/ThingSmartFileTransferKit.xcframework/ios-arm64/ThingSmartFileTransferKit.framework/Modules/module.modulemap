@@ -1,0 +1,7 @@
+framework module ThingSmartFileTransferKit {
+  umbrella header "ThingSmartFileTransferKit.h"
+
+  export *
+  module * { export * }
+}
+

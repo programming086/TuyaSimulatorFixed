@@ -1,0 +1,6 @@
+framework module ThingDeviceLocationPlugAPI {
+  umbrella header "ThingDeviceLocationPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

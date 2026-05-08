@@ -1,0 +1,43 @@
+{
+  "name": "ThingAlertView",
+  "version": "1.2.4-IQKeyboardFix.1",
+  "summary": "A short description of ThingAlertView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.2.4-IQKeyboardFix.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingUIKit": [],
+    "Masonry": [],
+    "ThingOEMConfig": [],
+    "ThingRealClass": []
+  },
+  "resource_bundles": {
+    "ThingAlertView": [
+      "ThingAlertView/Assets/**/*.png"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingAlertView/ThingAlertView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

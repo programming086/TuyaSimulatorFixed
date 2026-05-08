@@ -1,0 +1,6 @@
+framework module TuyaSmartDeviceDetailBizBundle {
+  umbrella header "TuyaSmartDeviceDetailBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

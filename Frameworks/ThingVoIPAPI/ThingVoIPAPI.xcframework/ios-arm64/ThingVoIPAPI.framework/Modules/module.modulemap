@@ -1,0 +1,6 @@
+framework module ThingVoIPAPI {
+  umbrella header "ThingVoIPAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

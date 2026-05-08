@@ -1,0 +1,6 @@
+framework module ThingDPCContainer {
+  umbrella header "ThingDPCContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}

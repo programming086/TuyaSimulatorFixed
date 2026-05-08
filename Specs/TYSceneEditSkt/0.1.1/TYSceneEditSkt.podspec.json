@@ -1,0 +1,29 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYModuleManager": [],
+    "TYSceneEditSktAPI": [],
+    "TuyaBusinessService": [],
+    "TuyaSmartDeviceCoreKit": [],
+    "TuyaSmartSceneCoreKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYSceneEditSkt",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.1"
+  },
+  "summary": "A short description of TYSceneEditSkt.",
+  "vendored_frameworks": [
+    "Frameworks/TYSceneEditSkt/TYSceneEditSkt.xcframework"
+  ],
+  "version": "0.1.1"
+}

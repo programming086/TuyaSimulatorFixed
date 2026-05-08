@@ -1,0 +1,6 @@
+framework module TUNIGroupControlManager {
+  umbrella header "TUNIGroupControlManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

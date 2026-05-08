@@ -1,0 +1,6 @@
+framework module ThingSettingsAPI {
+  umbrella header "ThingSettingsAPI-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

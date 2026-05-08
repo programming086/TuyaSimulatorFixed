@@ -1,0 +1,6 @@
+framework module ThingSmartUtil {
+  umbrella header "ThingSmartUtil.h"
+
+  export *
+  module * { export * }
+}

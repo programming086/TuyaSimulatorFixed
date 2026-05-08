@@ -1,0 +1,6 @@
+framework module ThingPhotosAuthManager {
+  umbrella header "ThingPhotosAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

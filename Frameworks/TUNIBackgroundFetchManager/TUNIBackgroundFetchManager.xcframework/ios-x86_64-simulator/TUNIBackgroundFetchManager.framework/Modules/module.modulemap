@@ -1,0 +1,6 @@
+framework module TUNIBackgroundFetchManager {
+  umbrella header "TUNIBackgroundFetchManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

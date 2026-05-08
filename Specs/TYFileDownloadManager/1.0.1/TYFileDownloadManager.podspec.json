@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYFileDownloadManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.1"
+  },
+  "summary": "A short description of TYFileDownloadManager.",
+  "vendored_frameworks": [
+    "Frameworks/TYFileDownloadManager/TYFileDownloadManager.xcframework"
+  ],
+  "version": "1.0.1"
+}

@@ -1,0 +1,6 @@
+framework module TRCTSysUtilsManager {
+  umbrella header "TRCTSysUtilsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

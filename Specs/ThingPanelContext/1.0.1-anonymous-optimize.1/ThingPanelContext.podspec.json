@@ -1,0 +1,45 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "React": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingSmartBaseKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingPanelContext",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "ThingPanelContext": [
+      "ThingPanelContext/Assets/*.{mp3}"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.1-anonymous-optimize.1"
+  },
+  "summary": "Thing\u9762\u677f\u4e0a\u4e0b\u6587\u4fe1\u606f\u6a21\u5757",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingPanelContext/ThingPanelContext.xcframework"
+  ],
+  "version": "1.0.1-anonymous-optimize.1"
+}

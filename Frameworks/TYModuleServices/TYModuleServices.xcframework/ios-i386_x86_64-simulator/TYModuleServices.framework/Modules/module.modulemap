@@ -1,0 +1,6 @@
+framework module TYModuleServices {
+  umbrella header "TYModuleServices.h"
+
+  export *
+  module * { export * }
+}

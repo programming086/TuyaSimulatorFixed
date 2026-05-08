@@ -1,0 +1,25 @@
+{
+  "name": "ThingSpaceInfoSktAPI",
+  "version": "1.7.1",
+  "summary": "\u5168\u5c4b\u6570\u636e\u88c5\u8f7d\u63a5\u53e3\u7ec4\u4ef6",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.7.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingMachRegister": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingSpaceInfoSktAPI/ThingSpaceInfoSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

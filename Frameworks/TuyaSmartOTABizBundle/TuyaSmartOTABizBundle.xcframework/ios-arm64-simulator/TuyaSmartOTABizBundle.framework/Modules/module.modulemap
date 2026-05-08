@@ -1,0 +1,6 @@
+framework module TuyaSmartOTABizBundle {
+  umbrella header "TuyaSmartOTABizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

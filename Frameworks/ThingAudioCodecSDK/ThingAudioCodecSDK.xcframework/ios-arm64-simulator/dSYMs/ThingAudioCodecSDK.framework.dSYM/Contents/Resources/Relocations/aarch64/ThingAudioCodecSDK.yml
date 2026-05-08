@@ -1,0 +1,228 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path: ''
+relocations:
+  - { offset: 0x45B0, size: 0x8, addend: 0x0, symName: _ThingAudioCodecSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x10380, symSize: 0x0 }
+  - { offset: 0x45E4, size: 0x8, addend: 0x0, symName: _ThingAudioCodecSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x103B0, symSize: 0x0 }
+  - { offset: 0x461F, size: 0x8, addend: 0x0, symName: __ZN24ThingAudioDecoderFactory18CreateAudioDecoderEv, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x40 }
+  - { offset: 0x4BD0, size: 0x8, addend: 0x0, symName: __ZN24ThingAudioDecoderFactory18CreateAudioDecoderEv, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x40 }
+  - { offset: 0x4BE5, size: 0x8, addend: 0x0, symName: __ZN24ThingAudioDecoderFactory19DestroyAudioDecoderEP26ThingAudioDecoderInterface, symObjAddr: 0x40, symBinAddr: 0x8040, symSize: 0x3C }
+  - { offset: 0x4E85, size: 0x8, addend: 0x0, symName: __ZN24ThingAudioEncoderFactory18CreateAudioEncoderEv, symObjAddr: 0x7C, symBinAddr: 0x807C, symSize: 0x40 }
+  - { offset: 0x4E9A, size: 0x8, addend: 0x0, symName: __ZN24ThingAudioEncoderFactory19DestroyAudioEncoderEP26ThingAudioEncoderInterface, symObjAddr: 0xBC, symBinAddr: 0x80BC, symSize: 0x3C }
+  - { offset: 0x81D1, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder init]', symObjAddr: 0x0, symBinAddr: 0x80F8, symSize: 0x3C }
+  - { offset: 0x8205, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder initialize]', symObjAddr: 0x3C, symBinAddr: 0x8134, symSize: 0x130 }
+  - { offset: 0x827A, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder initializeWithOnPCMDataReceived:onProgress:onError:onComplete:]', symObjAddr: 0x16C, symBinAddr: 0x8264, symSize: 0x1D8 }
+  - { offset: 0x8345, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder parseFileInfo:]', symObjAddr: 0x344, symBinAddr: 0x843C, symSize: 0x1A0 }
+  - { offset: 0x83EA, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder setOutputConfig:]', symObjAddr: 0x4E4, symBinAddr: 0x85DC, symSize: 0xD0 }
+  - { offset: 0x845C, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder getOutputConfig:]', symObjAddr: 0x5B4, symBinAddr: 0x86AC, symSize: 0xD4 }
+  - { offset: 0x84DD, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder getOutputConfig]', symObjAddr: 0x688, symBinAddr: 0x8780, symSize: 0x84 }
+  - { offset: 0x852F, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder decodeFromFile:]', symObjAddr: 0x70C, symBinAddr: 0x8804, symSize: 0x88 }
+  - { offset: 0x85A2, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder decodeFromStream:]', symObjAddr: 0x794, symBinAddr: 0x888C, symSize: 0x9C }
+  - { offset: 0x862A, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder stopDecode]', symObjAddr: 0x830, symBinAddr: 0x8928, symSize: 0x1C }
+  - { offset: 0x8678, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder isDecoding]', symObjAddr: 0x84C, symBinAddr: 0x8944, symSize: 0x18 }
+  - { offset: 0x86C6, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder destroy]', symObjAddr: 0x864, symBinAddr: 0x895C, symSize: 0x70 }
+  - { offset: 0x8749, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder dealloc]', symObjAddr: 0x8D4, symBinAddr: 0x89CC, symSize: 0x74 }
+  - { offset: 0x8779, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder delegate]', symObjAddr: 0x958, symBinAddr: 0x8A50, symSize: 0x18 }
+  - { offset: 0x87AD, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder setDelegate:]', symObjAddr: 0x970, symBinAddr: 0x8A68, symSize: 0xC }
+  - { offset: 0x87EA, size: 0x8, addend: 0x0, symName: '-[ThingAudioDecoder .cxx_destruct]', symObjAddr: 0x97C, symBinAddr: 0x8A74, symSize: 0x50 }
+  - { offset: 0x8AD8, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplC2EPU36objcproto25ThingAudioDecoderCallback11objc_object, symObjAddr: 0x0, symBinAddr: 0x8AC4, symSize: 0xAC }
+  - { offset: 0x8D0B, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplC2EPU36objcproto25ThingAudioDecoderCallback11objc_object, symObjAddr: 0x0, symBinAddr: 0x8AC4, symSize: 0xAC }
+  - { offset: 0x8D7D, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplC1EPU36objcproto25ThingAudioDecoderCallback11objc_object, symObjAddr: 0xAC, symBinAddr: 0x8B70, symSize: 0x4 }
+  - { offset: 0x8DB9, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplC1EPU36objcproto25ThingAudioDecoderCallback11objc_object, symObjAddr: 0xAC, symBinAddr: 0x8B70, symSize: 0x4 }
+  - { offset: 0x8DD3, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplC2EPU36objcproto25ThingAudioDecoderCallback11objc_objectU13block_pointerFvP6NSDataEU13block_pointerFvixxEU13block_pointerFviP8NSStringEU13block_pointerFvvE, symObjAddr: 0xB0, symBinAddr: 0x8B74, symSize: 0x1BC }
+  - { offset: 0x8E5E, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplC1EPU36objcproto25ThingAudioDecoderCallback11objc_objectU13block_pointerFvP6NSDataEU13block_pointerFvixxEU13block_pointerFviP8NSStringEU13block_pointerFvvE, symObjAddr: 0x26C, symBinAddr: 0x8D30, symSize: 0x4 }
+  - { offset: 0x8ED2, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplC1EPU36objcproto25ThingAudioDecoderCallback11objc_objectU13block_pointerFvP6NSDataEU13block_pointerFvixxEU13block_pointerFviP8NSStringEU13block_pointerFvvE, symObjAddr: 0x26C, symBinAddr: 0x8D30, symSize: 0x4 }
+  - { offset: 0x8F08, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplD2Ev, symObjAddr: 0x270, symBinAddr: 0x8D34, symSize: 0xA8 }
+  - { offset: 0x8F34, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplD1Ev, symObjAddr: 0x318, symBinAddr: 0x8DDC, symSize: 0x4 }
+  - { offset: 0x8F58, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplD1Ev, symObjAddr: 0x318, symBinAddr: 0x8DDC, symSize: 0x4 }
+  - { offset: 0x8F8B, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImplD0Ev, symObjAddr: 0x31C, symBinAddr: 0x8DE0, symSize: 0x14 }
+  - { offset: 0x8FEA, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImpl17onPCMDataReceivedEPKhi, symObjAddr: 0x330, symBinAddr: 0x8DF4, symSize: 0x128 }
+  - { offset: 0x9095, size: 0x8, addend: 0x0, symName: ____ZN30ThingAudioDecoderListernerImpl17onPCMDataReceivedEPKhi_block_invoke, symObjAddr: 0x458, symBinAddr: 0x8F1C, symSize: 0x48 }
+  - { offset: 0x90F8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48b, symObjAddr: 0x4A0, symBinAddr: 0x8F64, symSize: 0x3C }
+  - { offset: 0x9121, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s, symObjAddr: 0x4DC, symBinAddr: 0x8FA0, symSize: 0x30 }
+  - { offset: 0x9140, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImpl10onProgressEixx, symObjAddr: 0x50C, symBinAddr: 0x8FD0, symSize: 0xD8 }
+  - { offset: 0x91CE, size: 0x8, addend: 0x0, symName: ____ZN30ThingAudioDecoderListernerImpl10onProgressEixx_block_invoke, symObjAddr: 0x5E4, symBinAddr: 0x90A8, symSize: 0x64 }
+  - { offset: 0x924F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40b, symObjAddr: 0x648, symBinAddr: 0x910C, symSize: 0x34 }
+  - { offset: 0x9278, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s, symObjAddr: 0x67C, symBinAddr: 0x9140, symSize: 0x28 }
+  - { offset: 0x9297, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImpl7onErrorEiPKc, symObjAddr: 0x6A4, symBinAddr: 0x9168, symSize: 0x138 }
+  - { offset: 0x9322, size: 0x8, addend: 0x0, symName: ____ZN30ThingAudioDecoderListernerImpl7onErrorEiPKc_block_invoke, symObjAddr: 0x7DC, symBinAddr: 0x92A0, symSize: 0x60 }
+  - { offset: 0x9394, size: 0x8, addend: 0x0, symName: __ZN30ThingAudioDecoderListernerImpl10onCompleteEv, symObjAddr: 0x83C, symBinAddr: 0x9300, symSize: 0xBC }
+  - { offset: 0x93F5, size: 0x8, addend: 0x0, symName: ____ZN30ThingAudioDecoderListernerImpl10onCompleteEv_block_invoke, symObjAddr: 0x8F8, symBinAddr: 0x93BC, symSize: 0x54 }
+  - { offset: 0x9CE3, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder init]', symObjAddr: 0x0, symBinAddr: 0x9410, symSize: 0x3C }
+  - { offset: 0x9D17, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder initialize:outputConfig:]', symObjAddr: 0x3C, symBinAddr: 0x944C, symSize: 0x3E0 }
+  - { offset: 0x9DFB, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder initializeWithInputConfig:outputConfig:onEncodedData:onError:onComplete:]', symObjAddr: 0x41C, symBinAddr: 0x982C, symSize: 0x134 }
+  - { offset: 0x9E7A, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder encodeStream:isEnd:]', symObjAddr: 0x550, symBinAddr: 0x9960, symSize: 0xBC }
+  - { offset: 0x9F11, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder stopEncode]', symObjAddr: 0x60C, symBinAddr: 0x9A1C, symSize: 0x1C }
+  - { offset: 0x9F5F, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder destroy]', symObjAddr: 0x628, symBinAddr: 0x9A38, symSize: 0x48 }
+  - { offset: 0x9F9E, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder dealloc]', symObjAddr: 0x670, symBinAddr: 0x9A80, symSize: 0x74 }
+  - { offset: 0x9FCE, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder delegate]', symObjAddr: 0x6F4, symBinAddr: 0x9AF4, symSize: 0x18 }
+  - { offset: 0xA002, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder setDelegate:]', symObjAddr: 0x70C, symBinAddr: 0x9B0C, symSize: 0xC }
+  - { offset: 0xA03F, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncoder .cxx_destruct]', symObjAddr: 0x718, symBinAddr: 0x9B18, symSize: 0x44 }
+  - { offset: 0xA070, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig sampleRate]', symObjAddr: 0x75C, symBinAddr: 0x9B5C, symSize: 0x8 }
+  - { offset: 0xA0A4, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig setSampleRate:]', symObjAddr: 0x764, symBinAddr: 0x9B64, symSize: 0x8 }
+  - { offset: 0xA0E0, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig channels]', symObjAddr: 0x76C, symBinAddr: 0x9B6C, symSize: 0x8 }
+  - { offset: 0xA114, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig setChannels:]', symObjAddr: 0x774, symBinAddr: 0x9B74, symSize: 0x8 }
+  - { offset: 0xA150, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig bitsPerSample]', symObjAddr: 0x77C, symBinAddr: 0x9B7C, symSize: 0x8 }
+  - { offset: 0xA184, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig setBitsPerSample:]', symObjAddr: 0x784, symBinAddr: 0x9B84, symSize: 0x8 }
+  - { offset: 0xA1C0, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig endian]', symObjAddr: 0x78C, symBinAddr: 0x9B8C, symSize: 0x8 }
+  - { offset: 0xA1F4, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig setEndian:]', symObjAddr: 0x794, symBinAddr: 0x9B94, symSize: 0x8 }
+  - { offset: 0xA230, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig interleaved]', symObjAddr: 0x79C, symBinAddr: 0x9B9C, symSize: 0x8 }
+  - { offset: 0xA264, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeInputConfig setInterleaved:]', symObjAddr: 0x7A4, symBinAddr: 0x9BA4, symSize: 0x8 }
+  - { offset: 0xA29E, size: 0x8, addend: 0x0, symName: '-[ThingAudioCodecConfig type]', symObjAddr: 0x7AC, symBinAddr: 0x9BAC, symSize: 0x8 }
+  - { offset: 0xA2D2, size: 0x8, addend: 0x0, symName: '-[ThingAudioCodecConfig setType:]', symObjAddr: 0x7B4, symBinAddr: 0x9BB4, symSize: 0x8 }
+  - { offset: 0xA30E, size: 0x8, addend: 0x0, symName: '-[ThingAudioCodecConfig bitRate]', symObjAddr: 0x7BC, symBinAddr: 0x9BBC, symSize: 0x8 }
+  - { offset: 0xA342, size: 0x8, addend: 0x0, symName: '-[ThingAudioCodecConfig setBitRate:]', symObjAddr: 0x7C4, symBinAddr: 0x9BC4, symSize: 0x8 }
+  - { offset: 0xA37E, size: 0x8, addend: 0x0, symName: '-[ThingAudioCodecConfig quality]', symObjAddr: 0x7CC, symBinAddr: 0x9BCC, symSize: 0x8 }
+  - { offset: 0xA3B2, size: 0x8, addend: 0x0, symName: '-[ThingAudioCodecConfig setQuality:]', symObjAddr: 0x7D4, symBinAddr: 0x9BD4, symSize: 0x8 }
+  - { offset: 0xA3EE, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileConfig format]', symObjAddr: 0x7DC, symBinAddr: 0x9BDC, symSize: 0x8 }
+  - { offset: 0xA422, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileConfig setFormat:]', symObjAddr: 0x7E4, symBinAddr: 0x9BE4, symSize: 0x8 }
+  - { offset: 0xA45E, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileConfig outputPath]', symObjAddr: 0x7EC, symBinAddr: 0x9BEC, symSize: 0x8 }
+  - { offset: 0xA492, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileConfig setOutputPath:]', symObjAddr: 0x7F4, symBinAddr: 0x9BF4, symSize: 0x8 }
+  - { offset: 0xA4D0, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileConfig .cxx_destruct]', symObjAddr: 0x7FC, symBinAddr: 0x9BFC, symSize: 0xC }
+  - { offset: 0xA501, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeOutputConfig codec]', symObjAddr: 0x808, symBinAddr: 0x9C08, symSize: 0x8 }
+  - { offset: 0xA535, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeOutputConfig setCodec:]', symObjAddr: 0x810, symBinAddr: 0x9C10, symSize: 0xC }
+  - { offset: 0xA573, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeOutputConfig file]', symObjAddr: 0x81C, symBinAddr: 0x9C1C, symSize: 0x8 }
+  - { offset: 0xA5A7, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeOutputConfig setFile:]', symObjAddr: 0x824, symBinAddr: 0x9C24, symSize: 0xC }
+  - { offset: 0xA5E4, size: 0x8, addend: 0x0, symName: '-[ThingAudioEncodeOutputConfig .cxx_destruct]', symObjAddr: 0x830, symBinAddr: 0x9C30, symSize: 0x30 }
+  - { offset: 0xA7F3, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplC2EPU36objcproto25ThingAudioEncoderCallback11objc_object, symObjAddr: 0x0, symBinAddr: 0x9C60, symSize: 0x9C }
+  - { offset: 0xA9A4, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplC2EPU36objcproto25ThingAudioEncoderCallback11objc_object, symObjAddr: 0x0, symBinAddr: 0x9C60, symSize: 0x9C }
+  - { offset: 0xAA16, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplC1EPU36objcproto25ThingAudioEncoderCallback11objc_object, symObjAddr: 0x9C, symBinAddr: 0x9CFC, symSize: 0x4 }
+  - { offset: 0xAA52, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplC1EPU36objcproto25ThingAudioEncoderCallback11objc_object, symObjAddr: 0x9C, symBinAddr: 0x9CFC, symSize: 0x4 }
+  - { offset: 0xAA6C, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplC2EPU36objcproto25ThingAudioEncoderCallback11objc_objectU13block_pointerFvP6NSDataEU13block_pointerFviP8NSStringEU13block_pointerFvS7_E, symObjAddr: 0xA0, symBinAddr: 0x9D00, symSize: 0x178 }
+  - { offset: 0xAAE8, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplC1EPU36objcproto25ThingAudioEncoderCallback11objc_objectU13block_pointerFvP6NSDataEU13block_pointerFviP8NSStringEU13block_pointerFvS7_E, symObjAddr: 0x218, symBinAddr: 0x9E78, symSize: 0x4 }
+  - { offset: 0xAB4E, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplC1EPU36objcproto25ThingAudioEncoderCallback11objc_objectU13block_pointerFvP6NSDataEU13block_pointerFviP8NSStringEU13block_pointerFvS7_E, symObjAddr: 0x218, symBinAddr: 0x9E78, symSize: 0x4 }
+  - { offset: 0xAB7D, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplD2Ev, symObjAddr: 0x21C, symBinAddr: 0x9E7C, symSize: 0x94 }
+  - { offset: 0xABA9, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplD1Ev, symObjAddr: 0x2B0, symBinAddr: 0x9F10, symSize: 0x4 }
+  - { offset: 0xABCD, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplD1Ev, symObjAddr: 0x2B0, symBinAddr: 0x9F10, symSize: 0x4 }
+  - { offset: 0xAC00, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImplD0Ev, symObjAddr: 0x2B4, symBinAddr: 0x9F14, symSize: 0x14 }
+  - { offset: 0xAC5F, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImpl13onEncodedDataEPKhi, symObjAddr: 0x2C8, symBinAddr: 0x9F28, symSize: 0x128 }
+  - { offset: 0xAD05, size: 0x8, addend: 0x0, symName: ____ZN29ThingAudioEncoderListenerImpl13onEncodedDataEPKhi_block_invoke, symObjAddr: 0x3F0, symBinAddr: 0xA050, symSize: 0x48 }
+  - { offset: 0xAD68, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImpl7onErrorEiPKc, symObjAddr: 0x4A4, symBinAddr: 0xA098, symSize: 0x138 }
+  - { offset: 0xADF3, size: 0x8, addend: 0x0, symName: ____ZN29ThingAudioEncoderListenerImpl7onErrorEiPKc_block_invoke, symObjAddr: 0x5DC, symBinAddr: 0xA1D0, symSize: 0x60 }
+  - { offset: 0xAE65, size: 0x8, addend: 0x0, symName: __ZN29ThingAudioEncoderListenerImpl10onCompleteEPKc, symObjAddr: 0x63C, symBinAddr: 0xA230, symSize: 0x11C }
+  - { offset: 0xAEE1, size: 0x8, addend: 0x0, symName: ____ZN29ThingAudioEncoderListenerImpl10onCompleteEPKc_block_invoke, symObjAddr: 0x758, symBinAddr: 0xA34C, symSize: 0x58 }
+  - { offset: 0xB270, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo container]', symObjAddr: 0x0, symBinAddr: 0xA3A4, symSize: 0x8 }
+  - { offset: 0xB4A2, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo container]', symObjAddr: 0x0, symBinAddr: 0xA3A4, symSize: 0x8 }
+  - { offset: 0xB4D9, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setContainer:]', symObjAddr: 0x8, symBinAddr: 0xA3AC, symSize: 0x8 }
+  - { offset: 0xB516, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo codec]', symObjAddr: 0x10, symBinAddr: 0xA3B4, symSize: 0x8 }
+  - { offset: 0xB54D, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setCodec:]', symObjAddr: 0x18, symBinAddr: 0xA3BC, symSize: 0x8 }
+  - { offset: 0xB58A, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo format]', symObjAddr: 0x20, symBinAddr: 0xA3C4, symSize: 0x8 }
+  - { offset: 0xB5C1, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setFormat:]', symObjAddr: 0x28, symBinAddr: 0xA3CC, symSize: 0x8 }
+  - { offset: 0xB5FE, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo duration]', symObjAddr: 0x30, symBinAddr: 0xA3D4, symSize: 0x8 }
+  - { offset: 0xB635, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setDuration:]', symObjAddr: 0x38, symBinAddr: 0xA3DC, symSize: 0x8 }
+  - { offset: 0xB672, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo sampleRate]', symObjAddr: 0x40, symBinAddr: 0xA3E4, symSize: 0x8 }
+  - { offset: 0xB6A9, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setSampleRate:]', symObjAddr: 0x48, symBinAddr: 0xA3EC, symSize: 0x8 }
+  - { offset: 0xB6E6, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo channels]', symObjAddr: 0x50, symBinAddr: 0xA3F4, symSize: 0x8 }
+  - { offset: 0xB71D, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setChannels:]', symObjAddr: 0x58, symBinAddr: 0xA3FC, symSize: 0x8 }
+  - { offset: 0xB75A, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo bitsPerSample]', symObjAddr: 0x60, symBinAddr: 0xA404, symSize: 0x8 }
+  - { offset: 0xB791, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setBitsPerSample:]', symObjAddr: 0x68, symBinAddr: 0xA40C, symSize: 0x8 }
+  - { offset: 0xB7CE, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo bitRate]', symObjAddr: 0x70, symBinAddr: 0xA414, symSize: 0x8 }
+  - { offset: 0xB805, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setBitRate:]', symObjAddr: 0x78, symBinAddr: 0xA41C, symSize: 0x8 }
+  - { offset: 0xB842, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo fileSize]', symObjAddr: 0x80, symBinAddr: 0xA424, symSize: 0x8 }
+  - { offset: 0xB879, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setFileSize:]', symObjAddr: 0x88, symBinAddr: 0xA42C, symSize: 0x8 }
+  - { offset: 0xB8B6, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo formatName]', symObjAddr: 0x90, symBinAddr: 0xA434, symSize: 0x8 }
+  - { offset: 0xB8ED, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo setFormatName:]', symObjAddr: 0x98, symBinAddr: 0xA43C, symSize: 0x8 }
+  - { offset: 0xB92C, size: 0x8, addend: 0x0, symName: '-[ThingAudioFileInfo .cxx_destruct]', symObjAddr: 0xA0, symBinAddr: 0xA444, symSize: 0xC }
+  - { offset: 0xB9BE, size: 0x8, addend: 0x0, symName: '+[ThingAudioOutputConfig defaultConfig]', symObjAddr: 0x0, symBinAddr: 0xA450, symSize: 0x74 }
+  - { offset: 0xBAEA, size: 0x8, addend: 0x0, symName: '+[ThingAudioOutputConfig defaultConfig]', symObjAddr: 0x0, symBinAddr: 0xA450, symSize: 0x74 }
+  - { offset: 0xBB2D, size: 0x8, addend: 0x0, symName: '+[ThingAudioOutputConfig configWithSampleRate:channels:bitsPerSample:endian:interleaved:]', symObjAddr: 0x74, symBinAddr: 0xA4C4, symSize: 0x98 }
+  - { offset: 0xBBBF, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig init]', symObjAddr: 0x10C, symBinAddr: 0xA55C, symSize: 0x50 }
+  - { offset: 0xBBF6, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig sampleRate]', symObjAddr: 0x15C, symBinAddr: 0xA5AC, symSize: 0x8 }
+  - { offset: 0xBC2D, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig setSampleRate:]', symObjAddr: 0x164, symBinAddr: 0xA5B4, symSize: 0x8 }
+  - { offset: 0xBC6A, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig channels]', symObjAddr: 0x16C, symBinAddr: 0xA5BC, symSize: 0x8 }
+  - { offset: 0xBCA1, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig setChannels:]', symObjAddr: 0x174, symBinAddr: 0xA5C4, symSize: 0x8 }
+  - { offset: 0xBCDE, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig bitsPerSample]', symObjAddr: 0x17C, symBinAddr: 0xA5CC, symSize: 0x8 }
+  - { offset: 0xBD15, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig setBitsPerSample:]', symObjAddr: 0x184, symBinAddr: 0xA5D4, symSize: 0x8 }
+  - { offset: 0xBD52, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig endian]', symObjAddr: 0x18C, symBinAddr: 0xA5DC, symSize: 0x8 }
+  - { offset: 0xBD89, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig setEndian:]', symObjAddr: 0x194, symBinAddr: 0xA5E4, symSize: 0x8 }
+  - { offset: 0xBDC6, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig interleaved]', symObjAddr: 0x19C, symBinAddr: 0xA5EC, symSize: 0x8 }
+  - { offset: 0xBDFD, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig setInterleaved:]', symObjAddr: 0x1A4, symBinAddr: 0xA5F4, symSize: 0x8 }
+  - { offset: 0xBE38, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig frameSize]', symObjAddr: 0x1AC, symBinAddr: 0xA5FC, symSize: 0x8 }
+  - { offset: 0xBE6F, size: 0x8, addend: 0x0, symName: '-[ThingAudioOutputConfig setFrameSize:]', symObjAddr: 0x1B4, symBinAddr: 0xA604, symSize: 0x8 }
+  - { offset: 0x12EE3, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB8ne180100EPKc, symObjAddr: 0x30B4, symBinAddr: 0xD6B0, symSize: 0x50 }
+  - { offset: 0x12F41, size: 0x8, addend: 0x0, symName: __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_, symObjAddr: 0x3424, symBinAddr: 0xDA20, symSize: 0x198 }
+  - { offset: 0x17F6C, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder23collectSupportedFormatsEv, symObjAddr: 0x0, symBinAddr: 0xA60C, symSize: 0x4E8 }
+  - { offset: 0x19664, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE7destroyEPNS_11__tree_nodeIS6_PvEE, symObjAddr: 0x2FA0, symBinAddr: 0xD59C, symSize: 0x50 }
+  - { offset: 0x1993C, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc, symObjAddr: 0x2FF0, symBinAddr: 0xD5EC, symSize: 0xB0 }
+  - { offset: 0x19D1C, size: 0x8, addend: 0x0, symName: __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev, symObjAddr: 0x30A0, symBinAddr: 0xD69C, symSize: 0x14 }
+  - { offset: 0x19D51, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE25__emplace_unique_key_argsIS6_JRKS6_EEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_, symObjAddr: 0x3128, symBinAddr: 0xD724, symSize: 0x7C }
+  - { offset: 0x1A01D, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder17isFormatSupportedEPKc, symObjAddr: 0x4E8, symBinAddr: 0xAAF4, symSize: 0x2C0 }
+  - { offset: 0x1A889, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE4findIS6_EENS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEERKT_, symObjAddr: 0x3608, symBinAddr: 0xDC04, symSize: 0x8C }
+  - { offset: 0x1A9FB, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder15probeFileFormatEPKc, symObjAddr: 0x7A8, symBinAddr: 0xADB4, symSize: 0x3A0 }
+  - { offset: 0x1B7BC, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoderC2Ev, symObjAddr: 0xB48, symBinAddr: 0xB154, symSize: 0x11C }
+  - { offset: 0x1BAD1, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoderC1Ev, symObjAddr: 0xC64, symBinAddr: 0xB270, symSize: 0x4 }
+  - { offset: 0x1BAFF, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoderC1Ev, symObjAddr: 0xC64, symBinAddr: 0xB270, symSize: 0x4 }
+  - { offset: 0x1BB37, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoderD2Ev, symObjAddr: 0xC68, symBinAddr: 0xB274, symSize: 0x94 }
+  - { offset: 0x1BDBE, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder12uninitializeEv, symObjAddr: 0x1118, symBinAddr: 0xB714, symSize: 0xA0 }
+  - { offset: 0x1BE70, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder7destroyEv, symObjAddr: 0xD0C, symBinAddr: 0xB308, symSize: 0x34 }
+  - { offset: 0x1BEC5, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoderD1Ev, symObjAddr: 0xD40, symBinAddr: 0xB33C, symSize: 0x4 }
+  - { offset: 0x1BEE9, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoderD1Ev, symObjAddr: 0xD40, symBinAddr: 0xB33C, symSize: 0x4 }
+  - { offset: 0x1BF18, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoderD0Ev, symObjAddr: 0xD44, symBinAddr: 0xB340, symSize: 0x14 }
+  - { offset: 0x1BF79, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder10initializeEv, symObjAddr: 0xD58, symBinAddr: 0xB354, symSize: 0xA8 }
+  - { offset: 0x1C036, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder11setCallbackEP25ThingAudioDecoderCallBack, symObjAddr: 0xE00, symBinAddr: 0xB3FC, symSize: 0x3C }
+  - { offset: 0x1C093, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder23convertToAVSampleFormatEi18THING_AUDIO_ENDIANi, symObjAddr: 0xE3C, symBinAddr: 0xB438, symSize: 0x5C }
+  - { offset: 0x1C0C8, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder16getChannelLayoutEi, symObjAddr: 0xE98, symBinAddr: 0xB494, symSize: 0x24 }
+  - { offset: 0x1C15A, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder15setOutputConfigERK32THING_AUDIO_DECODE_OUTPUT_CONFIG, symObjAddr: 0xEBC, symBinAddr: 0xB4B8, symSize: 0x204 }
+  - { offset: 0x1C224, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder15getOutputConfigER32THING_AUDIO_DECODE_OUTPUT_CONFIG, symObjAddr: 0x10C0, symBinAddr: 0xB6BC, symSize: 0x50 }
+  - { offset: 0x1C288, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder16decodeFromStreamEPKhi, symObjAddr: 0x1110, symBinAddr: 0xB70C, symSize: 0x8 }
+  - { offset: 0x1C351, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder13parseFileInfoEPKcR21THING_AUDIO_FILE_INFO, symObjAddr: 0x11B8, symBinAddr: 0xB7B4, symSize: 0x308 }
+  - { offset: 0x1C599, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder24openAndValidateAudioFileEPKcPP15AVFormatContextPP7AVCodecPib, symObjAddr: 0x14C0, symBinAddr: 0xBABC, symSize: 0xA3C }
+  - { offset: 0x1DFD9, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder14getAudioFormatEPKc, symObjAddr: 0x1EFC, symBinAddr: 0xC4F8, symSize: 0x308 }
+  - { offset: 0x1EC59, size: 0x8, addend: 0x0, symName: __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB8ne180100EPKcm, symObjAddr: 0x2E4C, symBinAddr: 0xD448, symSize: 0xD4 }
+  - { offset: 0x1EEB8, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder14decodeFromFileEPKc, symObjAddr: 0x2204, symBinAddr: 0xC800, symSize: 0x1D4 }
+  - { offset: 0x1F065, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder13openAudioFileEPKc, symObjAddr: 0x23D8, symBinAddr: 0xC9D4, symSize: 0x14C }
+  - { offset: 0x1F165, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder11openDecoderEv, symObjAddr: 0x2524, symBinAddr: 0xCB20, symSize: 0x13C }
+  - { offset: 0x1F23B, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder15createResamplerEv, symObjAddr: 0x2660, symBinAddr: 0xCC5C, symSize: 0x168 }
+  - { offset: 0x1F40B, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder16decodeThreadFuncEPv, symObjAddr: 0x27C8, symBinAddr: 0xCDC4, symSize: 0x18 }
+  - { offset: 0x1F45B, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder10decodeLoopEv, symObjAddr: 0x2910, symBinAddr: 0xCF0C, symSize: 0x500 }
+  - { offset: 0x1F942, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder10stopDecodeEv, symObjAddr: 0x27E0, symBinAddr: 0xCDDC, symSize: 0xE0 }
+  - { offset: 0x1FA1F, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder10isDecodingEv, symObjAddr: 0x28C0, symBinAddr: 0xCEBC, symSize: 0x38 }
+  - { offset: 0x1FA7F, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder11notifyErrorEiPKc, symObjAddr: 0x28F8, symBinAddr: 0xCEF4, symSize: 0x18 }
+  - { offset: 0x1FBFE, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioDecoder14notifyProgressExx, symObjAddr: 0x2E10, symBinAddr: 0xD40C, symSize: 0x3C }
+  - { offset: 0x1FC7E, size: 0x8, addend: 0x0, symName: __ZN26ThingAudioDecoderInterface15setOutputConfigERK25THING_AUDIO_OUTPUT_CONFIG, symObjAddr: 0x2F20, symBinAddr: 0xD51C, symSize: 0x38 }
+  - { offset: 0x1FCDA, size: 0x8, addend: 0x0, symName: __ZN26ThingAudioDecoderInterface15getOutputConfigER25THING_AUDIO_OUTPUT_CONFIG, symObjAddr: 0x2F58, symBinAddr: 0xD554, symSize: 0x48 }
+  - { offset: 0x1FFCC, size: 0x8, addend: 0x0, symName: __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev, symObjAddr: 0x30A0, symBinAddr: 0xD69C, symSize: 0x14 }
+  - { offset: 0x1FFF5, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB8ne180100EPKc, symObjAddr: 0x30B4, symBinAddr: 0xD6B0, symSize: 0x50 }
+  - { offset: 0x20000, size: 0x8, addend: 0x0, symName: __ZNSt12length_errorC1B8ne180100EPKc, symObjAddr: 0x3104, symBinAddr: 0xD700, symSize: 0x24 }
+  - { offset: 0x200CB, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE12__find_equalIS6_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISF_EERKT_, symObjAddr: 0x31A4, symBinAddr: 0xD7A0, symSize: 0x9C }
+  - { offset: 0x201A2, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE16__construct_nodeIJRKS6_EEENS_10unique_ptrINS_11__tree_nodeIS6_PvEENS_22__tree_node_destructorINS4_ISH_EEEEEEDpOT_, symObjAddr: 0x3240, symBinAddr: 0xD83C, symSize: 0x9C }
+  - { offset: 0x204EA, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSF_SF_, symObjAddr: 0x32DC, symBinAddr: 0xD8D8, symSize: 0x54 }
+  - { offset: 0x20553, size: 0x8, addend: 0x0, symName: __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne180100ERKS6_S9_, symObjAddr: 0x3330, symBinAddr: 0xD92C, symSize: 0x68 }
+  - { offset: 0x209F4, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm, symObjAddr: 0x3398, symBinAddr: 0xD994, symSize: 0x8C }
+  - { offset: 0x20D99, size: 0x8, addend: 0x0, symName: __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_, symObjAddr: 0x3424, symBinAddr: 0xDA20, symSize: 0x198 }
+  - { offset: 0x20DAB, size: 0x8, addend: 0x0, symName: __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8ne180100EPS9_, symObjAddr: 0x35BC, symBinAddr: 0xDBB8, symSize: 0x4C }
+  - { offset: 0x27C8E, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoderC2Ev, symObjAddr: 0x0, symBinAddr: 0xDC90, symSize: 0xF8 }
+  - { offset: 0x27E5E, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoderC1Ev, symObjAddr: 0xF8, symBinAddr: 0xDD88, symSize: 0x4 }
+  - { offset: 0x27E8C, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoderC1Ev, symObjAddr: 0xF8, symBinAddr: 0xDD88, symSize: 0x4 }
+  - { offset: 0x27E9F, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoderD2Ev, symObjAddr: 0xFC, symBinAddr: 0xDD8C, symSize: 0x88 }
+  - { offset: 0x28029, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoderD1Ev, symObjAddr: 0x194, symBinAddr: 0xDE14, symSize: 0x4 }
+  - { offset: 0x2804D, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoderD1Ev, symObjAddr: 0x194, symBinAddr: 0xDE14, symSize: 0x4 }
+  - { offset: 0x2807B, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoderD0Ev, symObjAddr: 0x198, symBinAddr: 0xDE18, symSize: 0x14 }
+  - { offset: 0x282D6, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder20initializeWithConfigERK22THING_AUDIO_PCM_CONFIGRK32THING_AUDIO_ENCODE_OUTPUT_CONFIG, symObjAddr: 0x1AC, symBinAddr: 0xDE2C, symSize: 0x360 }
+  - { offset: 0x28777, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder11initEncoderEv, symObjAddr: 0x50C, symBinAddr: 0xE18C, symSize: 0x7B8 }
+  - { offset: 0x2912B, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder15destroyInternalEv, symObjAddr: 0xCC4, symBinAddr: 0xE944, symSize: 0xF8 }
+  - { offset: 0x29203, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder13initResamplerEv, symObjAddr: 0xDBC, symBinAddr: 0xEA3C, symSize: 0x124 }
+  - { offset: 0x298F1, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder8initFifoEv, symObjAddr: 0xEE0, symBinAddr: 0xEB60, symSize: 0x40 }
+  - { offset: 0x2992B, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder11notifyErrorEiPKc, symObjAddr: 0xF20, symBinAddr: 0xEBA0, symSize: 0x18 }
+  - { offset: 0x29969, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder11setCallbackEP25ThingAudioEncoderCallBack, symObjAddr: 0xF38, symBinAddr: 0xEBB8, symSize: 0x3C }
+  - { offset: 0x29A15, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder19writePacketCallbackEPvPhi, symObjAddr: 0xF74, symBinAddr: 0xEBF4, symSize: 0xD8 }
+  - { offset: 0x29B6C, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder12seekCallbackEPvxi, symObjAddr: 0x104C, symBinAddr: 0xECCC, symSize: 0xE4 }
+  - { offset: 0x29D37, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder12encodeStreamEPKhib, symObjAddr: 0x1130, symBinAddr: 0xEDB0, symSize: 0x404 }
+  - { offset: 0x2A2E6, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder11encodeFrameEP7AVFrame, symObjAddr: 0x1534, symBinAddr: 0xF1B4, symSize: 0x78 }
+  - { offset: 0x2A3D1, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder12flushEncoderEv, symObjAddr: 0x15AC, symBinAddr: 0xF22C, symSize: 0x8 }
+  - { offset: 0x2A40D, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder10stopEncodeEv, symObjAddr: 0x15B4, symBinAddr: 0xF234, symSize: 0xC }
+  - { offset: 0x2A449, size: 0x8, addend: 0x0, symName: __ZN23ThingFFmpegAudioEncoder7destroyEv, symObjAddr: 0x15C0, symBinAddr: 0xF240, symSize: 0x7C }
+  - { offset: 0x2C371, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_alloc, symObjAddr: 0x0, symBinAddr: 0xF2BC, symSize: 0x4 }
+  - { offset: 0x2C6AF, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_alloc, symObjAddr: 0x0, symBinAddr: 0xF2BC, symSize: 0x4 }
+  - { offset: 0x2C6F7, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_alloc, symObjAddr: 0x0, symBinAddr: 0xF2BC, symSize: 0x4 }
+  - { offset: 0x2C749, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_free, symObjAddr: 0x4, symBinAddr: 0xF2C0, symSize: 0x4 }
+  - { offset: 0x2C771, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_free, symObjAddr: 0x4, symBinAddr: 0xF2C0, symSize: 0x4 }
+  - { offset: 0x2C792, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_write, symObjAddr: 0x8, symBinAddr: 0xF2C4, symSize: 0x4 }
+  - { offset: 0x2C7DA, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_write, symObjAddr: 0x8, symBinAddr: 0xF2C4, symSize: 0x4 }
+  - { offset: 0x2C81D, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_read, symObjAddr: 0xC, symBinAddr: 0xF2C8, symSize: 0x4 }
+  - { offset: 0x2C865, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_read, symObjAddr: 0xC, symBinAddr: 0xF2C8, symSize: 0x4 }
+  - { offset: 0x2C8A2, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_size, symObjAddr: 0x10, symBinAddr: 0xF2CC, symSize: 0x4 }
+  - { offset: 0x2C8CE, size: 0x8, addend: 0x0, symName: _thing_av_audio_fifo_size, symObjAddr: 0x10, symBinAddr: 0xF2CC, symSize: 0x4 }
+  - { offset: 0x2C8F3, size: 0x8, addend: 0x0, symName: _thing_av_frame_make_writable, symObjAddr: 0x14, symBinAddr: 0xF2D0, symSize: 0x4 }
+  - { offset: 0x2C91F, size: 0x8, addend: 0x0, symName: _thing_av_frame_make_writable, symObjAddr: 0x14, symBinAddr: 0xF2D0, symSize: 0x4 }
+...

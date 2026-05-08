@@ -1,0 +1,9 @@
+module ThingCache {
+  header "ThingStrategyCacheFactory.h"
+  header "ThingAbstractStrategyCache.h"
+  header "ThingDiskCacheManager.h"
+  header "ThingDiskCacheBusinessItem.h"
+  header "ThingDiskCacheObjectWrapper.h"
+  export *
+}
+

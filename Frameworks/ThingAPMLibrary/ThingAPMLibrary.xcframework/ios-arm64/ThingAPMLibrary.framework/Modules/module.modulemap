@@ -1,0 +1,6 @@
+framework module ThingAPMLibrary {
+  umbrella header "ThingAPMLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

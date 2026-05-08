@@ -1,0 +1,6 @@
+framework module ThingKVStorageLibrary {
+  umbrella header "ThingKVStorageLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

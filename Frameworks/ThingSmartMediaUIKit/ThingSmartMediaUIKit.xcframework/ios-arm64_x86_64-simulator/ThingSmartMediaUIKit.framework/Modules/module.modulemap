@@ -1,0 +1,6 @@
+framework module ThingSmartMediaUIKit {
+  umbrella header "ThingSmartMediaUIKit.h"
+
+  export *
+  module * { export * }
+}

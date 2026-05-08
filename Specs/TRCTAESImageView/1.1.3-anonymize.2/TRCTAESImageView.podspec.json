@@ -1,0 +1,34 @@
+{
+  "name": "TRCTAESImageView",
+  "version": "1.1.3-anonymize.2",
+  "summary": "A short description of TRCTAESImageView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.3-anonymize.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [],
+    "ThingEncryptImage": [],
+    "ThingFoundationKit": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TRCTAESImageView/TRCTAESImageView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,6 @@
+framework module TUNISiriManager {
+  umbrella header "TUNISiriManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ThingBaseDebugger",
+  "version": "1.1.10",
+  "summary": "A short description of ThingBaseDebugger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.10"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_file": "ThingBaseDebugger/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "Masonry": [],
+    "ThingUIKit": [],
+    "ThingOEMConfig": [],
+    "ThingStorageGroupInterface": [],
+    "ThingModuleManager": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingBaseDebugger/ThingBaseDebugger.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

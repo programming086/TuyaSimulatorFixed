@@ -1,0 +1,6 @@
+framework module ThingLottie {
+  umbrella header "ThingLottie-umbrella.h"
+
+  export *
+  module * { export * }
+}

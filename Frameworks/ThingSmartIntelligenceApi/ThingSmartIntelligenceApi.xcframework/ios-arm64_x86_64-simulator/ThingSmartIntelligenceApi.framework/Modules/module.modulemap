@@ -1,0 +1,6 @@
+framework module ThingSmartIntelligenceApi {
+  umbrella header "ThingSmartIntelligenceApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

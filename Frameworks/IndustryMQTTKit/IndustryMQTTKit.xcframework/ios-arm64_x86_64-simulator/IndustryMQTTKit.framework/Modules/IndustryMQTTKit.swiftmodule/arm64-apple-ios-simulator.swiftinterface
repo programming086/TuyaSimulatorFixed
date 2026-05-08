@@ -1,0 +1,99 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IndustryMQTTKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import IndustryErrorKit
+@_exported import IndustryMQTTKit
+import IotContainer
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum MQTTConnectState : Swift.Int {
+  case created = 0
+  case connecting
+  case connected
+  case disconnecting
+  case close
+  case error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IMQTTMessage : ObjectiveC.NSObjectProtocol {
+  @objc var devId: Swift.String { get set }
+  @objc var message: Swift.AnyObject { get set }
+  @objc var number: Swift.Int { get set }
+  @objc var type: Swift.String { get set }
+  @objc var responseS: Swift.Int { get set }
+  @objc var responseR: Swift.Int { get set }
+  @objc var time: Foundation.TimeInterval { get set }
+}
+@objc public protocol IMQTTListener : ObjectiveC.NSObjectProtocol {
+  @objc optional func mqttService(_ service: any IndustryMQTTKit.IMQTTService, didChange state: IndustryMQTTKit.MQTTConnectState, error: (any Swift.Error)?)
+  @objc optional func mqttService(_ service: any IndustryMQTTKit.IMQTTService, didReceive message: any IndustryMQTTKit.IMQTTMessage, protocol: Swift.Int, topic: Swift.String)
+}
+@objc public protocol IMQTTConfig : ObjectiveC.NSObjectProtocol {
+  @objc var udid: Swift.String { get }
+  @objc var clientId: Swift.String { get }
+  @objc var clientSecret: Swift.String { get }
+  @objc var uid: Swift.String { get }
+  @objc var token: Swift.String { get }
+  @objc var domain: Swift.String { get }
+  @objc var port: Swift.Int { get }
+  @objc var timestamp: Swift.Int { get }
+}
+@objc public protocol IMQTTService : ObjectiveC.NSObjectProtocol {
+  @objc var configProvider: (() -> (any IndustryMQTTKit.IMQTTConfig)?)? { get set }
+  @objc func connect()
+  @objc func disconnet()
+  @objc func state() -> IndustryMQTTKit.MQTTConnectState
+  @objc func subscribe(_ topic: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func unsubscribe(_ topic: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?)
+  @objc func publish(_ topic: Swift.String, data: Foundation.Data, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?) -> Swift.UInt16
+  @objc func register(_ listener: any IndustryMQTTKit.IMQTTListener)
+  @objc func unregister(_ listener: any IndustryMQTTKit.IMQTTListener)
+}
+@objc public enum MQTTError : Swift.Int {
+  case publishError = 14001
+  case subscribeError = 14002
+  case unsubscribeError = 14003
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc extension Foundation.NSError {
+  @objc public static func publishError(_ des: Swift.String? = nil) -> Foundation.NSError
+  @objc public static func subscribeError(_ des: Swift.String? = nil) -> Foundation.NSError
+  @objc public static func unsubscribeError(_ des: Swift.String? = nil) -> Foundation.NSError
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class MQTTService : ObjectiveC.NSObject {
+  @objc public static var shared: IndustryMQTTKit.MQTTService
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension IndustryMQTTKit.MQTTService : IndustryMQTTKit.IMQTTService {
+  @objc final public var configProvider: (() -> (any IndustryMQTTKit.IMQTTConfig)?)? {
+    @objc get
+    @objc set
+  }
+  @objc final public func connect()
+  @objc final public func disconnet()
+  @objc final public func state() -> IndustryMQTTKit.MQTTConnectState
+  @objc final public func subscribe(_ topic: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @objc final public func unsubscribe(_ topic: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> Swift.Void)? = nil)
+  @objc final public func publish(_ topic: Swift.String, data: Foundation.Data, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> Swift.Void)?) -> Swift.UInt16
+  @objc final public func register(_ listener: any IndustryMQTTKit.IMQTTListener)
+  @objc final public func unregister(_ listener: any IndustryMQTTKit.IMQTTListener)
+}
+extension IndustryMQTTKit.MQTTConnectState : Swift.Equatable {}
+extension IndustryMQTTKit.MQTTConnectState : Swift.Hashable {}
+extension IndustryMQTTKit.MQTTConnectState : Swift.RawRepresentable {}
+extension IndustryMQTTKit.MQTTError : Swift.Equatable {}
+extension IndustryMQTTKit.MQTTError : Swift.Hashable {}
+extension IndustryMQTTKit.MQTTError : Swift.RawRepresentable {}

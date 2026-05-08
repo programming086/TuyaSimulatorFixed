@@ -1,0 +1,6 @@
+framework module TYActivatorSktAPI {
+  umbrella header "TYActivatorSktAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

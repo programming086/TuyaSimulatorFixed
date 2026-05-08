@@ -1,0 +1,6 @@
+framework module TUNIDLVideoManager {
+  umbrella header "TUNIDLVideoManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

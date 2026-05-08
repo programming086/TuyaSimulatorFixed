@@ -1,0 +1,6 @@
+framework module ThingDeviceEditSktAPI {
+  umbrella header "ThingDeviceEditSktAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

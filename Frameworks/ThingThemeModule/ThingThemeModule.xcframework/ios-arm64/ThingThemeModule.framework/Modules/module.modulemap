@@ -1,0 +1,6 @@
+framework module ThingThemeModule {
+  umbrella header "ThingThemeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

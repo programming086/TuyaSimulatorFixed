@@ -1,0 +1,6 @@
+framework module ThingSceneFeatureExtModule {
+  umbrella header "ThingSceneFeatureExtModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ThingDmicContainerAbilitiesAPI",
+  "version": "1.0.1",
+  "summary": "\u8de8\u7aef\u5bb9\u5668\u62d3\u5c55\u80fd\u529b\u96c6API",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingDmicContainerAbilitiesAPI/ThingDmicContainerAbilitiesAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

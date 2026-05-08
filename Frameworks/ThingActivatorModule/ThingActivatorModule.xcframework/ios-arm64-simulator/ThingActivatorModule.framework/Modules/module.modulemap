@@ -1,0 +1,6 @@
+framework module ThingActivatorModule {
+  umbrella header "ThingActivatorModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingPublicBLELockIOSKit {
+  umbrella header "ThingPublicBLELockIOSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

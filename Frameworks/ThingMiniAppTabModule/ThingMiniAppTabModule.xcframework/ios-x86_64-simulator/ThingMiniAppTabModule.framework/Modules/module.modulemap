@@ -1,0 +1,6 @@
+framework module ThingMiniAppTabModule {
+  umbrella header "ThingMiniAppTabModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

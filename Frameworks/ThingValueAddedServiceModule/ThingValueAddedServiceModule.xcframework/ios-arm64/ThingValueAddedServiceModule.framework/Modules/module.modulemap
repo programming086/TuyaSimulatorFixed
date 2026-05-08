@@ -1,0 +1,6 @@
+framework module ThingValueAddedServiceModule {
+  umbrella header "ThingValueAddedServiceModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

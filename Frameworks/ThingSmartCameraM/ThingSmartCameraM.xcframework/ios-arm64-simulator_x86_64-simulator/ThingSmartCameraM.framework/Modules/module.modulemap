@@ -1,0 +1,6 @@
+framework module ThingSmartCameraM {
+  umbrella header "ThingSmartCameraM.h"
+
+  export *
+  module * { export * }
+}

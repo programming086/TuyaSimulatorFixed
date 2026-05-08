@@ -1,0 +1,36 @@
+{
+  "name": "ThingCloudStorageDebugger",
+  "version": "5.0.2",
+  "summary": "Debug tool for Tuya camera cloud storage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://thing.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.0.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartCameraKit": [],
+    "ThingSmartDeviceKit": [],
+    "Masonry": [],
+    "SSZipArchive": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingCloudStorageDebugger/ThingCloudStorageDebugger.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingCloudStorageDebugger/ThingCloudStorageDebugger.xcframework/**/*.h"
+  ],
+  "resources": [
+    "Build/ThingCloudStorageDebugger.xcframework/ios-arm64/ThingCloudStorageDebugger.framework/CustomResources/Bundles/*"
+  ]
+}

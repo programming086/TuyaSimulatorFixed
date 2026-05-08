@@ -1,0 +1,6 @@
+framework module TUNIGeofenceManager {
+  umbrella header "TUNIGeofenceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

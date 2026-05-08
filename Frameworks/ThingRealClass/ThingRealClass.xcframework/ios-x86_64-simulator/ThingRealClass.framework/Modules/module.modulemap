@@ -1,0 +1,6 @@
+framework module ThingRealClass {
+  umbrella header "ThingRealClass-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

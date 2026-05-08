@@ -1,0 +1,46 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYFoundationKit": [],
+    "TYUniAPIManagerKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "Photos",
+    "AVFoundation",
+    "AudioToolbox"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYUniScanCodeManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TYUniScanCodeManager": [
+      "ios/tyuniscancodemanager/Assets/**/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.5"
+  },
+  "summary": "A short description of TYUniScanCodeManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYUniScanCodeManager/TYUniScanCodeManager.xcframework"
+  ],
+  "version": "1.0.5"
+}

@@ -1,0 +1,6 @@
+framework module TUNIDeviceNetworkManager {
+  umbrella header "TUNIDeviceNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

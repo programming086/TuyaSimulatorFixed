@@ -1,0 +1,24 @@
+{
+  "name": "RNGestureHandler",
+  "version": "1.3.0.2",
+  "summary": "package",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.3.0.2"
+  },
+  "dependencies": {
+    "React": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/RNGestureHandler/RNGestureHandler.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

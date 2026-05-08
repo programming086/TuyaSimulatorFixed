@@ -1,0 +1,6 @@
+framework module TYUIKit {
+  umbrella header "TYUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTBLEManager {
+  umbrella header "TRCTBLEManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

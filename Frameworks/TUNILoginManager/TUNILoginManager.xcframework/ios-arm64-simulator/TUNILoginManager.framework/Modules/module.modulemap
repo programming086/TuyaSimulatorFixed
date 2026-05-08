@@ -1,0 +1,6 @@
+framework module TUNILoginManager {
+  umbrella header "TUNILoginManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

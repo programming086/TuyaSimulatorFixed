@@ -1,0 +1,6 @@
+framework module TRCTSensorsDBManager {
+  umbrella header "TRCTSensorsDBManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

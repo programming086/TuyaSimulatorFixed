@@ -1,0 +1,6 @@
+framework module TRCTBeaconScanAdvManager {
+  umbrella header "TRCTBeaconScanAdvManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

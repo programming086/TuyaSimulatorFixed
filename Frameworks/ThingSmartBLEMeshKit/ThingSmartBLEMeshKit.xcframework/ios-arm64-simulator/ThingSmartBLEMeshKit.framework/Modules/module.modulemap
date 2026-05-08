@@ -1,0 +1,6 @@
+framework module ThingSmartBLEMeshKit {
+  umbrella header "ThingSmartBLEMeshKit.h"
+
+  export *
+  module * { export * }
+}

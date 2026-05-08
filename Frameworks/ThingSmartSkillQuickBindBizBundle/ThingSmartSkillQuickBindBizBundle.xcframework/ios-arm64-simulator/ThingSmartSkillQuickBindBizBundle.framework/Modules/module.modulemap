@@ -1,0 +1,6 @@
+framework module ThingSmartSkillQuickBindBizBundle {
+  umbrella header "ThingSmartSkillQuickBindBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

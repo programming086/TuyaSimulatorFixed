@@ -1,0 +1,6 @@
+framework module TRCTSlider {
+  umbrella header "TRCTSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

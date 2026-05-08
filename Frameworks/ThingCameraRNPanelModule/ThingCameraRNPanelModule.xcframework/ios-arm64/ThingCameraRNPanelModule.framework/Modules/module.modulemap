@@ -1,0 +1,6 @@
+framework module ThingCameraRNPanelModule {
+  umbrella header "ThingCameraRNPanelModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

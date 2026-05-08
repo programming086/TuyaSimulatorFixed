@@ -1,0 +1,6 @@
+framework module TRCTPicker {
+  umbrella header "TRCTPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

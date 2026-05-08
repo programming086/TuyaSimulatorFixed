@@ -1,0 +1,6 @@
+framework module ThingSmartAudioKit {
+  umbrella header "ThingSmartAudioKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

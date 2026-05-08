@@ -1,0 +1,44 @@
+{
+  "name": "TYBluetooth",
+  "version": "4.0.0",
+  "summary": "Tuya bluetooth, less write and can use anywhere.",
+  "description": "\ud83d\ude80Tuya bluetooth, less write and can use anywhere.",
+  "homepage": "https://tuya.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "4.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreBluetooth"
+  ],
+  "dependencies": {
+    "TuyaSmartUtil": [
+      ">= 4.0.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothPeripheralUsageDescription NSBluetoothAlwaysUsageDescription"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYBluetooth/TYBluetooth.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/TYBluetooth/TYBluetooth.xcframework/**/*.h"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "RNViewShot",
+  "version": "2.3.0.5",
+  "summary": "Capture a React Native view to an image",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.3.0.5"
+  },
+  "preserve_paths": "**/*.js",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "React": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/RNViewShot/RNViewShot.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,6 @@
+framework module ThingGptBLEApiImpl {
+  umbrella header "ThingGptBLEApiImpl-umbrella.h"
+
+  export *
+  module * { export * }
+}

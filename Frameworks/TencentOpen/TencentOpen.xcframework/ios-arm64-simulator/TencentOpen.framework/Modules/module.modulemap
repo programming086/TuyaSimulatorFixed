@@ -1,0 +1,6 @@
+framework module TencentOpen {
+  umbrella header "TencentOpen-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingPageView {
+  umbrella header "ThingPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

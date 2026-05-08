@@ -1,0 +1,6 @@
+framework module ThingCameraAutomation {
+  umbrella header "ThingCameraAutomation.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTCameraViewManager {
+  umbrella header "TRCTCameraViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

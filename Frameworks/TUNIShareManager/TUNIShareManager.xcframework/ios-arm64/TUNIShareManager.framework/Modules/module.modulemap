@@ -1,0 +1,6 @@
+framework module TUNIShareManager {
+  umbrella header "TUNIShareManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

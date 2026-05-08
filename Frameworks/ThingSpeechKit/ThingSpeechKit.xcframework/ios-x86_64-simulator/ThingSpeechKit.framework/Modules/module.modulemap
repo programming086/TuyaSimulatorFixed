@@ -1,0 +1,6 @@
+framework module ThingSpeechKit {
+  umbrella header "ThingSpeechKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

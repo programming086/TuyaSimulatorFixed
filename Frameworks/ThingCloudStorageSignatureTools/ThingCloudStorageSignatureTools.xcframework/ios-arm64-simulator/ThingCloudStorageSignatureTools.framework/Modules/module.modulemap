@@ -1,0 +1,6 @@
+framework module ThingCloudStorageSignatureTools {
+  umbrella header "ThingCloudStorageSignatureTools.h"
+
+  export *
+  module * { export * }
+}

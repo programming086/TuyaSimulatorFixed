@@ -1,0 +1,6 @@
+framework module ThingSmartResidenceBasicKit {
+  umbrella header "ThingSmartResidenceBasicKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTHealthManager {
+  umbrella header "TRCTHealthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

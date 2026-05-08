@@ -1,0 +1,6 @@
+framework module ThingSmartDeviceKitBizBundle {
+  umbrella header "ThingSmartDeviceKitBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

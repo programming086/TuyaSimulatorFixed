@@ -1,0 +1,31 @@
+{
+  "name": "ThingSmartCallChannelKit",
+  "version": "2.3.1",
+  "summary": "A short description of ThingSmartCallChannelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.3.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [],
+    "ThingSmartMQTTChannelKit": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartAVBaseKit": [],
+    "ThingSmartCallCounterKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartCallChannelKit/ThingSmartCallChannelKit.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartCallChannelKit/ThingSmartCallChannelKit.xcframework/**/*.h"
+  ]
+}

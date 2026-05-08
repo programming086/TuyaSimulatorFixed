@@ -1,0 +1,6 @@
+framework module ThingFFmpegWrapper {
+  umbrella header "ThingFFmpegWrapper.h"
+
+  export *
+  module * { export * }
+}

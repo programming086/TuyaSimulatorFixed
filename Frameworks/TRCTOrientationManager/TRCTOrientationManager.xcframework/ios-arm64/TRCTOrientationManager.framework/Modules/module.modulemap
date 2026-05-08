@@ -1,0 +1,6 @@
+framework module TRCTOrientationManager {
+  umbrella header "TRCTOrientationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ThingCommonDebugger",
+  "version": "0.5.2",
+  "summary": "A short description of ThingCommonDebugger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.5.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_file": "ThingCommonDebugger/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreTelephony"
+  ],
+  "libraries": "resolv",
+  "dependencies": {
+    "ThingSmartBaseKit": [],
+    "ThingSmartNetworkKit": [],
+    "ThingFoundationKit": [],
+    "CocoaAsyncSocket": [],
+    "ThingBaseDebugger": [],
+    "ThingSocketPing": [],
+    "ThingOEMConfig": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingCommonDebugger/ThingCommonDebugger.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

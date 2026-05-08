@@ -1,0 +1,6 @@
+framework module ThingCameraAdvancedAbilityKit {
+  umbrella header "ThingCameraAdvancedAbilityKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

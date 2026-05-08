@@ -1,0 +1,6 @@
+framework module ThingFeedBackModule {
+  umbrella header "ThingFeedBackModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

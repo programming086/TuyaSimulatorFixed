@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingActivatorSktAPI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.0-anonymize2.3"
+  },
+  "summary": "A short description of ThingActivatorSktAPI.",
+  "vendored_frameworks": [
+    "Frameworks/ThingActivatorSktAPI/ThingActivatorSktAPI.xcframework"
+  ],
+  "version": "0.2.0-anonymize2.3"
+}

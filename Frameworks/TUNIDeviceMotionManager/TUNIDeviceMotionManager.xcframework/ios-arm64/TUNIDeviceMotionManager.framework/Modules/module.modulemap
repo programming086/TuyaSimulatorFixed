@@ -1,0 +1,6 @@
+framework module TUNIDeviceMotionManager {
+  umbrella header "TUNIDeviceMotionManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNIScrollManager {
+  umbrella header "TUNIScrollManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

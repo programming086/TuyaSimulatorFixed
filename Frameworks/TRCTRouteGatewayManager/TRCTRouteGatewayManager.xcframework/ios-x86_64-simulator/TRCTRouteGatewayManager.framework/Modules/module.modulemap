@@ -1,0 +1,6 @@
+framework module TRCTRouteGatewayManager {
+  umbrella header "TRCTRouteGatewayManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

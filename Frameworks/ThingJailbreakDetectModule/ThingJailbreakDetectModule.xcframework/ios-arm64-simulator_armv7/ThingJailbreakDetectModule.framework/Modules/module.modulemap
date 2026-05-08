@@ -1,0 +1,6 @@
+framework module ThingJailbreakDetectModule {
+  umbrella header "ThingJailbreakDetectModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

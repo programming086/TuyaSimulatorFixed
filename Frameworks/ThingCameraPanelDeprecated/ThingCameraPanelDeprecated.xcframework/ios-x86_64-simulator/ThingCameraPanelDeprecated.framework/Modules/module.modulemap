@@ -1,0 +1,6 @@
+framework module ThingCameraPanelDeprecated {
+  umbrella header "ThingCameraPanelDeprecated-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TYRCTCameraTimeLineViewManager {
+  umbrella header "TYRCTCameraTimeLineViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

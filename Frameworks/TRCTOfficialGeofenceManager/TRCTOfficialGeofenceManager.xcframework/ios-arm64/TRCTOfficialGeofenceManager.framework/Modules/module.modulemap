@@ -1,0 +1,6 @@
+framework module TRCTOfficialGeofenceManager {
+  umbrella header "TRCTOfficialGeofenceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

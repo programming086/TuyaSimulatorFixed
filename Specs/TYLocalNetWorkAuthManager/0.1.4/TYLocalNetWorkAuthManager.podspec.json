@@ -1,0 +1,36 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYAuthorizationServices": [],
+    "TYKVStorageLibrary": [],
+    "TYModuleManager": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYLocalNetWorkAuthManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+    "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.4"
+  },
+  "summary": "A short description of TYLocalNetWorkAuthManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYLocalNetWorkAuthManager/TYLocalNetWorkAuthManager.xcframework"
+  ],
+  "version": "0.1.4"
+}

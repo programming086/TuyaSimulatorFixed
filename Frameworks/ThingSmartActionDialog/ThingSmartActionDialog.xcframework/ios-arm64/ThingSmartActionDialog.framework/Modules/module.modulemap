@@ -1,0 +1,6 @@
+framework module ThingSmartActionDialog {
+  umbrella header "ThingSmartActionDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

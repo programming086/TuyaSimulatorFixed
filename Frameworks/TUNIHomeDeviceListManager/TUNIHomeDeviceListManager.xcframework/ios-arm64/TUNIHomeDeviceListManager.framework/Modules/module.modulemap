@@ -1,0 +1,6 @@
+framework module TUNIHomeDeviceListManager {
+  umbrella header "TUNIHomeDeviceListManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

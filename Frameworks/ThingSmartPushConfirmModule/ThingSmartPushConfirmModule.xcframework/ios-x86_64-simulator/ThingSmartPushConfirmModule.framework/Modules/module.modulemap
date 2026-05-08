@@ -1,0 +1,6 @@
+framework module ThingSmartPushConfirmModule {
+  umbrella header "ThingSmartPushConfirmModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "QuickJSObjC",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.17"
+  },
+  "summary": "quickJS-OC\u5c01\u88c5",
+  "vendored_frameworks": [
+    "Frameworks/QuickJSObjC/QuickJSObjC.xcframework"
+  ],
+  "version": "1.0.17",
+  "xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) COCOAPODS=1 IOS=1 CONFIG_VERSION=\\\"2021-03-27\\\""
+  }
+}

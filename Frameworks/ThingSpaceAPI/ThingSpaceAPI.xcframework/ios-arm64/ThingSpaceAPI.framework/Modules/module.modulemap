@@ -1,0 +1,6 @@
+framework module ThingSpaceAPI {
+  umbrella header "ThingSpaceAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

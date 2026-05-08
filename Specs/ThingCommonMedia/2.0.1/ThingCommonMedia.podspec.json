@@ -1,0 +1,27 @@
+{
+  "name": "ThingCommonMedia",
+  "version": "2.0.1",
+  "summary": "A short description of ThingCommonMedia.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.0.1"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "TensorFlowLiteTaskVision": [
+      "0.4.3"
+    ],
+    "ThingLogMacro": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingCommonMedia/ThingCommonMedia.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

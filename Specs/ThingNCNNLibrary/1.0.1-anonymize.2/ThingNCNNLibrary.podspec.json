@@ -1,0 +1,34 @@
+{
+  "name": "ThingNCNNLibrary",
+  "version": "1.0.1-anonymize.2",
+  "summary": "A short description of ThingNCNNLibrary.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.1-anonymize.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_libraries": "ThingNCNNLibrary/Vendors/libncnn_weight_model_static.a",
+  "vendored_frameworks": [
+    "Frameworks/ThingNCNNLibrary/ThingNCNNLibrary.xcframework"
+  ],
+  "libraries": "c++",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

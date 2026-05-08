@@ -1,0 +1,44 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path: ''
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _ThingMP3CodecSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x49740, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _ThingMP3CodecSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x49770, symSize: 0x0 }
+  - { offset: 0xA3, size: 0x8, addend: 0x0, symName: '-[DecodePcmData initWithSampleRate:channelCount:packetLength:packetData:statusCode:]', symObjAddr: 0x0, symBinAddr: 0x14E0, symSize: 0xA8 }
+  - { offset: 0x2CC, size: 0x8, addend: 0x0, symName: '-[DecodePcmData initWithSampleRate:channelCount:packetLength:packetData:statusCode:]', symObjAddr: 0x0, symBinAddr: 0x14E0, symSize: 0xA8 }
+  - { offset: 0x381, size: 0x8, addend: 0x0, symName: '-[DecodePcmData status_code]', symObjAddr: 0xA8, symBinAddr: 0x1588, symSize: 0x9 }
+  - { offset: 0x3B3, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setStatus_code:]', symObjAddr: 0xB1, symBinAddr: 0x1591, symSize: 0x9 }
+  - { offset: 0x3EC, size: 0x8, addend: 0x0, symName: '-[DecodePcmData sampleRate]', symObjAddr: 0xBA, symBinAddr: 0x159A, symSize: 0x9 }
+  - { offset: 0x41E, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setSampleRate:]', symObjAddr: 0xC3, symBinAddr: 0x15A3, symSize: 0x9 }
+  - { offset: 0x457, size: 0x8, addend: 0x0, symName: '-[DecodePcmData channelCount]', symObjAddr: 0xCC, symBinAddr: 0x15AC, symSize: 0x9 }
+  - { offset: 0x489, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setChannelCount:]', symObjAddr: 0xD5, symBinAddr: 0x15B5, symSize: 0x9 }
+  - { offset: 0x4C2, size: 0x8, addend: 0x0, symName: '-[DecodePcmData packetLength]', symObjAddr: 0xDE, symBinAddr: 0x15BE, symSize: 0xA }
+  - { offset: 0x4F4, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setPacketLength:]', symObjAddr: 0xE8, symBinAddr: 0x15C8, symSize: 0xA }
+  - { offset: 0x52D, size: 0x8, addend: 0x0, symName: '-[DecodePcmData packet_data]', symObjAddr: 0xF2, symBinAddr: 0x15D2, symSize: 0xA }
+  - { offset: 0x55F, size: 0x8, addend: 0x0, symName: '-[DecodePcmData setPacket_data:]', symObjAddr: 0xFC, symBinAddr: 0x15DC, symSize: 0x11 }
+  - { offset: 0x59C, size: 0x8, addend: 0x0, symName: '-[DecodePcmData .cxx_destruct]', symObjAddr: 0x10D, symBinAddr: 0x15ED, symSize: 0x10 }
+  - { offset: 0x5CC, size: 0x8, addend: 0x0, symName: '-[ThingMP3Decoder init]', symObjAddr: 0x11D, symBinAddr: 0x15FD, symSize: 0xD6 }
+  - { offset: 0x670, size: 0x8, addend: 0x0, symName: '-[ThingMP3Decoder decodeDataWithStream:length:]', symObjAddr: 0x1F3, symBinAddr: 0x16D3, symSize: 0x20E }
+  - { offset: 0x845, size: 0x8, addend: 0x0, symName: '-[ThingMP3Decoder dealloc]', symObjAddr: 0x401, symBinAddr: 0x18E1, symSize: 0xA2 }
+  - { offset: 0x46E5, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplC2Ev, symObjAddr: 0x0, symBinAddr: 0x1984, symSize: 0x4C }
+  - { offset: 0x4761, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplC1Ev, symObjAddr: 0x4C, symBinAddr: 0x19D0, symSize: 0x4C }
+  - { offset: 0x47E4, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplD2Ev, symObjAddr: 0x98, symBinAddr: 0x1A1C, symSize: 0x4C }
+  - { offset: 0x482F, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplD1Ev, symObjAddr: 0xF2, symBinAddr: 0x1A76, symSize: 0xA }
+  - { offset: 0x487D, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImplD0Ev, symObjAddr: 0xFC, symBinAddr: 0x1A80, symSize: 0x1C }
+  - { offset: 0x4972, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImpl16initializeDecodeEv, symObjAddr: 0x118, symBinAddr: 0x1A9C, symSize: 0xD0 }
+  - { offset: 0x4A72, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImpl6decodeEPhiS0_iRiS1_, symObjAddr: 0x1E8, symBinAddr: 0x1B6C, symSize: 0x2A2 }
+  - { offset: 0x4EED, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3DecoderImpl7destroyEv, symObjAddr: 0x48A, symBinAddr: 0x1E0E, symSize: 0xB5 }
+  - { offset: 0x6B4C, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder initWithSampleRate:channels:bitRate:]', symObjAddr: 0x0, symBinAddr: 0x1EC3, symSize: 0xE6 }
+  - { offset: 0x7AC8, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder initWithSampleRate:channels:bitRate:]', symObjAddr: 0x0, symBinAddr: 0x1EC3, symSize: 0xE6 }
+  - { offset: 0x7BAD, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder encodeWithPcm:inLength:]', symObjAddr: 0xE6, symBinAddr: 0x1FA9, symSize: 0x8A }
+  - { offset: 0x7CA7, size: 0x8, addend: 0x0, symName: '-[ThingMP3Encoder dealloc]', symObjAddr: 0x170, symBinAddr: 0x2033, symSize: 0x48 }
+  - { offset: 0x98CC, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplC2Ev, symObjAddr: 0x0, symBinAddr: 0x207C, symSize: 0x3E }
+  - { offset: 0xA7CB, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplC2Ev, symObjAddr: 0x0, symBinAddr: 0x207C, symSize: 0x3E }
+  - { offset: 0xA847, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplC1Ev, symObjAddr: 0x3E, symBinAddr: 0x20BA, symSize: 0x3E }
+  - { offset: 0xA8CA, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplD2Ev, symObjAddr: 0x7C, symBinAddr: 0x20F8, symSize: 0x1C }
+  - { offset: 0xA905, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplD1Ev, symObjAddr: 0x98, symBinAddr: 0x2114, symSize: 0x1C }
+  - { offset: 0xA95E, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImplD0Ev, symObjAddr: 0xB4, symBinAddr: 0x2130, symSize: 0x2E }
+  - { offset: 0xAA41, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImpl10initializeEiii, symObjAddr: 0xE2, symBinAddr: 0x215E, symSize: 0x226 }
+  - { offset: 0xAE1E, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImpl6encodeEPhiS0_i, symObjAddr: 0x308, symBinAddr: 0x2384, symSize: 0xFA }
+  - { offset: 0xB055, size: 0x8, addend: 0x0, symName: __ZN19ThingMP3EncoderImpl7destroyEv, symObjAddr: 0x402, symBinAddr: 0x247E, symSize: 0x60 }
+...

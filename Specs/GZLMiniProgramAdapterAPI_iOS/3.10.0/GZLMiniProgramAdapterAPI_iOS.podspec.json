@@ -1,0 +1,26 @@
+{
+  "name": "GZLMiniProgramAdapterAPI_iOS",
+  "version": "3.10.0",
+  "summary": "\u5c0f\u7a0b\u5e8f\u516c\u7248\u5bf9\u63a5\u63a5\u53e3",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "3.10.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "GodzillaMiniIService": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/GZLMiniProgramAdapterAPI_iOS/GZLMiniProgramAdapterAPI_iOS.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/GZLMiniProgramAdapterAPI_iOS/GZLMiniProgramAdapterAPI_iOS.xcframework/**/*.h"
+  ]
+}

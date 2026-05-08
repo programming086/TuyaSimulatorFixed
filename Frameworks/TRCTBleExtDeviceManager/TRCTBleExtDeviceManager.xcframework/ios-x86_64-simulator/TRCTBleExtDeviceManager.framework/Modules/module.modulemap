@@ -1,0 +1,6 @@
+framework module TRCTBleExtDeviceManager {
+  umbrella header "TRCTBleExtDeviceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

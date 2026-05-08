@@ -1,0 +1,6 @@
+framework module TUNIMiniProgramManager {
+  umbrella header "TUNIMiniProgramManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

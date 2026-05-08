@@ -1,0 +1,6 @@
+framework module TUNIIPCCameraManager {
+  umbrella header "TUNIIPCCameraManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

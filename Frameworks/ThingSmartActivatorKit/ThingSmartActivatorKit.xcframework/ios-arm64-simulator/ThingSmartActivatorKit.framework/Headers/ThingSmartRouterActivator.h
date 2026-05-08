@@ -1,0 +1,2 @@
+
+#import <ThingSmartActivatorCoreKit/ThingSmartRouterActivator.h>

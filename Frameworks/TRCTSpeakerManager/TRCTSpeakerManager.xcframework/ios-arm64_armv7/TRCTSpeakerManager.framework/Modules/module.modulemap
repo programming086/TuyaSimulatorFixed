@@ -1,0 +1,6 @@
+framework module TRCTSpeakerManager {
+  umbrella header "TRCTSpeakerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

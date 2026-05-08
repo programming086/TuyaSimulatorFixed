@@ -1,0 +1,31 @@
+{
+  "name": "ThingImagePickerController",
+  "version": "3.7.11",
+  "summary": "A clone of TZImagePickerController",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "3.7.11"
+  },
+  "requires_arc": true,
+  "resources": "ThingImagePickerController/*.{png,bundle}",
+  "frameworks": [
+    "Photos",
+    "PhotosUI"
+  ],
+  "dependencies": {
+    "ThingFoundationKit": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingImagePickerController/ThingImagePickerController.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

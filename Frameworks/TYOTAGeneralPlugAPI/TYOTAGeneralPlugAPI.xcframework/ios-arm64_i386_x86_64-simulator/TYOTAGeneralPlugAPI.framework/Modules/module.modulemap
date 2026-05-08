@@ -1,0 +1,6 @@
+framework module TYOTAGeneralPlugAPI {
+  umbrella header "TYOTAGeneralPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

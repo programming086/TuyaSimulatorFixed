@@ -1,0 +1,6 @@
+framework module TuyaSmartFamilyBizBundle {
+  umbrella header "TuyaSmartFamilyBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,45 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "homepage": "https://github.com/tuya",
+  "ios": {
+    "dependencies": {
+      "ThingSmartUtil": []
+    },
+    "frameworks": [
+      "UIKit",
+      "Foundation",
+      "CoreGraphics",
+      "CoreTelephony"
+    ]
+  },
+  "license": "none",
+  "name": "ThingFoundationKit",
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "pod_target_xcconfig": {},
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.18.12-opensetting.1"
+  },
+  "summary": "A FoundationKit Powered By ThingInc",
+  "vendored_frameworks": [
+    "Frameworks/ThingFoundationKit/ThingFoundationKit.xcframework"
+  ],
+  "version": "1.18.12-opensetting.1",
+  "watchos": {
+    "frameworks": [
+      "UIKit",
+      "Foundation",
+      "CoreGraphics"
+    ],
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    }
+  }
+}

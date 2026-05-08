@@ -1,0 +1,35 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TUNIActivationManager": [
+      "1.0.4"
+    ],
+    "TUNIBLEPairingManager": [
+      "1.3.0-rc.18"
+    ]
+  },
+  "description": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TUNIPlayNetKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIPlayNetKit": [
+      "ios/TUNIPlayNetKit/Assets/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.3.0-rc.17"
+  },
+  "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "vendored_frameworks": [
+    "Frameworks/TUNIPlayNetKit/TUNIPlayNetKit.xcframework"
+  ],
+  "version": "1.3.0-rc.17"
+}

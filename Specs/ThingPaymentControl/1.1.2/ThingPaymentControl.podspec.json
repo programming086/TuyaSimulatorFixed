@@ -1,0 +1,32 @@
+{
+  "name": "ThingPaymentControl",
+  "version": "1.1.2",
+  "summary": "Payment Control",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": "Foundation",
+  "dependencies": {
+    "MMKV": [],
+    "YYModel": [],
+    "ThingOEMConfig": [],
+    "ThingLogMacro": [],
+    "ThingCache": []
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingPaymentControl/ThingPaymentControl.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

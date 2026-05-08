@@ -1,0 +1,6 @@
+framework module ThingDeviceIotCardPlugAPI {
+  umbrella header "ThingDeviceIotCardPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

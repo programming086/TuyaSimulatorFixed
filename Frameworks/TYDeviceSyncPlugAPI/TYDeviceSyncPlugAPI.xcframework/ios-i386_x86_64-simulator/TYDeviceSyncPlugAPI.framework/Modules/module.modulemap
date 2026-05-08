@@ -1,0 +1,6 @@
+framework module TYDeviceSyncPlugAPI {
+  umbrella header "TYDeviceSyncPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTZigbeeEventManager {
+  umbrella header "TRCTZigbeeEventManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

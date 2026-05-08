@@ -1,0 +1,6 @@
+framework module TRCTConicGradientViewManager {
+  umbrella header "TRCTConicGradientViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

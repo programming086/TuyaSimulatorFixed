@@ -1,0 +1,46 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYAuthorizationServices": [],
+    "TYBlockKit": [],
+    "TYFoundationKit": [],
+    "TYKVStorageLibrary": [],
+    "TYModuleManager": [],
+    "TYOEMConfig": [],
+    "TYStatisticsKit": [],
+    "TuyaCommonAnimation": [],
+    "TuyaCommonUI": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYPrivacyAuthCheck",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TYPrivacyAuthCheck": [
+      "TYPrivacyAuthCheck/Assets/**/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.11"
+  },
+  "summary": "A short description of TYPrivacyAuthCheck.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYPrivacyAuthCheck/TYPrivacyAuthCheck.xcframework"
+  ],
+  "version": "0.1.11"
+}

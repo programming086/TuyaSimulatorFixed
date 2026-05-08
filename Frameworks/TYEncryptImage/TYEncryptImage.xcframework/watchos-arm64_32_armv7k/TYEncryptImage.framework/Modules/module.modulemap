@@ -1,0 +1,6 @@
+framework module TYEncryptImage {
+  umbrella header "TYEncryptImage-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

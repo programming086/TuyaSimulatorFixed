@@ -1,0 +1,6 @@
+framework module TUNIUploadFileManager {
+  umbrella header "TUNIUploadFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

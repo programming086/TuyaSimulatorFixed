@@ -1,0 +1,6 @@
+framework module ThingCommonUIToolKit {
+  umbrella header "ThingCommonUIToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

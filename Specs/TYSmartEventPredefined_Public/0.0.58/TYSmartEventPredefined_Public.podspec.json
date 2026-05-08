@@ -1,0 +1,25 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "ios": {},
+  "license": "none",
+  "name": "TYSmartEventPredefined_Public",
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.0.58"
+  },
+  "summary": "A short description of TYSmartEventPredefined_Public.",
+  "vendored_frameworks": [
+    "Frameworks/TYSmartEventPredefined_Public/TYSmartEventPredefined_Public.xcframework"
+  ],
+  "version": "0.0.58",
+  "watchos": {}
+}

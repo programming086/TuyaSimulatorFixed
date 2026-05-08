@@ -1,0 +1,6 @@
+framework module ThingSmartBeacon {
+  umbrella header "ThingSmartBeacon-umbrella.h"
+
+  export *
+  module * { export * }
+}

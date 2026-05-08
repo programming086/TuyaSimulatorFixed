@@ -1,0 +1,6 @@
+framework module ThingSwipeView {
+  umbrella header "ThingSwipeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

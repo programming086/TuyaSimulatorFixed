@@ -1,0 +1,6 @@
+framework module ThingBusinessHomeKitLink {
+  umbrella header "ThingBusinessHomeKitLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

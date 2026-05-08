@@ -1,0 +1,6 @@
+framework module TUNIAIStreamKit {
+  umbrella header "TUNIAIStreamKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

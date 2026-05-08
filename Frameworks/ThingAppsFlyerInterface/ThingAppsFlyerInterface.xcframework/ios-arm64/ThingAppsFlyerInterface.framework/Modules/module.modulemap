@@ -1,0 +1,6 @@
+framework module ThingAppsFlyerInterface {
+  umbrella header "ThingAppsFlyerInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}

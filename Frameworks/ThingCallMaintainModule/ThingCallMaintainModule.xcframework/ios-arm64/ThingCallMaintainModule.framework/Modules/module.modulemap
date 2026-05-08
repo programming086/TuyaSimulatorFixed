@@ -1,0 +1,6 @@
+framework module ThingCallMaintainModule {
+  umbrella header "ThingCallMaintainModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

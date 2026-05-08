@@ -1,0 +1,6 @@
+framework module TRCTHueCircleView {
+  umbrella header "TRCTHueCircleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

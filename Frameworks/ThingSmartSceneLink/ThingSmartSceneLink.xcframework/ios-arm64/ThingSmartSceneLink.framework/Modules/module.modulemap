@@ -1,0 +1,6 @@
+framework module ThingSmartSceneLink {
+  umbrella header "ThingSmartSceneLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

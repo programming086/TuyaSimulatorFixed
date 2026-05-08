@@ -1,0 +1,6 @@
+framework module IndustryUserImpl {
+  umbrella header "IndustryUserImpl-umbrella.h"
+
+  export *
+  module * { export * }
+}

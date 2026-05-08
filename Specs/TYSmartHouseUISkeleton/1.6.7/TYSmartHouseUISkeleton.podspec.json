@@ -1,0 +1,34 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYSmartBusinessLibrary": [],
+    "TYTemplateSkeleton": [],
+    "TYUIKit": []
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYSmartHouseUISkeleton",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.6.7"
+  },
+  "summary": "\u6d82\u9e26 ODM \u76ae\u80a4\u5b9a\u5236 - \u9996\u9875\u76ae\u80a4\u89c6\u56fe\u5b9a\u4e49",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYSmartHouseUISkeleton/TYSmartHouseUISkeleton.xcframework"
+  ],
+  "version": "1.6.7"
+}

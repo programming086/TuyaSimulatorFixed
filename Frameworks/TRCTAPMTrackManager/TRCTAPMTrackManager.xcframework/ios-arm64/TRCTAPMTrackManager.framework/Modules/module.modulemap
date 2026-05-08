@@ -1,0 +1,6 @@
+framework module TRCTAPMTrackManager {
+  umbrella header "TRCTAPMTrackManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingTabPagingView {
+  umbrella header "ThingTabPagingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

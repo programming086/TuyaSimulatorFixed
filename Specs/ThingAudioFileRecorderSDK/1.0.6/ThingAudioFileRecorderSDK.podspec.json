@@ -1,0 +1,59 @@
+{
+  "name": "ThingAudioFileRecorderSDK",
+  "version": "1.0.6",
+  "summary": "ThingAudioFileRecorderSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "exclude_files": [
+    "ThingAudioFileRecorderSDK/**/Android/**/*.*",
+    "ThingAudioFileRecorderSDK/Source/rapidjson/msinttypes/*.*"
+  ],
+  "ios": {},
+  "dependencies": {
+    "ThingAvLoggerSDK": [],
+    "ThingMP3CodecSDK": []
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioFileRecorderSDK/Include ",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingAudioFileRecorderSDK/ThingAudioFileRecorderSDK.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingAudioFileRecorderSDK/ThingAudioFileRecorderSDK.xcframework/**/*.h"
+  ]
+}

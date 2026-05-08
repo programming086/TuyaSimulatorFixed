@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ThingAudioRecordInterface
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CryptoKit
+import Foundation
+import Swift
+@_exported import ThingAudioRecordInterface
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class ThingAudioRecordAESGcmCryptoKit : ObjectiveC.NSObject {
+  @objc public static let tagSize: Swift.Int
+  @objc public static func isSupported() -> Swift.Bool
+  @objc public static func encrypt(_ plaintext: Foundation.Data, key: Foundation.Data, nonce: Foundation.Data) -> Foundation.NSDictionary?
+  @objc public static func decrypt(_ ciphertext: Foundation.Data, key: Foundation.Data, nonce: Foundation.Data, tag: Foundation.Data) -> Foundation.Data?
+  @objc override dynamic public init()
+  @objc deinit
+}

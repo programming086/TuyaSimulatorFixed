@@ -1,0 +1,6 @@
+framework module ThingDeviceSyncControlModule {
+  umbrella header "ThingDeviceSyncControlModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

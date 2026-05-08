@@ -1,0 +1,6 @@
+framework module TuyaSmartCloudServiceBizBundle {
+  umbrella header "TuyaSmartCloudServiceBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

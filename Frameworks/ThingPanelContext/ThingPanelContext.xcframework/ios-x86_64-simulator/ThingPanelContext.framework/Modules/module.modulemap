@@ -1,0 +1,6 @@
+framework module ThingPanelContext {
+  umbrella header "ThingPanelContext-umbrella.h"
+
+  export *
+  module * { export * }
+}

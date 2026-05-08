@@ -1,0 +1,6 @@
+framework module ThingSmartEventPredefined_illumination {
+  umbrella header "ThingSmartEventPredefined_illumination-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

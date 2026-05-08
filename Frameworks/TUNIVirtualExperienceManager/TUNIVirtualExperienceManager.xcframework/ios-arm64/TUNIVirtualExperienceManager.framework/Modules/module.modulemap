@@ -1,0 +1,6 @@
+framework module TUNIVirtualExperienceManager {
+  umbrella header "TUNIVirtualExperienceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

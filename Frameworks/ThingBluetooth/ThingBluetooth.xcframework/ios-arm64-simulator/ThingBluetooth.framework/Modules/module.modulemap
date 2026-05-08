@@ -1,0 +1,6 @@
+framework module ThingBluetooth {
+  umbrella header "ThingBluetooth.h"
+
+  export *
+  module * { export * }
+}

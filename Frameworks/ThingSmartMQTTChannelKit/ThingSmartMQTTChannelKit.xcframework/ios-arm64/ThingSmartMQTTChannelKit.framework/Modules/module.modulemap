@@ -1,0 +1,6 @@
+framework module ThingSmartMQTTChannelKit {
+  umbrella header "ThingSmartMQTTChannelKit.h"
+
+  export *
+  module * { export * }
+}

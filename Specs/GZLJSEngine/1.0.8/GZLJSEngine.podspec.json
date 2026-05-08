@@ -1,0 +1,24 @@
+{
+  "name": "GZLJSEngine",
+  "version": "1.0.8",
+  "summary": "JS\u5f15\u64ce\u5c01\u88c5\uff0c\u6865\u63a5\u591a\u4e2aJS\u5f15\u64ce",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.8"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "JavaScriptCore",
+  "vendored_frameworks": [
+    "Frameworks/GZLJSEngine/GZLJSEngine.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/GZLJSEngine/GZLJSEngine.xcframework/**/*.h"
+  ]
+}

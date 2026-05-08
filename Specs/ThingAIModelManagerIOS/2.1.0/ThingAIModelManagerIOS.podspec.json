@@ -1,0 +1,26 @@
+{
+  "name": "ThingAIModelManagerIOS",
+  "version": "2.1.0",
+  "summary": "A short description of ThingAIModelManagerIOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingAIModelManagerIOS/ThingAIModelManagerIOS.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingAIModelManagerIOS/ThingAIModelManagerIOS.xcframework/**/*.h"
+  ]
+}

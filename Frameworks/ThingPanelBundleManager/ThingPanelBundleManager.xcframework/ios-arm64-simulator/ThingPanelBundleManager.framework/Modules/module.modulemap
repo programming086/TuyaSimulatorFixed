@@ -1,0 +1,6 @@
+framework module ThingPanelBundleManager {
+  umbrella header "ThingPanelBundleManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

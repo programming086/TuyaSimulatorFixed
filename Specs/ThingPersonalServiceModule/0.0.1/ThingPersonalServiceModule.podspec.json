@@ -1,0 +1,39 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingBusinessService": [],
+    "ThingFoundationKit": [],
+    "ThingHybridContainer": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingOEMConfig": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartUtil": [],
+    "ThingUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingPersonalServiceModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.0.1"
+  },
+  "summary": "A short description of ThingPersonalServiceModule.",
+  "vendored_frameworks": [
+    "Frameworks/ThingPersonalServiceModule/ThingPersonalServiceModule.xcframework"
+  ],
+  "version": "0.0.1"
+}

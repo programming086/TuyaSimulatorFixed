@@ -1,0 +1,6 @@
+framework module TUNIAccelerometerManager {
+  umbrella header "TUNIAccelerometerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

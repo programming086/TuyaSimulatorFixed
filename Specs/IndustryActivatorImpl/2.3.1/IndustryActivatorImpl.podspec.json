@@ -1,0 +1,43 @@
+{
+  "name": "IndustryActivatorImpl",
+  "version": "2.3.1",
+  "summary": "A short description of IndustryActivatorImpl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://developer.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.3.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "IotContainer": [],
+    "IndustryActivatorKit": [],
+    "IndustryErrorKit": [],
+    "ThingSmartUtil": [],
+    "ThingIoTNetworkKit": [],
+    "ThingSmartNetworkKit": [],
+    "ThingSmartActivatorCoreKit": [],
+    "ThingSmartActivatorKit": [],
+    "ThingSmartBLEKit": [],
+    "YYModel": []
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/IndustryActivatorImpl/IndustryActivatorImpl.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/IndustryActivatorImpl/IndustryActivatorImpl.xcframework/**/*.h"
+  ]
+}

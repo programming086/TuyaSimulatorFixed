@@ -1,0 +1,23 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "homepage": "https://github.com/tuya",
+  "libraries": "z",
+  "license": "none",
+  "name": "TYTarKit",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.6"
+  },
+  "summary": "untar and tar files on iOS and OS X. Also supports gzip tars.",
+  "vendored_frameworks": [
+    "Frameworks/TYTarKit/TYTarKit.xcframework"
+  ],
+  "version": "0.1.6"
+}

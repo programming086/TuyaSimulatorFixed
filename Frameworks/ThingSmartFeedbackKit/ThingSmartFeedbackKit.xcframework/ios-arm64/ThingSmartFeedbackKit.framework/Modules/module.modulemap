@@ -1,0 +1,6 @@
+framework module ThingSmartFeedbackKit {
+  umbrella header "ThingSmartFeedbackKit-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

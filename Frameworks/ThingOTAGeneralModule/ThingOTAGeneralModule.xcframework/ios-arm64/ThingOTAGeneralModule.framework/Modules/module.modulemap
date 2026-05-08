@@ -1,0 +1,6 @@
+framework module ThingOTAGeneralModule {
+  umbrella header "ThingOTAGeneralModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

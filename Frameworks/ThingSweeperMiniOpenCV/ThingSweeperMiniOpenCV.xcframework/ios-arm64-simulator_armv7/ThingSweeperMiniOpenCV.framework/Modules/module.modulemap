@@ -1,0 +1,6 @@
+framework module ThingSweeperMiniOpenCV {
+  umbrella header "ThingSweeperMiniOpenCV-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "ThingMediaKit",
+  "version": "3.4.1",
+  "summary": "\u89c6\u9891\u548c\u56fe\u7247\u5de5\u5177",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "3.4.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingMediaKit": [
+      "ThingMediaKit/Assets/**/*"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription NSMicrophoneUsageDescription NSPhotoLibraryUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "Masonry": [],
+    "ThingUIKit": [],
+    "ThingNavigationController": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingImagePickerController": []
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingMediaKit/ThingMediaKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

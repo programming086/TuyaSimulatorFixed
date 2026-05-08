@@ -1,0 +1,6 @@
+framework module ThingP2PSDK {
+  umbrella header "ThingP2PSDK.h"
+
+  export *
+  module * { export * }
+}

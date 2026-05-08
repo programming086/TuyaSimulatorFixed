@@ -1,0 +1,24 @@
+{
+  "name": "RNScreens",
+  "version": "2.9.0.1",
+  "summary": "summary",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.9.0.1"
+  },
+  "dependencies": {
+    "React": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/RNScreens/RNScreens.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

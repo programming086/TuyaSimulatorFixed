@@ -1,0 +1,6 @@
+framework module ThingOEMConfig {
+  umbrella header "ThingOEMConfig-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

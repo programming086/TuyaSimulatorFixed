@@ -1,0 +1,6 @@
+framework module TUNICode {
+  umbrella header "TUNICode-umbrella.h"
+
+  export *
+  module * { export * }
+}

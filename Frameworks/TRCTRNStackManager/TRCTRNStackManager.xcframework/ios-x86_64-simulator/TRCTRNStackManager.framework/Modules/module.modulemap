@@ -1,0 +1,6 @@
+framework module TRCTRNStackManager {
+  umbrella header "TRCTRNStackManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

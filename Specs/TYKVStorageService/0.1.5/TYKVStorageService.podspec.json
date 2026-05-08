@@ -1,0 +1,28 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYAnnotationFoundation": [],
+    "TYKVStorageCoreLibrary": [],
+    "TYStorageGroupInterface": [],
+    "TuyaSmartBaseKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYKVStorageService",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.5"
+  },
+  "summary": "A short description of TYKVStorageService.",
+  "vendored_frameworks": [
+    "Frameworks/TYKVStorageService/TYKVStorageService.xcframework"
+  ],
+  "version": "0.1.5"
+}

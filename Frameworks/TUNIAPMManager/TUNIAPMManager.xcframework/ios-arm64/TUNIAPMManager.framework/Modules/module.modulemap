@@ -1,0 +1,6 @@
+framework module TUNIAPMManager {
+  umbrella header "TUNIAPMManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

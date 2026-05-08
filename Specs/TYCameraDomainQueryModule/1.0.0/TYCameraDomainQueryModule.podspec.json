@@ -1,0 +1,28 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYFoundationKit": [],
+    "TYLogMacro": [],
+    "TYModuleManager": [],
+    "TYModuleServices": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYCameraDomainQueryModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.0"
+  },
+  "summary": "A short description of TYCameraDomainQueryModule.",
+  "vendored_frameworks": [
+    "Frameworks/TYCameraDomainQueryModule/TYCameraDomainQueryModule.xcframework"
+  ],
+  "version": "1.0.0"
+}

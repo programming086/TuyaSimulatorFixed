@@ -1,0 +1,6 @@
+framework module ThingEncryptImage {
+  umbrella header "ThingEncryptImage-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

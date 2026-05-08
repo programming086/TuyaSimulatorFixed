@@ -1,0 +1,6 @@
+framework module ThingMarketingBoothModule {
+  umbrella header "ThingMarketingBoothModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

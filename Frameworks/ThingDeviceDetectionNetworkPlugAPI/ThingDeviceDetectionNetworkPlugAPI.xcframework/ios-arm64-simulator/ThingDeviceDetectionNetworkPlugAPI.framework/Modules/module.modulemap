@@ -1,0 +1,6 @@
+framework module ThingDeviceDetectionNetworkPlugAPI {
+  umbrella header "ThingDeviceDetectionNetworkPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

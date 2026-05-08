@@ -1,0 +1,35 @@
+{
+  "name": "ThingRealClass",
+  "version": "0.2.2",
+  "summary": "A short description of ThingRealClass.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.2"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "watchos": "2.0"
+  },
+  "resource_bundles": {
+    "ThingOBC": [
+      "ThingRealClass/Assets/OBCL"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingRealClass/ThingRealClass.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,6 @@
+framework module ThingSmartPushNotificationModule {
+  umbrella header "ThingSmartPushNotificationModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

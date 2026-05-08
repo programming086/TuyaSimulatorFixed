@@ -1,0 +1,6 @@
+framework module TUNIMeshManager {
+  umbrella header "TUNIMeshManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

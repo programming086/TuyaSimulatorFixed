@@ -1,0 +1,49 @@
+{
+  "name": "DingDangSDK",
+  "version": "0.3.8-anonymize.1",
+  "summary": "A short description of DingDangSDK.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.3.8-anonymize.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Frameworks/DingDangSDK/DingDangSDK.xcframework"
+  ],
+  "vendored_libraries": "DingDangSDK/Vendor/**/*.a",
+  "frameworks": [
+    "CoreTelephony",
+    "SystemConfiguration",
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z"
+  ],
+  "dependencies": {
+    "CocoaLumberjack": [],
+    "TencentOpenApi": [
+      "3.3.7"
+    ],
+    "AFNetworking/Reachability": [],
+    "SSZipArchive": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "TUNIIPCKit",
+  "version": "5.17.1",
+  "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.17.1"
+  },
+  "resource_bundles": {
+    "TUNIIPCKit": [
+      "ios/TUNIIPCKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNICloudStorageSignatureManager": [
+      "1.0.0-anonymize.1"
+    ],
+    "TUNIDLIPCManager": [
+      "5.16.1"
+    ],
+    "TUNIIPCCameraManager": [
+      "5.17.1"
+    ],
+    "TUNIIPCCameraSettingsManager": [
+      "1.1.1-anonymize.1"
+    ],
+    "TUNIIPCDoorbellManager": [
+      "5.15.1"
+    ]
+  },
+  "vendored_frameworks": [
+    "Frameworks/TUNIIPCKit/TUNIIPCKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

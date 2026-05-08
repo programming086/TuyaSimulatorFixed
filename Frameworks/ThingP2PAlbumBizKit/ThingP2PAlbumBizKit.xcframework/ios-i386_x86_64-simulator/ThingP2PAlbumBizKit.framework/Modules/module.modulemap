@@ -1,0 +1,6 @@
+framework module ThingP2PAlbumBizKit {
+  umbrella header "ThingP2PAlbumBizKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

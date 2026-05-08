@@ -1,0 +1,6 @@
+framework module ThingHomeKitAPI {
+  umbrella header "ThingHomeKitAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

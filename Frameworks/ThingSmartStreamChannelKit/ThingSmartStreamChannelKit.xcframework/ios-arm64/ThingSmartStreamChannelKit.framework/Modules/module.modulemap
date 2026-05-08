@@ -1,0 +1,6 @@
+framework module ThingSmartStreamChannelKit {
+  umbrella header "ThingSmartStreamChannelKit.h"
+
+  export *
+  module * { export * }
+}

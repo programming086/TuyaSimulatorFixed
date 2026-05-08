@@ -1,0 +1,6 @@
+framework module ThingDeviceAccessoryManage {
+  umbrella header "ThingDeviceAccessoryManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

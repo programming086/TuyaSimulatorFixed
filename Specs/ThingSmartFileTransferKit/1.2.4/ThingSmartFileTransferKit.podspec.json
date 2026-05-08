@@ -1,0 +1,47 @@
+{
+  "name": "ThingSmartFileTransferKit",
+  "version": "1.2.4",
+  "summary": "A short description of ThingSmartFileServer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.2.4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CoreTelephony",
+      "Foundation",
+      "SystemConfiguration",
+      "UIKit"
+    ],
+    "dependencies": {
+      "ThingSmartUtil": [
+        "~> 5.0"
+      ],
+      "ThingSmartBLEKit": [],
+      "ThingSmartFileTransCoreKit": []
+    }
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import \"ThingSmartFileTransferKit.h\"\n#endif",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartFileTransferKit/ThingSmartFileTransferKit.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingSmartFileTransferKit/ThingSmartFileTransferKit.xcframework/**/*.h"
+  ]
+}

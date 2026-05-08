@@ -1,0 +1,27 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "dependencies": {
+    "TYKVStorageLibrary": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TuyaSmartBaseKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYSmartClientConfigModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.0"
+  },
+  "summary": "A short description of TYSmartClientConfigModule.",
+  "vendored_frameworks": [
+    "Frameworks/TYSmartClientConfigModule/TYSmartClientConfigModule.xcframework"
+  ],
+  "version": "0.1.0"
+}

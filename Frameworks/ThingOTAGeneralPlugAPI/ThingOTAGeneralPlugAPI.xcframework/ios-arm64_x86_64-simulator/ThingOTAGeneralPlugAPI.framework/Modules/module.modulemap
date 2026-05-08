@@ -1,0 +1,6 @@
+framework module ThingOTAGeneralPlugAPI {
+  umbrella header "ThingOTAGeneralPlugAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

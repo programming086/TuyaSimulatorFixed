@@ -1,0 +1,39 @@
+{
+  "name": "ThingSmartCameraKitLite",
+  "version": "1.0.4",
+  "summary": "A short description of ThingSmartCameraKitLite.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://developer.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.4"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingCameraSDK": [
+      "4.17.0-visual.5"
+    ],
+    "ThingP2PSDK": [
+      "3.7.0-Lite.9"
+    ],
+    "ThingOpenSSLSDK": [
+      "1.1.1-w.1"
+    ],
+    "ThingAudioEngineSDK": [
+      "1.7.4"
+    ]
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartCameraKitLite/ThingSmartCameraKitLite.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

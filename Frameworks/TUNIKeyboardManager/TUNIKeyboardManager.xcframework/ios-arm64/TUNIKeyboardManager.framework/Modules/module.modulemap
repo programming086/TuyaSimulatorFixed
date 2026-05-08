@@ -1,0 +1,6 @@
+framework module TUNIKeyboardManager {
+  umbrella header "TUNIKeyboardManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

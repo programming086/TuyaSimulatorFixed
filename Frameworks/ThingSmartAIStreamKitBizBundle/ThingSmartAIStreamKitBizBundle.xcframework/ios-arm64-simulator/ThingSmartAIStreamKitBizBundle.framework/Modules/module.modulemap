@@ -1,0 +1,6 @@
+framework module ThingSmartAIStreamKitBizBundle {
+  umbrella header "ThingSmartAIStreamKitBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

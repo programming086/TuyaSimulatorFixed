@@ -1,0 +1,6 @@
+framework module ThingAIRecomModuleAPI {
+  umbrella header "ThingAIRecomModuleAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingIntentKit {
+  umbrella header "ThingIntentKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

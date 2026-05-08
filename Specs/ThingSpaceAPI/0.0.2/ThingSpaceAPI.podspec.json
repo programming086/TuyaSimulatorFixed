@@ -1,0 +1,21 @@
+{
+  "name": "ThingSpaceAPI",
+  "version": "0.0.2",
+  "summary": "A short description of ThingSpaceAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingSpaceAPI/ThingSpaceAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

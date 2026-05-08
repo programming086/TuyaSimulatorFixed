@@ -1,0 +1,33 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "ios": {
+    "resources": [
+      "Build/TYRealClass.xcframework/ios-arm64_armv7/TYRealClass.framework/CustomResources/Bundles/*"
+    ]
+  },
+  "license": "none",
+  "name": "TYRealClass",
+  "platforms": {
+    "ios": "8.0",
+    "watchos": "2.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.0"
+  },
+  "summary": "A short description of TYRealClass.",
+  "vendored_frameworks": [
+    "Frameworks/TYRealClass/TYRealClass.xcframework"
+  ],
+  "version": "0.1.0",
+  "watchos": {
+    "resources": [
+      "Build/TYRealClass.xcframework/watchos-arm64_32_armv7k/TYRealClass.framework/CustomResources/Bundles/*"
+    ]
+  }
+}

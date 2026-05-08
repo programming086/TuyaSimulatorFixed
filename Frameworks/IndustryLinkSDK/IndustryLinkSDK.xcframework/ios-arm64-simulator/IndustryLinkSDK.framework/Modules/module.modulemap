@@ -1,0 +1,6 @@
+framework module IndustryLinkSDK {
+  umbrella header "IndustryLinkSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

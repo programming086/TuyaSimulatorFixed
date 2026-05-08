@@ -1,0 +1,171 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ThingIoTNetworkKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import ThingIoTNetworkKit
+import ThingSmartNetworkKit
+import ThingSmartUtil
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension Swift.Array where Element : Swift.StringProtocol {
+  public func commaSeparated() -> Swift.String
+}
+extension Swift.Dictionary {
+  public func keysToCamelCase() -> Swift.Dictionary<Key, Value>
+  public func keysToSnakeCase() -> Swift.Dictionary<Key, Value>
+}
+extension Swift.String {
+  public var underscoreToCamelCase: Swift.String {
+    get
+  }
+  public var formatToLine: Swift.String {
+    get
+  }
+  public var isNumber: Swift.Bool {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ThingCustomNotification : ObjectiveC.NSObject {
+  @objc public static let tokenInvalid: Swift.String
+  @objc public static let refreshTokenFailed: Swift.String
+  @objc public static let didLogin: Swift.String
+  @objc public static let didLogout: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.NSNotification.Name {
+  public static var tokenInvalid: Foundation.NSNotification.Name {
+    get
+  }
+  public static var refreshTokenFailed: Foundation.NSNotification.Name {
+    get
+  }
+  public static var didLogin: Foundation.NSNotification.Name {
+    get
+  }
+  public static var didLogout: Foundation.NSNotification.Name {
+    get
+  }
+}
+@objc @objcMembers public class ThingDataRequest : ObjectiveC.NSObject {
+  @objc public static var commonHeader: [Swift.String : Swift.String]
+  @objc public var method: ThingIoTNetworkKit.ThingHTTPMethod
+  @objc public var endpointString: Swift.String
+  @objc public var body: [Swift.String : Any]
+  @objc public var header: [Swift.String : Swift.String] {
+    @objc get
+    @objc set(newHeader)
+  }
+  @objc public init(method: ThingIoTNetworkKit.ThingHTTPMethod, endpointString: Swift.String, body: [Swift.String : Any] = [:], header: [Swift.String : Swift.String] = [:])
+  @objc convenience public init(method: ThingIoTNetworkKit.ThingHTTPMethod, endpointString: Swift.String, parameters: [Swift.String : Any] = [:], header: [Swift.String : Swift.String] = [:])
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ThingError : ObjectiveC.NSObject {
+  @objc public static let notInitialized: Foundation.NSError
+  @objc public static let parsingDataFailed: Foundation.NSError
+  @objc public static let invalidURL: Foundation.NSError
+  @objc public static let refreshTokenFailed: Foundation.NSError
+  @objc public static let generateQRCodeFailed: Foundation.NSError
+  @objc public static let devicePairingTimeout: Foundation.NSError
+  @objc public static let deviceInitializeFailed: Foundation.NSError
+  @objc public static let deviceCommandParsingFailed: Foundation.NSError
+  @objc public static let deviceCommandInvalid: Foundation.NSError
+  @objc public static let deviceCommandUnsupported: Foundation.NSError
+  @objc public static let createDpsGroupInvalid: Foundation.NSError
+  @objc public static let devicePairingFailure: Foundation.NSError
+  @objc public static func serverError(code: Swift.Int) -> Foundation.NSError
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum ThingHTTPMethod : Swift.Int {
+  case GET
+  case POST
+  case PUT
+  case DELETE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ThingNetwork : ObjectiveC.NSObject {
+  @objc public static var isDebugMode: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static func initialize(clientID: Swift.String, clientSecret: Swift.String)
+  @objc public static var host: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static func request(_ request: ThingIoTNetworkKit.ThingDataRequest, completion: @escaping (Foundation.Data?, (any Swift.Error)?) -> Swift.Void)
+  @objc public static func requestAndDecodeToDictionary(_ request: ThingIoTNetworkKit.ThingDataRequest, completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  @objc public static func requestAndDecodeToBool(_ request: ThingIoTNetworkKit.ThingDataRequest, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  public static func request<T>(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeTo: T.Type, completion: @escaping (T?, (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+  public static func request<T>(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeToList: T.Type, listKey: Swift.String = "list", completion: @escaping ([T]?, (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ThingNetworkEnvironment : ObjectiveC.NSObject {
+  @objc public static var host: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var clientID: Swift.String
+  @objc public static var clientSecret: Swift.String
+  @objc public static var bundleID: Swift.String
+  @objc public static var language: Swift.String
+  @objc public static func configRefreshToken(url: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ThingRequestManger {
+  var decoder: Foundation.JSONDecoder { get }
+  func fire<T>(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeTo: T.Type, completion: @escaping (T?, (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+  func fire(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeToBool: Swift.Bool.Type, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  func fire<T>(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeToList: T.Type, listKey: Swift.String, completion: @escaping ([T]?, (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+}
+extension ThingIoTNetworkKit.ThingRequestManger {
+  public var decoder: Foundation.JSONDecoder {
+    get
+  }
+  public func fire<T>(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeTo: T.Type, completion: @escaping (T?, (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+  public func fire(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeToBool: Swift.Bool.Type, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  public func fire<T>(_ request: ThingIoTNetworkKit.ThingDataRequest, decodeToList: T.Type, listKey: Swift.String = "list", completion: @escaping ([T]?, (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+  public func parseResult<T>(data: Foundation.Data?, error: (any Swift.Error)?, to type: T.Type) -> (T?, (any Swift.Error)?) where T : Swift.Decodable
+  public func parseListResult<T>(data: Foundation.Data?, error: (any Swift.Error)?, to type: T.Type, listKey: Swift.String) -> ([T]?, (any Swift.Error)?) where T : Swift.Decodable
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ThingUserInfo : ObjectiveC.NSObject {
+  @objc public static var accessToken: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var refreshToken: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var expireTime: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc public static var uid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var mqttUrl: Swift.String?
+  @objc public static var userTopicPrefix: Swift.String?
+  @objc public static var mqttPort: Swift.Int
+  @objc public static func updateTokenInfo(accessToken: Swift.String, refreshToken: Swift.String, expireTime: Foundation.Date, uid: Swift.String)
+  @objc public static func emptyTokenInfo()
+  @objc public static func updateMQTTConfig(url: Swift.String, port: Swift.Int, userTopicPrefix: Swift.String)
+  @objc public static func tokenNearToExpire(in range: Foundation.TimeInterval) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ThingIoTNetworkKit.ThingHTTPMethod : Swift.Equatable {}
+extension ThingIoTNetworkKit.ThingHTTPMethod : Swift.Hashable {}
+extension ThingIoTNetworkKit.ThingHTTPMethod : Swift.RawRepresentable {}

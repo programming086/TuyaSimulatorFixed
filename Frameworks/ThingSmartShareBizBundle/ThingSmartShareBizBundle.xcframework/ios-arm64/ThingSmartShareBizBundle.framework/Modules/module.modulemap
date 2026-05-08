@@ -1,0 +1,6 @@
+framework module ThingSmartShareBizBundle {
+  umbrella header "ThingSmartShareBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

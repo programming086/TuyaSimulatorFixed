@@ -1,0 +1,6 @@
+framework module TUNIASRManager {
+  umbrella header "TUNIASRManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

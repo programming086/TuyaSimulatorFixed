@@ -1,0 +1,6 @@
+framework module ThingTacticsManager {
+  umbrella header "ThingTacticsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

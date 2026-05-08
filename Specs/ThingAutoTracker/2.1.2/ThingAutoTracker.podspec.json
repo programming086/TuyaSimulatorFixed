@@ -1,0 +1,44 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingEncryptImage": [],
+    "ThingKVStorageLibrary": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingOEMConfig": [],
+    "ThingRealClass": [],
+    "ThingSmartBaseKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingAutoTracker",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resources": [
+    "ThingAutoTracker/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.1.2"
+  },
+  "summary": "auto traker for user Action",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingAutoTracker/ThingAutoTracker.xcframework"
+  ],
+  "version": "2.1.2"
+}

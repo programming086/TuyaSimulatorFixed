@@ -1,0 +1,6 @@
+framework module ThingOpenSSLSDK {
+  umbrella header "ThingOpenSSLSDK.h"
+
+  export *
+  module * { export * }
+}

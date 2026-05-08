@@ -1,0 +1,6 @@
+framework module ThingConfigHubModule {
+  umbrella header "ThingConfigHubModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

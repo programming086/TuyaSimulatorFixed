@@ -1,0 +1,6 @@
+framework module TRCTVolumeManager {
+  umbrella header "TRCTVolumeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNIMusicManager {
+  umbrella header "TUNIMusicManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

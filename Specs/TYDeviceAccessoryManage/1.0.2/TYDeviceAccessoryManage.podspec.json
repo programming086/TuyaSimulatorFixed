@@ -1,0 +1,39 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYBluetoothInterface": [],
+    "TYDeviceAccessoryManagePlugAPI": [],
+    "TYEncryptImage": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYOEMConfig": [],
+    "TYProgressHUD": [],
+    "TYSmartBusinessLibrary": [],
+    "TYUIKit": [],
+    "TuyaSmartDeviceCoreKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYDeviceAccessoryManage",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "TYDeviceAccessoryManage": [
+      "TYDeviceAccessoryManage/Assets/*.png"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.2"
+  },
+  "summary": "A short description of TYDeviceAccessoryManage.",
+  "vendored_frameworks": [
+    "Frameworks/TYDeviceAccessoryManage/TYDeviceAccessoryManage.xcframework"
+  ],
+  "version": "1.0.2"
+}

@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingActivatorSktAPI": [],
+    "ThingModuleManager": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartActivatorRequest",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.0.4-anonymize2.1"
+  },
+  "summary": "A short description of ThingSmartActivatorRequest.",
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartActivatorRequest/ThingSmartActivatorRequest.xcframework"
+  ],
+  "version": "0.0.4-anonymize2.1"
+}

@@ -1,0 +1,6 @@
+framework module TUNIPhoneVibrateManager {
+  umbrella header "TUNIPhoneVibrateManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

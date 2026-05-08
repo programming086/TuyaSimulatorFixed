@@ -1,0 +1,6 @@
+framework module TUNIApDirectlyDeviceManager {
+  umbrella header "TUNIApDirectlyDeviceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

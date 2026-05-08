@@ -1,0 +1,6 @@
+framework module ThingCameraDomainQueryModule {
+  umbrella header "ThingCameraDomainQueryModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

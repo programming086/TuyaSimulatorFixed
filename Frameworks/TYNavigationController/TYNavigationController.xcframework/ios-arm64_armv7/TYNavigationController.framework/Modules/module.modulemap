@@ -1,0 +1,6 @@
+framework module TYNavigationController {
+  umbrella header "TYNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYSpaceInfoSktAPI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.8"
+  },
+  "summary": "\u5168\u5c4b\u6570\u636e\u88c5\u8f7d\u63a5\u53e3\u7ec4\u4ef6",
+  "vendored_frameworks": [
+    "Frameworks/TYSpaceInfoSktAPI/TYSpaceInfoSktAPI.xcframework"
+  ],
+  "version": "1.0.8"
+}

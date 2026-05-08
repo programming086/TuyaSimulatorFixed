@@ -1,0 +1,6 @@
+framework module ThingDeviceShareModuleSktAPI {
+  umbrella header "ThingDeviceShareModuleSktAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

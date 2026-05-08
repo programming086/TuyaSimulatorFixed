@@ -1,0 +1,3598 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustrySpaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISpace",
+        "printedName": "ISpace",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "spaceId",
+            "printedName": "spaceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(py)spaceId",
+            "mangledName": "$s16IndustrySpaceKit6ISpaceP7spaceIdSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)spaceId",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP7spaceIdSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "spaceName",
+            "printedName": "spaceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(py)spaceName",
+            "mangledName": "$s16IndustrySpaceKit6ISpaceP9spaceNameSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)spaceName",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP9spaceNameSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)setSpaceName:",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP9spaceNameSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parentSpaceId",
+            "printedName": "parentSpaceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(py)parentSpaceId",
+            "mangledName": "$s16IndustrySpaceKit6ISpaceP06parentB2IdSSSgvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)parentSpaceId",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP06parentB2IdSSSgvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permission",
+            "printedName": "permission",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(py)permission",
+            "mangledName": "$s16IndustrySpaceKit6ISpaceP10permissionSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)permission",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP10permissionSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)setPermission:",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP10permissionSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentSubSpaceNum",
+            "printedName": "currentSubSpaceNum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(py)currentSubSpaceNum",
+            "mangledName": "$s16IndustrySpaceKit6ISpaceP010currentSubB3NumSivp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)currentSubSpaceNum",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP010currentSubB3NumSivg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)setCurrentSubSpaceNum:",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP010currentSubB3NumSivs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentSpaceDeviceNum",
+            "printedName": "currentSpaceDeviceNum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(py)currentSpaceDeviceNum",
+            "mangledName": "$s16IndustrySpaceKit6ISpaceP07currentB9DeviceNumSivp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)currentSpaceDeviceNum",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP07currentB9DeviceNumSivg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)setCurrentSpaceDeviceNum:",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP07currentB9DeviceNumSivs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userDefinedPath",
+            "printedName": "userDefinedPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(py)userDefinedPath",
+            "mangledName": "$s16IndustrySpaceKit6ISpaceP15userDefinedPathSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)userDefinedPath",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP15userDefinedPathSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace(im)setUserDefinedPath:",
+                "mangledName": "$s16IndustrySpaceKit6ISpaceP15userDefinedPathSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpace>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpace>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace",
+        "mangledName": "$s16IndustrySpaceKit6ISpaceP",
+        "moduleName": "IndustrySpaceKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustrySpaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISpaceDevice",
+        "printedName": "ISpaceDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(py)deviceId",
+            "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP8deviceIdSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)deviceId",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP8deviceIdSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(py)deviceName",
+            "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP10deviceNameSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)deviceName",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP10deviceNameSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)setDeviceName:",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP10deviceNameSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "online",
+            "printedName": "online",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(py)online",
+            "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP6onlineSbvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)online",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP6onlineSbvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)setOnline:",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP6onlineSbvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(py)icon",
+            "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP4iconSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)icon",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP4iconSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)setIcon:",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP4iconSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "absoluteIconUrl",
+            "printedName": "absoluteIconUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(py)absoluteIconUrl",
+            "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP15absoluteIconUrlSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)absoluteIconUrl",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP15absoluteIconUrlSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)setAbsoluteIconUrl:",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP15absoluteIconUrlSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "homeId",
+            "printedName": "homeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(py)homeId",
+            "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP6homeIdSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)homeId",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP6homeIdSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permission",
+            "printedName": "permission",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(py)permission",
+            "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP10permissionSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice(im)permission",
+                "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP10permissionSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDevice>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDevice>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice",
+        "mangledName": "$s16IndustrySpaceKit12ISpaceDeviceP",
+        "moduleName": "IndustrySpaceKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISpaceDeviceStatistics",
+        "printedName": "ISpaceDeviceStatistics",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "typeValue",
+            "printedName": "typeValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(py)typeValue",
+            "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP9typeValueSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(im)typeValue",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP9typeValueSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(im)setTypeValue:",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP9typeValueSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statisticType",
+            "printedName": "statisticType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(py)statisticType",
+            "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP13statisticTypeSSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(im)statisticType",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP13statisticTypeSSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(im)setStatisticType:",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP13statisticTypeSSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "total",
+            "printedName": "total",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(py)total",
+            "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP5totalSivp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(im)total",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP5totalSivg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics(im)setTotal:",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP5totalSivs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceStatistics>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics",
+        "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceStatisticsP",
+        "moduleName": "IndustrySpaceKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustrySpaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISpaceDeviceListResult",
+        "printedName": "ISpaceDeviceListResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "devices",
+            "printedName": "devices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[IndustrySpaceKit.ISpaceDevice]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ISpaceDevice",
+                    "printedName": "IndustrySpaceKit.ISpaceDevice",
+                    "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(py)devices",
+            "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP7devicesSayAA0dE0_pGvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IndustrySpaceKit.ISpaceDevice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISpaceDevice",
+                        "printedName": "IndustrySpaceKit.ISpaceDevice",
+                        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(im)devices",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP7devicesSayAA0dE0_pGvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IndustrySpaceKit.ISpaceDevice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISpaceDevice",
+                        "printedName": "IndustrySpaceKit.ISpaceDevice",
+                        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDevice"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(im)setDevices:",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP7devicesSayAA0dE0_pGvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasMore",
+            "printedName": "hasMore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(py)hasMore",
+            "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP7hasMoreSbvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(im)hasMore",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP7hasMoreSbvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(im)setHasMore:",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP7hasMoreSbvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastRowKey",
+            "printedName": "lastRowKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(py)lastRowKey",
+            "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP10lastRowKeySSvp",
+            "moduleName": "IndustrySpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(im)lastRowKey",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP10lastRowKeySSvg",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult(im)setLastRowKey:",
+                "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP10lastRowKeySSvs",
+                "moduleName": "IndustrySpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceDeviceListResult>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult",
+        "mangledName": "$s16IndustrySpaceKit22ISpaceDeviceListResultP",
+        "moduleName": "IndustrySpaceKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISpaceService",
+        "printedName": "ISpaceService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(name:parentSpaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)createWithName:parentSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP6create4name06parentB2Id7success7failureySS_SSSgyycSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(spaceId:name:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)updateWithSpaceId:name:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP6update7spaceId4name7success7failureySS_SSyycSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)removeWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP6remove7spaceId7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "space",
+            "printedName": "space(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpace) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpace) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISpace",
+                        "printedName": "IndustrySpaceKit.ISpace",
+                        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)spaceWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP5space0F2Id7success7failureySS_yAA0D0_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subSpaces",
+            "printedName": "subSpaces(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustrySpaceKit.ISpace]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustrySpaceKit.ISpace]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustrySpaceKit.ISpace]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpace",
+                            "printedName": "IndustrySpaceKit.ISpace",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)subSpacesWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP9subSpaces7spaceId7success7failureySSSg_ySayAA0D0_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(spaceId:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpaceDeviceListResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISpaceDeviceListResult",
+                        "printedName": "IndustrySpaceKit.ISpaceDeviceListResult",
+                        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)devicesWithSpaceId:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP7devices7spaceId10lastRowKey7success7failureySS_SSSgyAA0D16DeviceListResult_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(spaceId:statisticsType:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpaceDeviceListResult",
+                            "printedName": "IndustrySpaceKit.ISpaceDeviceListResult",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)devicesWithSpaceId:statisticsType:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP7devices7spaceId14statisticsType8pageSize10lastRowKey7success7failureySS_SSSgSiAKyAA0D16DeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(spaceId:deviceName:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpaceDeviceListResult",
+                            "printedName": "IndustrySpaceKit.ISpaceDeviceListResult",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)searchWithSpaceId:deviceName:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP6search7spaceId10deviceName8pageSize10lastRowKey7success7failureySS_SSSiSSSgyAA0D16DeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "statistics",
+            "printedName": "statistics(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustrySpaceKit.ISpaceDeviceStatistics]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustrySpaceKit.ISpaceDeviceStatistics]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustrySpaceKit.ISpaceDeviceStatistics]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpaceDeviceStatistics",
+                            "printedName": "IndustrySpaceKit.ISpaceDeviceStatistics",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService(im)statisticsWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP10statistics7spaceId7success7failureySSSg_ySayAA0D16DeviceStatistics_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : IndustrySpaceKit.ISpaceService>",
+            "sugared_genericSig": "<Self where Self : IndustrySpaceKit.ISpaceService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService",
+        "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP",
+        "moduleName": "IndustrySpaceKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IndustrySpaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IotContainer",
+        "printedName": "IotContainer",
+        "declKind": "Import",
+        "moduleName": "IndustrySpaceKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpaceService",
+        "printedName": "SpaceService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpaceService",
+                "printedName": "IndustrySpaceKit.SpaceService",
+                "usr": "c:@M@IndustrySpaceKit@objc(cs)SpaceService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IndustrySpaceKit@objc(cs)SpaceService(cpy)shared",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC6sharedACvpZ",
+            "moduleName": "IndustrySpaceKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SpaceService",
+                    "printedName": "IndustrySpaceKit.SpaceService",
+                    "usr": "c:@M@IndustrySpaceKit@objc(cs)SpaceService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(cs)SpaceService(cm)shared",
+                "mangledName": "$s16IndustrySpaceKit0B7ServiceC6sharedACvgZ",
+                "moduleName": "IndustrySpaceKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SpaceService",
+                    "printedName": "IndustrySpaceKit.SpaceService",
+                    "usr": "c:@M@IndustrySpaceKit@objc(cs)SpaceService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IndustrySpaceKit@objc(cs)SpaceService(cm)setShared:",
+                "mangledName": "$s16IndustrySpaceKit0B7ServiceC6sharedACvsZ",
+                "moduleName": "IndustrySpaceKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16IndustrySpaceKit0B7ServiceC6sharedACvMZ",
+                "mangledName": "$s16IndustrySpaceKit0B7ServiceC6sharedACvMZ",
+                "moduleName": "IndustrySpaceKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(name:parentSpaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)createWithName:parentSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC6create4name06parentB2Id7success7failureySS_SSSgyycSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "createWithName:parentSpaceId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(spaceId:name:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)updateWithSpaceId:name:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC6update7spaceId4name7success7failureySS_SSyycSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "updateWithSpaceId:name:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)removeWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC6remove7spaceId7success7failureySS_yycSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "removeWithSpaceId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "space",
+            "printedName": "space(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpace) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpace) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISpace",
+                        "printedName": "IndustrySpaceKit.ISpace",
+                        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)spaceWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC5space0E2Id7success7failureySS_yAA6ISpace_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "spaceWithSpaceId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subSpaces",
+            "printedName": "subSpaces(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustrySpaceKit.ISpace]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustrySpaceKit.ISpace]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustrySpaceKit.ISpace]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpace",
+                            "printedName": "IndustrySpaceKit.ISpace",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpace"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)subSpacesWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC9subSpaces7spaceId7success7failureySSSg_ySayAA6ISpace_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "subSpacesWithSpaceId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(spaceId:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpaceDeviceListResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISpaceDeviceListResult",
+                        "printedName": "IndustrySpaceKit.ISpaceDeviceListResult",
+                        "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)devicesWithSpaceId:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC7devices7spaceId10lastRowKey7success7failureySS_SSSgyAA22ISpaceDeviceListResult_pcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "devicesWithSpaceId:lastRowKey:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devices",
+            "printedName": "devices(spaceId:statisticsType:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpaceDeviceListResult",
+                            "printedName": "IndustrySpaceKit.ISpaceDeviceListResult",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)devicesWithSpaceId:statisticsType:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC7devices7spaceId14statisticsType8pageSize10lastRowKey7success7failureySS_SSSgSiAKyAA22ISpaceDeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "devicesWithSpaceId:statisticsType:pageSize:lastRowKey:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "statistics",
+            "printedName": "statistics(spaceId:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([IndustrySpaceKit.ISpaceDeviceStatistics]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([IndustrySpaceKit.ISpaceDeviceStatistics]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IndustrySpaceKit.ISpaceDeviceStatistics]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpaceDeviceStatistics",
+                            "printedName": "IndustrySpaceKit.ISpaceDeviceStatistics",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceStatistics"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)statisticsWithSpaceId:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC10statistics7spaceId7success7failureySSSg_ySayAA22ISpaceDeviceStatistics_pGcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "statisticsWithSpaceId:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(spaceId:deviceName:pageSize:lastRowKey:success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ISpaceDeviceListResult",
+                            "printedName": "IndustrySpaceKit.ISpaceDeviceListResult",
+                            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceDeviceListResult"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IndustrySpaceKit@objc(cs)SpaceService(im)searchWithSpaceId:deviceName:pageSize:lastRowKey:success:failure:",
+            "mangledName": "$s16IndustrySpaceKit0B7ServiceC6search7spaceId10deviceName8pageSize10lastRowKey7success7failureySS_SSSiSSSgyAA22ISpaceDeviceListResult_p_SitcSgys5Error_pcSgtF",
+            "moduleName": "IndustrySpaceKit",
+            "objc_name": "searchWithSpaceId:deviceName:pageSize:lastRowKey:success:failure:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IndustrySpaceKit@objc(cs)SpaceService",
+        "mangledName": "$s16IndustrySpaceKit0B7ServiceC",
+        "moduleName": "IndustrySpaceKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ISpaceService",
+            "printedName": "ISpaceService",
+            "usr": "c:@M@IndustrySpaceKit@objc(pl)ISpaceService",
+            "mangledName": "$s16IndustrySpaceKit13ISpaceServiceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C9791_IndustrySpaceKit\/src\/IndustrySpaceKit\/Classes\/SpaceService.swift",
+      "kind": "StringLiteral",
+      "offset": 465,
+      "length": 47,
+      "value": "\"ISpaceService don't register via IotContainer\""
+    }
+  ]
+}

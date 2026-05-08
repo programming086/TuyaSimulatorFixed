@@ -1,0 +1,6 @@
+framework module ThingAutoTrackAPI {
+  umbrella header "ThingAutoTrackAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

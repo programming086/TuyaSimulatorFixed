@@ -1,0 +1,28 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYCameraRNPanelContext": [],
+    "TYPanelContext": [],
+    "TuyaSmartCameraBizKit": [],
+    "TuyaSmartCameraKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYRCTCameraMessageMediaPlayerManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.1"
+  },
+  "summary": "A short description of TYRCTCameraMessageMediaPlayerManager.",
+  "vendored_frameworks": [
+    "Frameworks/TYRCTCameraMessageMediaPlayerManager/TYRCTCameraMessageMediaPlayerManager.xcframework"
+  ],
+  "version": "1.0.1"
+}

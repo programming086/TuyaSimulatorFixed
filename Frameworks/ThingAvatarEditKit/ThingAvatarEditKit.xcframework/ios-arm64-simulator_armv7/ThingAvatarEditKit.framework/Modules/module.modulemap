@@ -1,0 +1,6 @@
+framework module ThingAvatarEditKit {
+  umbrella header "ThingAvatarEditKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

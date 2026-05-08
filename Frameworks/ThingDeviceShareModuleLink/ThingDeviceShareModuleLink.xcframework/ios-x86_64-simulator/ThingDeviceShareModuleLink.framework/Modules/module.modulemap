@@ -1,0 +1,6 @@
+framework module ThingDeviceShareModuleLink {
+  umbrella header "ThingDeviceShareModuleLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ThingCameraFoundationKit",
+  "version": "6.2.2",
+  "summary": "A short description of ThingCameraFoundationKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "6.2.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": []
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingCameraFoundationKit/ThingCameraFoundationKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,11 @@
+framework module ThingSmartIAPKit {
+  umbrella header "ThingSmartIAPKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ThingSmartIAPKit.Swift {
+  header "ThingSmartIAPKit-Swift.h"
+  requires objc
+}

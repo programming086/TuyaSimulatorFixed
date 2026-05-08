@@ -1,0 +1,6 @@
+framework module ThingBLEHomeManager {
+  umbrella header "ThingBLEHomeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

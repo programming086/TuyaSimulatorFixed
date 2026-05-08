@@ -1,0 +1,6 @@
+framework module TUNIImageNetworkManager {
+  umbrella header "TUNIImageNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

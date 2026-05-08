@@ -1,0 +1,6 @@
+framework module ThingWebsocketChannelService {
+  umbrella header "ThingWebsocketChannelService-umbrella.h"
+
+  export *
+  module * { export * }
+}

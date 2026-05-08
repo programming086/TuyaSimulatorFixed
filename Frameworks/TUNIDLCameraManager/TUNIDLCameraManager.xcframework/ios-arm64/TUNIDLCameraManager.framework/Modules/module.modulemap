@@ -1,0 +1,6 @@
+framework module TUNIDLCameraManager {
+  umbrella header "TUNIDLCameraManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

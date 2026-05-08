@@ -1,0 +1,24 @@
+{
+  "name": "react-native-safe-area-context",
+  "version": "3.0.7.1",
+  "summary": "package['description']",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "3.0.7.1"
+  },
+  "dependencies": {
+    "React": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/react-native-safe-area-context/react_native_safe_area_context.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,22 @@
+/* 
+  gzl_miniprogram_languages.strings
+  Pods
+
+  Created by qingxu on 2022/4/11.
+  
+*/
+
+"Trial" = "Trial";
+"Develop" = "Develop";
+"Local BasicLib" = "Local";
+"Review" = "Review";
+"JSSdk Trial" = "JSSdk Trial";
+"Miniprogram&JSSdk" = "Miniprogram&JSSdk";
+
+"Retry" = "Retry";
+"error code" = "error code";
+"Unable to open the Mini-Program, please try again later" = "Unable to open the Mini-Program, please try again later";
+"gzl_alert_error_device_id" = "The deviceId is wrong, please reconfigure";
+"gzl_alert_miss_paramter" = "Please configure %@";
+"Running out of memory makes the miniProgram unusable" = "Running out of memory makes the miniProgram unusable";
+"Sure" = "Sure";

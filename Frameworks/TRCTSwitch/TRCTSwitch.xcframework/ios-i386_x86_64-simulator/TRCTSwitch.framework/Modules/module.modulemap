@@ -1,0 +1,6 @@
+framework module TRCTSwitch {
+  umbrella header "TRCTSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

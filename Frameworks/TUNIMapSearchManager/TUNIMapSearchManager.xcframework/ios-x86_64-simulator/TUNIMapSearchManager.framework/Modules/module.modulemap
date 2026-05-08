@@ -1,0 +1,6 @@
+framework module TUNIMapSearchManager {
+  umbrella header "TUNIMapSearchManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTAudioPlayerManager {
+  umbrella header "TRCTAudioPlayerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

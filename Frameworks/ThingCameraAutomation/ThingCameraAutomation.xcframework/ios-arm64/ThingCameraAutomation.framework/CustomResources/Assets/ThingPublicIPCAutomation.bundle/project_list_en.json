@@ -1,0 +1,3222 @@
+{
+    "projList": [
+    {
+        "caseCount": 7,
+        "id": 6001,
+        "caseList": [
+          {
+            "id": 13003,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 13003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 17005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 16008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 17006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 3,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 16009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 4,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 17007,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Preview video stream"
+              }
+            ],
+            "name": "Preview video stream",
+            "description": "Main Process-Preview Video Stream"
+          },
+          {
+            "id": 14001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 14001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 17007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 16010,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Set low definition",
+                    "id": 17008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_SET_VIDEO_CLARITY_LOW",
+                    "orderNo": 3,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 7003,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Set low definition"
+                  },
+                  {
+                    "description": "Set high definition",
+                    "id": 16011,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_SET_VIDEO_CLARITY_HIGH",
+                    "orderNo": 4,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 6004,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Set High Definition"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 17009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 5,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 16012,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 6,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 17008,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Switch definition"
+              }
+            ],
+            "name": "Switch definition",
+            "description": "Main process-preview video stream switching definition"
+          },
+          {
+            "id": 15001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 15001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 18001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 19001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Turn off the speaker",
+                    "id": 19002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_MUTE_OFF",
+                    "orderNo": 3,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 2003,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Speaker off"
+                  },
+                  {
+                    "description": "Turn on the speaker",
+                    "id": 18002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_MUTE_ON",
+                    "orderNo": 4,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 3003,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Speaker on"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 19003,
+                    "retryCount": 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "Stop Preview"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 19004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 18001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15001,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 18001,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Speakers"
+              }
+            ],
+            "name" : "Preview Speakers",
+            "description" : "Main flow-Preview Set Speakers Switch"
+          },
+          {
+            "id" : 16001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 16001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2PConnecting channels",
+                    "id" : 18003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "Connecting channels"
+                  },
+                  {
+                    "description" : "Start Preview",
+                    "id" : 18004,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "Start Preview"
+                  },
+                  {
+                    "description" : "Screenshots",
+                    "id" : 19005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SNAPSHOT",
+                    "orderNo" : 3,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7004,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "Screenshots"
+                  },
+                  {
+                    "description" : "Stop Preview",
+                    "id" : 18005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 4,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "Stop Preview"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 19006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 5,
+                    "taskLinkId" : 18002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 16001,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 18002,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Screenshots"
+              }
+            ],
+            "name" : "PreviewScreenshots",
+            "description" : "Main flow-PreviewScreenshots"
+          },
+          {
+            "id" : 15002,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 15002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 18006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 19007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Start recording",
+                    "id": 18007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_START_RECORD",
+                    "orderNo": 3,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 7006,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Start recording"
+                  },
+                  {
+                    "description": "Stop recording",
+                    "id": 18008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_RECORD",
+                    "orderNo": 4,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 6005,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Stop recording"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 18009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 5,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 18010,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 6,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 19001,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Recording"
+              }
+            ],
+            "name": "Preview recording",
+            "description": "Main Process-Preview Recording"
+          },
+          {
+            "id": 15003,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 15003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 19008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 19002,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 15003,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id" : 18011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "Start Preview"
+                  },
+                  {
+                    "description" : "Start Talk",
+                    "id" : 18012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_TALK_START",
+                    "orderNo" : 3,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3004,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "Start Talk"
+                  },
+                  {
+                    "description" : "Stop Talk",
+                    "id" : 18013,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_TALK_STOP",
+                    "orderNo" : 4,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3005,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "Stop Talk"
+                  },
+                  {
+                    "description" : "Stop Preview",
+                    "id" : 18014,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "Stop Preview"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 18015,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 19002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 15003,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 19002,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Talk"
+              }
+            ],
+            "name" : "Talk",
+            "description" : "Main flow-PreviewTalk"
+          },
+          {
+            "id" : 16002,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 16002,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2PConnecting channels",
+                    "id" : 18016,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+    
+                    "orderNo" : 1,
+                    "taskLinkId" : 18003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "Connecting channels"
+                  },
+                  {
+                    "description" : "Start Preview",
+                    "id" : 19011,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 18003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 16002,
+                    "name" : "Start Preview"
+                  }
+                ],
+                "id" : 18003,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Preview"
+              },
+              {
+                "caseId" : 16002,
+                "deviceId" : "",
+                "tasks": [
+                  {
+                    "description": "Enable intercom",
+                    "id": 18017,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 10
+                    },
+                    "type": "P2P_TALK_START",
+                    "orderNo": 1,
+                    "taskLinkId": 18004,
+                    "commandEnable": false,
+                    "taskConfigId": 3004,
+                    "command": "",
+                    "caseId": 16002,
+                    "name": "Start intercom"
+                  },
+                  {
+                    "description": "Stop intercom",
+                    "id": 19012,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 10
+                    },
+                    "type": "P2P_TALK_STOP",
+                    "orderNo": 2,
+                    "taskLinkId": 18004,
+                    "commandEnable": false,
+                    "taskConfigId": 3005,
+                    "command": "",
+                    "caseId": 16002,
+                    "name": "Stop intercom"
+                  }
+                ],
+                "id": 18004,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Repeat intercom"
+              },
+              {
+                "caseId": 16002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Stop preview",
+                    "id": 19013,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 1,
+                    "taskLinkId": 18005,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 16002,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 19014,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 2,
+                    "taskLinkId": 18005,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 16002,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 18005,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "End preview"
+              }
+            ],
+            "name": "Repeat Intercom",
+            "description": "Main Process-Preview Repeated Intercom"
+          }
+        ],
+        "repeatCount": 1,
+        "repeatLinkCount": 2,
+        "description": "ipc basic function verification",
+        "name": "ipc main flow return"
+    },
+    {
+        "caseCount": 2,
+        "id": 8001,
+        "caseList": [
+          {
+            "id": 19001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 19001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 25008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 24004,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 19001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start playback",
+                    "id": 24007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_START_PLAYBACK",
+                    "orderNo": 2,
+                    "taskLinkId": 24004,
+                    "commandEnable": false,
+                    "taskConfigId": 7005,
+                    "command": "",
+                    "caseId": 19001,
+                    "name": "Start playback"
+                  },
+                  {
+                    "description": "Pause playback",
+                    "id": 24008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_PAUSE_PLAYBACK",
+                    "orderNo": 3,
+                    "taskLinkId": 24004,
+                    "commandEnable": false,
+                    "taskConfigId": 6002,
+                    "command": "",
+                    "caseId": 19001,
+                    "name": "Pause playback"
+                  },
+                  {
+                    "description": "Resume playback",
+                    "id": 25009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_RESUME_PLAYBACK",
+                    "orderNo": 4,
+                    "taskLinkId": 24004,
+                    "commandEnable": false,
+                    "taskConfigId": 6003,
+                    "command": "",
+                    "caseId": 19001,
+                    "name": "Resume playback"
+                  },
+                  {
+                    "description": "Stop playback",
+                    "id": 25010,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 2
+                    },
+                    "type": "P2P_STOP_PLAYBACK",
+                    "orderNo": 5,
+                    "taskLinkId": 24004,
+                    "commandEnable": false,
+                    "taskConfigId": 7007,
+                    "command": "",
+                    "caseId": 19001,
+                    "name": "Stop playback"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 24009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 6,
+                    "taskLinkId": 24004,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 19001,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 24004,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Playback"
+              }
+            ],
+            "name": "Test Playback",
+            "description": "Test Case"
+          },
+          {
+            "id": 18001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 18001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 22001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 22001,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 23001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 22001,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Screenshot",
+                    "id": 25007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 0
+                    },
+                    "type": "P2P_SNAPSHOT",
+                    "orderNo": 3,
+                    "taskLinkId": 22001,
+                    "commandEnable": false,
+                    "taskConfigId": 7004,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Screenshot"
+                  }
+                ],
+                "id": 22001,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Connect + Preview"
+              },
+              {
+                "caseId": 18001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Enable intercom",
+                    "id": 22002,
+                    "retryCount": 5,
+                    "time": {
+                    "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_TALK_START",
+                    "orderNo": 1,
+                    "taskLinkId": 23001,
+                    "commandEnable": false,
+                    "taskConfigId": 3004,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Start intercom"
+                  },
+                  {
+                    "description": "Stop intercom",
+                    "id": 23002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_TALK_STOP",
+                    "orderNo": 2,
+                    "taskLinkId": 23001,
+                    "commandEnable": false,
+                    "taskConfigId": 3005,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Stop intercom"
+                  }
+                ],
+                "id": 23001,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Intercom"
+              },
+              {
+                "caseId": 18001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Start recording",
+                    "id": 24001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 8
+                    },
+                    "type": "P2P_START_RECORD",
+                    "orderNo": 1,
+                    "taskLinkId": 24001,
+                    "commandEnable": false,
+                    "taskConfigId": 7006,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Start recording"
+                  },
+                  {
+                    "description": "Stop recording",
+                    "id": 25001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_RECORD",
+                    "orderNo": 2,
+                    "taskLinkId": 24001,
+                    "commandEnable": false,
+                    "taskConfigId": 6005,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Stop recording"
+                  }
+                ],
+                "id": 24001,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Recording"
+              },
+              {
+                "caseId": 18001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Turn on the speaker",
+                    "id": 24004,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_MUTE_ON",
+                    "orderNo": 1,
+                    "taskLinkId": 25001,
+                    "commandEnable": false,
+                    "taskConfigId": 3003,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Speaker on"
+                  },
+                  {
+                    "description": "Turn off the speaker",
+                    "id": 24003,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_MUTE_OFF",
+                    "orderNo": 2,
+                    "taskLinkId": 25001,
+                    "commandEnable": false,
+                    "taskConfigId": 2003,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Speaker off"
+                  }
+                ],
+                "id": 25001,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Speaker"
+              },
+              {
+                "caseId": 18001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Get clarity",
+                    "id": 24005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_GET_VIDEO_CLARITY",
+                    "orderNo": 1,
+                    "taskLinkId": 24002,
+                    "commandEnable": false,
+                    "taskConfigId": 6001,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Get clarity"
+                  },
+                  {
+                    "description": "Set low definition",
+                    "id": 25003,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_SET_VIDEO_CLARITY_LOW",
+                    "orderNo": 2,
+                    "taskLinkId": 24002,
+                    "commandEnable": false,
+                    "taskConfigId": 7003,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Set low definition"
+                  },
+                  {
+                    "description": "Set high definition",
+                    "id": 25005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_SET_VIDEO_CLARITY_HIGH",
+                    "orderNo": 3,
+                    "taskLinkId": 24002,
+                    "commandEnable": false,
+                    "taskConfigId": 6004,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Set High Definition"
+                  }
+                ],
+                "id": 24002,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Sharpness"
+              },
+              {
+                "caseId": 18001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Stop preview",
+                    "id": 24006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 1,
+                    "taskLinkId": 24003,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 25006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 2,
+                    "taskLinkId": 24003,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 18001,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 24003,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "End"
+              }
+            ],
+            "name": "Test Case",
+            "description": "Test Case"
+          }
+        ],
+        "repeatCount": 3,
+        "repeatLinkCount": 4,
+        "description": "Test loop",
+        "name": "Test loop"
+    },
+    {
+        "caseCount": 2,
+        "id": 10001,
+        "caseList": [
+          {
+            "id": 10001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 10001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 26001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 2
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 26001,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 10001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Query the playback clip of a specific date{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id": 26002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo": 2,
+                    "taskLinkId": 26001,
+                    "commandEnable": true,
+                    "taskConfigId": 7002,
+                    "command": "{\n \"year\": 2021,\n \"month\": 1,\n \"day\": 28\n}",
+                    "caseId": 10001,
+                    "name": "Query playback clip"
+                  },
+                  {
+                    "description": "Start playback",
+                    "id": 27001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "Start Playback"
+                  },
+                  {
+                    "description" : "Stop Playback",
+                    "id" : 27002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 4,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "Stop Playback"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 27003,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 5,
+                    "taskLinkId" : 26001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 10001,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 26001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Playback"
+              }
+            ],
+            "name" : "Playback",
+            "description" : "Main flow-Playback"
+          },
+          {
+            "id" : 17001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 17001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2PConnecting channels",
+                    "id" : 20001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 1,
+                      "await" : 0
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "Connecting channels"
+                  },
+                  {
+                    "description" : "Start Preview",
+                    "id" : 20002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "Start Preview"
+                  },
+                  {
+                    "description" : "Stop Preview",
+                    "id" : 21001,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "Stop Preview"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 21002,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 1
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 4,
+                    "taskLinkId" : 21001,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 17001,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 21001,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Preview video streaming"
+              }
+            ],
+            "name" : "Repeatedly Preview",
+            "description" : "Execute Repeatedly Preview Operation"
+          }
+        ],
+        "repeatCount": 100,
+        "repeatLinkCount": 2,
+        "description": "Play back 100 times",
+        "name": "Repeat 123 repeatedly"
+    },
+    {
+        "caseCount": 12,
+        "id": 10002,
+        "caseList": [
+          {
+            "id": 11003,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 11003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 12015,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 13009,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 11003,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Query the playback clip of a specific date{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id": 27006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo": 2,
+                    "taskLinkId": 13009,
+                    "commandEnable": true,
+                    "taskConfigId": 7002,
+                    "command": "{}",
+                    "caseId": 11003,
+                    "name": "Query playback clip"
+                  },
+                  {
+                    "description": "Start playback",
+                    "id": 27007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_START_PLAYBACK",
+                    "orderNo": 3,
+                    "taskLinkId": 13009,
+                    "commandEnable": false,
+                    "taskConfigId": 7005,
+                    "command": "",
+                    "caseId": 11003,
+                    "name": "Start playback"
+                  }
+                ],
+                "id": 13009,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Create playback"
+              },
+              {
+                "caseId": 11003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Pause playback",
+                    "id": 13014,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_PAUSE_PLAYBACK",
+                    "orderNo": 1,
+                    "taskLinkId": 12010,
+                    "commandEnable": false,
+                    "taskConfigId": 6002,
+                    "command": "",
+                    "caseId": 11003,
+                    "name": "Pause playback"
+                  },
+                  {
+    
+                    "description": "Resume playback",
+                    "id": 12016,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_RESUME_PLAYBACK",
+                    "orderNo": 2,
+                    "taskLinkId": 12010,
+                    "commandEnable": false,
+                    "taskConfigId": 6003,
+                    "command": "",
+                    "caseId": 11003,
+                    "name": "Resume playback"
+                  }
+                ],
+                "id": 12010,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Pause and resume playback"
+              },
+              {
+                "caseId": 11003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Stop playback",
+                    "id": 12017,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_STOP_PLAYBACK",
+                    "orderNo": 1,
+                    "taskLinkId": 13010,
+                    "commandEnable": false,
+                    "taskConfigId": 7007,
+                    "command": "",
+                    "caseId": 11003,
+                    "name": "Stop playback"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 13015,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 2,
+                    "taskLinkId": 13010,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 11003,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 13010,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Disconnect playback"
+              }
+            ],
+            "name": "Playback paused",
+            "description": "Main process-playback pause"
+          },
+          {
+            "id": 10003,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 10003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 12012,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 13008,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 10003,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start playback",
+                    "id": 12013,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_START_PLAYBACK",
+                    "orderNo": 2,
+                    "taskLinkId": 13008,
+                    "commandEnable": false,
+                    "taskConfigId": 7005,
+                    "command": "",
+                    "caseId": 10003,
+                    "name": "Start playback"
+                  }
+                ],
+                "id": 13008,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Create playback"
+              },
+              {
+                "caseId": 10003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Incoming year and month query with replay date {\"year\": 2020, \"month\": 12}",
+                    "id": 13011,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_QUERY_PLAYBACK_BY_MONTH",
+                    "orderNo": 1,
+                    "taskLinkId": 12008,
+                    "commandEnable": true,
+                    "taskConfigId": 2004,
+                    "command": "{}",
+                    "caseId": 10003,
+                    "name": "Query playback date"
+                  }
+                ],
+                "id": 12008,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Query playback"
+              },
+              {
+                "caseId": 10003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Stop playback",
+                    "id": 12014,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_STOP_PLAYBACK",
+                    "orderNo": 1,
+                    "taskLinkId": 12009,
+                    "commandEnable": false,
+                    "taskConfigId": 7007,
+                    "command": "",
+                    "caseId": 10003,
+                    "name": "Stop playback"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 13012,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 2,
+                    "taskLinkId": 12009,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 10003,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 12009,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Disconnect playback"
+              }
+            ],
+            "name": "Playback query recording",
+            "description": "Main process-playback query recording"
+          },
+          {
+            "id": 11002,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 11002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 12010,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 13004,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 11002,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Query the playback clip of a specific date{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id": 12011,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo": 2,
+                    "taskLinkId": 13004,
+                    "commandEnable": true,
+                    "taskConfigId": 7002,
+                    "command": "{}",
+                    "caseId": 11002,
+                    "name": "Query playback clip"
+                  },
+                  {
+                    "description": "Start playback",
+                    "id": 26006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_START_PLAYBACK",
+                    "orderNo": 3,
+                    "taskLinkId": 13004,
+                    "commandEnable": false,
+                    "taskConfigId": 7005,
+                    "command": "",
+                    "caseId": 11002,
+                    "name": "Start playback"
+                  }
+                ],
+                "id": 13004,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Create playback"
+              },
+              {
+                "caseId": 11002,
+                "deviceId": "",
+                "tasks": [
+    
+                ],
+                "id": 13005,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+                  {
+                    "caseId": 11002,
+                    "deviceId": "",
+                    "tasks": [
+                      {
+                        "description": "Start recording",
+                        "id": 13007,
+                        "retryCount": 5,
+                        "time": {
+                          "prepare": 0,
+                          "await": 10
+                        },
+                        "type": "P2P_START_RECORD",
+                        "orderNo": 1,
+                        "taskLinkId": 13006,
+                        "commandEnable": false,
+                        "taskConfigId": 7006,
+                        "command": "",
+                        "caseId": 11002,
+                        "name": "Start recording"
+                      }
+                    ],
+                    "id": 13006,
+                    "parentId": 13005,
+                    "repeatCount": 0,
+                    "childrenLinks": [
+    
+                    ],
+                    "name": "Start recording"
+                  },
+                  {
+                    "caseId": 11002,
+                    "deviceId": "",
+                    "tasks": [
+                      {
+                        "description": "Stop recording",
+                        "id": 13008,
+                        "retryCount": 5,
+                        "time": {
+                          "prepare": 5,
+                          "await": 5
+                        },
+                        "type": "P2P_STOP_RECORD",
+                        "orderNo": 1,
+                        "taskLinkId": 12007,
+                        "commandEnable": false,
+                        "taskConfigId": 6005,
+                        "command": "",
+                        "caseId": 11002,
+                        "name": "Stop recording"
+                      }
+                    ],
+                    "id": 12007,
+                    "parentId": 13005,
+                    "repeatCount": 0,
+                    "childrenLinks": [
+    
+                    ],
+                    "name": "End recording"
+                  }
+                ],
+                "name": "Recording"
+              },
+              {
+                "caseId": 11002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Stop playback",
+                    "id": 13009,
+                    "retryCount": 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_STOP_PLAYBACK",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7007,
+                    "command" : "",
+                    "caseId" : 11002,
+                    "name" : "Stop Playback"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 13010,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 11002,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 13007,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Stop Playback"
+              }
+            ],
+            "name" : "Playback Record",
+            "description" : "Main flow-Playback Record"
+          },
+          {
+            "id" : 11001,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 11001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2PConnecting channels",
+                    "id" : 12006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "Connecting channel"
+                  },
+                  {
+                    "description" : "Search for playback clips of specific dates{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id" : 12007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo" : 2,
+                    "taskLinkId" : 13002,
+                    "commandEnable" : true,
+                    "taskConfigId" : 7002,
+                    "command" : "{}",
+                    "caseId" : 11001,
+                    "name" : "Query Playback Fragment"
+                  },
+                  {
+                    "description" : "Start Playback",
+                    "id" : 26007,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 3
+                    },
+                    "type" : "P2P_START_PLAYBACK",
+                    "orderNo" : 3,
+                    "taskLinkId" : 13002,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7005,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "Start Playback"
+                  }
+                ],
+                "id" : 13002,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Create Playback"
+              },
+              {
+                "caseId" : 11001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "Screenshots",
+                    "id" : 13006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                    },
+                    "type" : "P2P_SNAPSHOT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 13003,
+                    "commandEnable" : false,
+                    "taskConfigId" : 7004,
+                    "command" : "",
+                    "caseId" : 11001,
+                    "name" : "Screenshots"
+                  }
+                ],
+                "id" : 13003,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Screenshots"
+              },
+              {
+                "caseId" : 11001,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "Stop Playback",
+                    "id" : 12008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 5
+                      },
+                    "type": "P2P_STOP_PLAYBACK",
+                    "orderNo": 1,
+                    "taskLinkId": 12005,
+                    "commandEnable": false,
+                    "taskConfigId": 7007,
+                    "command": "",
+                    "caseId": 11001,
+                    "name": "Stop playback"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 12009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 2,
+                    "taskLinkId": 12005,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 11001,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 12005,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Disconnect playback"
+              }
+            ],
+            "name": "Playback screenshot",
+            "description": "Main process-playback screenshot"
+          },
+          {
+            "id": 10002,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 10002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 13005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 12002,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 10002,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Query the playback clip of a specific date{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id": 12005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo": 2,
+                    "taskLinkId": 12002,
+                    "commandEnable": true,
+                    "taskConfigId": 7002,
+                    "command": "{}",
+                    "caseId": 10002,
+                    "name": "Query playback clip"
+                  },
+                  {
+                    "description": "Start playback",
+                    "id": 27008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_START_PLAYBACK",
+                    "orderNo": 3,
+                    "taskLinkId": 12002,
+                    "commandEnable": false,
+                    "taskConfigId": 7005,
+                    "command": "",
+                    "caseId": 10002,
+                    "name": "Start playback"
+                  }
+                ],
+                "id": 12002,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Create playback"
+              },
+              {
+                "caseId": 10002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Turn on the speaker",
+                    "id": 13002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_MUTE_ON",
+                    "orderNo": 1,
+                    "taskLinkId": 12003,
+                    "commandEnable": false,
+                    "taskConfigId": 3003,
+                    "command": "",
+                    "caseId": 10002,
+                    "name": "Speaker on"
+                  },
+                  {
+                    "description": "Turn off the speaker",
+                    "id": 12004,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_MUTE_OFF",
+                    "orderNo": 2,
+                    "taskLinkId": 12003,
+                    "commandEnable": false,
+                    "taskConfigId": 2003,
+                    "command": "",
+                    "caseId": 10002,
+                    "name": "Speaker off"
+                  }
+                ],
+                "id": 12003,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Switch speaker"
+              },
+              {
+                "caseId": 10002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "Stop playback",
+                    "id": 13003,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_STOP_PLAYBACK",
+                    "orderNo": 1,
+                    "taskLinkId": 12004,
+                    "commandEnable": false,
+                    "taskConfigId": 7007,
+                    "command": "",
+                    "caseId": 10002,
+                    "name": "Stop playback"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 13004,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 2,
+                    "taskLinkId": 12004,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 10002,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 12004,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Disconnect playback"
+              }
+            ],
+            "name": "Playback switch speaker",
+            "description": "Main process-playback switch speaker"
+          },
+          {
+            "id": 15003,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 15003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 19008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 19002,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 15003,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 18011,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 19002,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 15003,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Enable intercom",
+                    "id": 18012,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+                    },
+                    "type": "P2P_TALK_START",
+                    "orderNo": 3,
+                    "taskLinkId": 19002,
+                    "commandEnable": false,
+                    "taskConfigId": 3004,
+                    "command": "",
+                    "caseId": 15003,
+                    "name": "Start intercom"
+                  },
+                  {
+                    "description": "Stop intercom",
+                    "id": 18013,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_TALK_STOP",
+                    "orderNo": 4,
+                    "taskLinkId": 19002,
+                    "commandEnable": false,
+                    "taskConfigId": 3005,
+                    "command": "",
+                    "caseId": 15003,
+                    "name": "Stop intercom"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 18014,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 5,
+                    "taskLinkId": 19002,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 15003,
+                    "name": "Stop preview"
+                    },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 18015,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 6,
+                    "taskLinkId": 19002,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 15003,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 19002,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Intercom"
+              }
+            ],
+            "name": "Intercom",
+            "description": "Main Process-Preview Intercom"
+          },
+          {
+            "id": 15002,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 15002,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 18006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 19007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Start recording",
+                    "id": 18007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 5
+    
+                    },
+                    "type": "P2P_START_RECORD",
+                    "orderNo": 3,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 7006,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Start recording"
+                  },
+                  {
+                    "description": "Stop recording",
+                    "id": 18008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_RECORD",
+                    "orderNo": 4,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 6005,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Stop recording"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 18009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 5,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 18010,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 6,
+                    "taskLinkId": 19001,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 15002,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 19001,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Recording"
+                }
+            ],
+            "name": "Preview recording",
+            "description": "Main Process-Preview Recording"
+          },
+          {
+            "id": 16001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 16001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 18003,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 18002,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 16001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 18004,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 18002,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 16001,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Screenshot",
+                    "id": 19005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_SNAPSHOT",
+                    "orderNo": 3,
+                    "taskLinkId": 18002,
+                    "commandEnable": false,
+                    "taskConfigId": 7004,
+                    "command": "",
+                    "caseId": 16001,
+                    "name": "Screenshot"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 18005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 4,
+                    "taskLinkId": 18002,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 16001,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 19006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 5,
+                    "taskLinkId": 18002,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 16001,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 18002,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Screenshot"
+              }
+            ],
+            "name": "Preview screenshot",
+            "description": "Main process-preview screenshot"
+          },
+          {
+            "id": 15001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 15001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 18001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 19001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId":15001,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Turn off the speaker",
+                    "id": 19002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_MUTE_OFF",
+                    "orderNo": 3,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 2003,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Speaker off"
+                  },
+                  {
+                    "description": "Turn on the speaker",
+                    "id": 18002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_MUTE_ON",
+                    "orderNo": 4,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 3003,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Speaker on"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 19003,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 5,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 19004,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 6,
+                    "taskLinkId": 18001,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 15001,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 18001,
+                "parentId": 0,
+                "repeatCount": 0,
+                "childrenLinks": [
+    
+                ],
+                "name": "Speaker"
+              }
+            ],
+            "name": "Preview Speaker",
+            "description": "Main process-preview setting speaker switch"
+          },
+          {
+            "id": 14001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 14001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 17007,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 16010,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Set low definition",
+                    "id": 17008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 0
+                    },
+                    "type": "P2P_SET_VIDEO_CLARITY_LOW",
+                    "orderNo": 3,
+                    "taskLinkId": 17008,
+                    "commandEnable": false,
+                    "taskConfigId": 7003,
+                    "command": "",
+                    "caseId": 14001,
+                    "name": "Set low definition"
+                  },
+                  {
+                    "description": "Set high definition",
+                    "id": 16011,
+                    "retryCount": 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_SET_VIDEO_CLARITY_HIGH",
+                    "orderNo" : 4,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 6004,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "Set high definition"
+                  },
+                  {
+                    "description" : "Stop Preview",
+                    "id" : 17009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 5,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "Stop Preview"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 16012,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 0,
+                      "await" : 0
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 6,
+                    "taskLinkId" : 17008,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 14001,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 17008,
+                "parentId" : 0,
+                "repeatCount" : 0,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Toggle Clarity"
+              }
+            ],
+            "name" : "Toggle Clarity",
+            "description" : "Main flow-Preview video streaming toggle clarity"
+          },
+          {
+            "id" : 13003,
+            "deviceId" : "",
+            "taskLinks" : [
+              {
+                "caseId" : 13003,
+                "deviceId" : "",
+                "tasks" : [
+                  {
+                    "description" : "P2P Connecting channels",
+                    "id" : 17005,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_CONNECT",
+                    "orderNo" : 1,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "Connecting channels"
+                  },
+                  {
+                    "description" : "Start Preview",
+                    "id" : 16008,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_START_PREVIEW",
+                    "orderNo" : 2,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "Start Preview"
+                  },
+                  {
+                    "description" : "Stop Preview",
+                    "id" : 17006,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_STOP_PREVIEW",
+                    "orderNo" : 3,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 2002,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "Stop Preview"
+                  },
+                  {
+                    "description" : "P2P Disconnect",
+                    "id" : 16009,
+                    "retryCount" : 5,
+                    "time" : {
+                      "prepare" : 2,
+                      "await" : 2
+                    },
+                    "type" : "P2P_DISCONNECT",
+                    "orderNo" : 4,
+                    "taskLinkId" : 17007,
+                    "commandEnable" : false,
+                    "taskConfigId" : 3001,
+                    "command" : "",
+                    "caseId" : 13003,
+                    "name" : "Disconnect"
+                  }
+                ],
+                "id" : 17007,
+                "parentId" : 0,
+                "repeatCount" : 1,
+                "childrenLinks" : [
+    
+                ],
+                "name" : "Preview video streaming"
+              }
+            ],
+            "name" : "Preview video streaming",
+            "description" : "Main flow-Preview video streaming"
+          },
+          {
+            "id" : 10001,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 10001,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 26001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 2
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 26001,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 10001,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Query the playback clip of a specific date{\"year\":2020, \"month:\"12\", \"day\":29}",
+                    "id": 26002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_QUERY_PLAYBACK_BY_DAY",
+                    "orderNo": 2,
+                    "taskLinkId": 26001,
+                    "commandEnable": true,
+                    "taskConfigId": 7002,
+                    "command": "{\n \"year\": 2021,\n \"month\": 1,\n \"day\": 28\n}",
+                    "caseId": 10001,
+                    "name": "Query playback clip"
+                  },
+                  {
+                    "description": "Start playback",
+                    "id": 27001,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_START_PLAYBACK",
+                    "orderNo": 3,
+                    "taskLinkId": 26001,
+                    "commandEnable": false,
+                    "taskConfigId": 7005,
+                    "command": "",
+                    "caseId": 10001,
+                    "name": "Start playback"
+                  },
+                  {
+                    "description": "Stop playback",
+                    "id": 27002,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_STOP_PLAYBACK",
+                    "orderNo": 4,
+                    "taskLinkId": 26001,
+                    "commandEnable": false,
+                    "taskConfigId": 7007,
+                    "command": "",
+                    "caseId": 10001,
+                    "name": "Stop playback"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 27003,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 0,
+                      "await": 3
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 5,
+                    "taskLinkId": 26001,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 10001,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 26001,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Playback"
+              }
+            ],
+            "name": "Playback",
+            "description": "Main Process-Playback"
+          }
+        ],
+        "repeatCount": 1,
+        "repeatLinkCount": 9,
+        "description": "Main Process-Preview Playback",
+        "name": "Main Process-Preview Playback"
+      },
+      {
+        "caseCount": 1,
+        "id": 7001,
+        "caseList": [
+          {
+            "id": 13003,
+            "deviceId": "",
+            "taskLinks": [
+              {
+                "caseId": 13003,
+                "deviceId": "",
+                "tasks": [
+                  {
+                    "description": "P2P connection channel",
+                    "id": 17005,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_CONNECT",
+                    "orderNo": 1,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 2001,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Connect Channel"
+                  },
+                  {
+                    "description": "Start preview",
+                    "id": 16008,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_START_PREVIEW",
+                    "orderNo": 2,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 3002,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Start preview"
+                  },
+                  {
+                    "description": "Stop preview",
+                    "id": 17006,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_STOP_PREVIEW",
+                    "orderNo": 3,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 2002,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Stop preview"
+                  },
+                  {
+                    "description": "P2P disconnection",
+                    "id": 16009,
+                    "retryCount": 5,
+                    "time": {
+                      "prepare": 2,
+                      "await": 2
+                    },
+                    "type": "P2P_DISCONNECT",
+                    "orderNo": 4,
+                    "taskLinkId": 17007,
+                    "commandEnable": false,
+                    "taskConfigId": 3001,
+                    "command": "",
+                    "caseId": 13003,
+                    "name": "Disconnect"
+                  }
+                ],
+                "id": 17007,
+                "parentId": 0,
+                "repeatCount": 1,
+                "childrenLinks": [
+    
+                ],
+                "name": "Preview video stream"
+              }
+            ],
+            "name": "Preview video stream",
+            "description": "Main Process-Preview Video Stream"
+          }
+        ],
+        "repeatCount": 100,
+        "repeatLinkCount": 1,
+        "description": "Preview 100 times",
+        "name": "Repeated preview"
+      }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "TUniAudioDetectManager",
+  "version": "7.5.7-v750develop.2",
+  "summary": "A short description of TUniAudioDetectManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "7.5.7-v750develop.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUniAudioDetectManager": [
+      "ios/TUniAudioDetectManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartNetworkKit": [],
+    "ThingBluetoothInterface": [],
+    "ThingModuleManager": [],
+    "ThingAudioRecordInterface": [],
+    "ThingLogMacro": []
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TUniAudioDetectManager/TUniAudioDetectManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

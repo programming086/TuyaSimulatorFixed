@@ -1,0 +1,6 @@
+framework module ThingAVSKit {
+  umbrella header "ThingAVSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

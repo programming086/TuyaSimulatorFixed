@@ -1,0 +1,6 @@
+framework module ThingSocialModule {
+  umbrella header "ThingSocialModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingSmartActivatorLink {
+  umbrella header "ThingSmartActivatorLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

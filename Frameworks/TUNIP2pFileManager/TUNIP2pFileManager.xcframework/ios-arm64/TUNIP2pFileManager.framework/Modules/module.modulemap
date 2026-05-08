@@ -1,0 +1,6 @@
+framework module TUNIP2pFileManager {
+  umbrella header "TUNIP2pFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

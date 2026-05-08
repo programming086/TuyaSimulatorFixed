@@ -1,0 +1,6 @@
+framework module TUNIRecordingManager {
+  umbrella header "TUNIRecordingManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ThingAudioRecordInterface",
+  "version": "1.3.1",
+  "summary": "A short description of ThingAudioRecordInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.3.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingAudioRecordInterface/ThingAudioRecordInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

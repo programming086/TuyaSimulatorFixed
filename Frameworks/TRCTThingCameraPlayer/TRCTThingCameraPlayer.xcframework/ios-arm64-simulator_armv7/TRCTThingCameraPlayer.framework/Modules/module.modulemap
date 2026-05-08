@@ -1,0 +1,6 @@
+framework module TRCTThingCameraPlayer {
+  umbrella header "TRCTThingCameraPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

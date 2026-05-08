@@ -1,0 +1,22 @@
+{
+  "name": "ThingSmartIntelligenceApi",
+  "version": "0.1.3",
+  "summary": "A short description of ThingSmartIntelligenceApi.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingSmartIntelligenceApi/ThingSmartIntelligenceApi.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

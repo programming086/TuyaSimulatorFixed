@@ -1,0 +1,6 @@
+framework module TRCTEncryptImageDownloadManager {
+  umbrella header "TRCTEncryptImageDownloadManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

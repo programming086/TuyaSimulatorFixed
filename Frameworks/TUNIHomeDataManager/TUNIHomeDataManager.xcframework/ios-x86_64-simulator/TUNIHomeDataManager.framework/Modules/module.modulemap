@@ -1,0 +1,6 @@
+framework module TUNIHomeDataManager {
+  umbrella header "TUNIHomeDataManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

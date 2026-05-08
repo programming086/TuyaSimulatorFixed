@@ -1,0 +1,32 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TUNITransferManager": [
+      "0.1.1-develop.3"
+    ]
+  },
+  "description": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TUNISweeperKit",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNISweeperKit": [
+      "ios/TUNISweeperKit/Assets/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.1.14"
+  },
+  "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "vendored_frameworks": [
+    "Frameworks/TUNISweeperKit/TUNISweeperKit.xcframework"
+  ],
+  "version": "0.1.14"
+}

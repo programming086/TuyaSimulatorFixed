@@ -1,0 +1,6 @@
+framework module GZLMiniAppStorage {
+  umbrella header "GZLMiniAppStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}

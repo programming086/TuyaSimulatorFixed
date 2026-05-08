@@ -1,0 +1,6 @@
+framework module ThingSmartHotspotCredentialKit {
+  umbrella header "ThingSmartHotspotCredentialKit.h"
+
+  export *
+  module * { export * }
+}

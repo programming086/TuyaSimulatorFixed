@@ -1,0 +1,36 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingAppLifeCycleSktAPI": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingPanelModulePlugAPI": [],
+    "ThingSecurityArmAbilityModuleServices": [],
+    "ThingSettingsPlugAPI": [],
+    "ThingSmartMatterInterfaceAPI": [],
+    "ThingSmartSecurityModuleService": [],
+    "ThingSpaceInfoSktAPI": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingMainPageLink",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.3.0"
+  },
+  "summary": "A short description of ThingMainPageLink.",
+  "vendored_frameworks": [
+    "Frameworks/ThingMainPageLink/ThingMainPageLink.xcframework"
+  ],
+  "version": "0.3.0"
+}

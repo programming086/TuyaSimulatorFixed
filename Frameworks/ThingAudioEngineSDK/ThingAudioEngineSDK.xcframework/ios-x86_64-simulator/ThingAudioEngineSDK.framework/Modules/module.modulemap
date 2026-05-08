@@ -1,0 +1,6 @@
+framework module ThingAudioEngineSDK {
+  umbrella header "ThingAudioEngineSDK.h"
+
+  export *
+  module * { export * }
+}

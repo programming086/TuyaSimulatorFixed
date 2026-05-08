@@ -1,0 +1,41 @@
+{
+  "name": "IndustryAuthKit",
+  "version": "2.2.1",
+  "summary": "A short description of IndustryAuthKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://developer.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.2.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.6",
+  "static_framework": true,
+  "dependencies": {
+    "IotContainer": []
+  },
+  "xcconfig": {
+    "OTHER_SWIFT_FLAGS": "-no-verify-emitted-module-interface"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "vendored_frameworks": [
+    "Frameworks/IndustryAuthKit/IndustryAuthKit.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/IndustryAuthKit/IndustryAuthKit.xcframework/**/*.h"
+  ],
+  "swift_version": "5.6"
+}

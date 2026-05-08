@@ -1,0 +1,6 @@
+framework module TUNIPhoneManager {
+  umbrella header "TUNIPhoneManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

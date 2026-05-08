@@ -1,0 +1,53 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYUniBluetoothManager": [
+      "1.3.1"
+    ],
+    "TYUniDeviceActivationManager": [
+      "1.2.5"
+    ],
+    "TYUniDeviceControlManager": [
+      "1.9.0"
+    ],
+    "TYUniDeviceDetailManager": [
+      "1.1.1"
+    ],
+    "TYUniGroupControlManager": [
+      "1.0.6"
+    ],
+    "TYUniOTAManager": [
+      "1.0.1"
+    ],
+    "TYUniPanelManager": [
+      "1.0.0-rc.6"
+    ],
+    "TYUniThingControlManager": [
+      "1.0.2"
+    ]
+  },
+  "description": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYCBTDeviceKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TYCBTDeviceKit": [
+      "ios/TYCBTDeviceKit/Assets/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.3.3"
+  },
+  "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "vendored_frameworks": [
+    "Frameworks/TYCBTDeviceKit/TYCBTDeviceKit.xcframework"
+  ],
+  "version": "2.3.3"
+}

@@ -1,0 +1,53 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYUniDiffLayerManager": [
+      "1.0.11"
+    ],
+    "TYUniGZLTabBarManager": [
+      "1.1.0"
+    ],
+    "TYUniMiniHighwayManager": [
+      "1.0.7"
+    ],
+    "TYUniMiniProgramManager": [
+      "2.4.0-rc.8"
+    ],
+    "TYUniNavigationBarManager": [
+      "2.4.0"
+    ],
+    "TYUniNavigatorManager": [
+      "2.4.4"
+    ],
+    "TYUniOpenExtApiManager": [
+      "1.0.0-rc.5"
+    ],
+    "TYUniScrollManager": [
+      "2.0.0-rc.3"
+    ]
+  },
+  "description": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYTTTMiniKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TYTTTMiniKit": [
+      "ios/TYTTTMiniKit/Assets/*"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "2.4.7"
+  },
+  "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
+  "vendored_frameworks": [
+    "Frameworks/TYTTTMiniKit/TYTTTMiniKit.xcframework"
+  ],
+  "version": "2.4.7"
+}

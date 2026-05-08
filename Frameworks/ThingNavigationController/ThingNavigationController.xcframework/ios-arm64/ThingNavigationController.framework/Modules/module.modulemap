@@ -1,0 +1,6 @@
+framework module ThingNavigationController {
+  umbrella header "ThingNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}

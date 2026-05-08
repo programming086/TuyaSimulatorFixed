@@ -1,0 +1,6 @@
+framework module TRCTBleTimerManager {
+  umbrella header "TRCTBleTimerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

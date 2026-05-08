@@ -1,0 +1,6 @@
+framework module TUNIIPCDoorbellManager {
+  umbrella header "TUNIIPCDoorbellManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

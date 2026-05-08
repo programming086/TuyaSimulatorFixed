@@ -1,0 +1,6 @@
+framework module ThingSiriShortcutModule {
+  umbrella header "ThingSiriShortcutModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

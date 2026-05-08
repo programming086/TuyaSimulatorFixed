@@ -1,0 +1,6 @@
+framework module ThingSmartSceneKit {
+  umbrella header "ThingSmartSceneKit-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TRCTChartsManager {
+  umbrella header "TRCTChartsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

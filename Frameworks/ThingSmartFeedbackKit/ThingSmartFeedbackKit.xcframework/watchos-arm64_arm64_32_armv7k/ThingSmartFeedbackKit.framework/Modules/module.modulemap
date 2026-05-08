@@ -1,0 +1,6 @@
+framework module ThingSmartFeedbackKit {
+  umbrella header "ThingSmartFeedbackKit-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

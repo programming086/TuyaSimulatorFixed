@@ -1,0 +1,6 @@
+framework module TRCTAnimatedImageManager {
+  umbrella header "TRCTAnimatedImageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

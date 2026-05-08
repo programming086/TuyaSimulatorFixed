@@ -1,0 +1,50 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYAlertView": [
+      ">= 1.1.4"
+    ],
+    "TYNavigationController": [],
+    "TYOEMConfig": [
+      ">= 1.25.7"
+    ],
+    "TYProgressHUD": [
+      ">= 0.2.2"
+    ],
+    "TuyaNormalUI": [
+      ">= 0.2.1"
+    ]
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TuyaCommonUI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TuyaCommonUI": [
+      "TuyaCommonUI/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "0.2.5"
+  },
+  "summary": "A short description of TuyaCommonUI.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TuyaCommonUI/TuyaCommonUI.xcframework"
+  ],
+  "version": "0.2.5"
+}

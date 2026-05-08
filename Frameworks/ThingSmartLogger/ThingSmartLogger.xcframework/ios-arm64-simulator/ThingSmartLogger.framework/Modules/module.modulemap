@@ -1,0 +1,6 @@
+framework module ThingSmartLogger {
+  umbrella header "ThingSmartLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TUNILocalizationManager {
+  umbrella header "TUNILocalizationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

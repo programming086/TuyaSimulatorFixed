@@ -1,0 +1,6 @@
+framework module ThingLampModuleServices {
+  umbrella header "ThingLampModuleServices-umbrella.h"
+
+  export *
+  module * { export * }
+}

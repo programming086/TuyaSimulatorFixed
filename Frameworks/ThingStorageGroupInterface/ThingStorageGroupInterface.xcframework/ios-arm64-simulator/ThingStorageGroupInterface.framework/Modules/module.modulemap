@@ -1,0 +1,6 @@
+framework module ThingStorageGroupInterface {
+  umbrella header "ThingStorageGroupInterface-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

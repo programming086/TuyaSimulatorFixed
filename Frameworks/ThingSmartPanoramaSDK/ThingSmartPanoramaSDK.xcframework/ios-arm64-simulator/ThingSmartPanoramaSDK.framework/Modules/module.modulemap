@@ -1,0 +1,6 @@
+framework module ThingSmartPanoramaSDK {
+  umbrella header "ThingSmartPanoramaSDK.h"
+
+  export *
+  module * { export * }
+}

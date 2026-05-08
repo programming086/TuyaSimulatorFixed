@@ -1,0 +1,6 @@
+framework module TUNIOpenExtApiManager {
+  umbrella header "TUNIOpenExtApiManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

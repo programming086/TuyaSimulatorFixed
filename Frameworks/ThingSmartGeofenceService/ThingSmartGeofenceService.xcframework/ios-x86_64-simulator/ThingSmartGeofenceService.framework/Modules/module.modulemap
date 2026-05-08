@@ -1,0 +1,6 @@
+framework module ThingSmartGeofenceService {
+  umbrella header "ThingSmartGeofenceService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,7 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path: ''
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _ThingOpenSSLSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x1FA840, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _ThingOpenSSLSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1FA870, symSize: 0x0 }
+...

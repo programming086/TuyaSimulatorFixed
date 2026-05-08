@@ -1,0 +1,6 @@
+framework module ThingAIFaceModule {
+  umbrella header "ThingAIFaceModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

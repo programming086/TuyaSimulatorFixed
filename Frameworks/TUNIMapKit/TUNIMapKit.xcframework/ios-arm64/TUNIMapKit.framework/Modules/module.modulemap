@@ -1,0 +1,6 @@
+framework module TUNIMapKit {
+  umbrella header "TUNIMapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

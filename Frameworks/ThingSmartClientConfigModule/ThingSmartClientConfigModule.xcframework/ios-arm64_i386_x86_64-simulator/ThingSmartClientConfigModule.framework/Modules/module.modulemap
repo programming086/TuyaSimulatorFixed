@@ -1,0 +1,6 @@
+framework module ThingSmartClientConfigModule {
+  umbrella header "ThingSmartClientConfigModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

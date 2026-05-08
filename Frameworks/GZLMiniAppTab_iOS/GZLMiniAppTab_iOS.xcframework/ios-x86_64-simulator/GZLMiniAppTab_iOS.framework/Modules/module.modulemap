@@ -1,0 +1,6 @@
+framework module GZLMiniAppTab_iOS {
+  umbrella header "GZLMiniAppTab_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingSmartBusinessExtensionKitAIStreamExtra {
+  umbrella header "ThingSmartBusinessExtensionKitAIStreamExtra-umbrella.h"
+
+  export *
+  module * { export * }
+}

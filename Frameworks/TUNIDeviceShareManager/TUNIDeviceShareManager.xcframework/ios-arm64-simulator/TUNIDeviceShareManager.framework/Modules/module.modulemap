@@ -1,0 +1,6 @@
+framework module TUNIDeviceShareManager {
+  umbrella header "TUNIDeviceShareManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ThingPhotoLibraryBizKit {
+  umbrella header "ThingPhotoLibraryBizKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

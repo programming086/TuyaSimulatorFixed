@@ -1,0 +1,6 @@
+framework module TuyaSmartLightSceneBizBundle {
+  umbrella header "TuyaSmartLightSceneBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

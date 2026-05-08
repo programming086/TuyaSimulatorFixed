@@ -1,0 +1,6 @@
+framework module ThingActivatorSktAPI {
+  umbrella header "ThingActivatorSktAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

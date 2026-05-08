@@ -1,0 +1,6 @@
+framework module TRCTLaserMap {
+  umbrella header "TRCTLaserMap-umbrella.h"
+
+  export *
+  module * { export * }
+}

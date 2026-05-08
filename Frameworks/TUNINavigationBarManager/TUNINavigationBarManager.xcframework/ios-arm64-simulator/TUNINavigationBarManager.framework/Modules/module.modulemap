@@ -1,0 +1,6 @@
+framework module TUNINavigationBarManager {
+  umbrella header "TUNINavigationBarManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

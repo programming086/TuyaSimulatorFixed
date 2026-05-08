@@ -1,0 +1,6 @@
+framework module TRCTThirdMusicControl {
+  umbrella header "TRCTThirdMusicControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

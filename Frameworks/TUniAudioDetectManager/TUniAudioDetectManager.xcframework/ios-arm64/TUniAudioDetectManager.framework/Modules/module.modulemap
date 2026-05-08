@@ -1,0 +1,6 @@
+framework module TUniAudioDetectManager {
+  umbrella header "TUniAudioDetectManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

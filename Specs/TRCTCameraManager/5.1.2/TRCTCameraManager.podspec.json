@@ -1,0 +1,46 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingCameraFoundationKit": [],
+    "ThingCameraRNPanelContext": [],
+    "ThingCameraUIComponents": [],
+    "ThingCameraUtil": [],
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "ThingPanelContext": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartCameraBizKit": [],
+    "ThingSmartCameraKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartPanoramaSDK": [],
+    "ThingUIKit": [],
+    "ThingUrlPredefined": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TRCTCameraManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.1.2"
+  },
+  "summary": "A short description of TRCTCameraManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TRCTCameraManager/TRCTCameraManager.xcframework"
+  ],
+  "version": "5.1.2"
+}

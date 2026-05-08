@@ -1,0 +1,6 @@
+framework module TRCTFaceAliveDetectManager {
+  umbrella header "TRCTFaceAliveDetectManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

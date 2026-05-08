@@ -1,0 +1,28 @@
+{
+  "name": "ThingGptBLEApiImpl",
+  "version": "1.0.0",
+  "summary": "A short description of ThingGptBLEApiImpl.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBLECoreKit": [],
+    "ThingSmartBLEKit": [],
+    "ThingModuleManager": [],
+    "ThingGptBLEApi": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "Frameworks/ThingGptBLEApiImpl/ThingGptBLEApiImpl.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

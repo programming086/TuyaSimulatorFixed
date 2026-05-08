@@ -1,0 +1,52 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYFoundationKit": [],
+    "TYLogMacro": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYOEMConfig": [],
+    "TYPanelBundleManager": [],
+    "TYPanelContext": [],
+    "TYReactNative": [],
+    "TYSmartBusinessLibrary": [],
+    "TYSmartEventPredefined": [],
+    "TYUIKit": [],
+    "TuyaRNApi/Core": [],
+    "TuyaSmartUtil": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": "UIKit",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYRCTKit",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TYRCTKit": [
+      "TYRCTKit/Assets/*.png"
+    ]
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "1.1.0-rc.1"
+  },
+  "summary": "A short description of TYRCTKit.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Frameworks/TYRCTKit/TYRCTKit.xcframework"
+  ],
+  "version": "1.1.0-rc.1"
+}

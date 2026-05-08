@@ -1,0 +1,6 @@
+framework module ThingPanelDynamicContainer {
+  umbrella header "ThingPanelDynamicContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}

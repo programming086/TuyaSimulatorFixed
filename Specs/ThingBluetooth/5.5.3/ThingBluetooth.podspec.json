@@ -1,0 +1,42 @@
+{
+  "name": "ThingBluetooth",
+  "version": "5.5.3",
+  "summary": "Tuya bluetooth, less write and can use anywhere.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.5.3"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreBluetooth"
+  ],
+  "dependencies": {
+    "ThingSmartUtil": [
+      "~> 5.13"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothPeripheralUsageDescription NSBluetoothAlwaysUsageDescription"
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingBluetooth/ThingBluetooth.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingBluetooth/ThingBluetooth.xcframework/**/*.h"
+  ]
+}

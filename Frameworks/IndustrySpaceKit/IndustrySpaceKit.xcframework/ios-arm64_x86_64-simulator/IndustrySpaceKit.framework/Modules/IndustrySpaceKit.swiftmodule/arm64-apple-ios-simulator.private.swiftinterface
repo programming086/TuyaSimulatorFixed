@@ -1,0 +1,65 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IndustrySpaceKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import IndustrySpaceKit
+import IotContainer
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol ISpace : ObjectiveC.NSObjectProtocol {
+  @objc var spaceId: Swift.String { get }
+  @objc var spaceName: Swift.String { get set }
+  @objc var parentSpaceId: Swift.String? { get }
+  @objc var permission: Swift.String { get set }
+  @objc var currentSubSpaceNum: Swift.Int { get set }
+  @objc var currentSpaceDeviceNum: Swift.Int { get set }
+  @objc var userDefinedPath: Swift.String { get set }
+}
+@objc public protocol ISpaceDevice : ObjectiveC.NSObjectProtocol {
+  @objc var deviceId: Swift.String { get }
+  @objc var deviceName: Swift.String { get set }
+  @objc var online: Swift.Bool { get set }
+  @objc var icon: Swift.String { get set }
+  @objc var absoluteIconUrl: Swift.String { get set }
+  @objc var homeId: Swift.String { get }
+  @objc var permission: Swift.String { get }
+}
+@objc public protocol ISpaceDeviceStatistics : ObjectiveC.NSObjectProtocol {
+  @objc var typeValue: Swift.String { get set }
+  @objc var statisticType: Swift.String { get set }
+  @objc var total: Swift.Int { get set }
+}
+@objc public protocol ISpaceDeviceListResult : ObjectiveC.NSObjectProtocol {
+  @objc var devices: Swift.Array<any IndustrySpaceKit.ISpaceDevice> { get set }
+  @objc var hasMore: Swift.Bool { get set }
+  @objc var lastRowKey: Swift.String { get set }
+}
+@objc public protocol ISpaceService : ObjectiveC.NSObjectProtocol {
+  @objc func create(name: Swift.String, parentSpaceId: Swift.String?, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func update(spaceId: Swift.String, name: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func remove(spaceId: Swift.String, success: (() -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func space(spaceId: Swift.String, success: ((any IndustrySpaceKit.ISpace) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func subSpaces(spaceId: Swift.String?, success: (([any IndustrySpaceKit.ISpace]) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func devices(spaceId: Swift.String, lastRowKey: Swift.String?, success: ((any IndustrySpaceKit.ISpaceDeviceListResult) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func devices(spaceId: Swift.String, statisticsType: Swift.String?, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func search(spaceId: Swift.String, deviceName: Swift.String, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc func statistics(spaceId: Swift.String?, success: (([any IndustrySpaceKit.ISpaceDeviceStatistics]) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class SpaceService : ObjectiveC.NSObject {
+  @objc public static var shared: IndustrySpaceKit.SpaceService
+  @objc deinit
+}
+extension IndustrySpaceKit.SpaceService : IndustrySpaceKit.ISpaceService {
+  @objc dynamic public func create(name: Swift.String, parentSpaceId: Swift.String? = nil, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func update(spaceId: Swift.String, name: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func remove(spaceId: Swift.String, success: (() -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func space(spaceId: Swift.String, success: ((any IndustrySpaceKit.ISpace) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func subSpaces(spaceId: Swift.String? = nil, success: (([any IndustrySpaceKit.ISpace]) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func devices(spaceId: Swift.String, lastRowKey: Swift.String? = nil, success: ((any IndustrySpaceKit.ISpaceDeviceListResult) -> Swift.Void)? = nil, failure: ((any Swift.Error) -> (Swift.Void))? = nil)
+  @objc dynamic public func devices(spaceId: Swift.String, statisticsType: Swift.String?, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc dynamic public func statistics(spaceId: Swift.String?, success: (([any IndustrySpaceKit.ISpaceDeviceStatistics]) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+  @objc dynamic public func search(spaceId: Swift.String, deviceName: Swift.String, pageSize: Swift.Int, lastRowKey: Swift.String?, success: ((any IndustrySpaceKit.ISpaceDeviceListResult, Swift.Int) -> Swift.Void)?, failure: ((any Swift.Error) -> (Swift.Void))?)
+}

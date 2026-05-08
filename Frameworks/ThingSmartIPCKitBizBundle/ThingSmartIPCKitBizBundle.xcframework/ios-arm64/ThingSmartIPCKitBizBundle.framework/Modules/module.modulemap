@@ -1,0 +1,6 @@
+framework module ThingSmartIPCKitBizBundle {
+  umbrella header "ThingSmartIPCKitBizBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

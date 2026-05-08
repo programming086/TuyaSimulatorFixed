@@ -1,0 +1,6 @@
+framework module TRCTJSBundleLoaderManager {
+  umbrella header "TRCTJSBundleLoaderManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

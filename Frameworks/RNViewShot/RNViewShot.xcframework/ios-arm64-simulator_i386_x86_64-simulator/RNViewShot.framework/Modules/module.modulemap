@@ -1,0 +1,6 @@
+framework module RNViewShot {
+  umbrella header "RNViewShot-umbrella.h"
+
+  export *
+  module * { export * }
+}

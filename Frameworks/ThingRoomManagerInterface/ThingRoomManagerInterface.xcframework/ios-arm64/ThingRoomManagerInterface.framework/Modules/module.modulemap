@@ -1,0 +1,6 @@
+framework module ThingRoomManagerInterface {
+  umbrella header "ThingRoomManagerInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}

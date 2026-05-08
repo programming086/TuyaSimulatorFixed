@@ -1,0 +1,54 @@
+{
+  "name": "ThingCameraAutomation",
+  "version": "5.0.4",
+  "summary": "A short description of ThingCameraAutomation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://thing.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fulang@thing.com": "fulang@thing.com"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed.git",
+    "tag": "5.0.4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingEncryptImage": [],
+    "ThingSmartCameraKit": [],
+    "ThingSmartDeviceKit": [],
+    "ThingUIKit": [
+      "~> 1.19.0-anonymize2.1"
+    ],
+    "ThingAlertView": [
+      "~> 1.1.12-anonymize.1"
+    ],
+    "ThingProgressHUD": [
+      "~> 0.2.10-anonymize.1"
+    ],
+    "ThingRealClass": [
+      "~> 0.1.0-anonymize.2"
+    ],
+    "ThingAnnotationFoundation": [
+      "~> 0.1.10-anonymize.1"
+    ],
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "MJRefresh": [],
+    "YYModel": []
+  },
+  "vendored_frameworks": [
+    "Frameworks/ThingCameraAutomation/ThingCameraAutomation.xcframework"
+  ],
+  "source_files": [
+    "Frameworks/ThingCameraAutomation/ThingCameraAutomation.xcframework/**/*.h"
+  ],
+  "resources": [
+    "Build/ThingCameraAutomation.xcframework/ios-arm64/ThingCameraAutomation.framework/CustomResources/Assets/*"
+  ]
+}

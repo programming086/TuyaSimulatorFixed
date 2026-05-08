@@ -1,0 +1,6 @@
+framework module TUNIMediaKit {
+  umbrella header "TUNIMediaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

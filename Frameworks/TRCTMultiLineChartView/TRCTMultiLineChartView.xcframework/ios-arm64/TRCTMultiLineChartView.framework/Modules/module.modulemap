@@ -1,0 +1,6 @@
+framework module TRCTMultiLineChartView {
+  umbrella header "TRCTMultiLineChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}

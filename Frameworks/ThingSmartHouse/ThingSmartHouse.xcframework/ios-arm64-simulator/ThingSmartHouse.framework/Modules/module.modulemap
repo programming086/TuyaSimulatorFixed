@@ -1,0 +1,6 @@
+framework module ThingSmartHouse {
+  umbrella header "ThingSmartHouse-umbrella.h"
+
+  export *
+  module * { export * }
+}
